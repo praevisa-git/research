@@ -193,12 +193,28 @@ def _party_position(row: dict[str, str]) -> tuple[float, float, float] | None:
     return _remap(econ, gal, eu)
 
 
-def compute_ep_group_positions() -> dict[str, tuple[float, float, float]]:
-    """Seats-weighted ideal-point per EP group.
+def _ep_weight(row: dict[str, str]) -> float:
+    """Weight a party by its share of the EP vote in its country.
 
-    Weights use CHES `seat` (national parliament seats) as a proxy for the
-    party's EP delegation size — accurate to within reordering for our purposes,
-    since the only CHES proxy with EP context (`epvote`) is sparser.
+    CHES `epvote` (party vote share in the most recent EP election) tracks
+    actual EP delegation size far better than `seat` (national-parliament
+    seats), since MEPs are elected separately from national legislatures.
+    Falls back to `seat` for the handful of parties missing `epvote`, then to
+    0.0 (which excludes the party from the aggregate).
+    """
+    epvote = _to_float(row.get("epvote", ""))
+    if epvote and epvote > 0:
+        return epvote
+    seat = _to_float(row.get("seat", ""))
+    return seat if seat and seat > 0 else 0.0
+
+
+def compute_ep_group_positions() -> dict[str, tuple[float, float, float]]:
+    """EP-vote-weighted ideal-point per EP group.
+
+    Each party is weighted by `epvote` (its EP-election vote share) as a proxy
+    for its EP delegation size — closer to actual voting weight than national
+    `seat` counts. See `_ep_weight` for the fallback chain.
     """
     sums: dict[str, list[float]] = defaultdict(lambda: [0.0, 0.0, 0.0])
     weights: dict[str, float] = defaultdict(float)
@@ -208,13 +224,13 @@ def compute_ep_group_positions() -> dict[str, tuple[float, float, float]]:
         if group is None:
             continue
         pos = _party_position(row)
-        seat = _to_float(row["seat"]) or 0.0
-        if pos is None or seat <= 0:
+        weight = _ep_weight(row)
+        if pos is None or weight <= 0:
             continue
-        sums[group][0] += pos[0] * seat
-        sums[group][1] += pos[1] * seat
-        sums[group][2] += pos[2] * seat
-        weights[group] += seat
+        sums[group][0] += pos[0] * weight
+        sums[group][1] += pos[1] * weight
+        sums[group][2] += pos[2] * weight
+        weights[group] += weight
 
     out: dict[str, tuple[float, float, float]] = {}
     for group, w in weights.items():

@@ -82,7 +82,25 @@ _STATES_STATIC: tuple[tuple[str, str, float], ...] = (
 )
 
 
+def _validate_group_mapping() -> None:
+    """Fail loud if the curated party→group mapping drifts from the static groups.
+
+    Every EP group referenced by `ches.PARTY_TO_EP_GROUP` must be one of the
+    groups we actually seat and vote in `_GROUPS_STATIC`; otherwise a miscoded
+    party would silently shift a centroid that never reaches the simulation.
+    """
+    static_codes = {code for code, _, _, _ in _GROUPS_STATIC}
+    mapped_codes = set(ches.PARTY_TO_EP_GROUP.values())
+    unknown = mapped_codes - static_codes
+    if unknown:
+        raise ValueError(
+            f"PARTY_TO_EP_GROUP references unknown EP group(s) {sorted(unknown)}; "
+            f"known groups are {sorted(static_codes)}"
+        )
+
+
 def _build_groups() -> tuple[PoliticalGroup, ...]:
+    _validate_group_mapping()
     positions = ches.compute_ep_group_positions()
     return tuple(
         PoliticalGroup(
