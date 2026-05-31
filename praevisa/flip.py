@@ -290,27 +290,41 @@ def _unanimity_path(
 
 
 def _ep_pivot_path(pred: Prediction) -> FlipPath | None:
-    """Name the EP group whose line is closest to flipping, weighted by seats."""
-    sized = [
+    """Name the EP group that actually decides the vote — the *pivot*, not the
+    most-divided group.
+
+    Validated against 12 real rejected roll-calls (HowTheyVote, 10th term): the
+    group nearest its internal 50/50 is almost always a small fringe bloc
+    (Non-attached, PfE, ESN) — genuinely split, but far too small to change a
+    result. The group that can actually flip the outcome is the big swing bloc
+    (EPP in 6/8 single-group-flippable votes, S&D in 2/8). So we score each
+    group by *movable mass* = seats × closeness-to-its-flip-point, which rewards
+    a group only when it is both large enough to matter and near enough to move.
+    """
+    candidates = [
         (g, pred.group_yes_rates.get(g.code, 0.0))
         for g in EP_GROUPS
-        if g.code != "NI" and g.seats >= 40
+        if g.code != "NI"
     ]
-    if not sized:
+    if not candidates:
         return None
-    # Pivot = sizable group nearest its internal 50/50.
-    pivot, rate = min(sized, key=lambda gr: abs(gr[1] - 0.5))
-    swing_seats = int(round(pivot.seats * abs(rate - 0.5) * 2))
+    # movable mass: big AND close to flipping. A locked group (0%/100%) scores 0;
+    # a tiny split group scores low; a large split group (EPP/S&D) scores highest.
+    def mass(g, rate: float) -> float:
+        return g.seats * (1.0 - 2.0 * abs(rate - 0.5))
+
+    pivot, rate = max(candidates, key=lambda gr: mass(*gr))
+    swing_seats = int(round(pivot.seats * (1.0 - 2.0 * abs(rate - 0.5))))
     direction = "for" if rate >= 0.5 else "against"
     return FlipPath(
         lever="ep",
         headline=f"{pivot.code} is the pivot group ({pivot.seats} seats)",
         actors=[pivot.code],
         detail=[
-            f"Currently leans {direction} at {rate:.0%} internal yes — "
-            f"the closest large group to flipping its line",
-            f"Swinging its whip moves roughly {swing_seats} seats; "
-            f"groups already at 0%/100% are locked and not worth lobbying",
+            f"Leans {direction} at {rate:.0%} internal yes — the largest bloc "
+            f"close enough to its flip point to actually swing the result",
+            f"~{swing_seats} seats are genuinely movable; small fringe groups "
+            f"may be more divided but are too small to change the outcome",
         ],
     )
 
