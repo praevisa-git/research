@@ -1,0 +1,82 @@
+[
+ {
+  "family": "EPP",
+  "n": 23491,
+  "pct_for": 41.8,
+  "pct_abstain": 3.3,
+  "pct_against": 50.6,
+  "pct_undet": 4.4
+ },
+ {
+  "family": "S&D",
+  "n": 15018,
+  "pct_for": 52.5,
+  "pct_abstain": 1.4,
+  "pct_against": 38.3,
+  "pct_undet": 7.8
+ },
+ {
+  "family": "Renew",
+  "n": 20655,
+  "pct_for": 44.7,
+  "pct_abstain": 1.2,
+  "pct_against": 42.3,
+  "pct_undet": 11.8
+ },
+ {
+  "family": "Greens/EFA",
+  "n": 12399,
+  "pct_for": 50.7,
+  "pct_abstain": 2.5,
+  "pct_against": 31.9,
+  "pct_undet": 14.8
+ },
+ {
+  "family": "The Left",
+  "n": 10629,
+  "pct_for": 53.4,
+  "pct_abstain": 3.7,
+  "pct_against": 31.9,
+  "pct_undet": 11.0
+ },
+ {
+  "family": "ECR",
+  "n": 11756,
+  "pct_for": 37.5,
+  "pct_abstain": 9.0,
+  "pct_against": 34.6,
+  "pct_undet": 19.0
+ },
+ {
+  "family": "Patriots",
+  "n": 7111,
+  "pct_for": 45.0,
+  "pct_abstain": 13.9,
+  "pct_against": 41.0,
+  "pct_undet": 0.1
+ },
+ {
+  "family": "ESN",
+  "n": 4146,
+  "pct_for": 38.2,
+  "pct_abstain": 16.5,
+  "pct_against": 45.3,
+  "pct_undet": 0.0
+ },
+ {
+  "family": "Non-attached",
+  "n": 9358,
+  "pct_for": 43.2,
+  "pct_abstain": 11.7,
+  "pct_against": 25.8,
+  "pct_undet": 19.2
+ },
+ {
+  "family": "?",
+  "n": 5437,
+  "pct_for": 39.1,
+  "pct_abstain": 5.0,
+  "pct_against": 28.4,
+  "pct_undet": 27.5
+ }
+]
