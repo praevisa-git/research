@@ -308,13 +308,44 @@ def _ep_pivot_path(pred: Prediction) -> FlipPath | None:
     ]
     if not candidates:
         return None
-    # movable mass: big AND close to flipping. A locked group (0%/100%) scores 0;
-    # a tiny split group scores low; a large split group (EPP/S&D) scores highest.
+
+    # EP modal tally in seats (abstention ignored — a thin approximation).
+    yes_seats = sum(g.seats * rate for g, rate in candidates)
+    no_seats = sum(g.seats * (1.0 - rate) for g, rate in candidates)
+    ep_passes = yes_seats > no_seats
+    # To reverse the EP verdict one bloc must supply this many seats from its
+    # own losing-side voters (each conversion nets +2, so deficit / 2).
+    need = abs(yes_seats - no_seats) / 2.0
+
+    # Capability gate (validated on 8 single-group-flippable rejected votes,
+    # HowTheyVote 10th term: the decisive bloc was EPP/S&D 7/8). A bloc can flip
+    # the result alone only if its losing-side seats cover the gap. Without this
+    # gate, lopsided files name a small fringe group that is split but powerless.
+    def convertible(g, rate: float) -> float:
+        return g.seats * (rate if ep_passes else (1.0 - rate))
+
     def mass(g, rate: float) -> float:
         return g.seats * (1.0 - 2.0 * abs(rate - 0.5))
 
-    pivot, rate = max(candidates, key=lambda gr: mass(*gr))
-    swing_seats = int(round(pivot.seats * (1.0 - 2.0 * abs(rate - 0.5))))
+    # A realistic pivot must both cover the gap (capable) and have genuinely
+    # movable voters (mass) — a bloc at 100%/0% cohesion is numerically capable
+    # but politically locked, so it is not a lobbying target.
+    MIN_MOVABLE_SEATS = 5.0
+    capable = [(g, r) for g, r in candidates if convertible(g, r) >= need]
+    pivot_pair = max(capable, key=lambda gr: mass(*gr)) if capable else None
+    if pivot_pair is None or mass(*pivot_pair) < MIN_MOVABLE_SEATS:
+        return FlipPath(
+            lever="ep",
+            headline="No single EP group can swing it — decided on the floor",
+            detail=[
+                "Every bloc is either locked (near-total cohesion) or too small to "
+                "cover the gap alone; the EP verdict is not movable by lobbying one group",
+            ],
+            realistic=False,
+        )
+
+    pivot, rate = pivot_pair
+    swing_seats = int(round(mass(pivot, rate)))
     direction = "for" if rate >= 0.5 else "against"
     return FlipPath(
         lever="ep",
@@ -322,7 +353,7 @@ def _ep_pivot_path(pred: Prediction) -> FlipPath | None:
         actors=[pivot.code],
         detail=[
             f"Leans {direction} at {rate:.0%} internal yes — the largest bloc "
-            f"close enough to its flip point to actually swing the result",
+            f"big enough to cover the gap and close enough to its flip point",
             f"~{swing_seats} seats are genuinely movable; small fringe groups "
             f"may be more divided but are too small to change the outcome",
         ],
