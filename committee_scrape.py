@@ -32,12 +32,36 @@ GROUPS = ["Verts/ALE", "The Left", "GUE/NGL", "PPE", "S&D", "Renew",
 # Two committee-ref layouts:
 #  - committee-led: "ECON/10/01016 – 2023/0112(COD)" or joint "CJ12/10/02943 - 2025/0131(COD)"
 #  - procedure-led (summary PDFs): line starts "2023/0210(COD) COM(2023)0367 – C9-..."
+# Family A (inline): "ECON/10/01016 – 2023/0112(COD)" on one line.
 REF_RE = re.compile(r"([A-Z0-9]{2,8}/\d+/\d+)\s*[–-]\s*(\d{4}/\d+\([A-Z]+\))")
-PROC_RE = re.compile(r"^(\d{4}/\d+\([A-Z]+\))")          # procedure-led summary layout
+# Family B (formal RCV-result doc): committee ref and procedure on separate lines.
+CREF_RE = re.compile(r"^([A-Z]{2,6}\d{0,3}/\d+/\d+)$")
+PROC_RE = re.compile(r"^(?:\*+\s*[IVX]*\s+)?(\d{4}/\d+\([A-Z]+\))")   # allows '***I 2025/0059(COD)'
+SUB_RE = re.compile(r"^(?:\d+\.\d+(?:\.\d+)?|•)\s+(.+)")             # '1.1 Amendment 200', '• Compromise amendment 1'
 RAPP_RE = re.compile(r"Rapporteur[s]?:\s*(.+)")
+RAPP_INLINE_RE = re.compile(r"\(Rapporteurs?:\s*(.+)")               # TOC: '... (Rapporteurs: Sven Mikser (S&D), ...'
 TALLY_RE = re.compile(r"^(\d+)\s+([+\-0])$")
 # Lines that are never part of a vote title (legend, headers, page numbers).
-SKIP_TITLE = re.compile(r"^(Committee on |Key to symbols|EN EN|[+\-0] :|\d+\s*$|PE\d)")
+SKIP_TITLE = re.compile(r"^(Committee on |Key to symbols|EN EN|[+\-0] :|\d+\s*$|PE\d|Result|Table of Contents|Contents|European Parliament|\d{4}-\d{4})")
+
+
+def _toc_rapporteurs(lines: list[str]) -> dict[str, str]:
+    """Pre-scan the table of contents: map procedure ref -> rapporteur string.
+
+    In the formal RCV-result docs the rapporteur appears only in the TOC, on the
+    line just above its procedure ref. We pair them and key by procedure.
+    """
+    mapping: dict[str, str] = {}
+    held = ""
+    for line in lines:
+        m = RAPP_INLINE_RE.search(line) or RAPP_RE.search(line)
+        if m:
+            held = m.group(1).strip().rstrip(". ").strip()
+        m_proc = PROC_RE.match(line)
+        if m_proc and held:
+            mapping.setdefault(m_proc.group(1), held)
+            held = ""
+    return mapping
 
 
 @dataclass
@@ -87,6 +111,7 @@ def parse_pdf(path: str) -> list[CommitteeVote]:
         for pg in pdf.pages:
             lines.extend((pg.extract_text() or "").splitlines())
 
+    toc = _toc_rapporteurs(lines)
     votes: list[CommitteeVote] = []
     cur: CommitteeVote | None = None
     choice: str | None = None
@@ -95,6 +120,8 @@ def parse_pdf(path: str) -> list[CommitteeVote]:
     # wrap across a line break ("Markus\nFerber") are joined BEFORE comma-splitting.
     buffer: dict[str, list[str]] = {}
     title_buf: list[str] = []                          # title text seen between votes
+    # Procedure context carried across the per-amendment sub-votes of a Family-B file.
+    ctx = {"ref": "", "proc": "", "rapp": "", "title": ""}
 
     def flush() -> None:
         if cur is None or choice is None:
@@ -105,14 +132,16 @@ def parse_pdf(path: str) -> list[CommitteeVote]:
                 cur.votes.append((group, name, choice))
         buffer.clear()
 
-    def start(ref: str, proc: str) -> CommitteeVote:
+    def emit(subject: str = "") -> CommitteeVote:
         nonlocal cur, choice, last_group, title_buf
         flush()
-        cur = CommitteeVote(ref=ref, procedure=proc, rapporteur="", subject="",
-                            title=" ".join(title_buf).strip())
+        cur = CommitteeVote(ref=ctx["ref"], procedure=ctx["proc"],
+                            rapporteur=ctx["rapp"], subject=subject, title=ctx["title"])
         votes.append(cur)
         choice = last_group = None
         title_buf = []
+        if "secret vote" in subject.lower():
+            cur.secret = True
         return cur
 
     for raw in lines:
@@ -120,19 +149,36 @@ def parse_pdf(path: str) -> list[CommitteeVote]:
         if not line:
             continue
         m_ref = REF_RE.search(line)
-        m_proc = PROC_RE.match(line) if not m_ref else None
-        if m_ref:                                      # committee/joint ref layout
-            start(m_ref.group(1), m_ref.group(2))
+        if m_ref:                                      # Family A: inline committee+proc
+            ctx.update(ref=m_ref.group(1), proc=m_ref.group(2),
+                       rapp=toc.get(m_ref.group(2), ""), title=" ".join(title_buf).strip())
+            emit()
             continue
-        if m_proc:                                     # procedure-led summary layout
-            start(m_proc.group(1), m_proc.group(1))
+        m_cref = CREF_RE.match(line)
+        if m_cref:                                     # Family B: standalone committee ref
+            ctx.update(ref=m_cref.group(1), title=" ".join(title_buf).strip())
+            cur = None
+            title_buf = []
+            continue
+        m_proc = PROC_RE.match(line)
+        if m_proc:                                     # procedure line (A procedure-led, or B context)
+            ctx["proc"] = m_proc.group(1)
+            ctx["rapp"] = toc.get(m_proc.group(1), ctx["rapp"])
+            if not ctx["title"]:
+                ctx["title"] = " ".join(title_buf).strip()
+            emit()                                     # tentative vote (stays empty under Family B)
+            continue
+        m_sub = SUB_RE.match(line)
+        if m_sub:                                      # Family B: a per-amendment sub-vote
+            emit(m_sub.group(1).strip())
             continue
         m_rapp = RAPP_RE.match(line)
-        if m_rapp:
-            if cur is None or cur.tally:               # ref-less layout, or next vote
-                start("", "")
+        if m_rapp:                                     # Family A ref-less anchor, or fill-in
+            if cur is None or cur.tally:
+                ctx["title"] = " ".join(title_buf).strip()
+                emit()
             if not cur.rapporteur:
-                cur.rapporteur = m_rapp.group(1).strip()
+                cur.rapporteur = ctx["rapp"] = m_rapp.group(1).strip()
             continue
         m_tally = TALLY_RE.match(line)
         if m_tally and cur is not None:
@@ -140,6 +186,10 @@ def parse_pdf(path: str) -> list[CommitteeVote]:
             choice = m_tally.group(2)
             cur.tally[choice] = int(m_tally.group(1))
             last_group = None
+            continue
+        if line.startswith("Corrections to votes"):    # post-tally section: stop collecting
+            flush()
+            choice = None
             continue
         if line.startswith("Key to symbols") or line == "EN EN":
             flush()
@@ -196,16 +246,21 @@ def build_corpus(committee: str, max_pdfs: int | None = None) -> dict:
     decided = [r for r in records if not r["secret"]]               # named roll-calls
     reconciled = [r for r in decided if r["reconciled"]]
     secret = [r for r in records if r["secret"]]
-    procs = {r["procedure"] for r in records if "(" in r["procedure"]}
-    rapp = sum(1 for r in records if r["rapporteur"])
+    # Clean-by-construction: a record enters the corpus only if its parsed MEP
+    # count matches the declared tally (or it is a names-free secret vote).
+    clean = [r for r in records if r["reconciled"]]
+    dropped = len(records) - len(clean)
+    linked = [r for r in clean if "(" in r["procedure"]]
+    procs = {r["procedure"] for r in linked}
+    rapp = sum(1 for r in clean if r["rapporteur"])
     print("\n— corpus summary —")
     print(f"  PDFs with votes / empty : {n_pdf_ok} / {n_pdf_empty}")
-    print(f"  vote records            : {len(records)}  ({len(procs)} unique procedures)")
-    print(f"  rapporteur captured     : {rapp}/{len(records)}")
+    print(f"  parsed records          : {len(records)}  (reconciled {len(reconciled)}/{len(decided)} named)")
+    print(f"  KEPT (clean) / dropped  : {len(clean)} / {dropped}")
+    print(f"  linked to a procedure   : {len(linked)}/{len(clean)}  ({len(procs)} unique)")
+    print(f"  rapporteur captured     : {rapp}/{len(clean)}")
     print(f"  secret (no names, ok)   : {len(secret)}")
-    print(f"  roll-call reconciled    : {len(reconciled)}/{len(decided)} "
-          f"= {len(reconciled)/max(1,len(decided)):.0%} of named votes")
-    return {"committee": committee, "n_records": len(records), "records": records}
+    return {"committee": committee, "n_records": len(clean), "records": clean}
 
 
 def main() -> None:
