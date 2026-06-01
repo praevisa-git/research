@@ -7,4 +7,5 @@ requires-python = ">=3.14"
 dependencies = [
     "mesa>=3.5.1",
     "networkx>=3.6.1",
+    "pdfplumber>=0.11.9",
 ]
