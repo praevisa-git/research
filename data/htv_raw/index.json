@@ -1,0 +1,192 @@
+{
+ "source": "howtheyvote.eu/api",
+ "inclusion_filter": "is_main & procedure.type==COD & result in {ADOPTED,REJECTED} & non-empty stats.by_group",
+ "yes_share_denominator": "FOR/(FOR+AGAINST+ABSTENTION) [DID_NOT_VOTE excluded]",
+ "n_candidates_scanned": 916,
+ "n_cod_pool": 299,
+ "cod_stage_distribution": {
+  "OLP_FIRST_READING": 295,
+  "OLP_SECOND_READING": 1,
+  "null": 3
+ },
+ "n_selected": 22,
+ "selection_rule": "sort pool by yes_share asc; take evenly spaced positions incl. min and max",
+ "votes": [
+  {
+   "id": "190403",
+   "reference": "2021/0297(COD)",
+   "result": "REJECTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.059542,
+   "n_groups": 9
+  },
+  {
+   "id": "184418",
+   "reference": "2025/0132(COD)",
+   "result": "REJECTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.336907,
+   "n_groups": 9
+  },
+  {
+   "id": "164499",
+   "reference": "2022/0195(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.523885,
+   "n_groups": 8
+  },
+  {
+   "id": "166959",
+   "reference": "2023/0266(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.577815,
+   "n_groups": 8
+  },
+  {
+   "id": "168292",
+   "reference": "2023/0138(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.61474,
+   "n_groups": 8
+  },
+  {
+   "id": "166929",
+   "reference": "2016/0132(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.649518,
+   "n_groups": 8
+  },
+  {
+   "id": "190938",
+   "reference": "2025/0380(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.67236,
+   "n_groups": 9
+  },
+  {
+   "id": "168586",
+   "reference": "2024/0028(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.709784,
+   "n_groups": 8
+  },
+  {
+   "id": "165167",
+   "reference": "2023/0133(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.738211,
+   "n_groups": 8
+  },
+  {
+   "id": "166172",
+   "reference": "2022/0131(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.757329,
+   "n_groups": 8
+  },
+  {
+   "id": "168332",
+   "reference": "2021/0296(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.777414,
+   "n_groups": 8
+  },
+  {
+   "id": "164462",
+   "reference": "2021/0422(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.802251,
+   "n_groups": 8
+  },
+  {
+   "id": "166241",
+   "reference": "2023/0234(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.8224,
+   "n_groups": 8
+  },
+  {
+   "id": "168470",
+   "reference": "2023/0210(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.840461,
+   "n_groups": 8
+  },
+  {
+   "id": "189916",
+   "reference": "2025/0073(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.858877,
+   "n_groups": 9
+  },
+  {
+   "id": "163299",
+   "reference": "2023/0272(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.875796,
+   "n_groups": 8
+  },
+  {
+   "id": "177025",
+   "reference": "2024/0035(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.903469,
+   "n_groups": 9
+  },
+  {
+   "id": "178405",
+   "reference": "2025/0022(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.921687,
+   "n_groups": 9
+  },
+  {
+   "id": "166146",
+   "reference": "2023/0163(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.943709,
+   "n_groups": 8
+  },
+  {
+   "id": "168458",
+   "reference": "2023/0393(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.960443,
+   "n_groups": 8
+  },
+  {
+   "id": "166040",
+   "reference": "2023/0049(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.980263,
+   "n_groups": 8
+  },
+  {
+   "id": "166243",
+   "reference": "2023/0356(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.994575,
+   "n_groups": 8
+  }
+ ]
+}
