@@ -1,81 +1,108 @@
 {
- "id": "184418",
+ "id": "179790",
  "is_main": true,
- "timestamp": "2026-02-10T12:58:00",
- "display_title": "Application of the \u2018safe third country\u2019 concept",
- "description": "Proposition de rejet - Am 14= 15= 16=",
- "amendment_subject": "Proposal for rejection",
- "amendment_number": "14=\n15=\n16=",
+ "timestamp": "2025-10-21T12:20:59",
+ "display_title": "Re-attribution of scientific and technical tasks and improving cooperation among Union agencies in the area of chemicals",
+ "description": "Accord provisoire - Am 20",
+ "amendment_subject": "Provisional agreement",
+ "amendment_number": "20",
  "amendment_authors": [
   {
-   "type": "GROUP",
-   "group": {
-    "code": "GUE_NGL",
-    "label": "The Left in the European Parliament",
-    "short_label": "The Left"
-   },
-   "committee": null
-  },
-  {
-   "type": "GROUP",
-   "group": {
-    "code": "SD",
-    "label": "Progressive Alliance of Socialists and Democrats",
-    "short_label": "S&D"
-   },
-   "committee": null
-  },
-  {
-   "type": "GROUP",
-   "group": {
-    "code": "GREEN_EFA",
-    "label": "Greens/European Free Alliance",
-    "short_label": "Greens/EFA"
-   },
+   "type": "COMMITTEE",
+   "group": null,
    "committee": null
   }
  ],
- "reference": "A10-0255/2025",
+ "reference": "A10-0020/2025",
  "geo_areas": [],
- "eurovoc_concepts": [],
+ "eurovoc_concepts": [
+  {
+   "id": "2739",
+   "label": "chemical product"
+  },
+  {
+   "id": "5310",
+   "label": "European Environment Agency"
+  },
+  {
+   "id": "5426",
+   "label": "European Medicines Agency"
+  },
+  {
+   "id": "5427",
+   "label": "European Agency for Safety and Health at Work"
+  },
+  {
+   "id": "5548",
+   "label": "interinstitutional cooperation (EU)"
+  },
+  {
+   "id": "616",
+   "label": "exchange of information"
+  },
+  {
+   "id": "7126",
+   "label": "European Food Safety Authority"
+  },
+  {
+   "id": "7130",
+   "label": "scientific report"
+  },
+  {
+   "id": "7984",
+   "label": "European Chemicals Agency"
+  },
+  {
+   "id": "c_e5d85c14",
+   "label": "chemicals legislation"
+  }
+ ],
  "oeil_subjects": [
   {
-   "code": "7.10.06",
-   "label": "Asylum, refugees, displaced persons; Asylum, Migration and Integration Fund (AMIF)"
+   "code": "3.40.01",
+   "label": "Chemical industry, fertilizers, plastics"
+  },
+  {
+   "code": "3.70.13",
+   "label": "Dangerous substances, toxic and radioactive wastes (storage, transport)"
   }
  ],
  "topics": [
   {
-   "code": "migration",
-   "label": "Migration"
+   "code": "climate-and-environment",
+   "label": "Climate and environment"
+  },
+  {
+   "code": "economy-and-budget",
+   "label": "Economy and budget"
   }
  ],
  "responsible_committees": [
   {
-   "code": "LIBE",
-   "label": "Civil Liberties, Justice and Home Affairs",
-   "abbreviation": "LIBE"
+   "code": "ENVI",
+   "label": "Environment, Climate and Food Safety",
+   "abbreviation": "ENVI"
   }
  ],
- "result": "REJECTED",
+ "result": "ADOPTED",
  "procedure": {
-  "title": "Application of the \u2018safe third country\u2019 concept",
+  "title": "Re-attribution of scientific and technical tasks and improving cooperation among Union agencies in the area of chemicals",
   "type": "COD",
-  "reference": "2025/0132(COD)",
+  "reference": "2023/0455(COD)",
   "stage": "OLP_FIRST_READING"
  },
  "snippet": {
-  "text": "<ul><li>Bangladesh, Colombia, Egypt, Kosovo, India, Morocco and Tunisia to be considered safe for their own nationals</li><li>EU candidate countries will also be presumed safe</li><li>New conditions for EU member states to decide whether a country is safe for applicants who are not nationals of that given country</li><li>EU countries will be able to conclude agreements with third countries where requests for protection would be examined</li></ul>",
-  "source_type": "PRESS_RELEASE",
-  "source_url": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33617"
+  "text": "<p>The European Parliament adopted by 469 votes to 126, with 50 abstentions, a legislative resolution on the proposal for a regulation of the European Parliament and of the Council amending Regulations (EC) No 178/2002, (EC) No 401/2009, (EU) 2017/745 and (EU) No 2019/1021 of the European Parliament and of the Council as regards the re-attribution of scientific and technical tasks and improving cooperation among Union agencies in the area of chemicals.</p><p>Parliament adopted its position at first reading by amending the proposal as follows.</p><p>This Regulation aims to address possible discrepancies between scientific opinions delivered by the European Food Safety Authority (EFSA) and those delivered by other bodies, taking into account the objective of\u2026</p>",
+  "source_type": "OEIL_SUMMARY",
+  "source_url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1855084"
  },
- "sharepic_url": "/api/static/votes/sharepic-184418.png",
+ "sharepic_url": "/api/static/votes/sharepic-179790.png",
  "stats": {
   "total": {
-   "FOR": 220,
-   "AGAINST": 396,
-   "ABSTENTION": 37,
-   "DID_NOT_VOTE": 66
+   "FOR": 469,
+   "AGAINST": 126,
+   "ABSTENTION": 50,
+   "DID_NOT_VOTE": 74
   },
   "by_group": [
    {
@@ -85,10 +112,10 @@
      "short_label": "EPP"
     },
     "stats": {
-     "FOR": 0,
-     "AGAINST": 168,
-     "ABSTENTION": 9,
-     "DID_NOT_VOTE": 10
+     "FOR": 172,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
     }
    },
    {
@@ -98,10 +125,10 @@
      "short_label": "S&D"
     },
     "stats": {
-     "FOR": 92,
-     "AGAINST": 19,
-     "ABSTENTION": 10,
-     "DID_NOT_VOTE": 14
+     "FOR": 119,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 17
     }
    },
    {
@@ -112,9 +139,9 @@
     },
     "stats": {
      "FOR": 0,
-     "AGAINST": 71,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 13
+     "AGAINST": 61,
+     "ABSTENTION": 16,
+     "DID_NOT_VOTE": 8
     }
    },
    {
@@ -124,10 +151,10 @@
      "short_label": "ECR"
     },
     "stats": {
-     "FOR": 0,
-     "AGAINST": 73,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 6
+     "FOR": 5,
+     "AGAINST": 36,
+     "ABSTENTION": 28,
+     "DID_NOT_VOTE": 10
     }
    },
    {
@@ -137,10 +164,10 @@
      "short_label": "Renew"
     },
     "stats": {
-     "FOR": 35,
-     "AGAINST": 17,
-     "ABSTENTION": 15,
-     "DID_NOT_VOTE": 8
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 4
     }
    },
    {
@@ -150,10 +177,10 @@
      "short_label": "Greens/EFA"
     },
     "stats": {
-     "FOR": 46,
+     "FOR": 48,
      "AGAINST": 0,
-     "ABSTENTION": 1,
-     "DID_NOT_VOTE": 6
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 5
     }
    },
    {
@@ -163,10 +190,10 @@
      "short_label": "The Left"
     },
     "stats": {
-     "FOR": 42,
+     "FOR": 38,
      "AGAINST": 0,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 4
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 7
     }
    },
    {
@@ -176,10 +203,10 @@
      "short_label": "Non-attached"
     },
     "stats": {
-     "FOR": 5,
-     "AGAINST": 23,
-     "ABSTENTION": 2,
-     "DID_NOT_VOTE": 2
+     "FOR": 15,
+     "AGAINST": 7,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 4
     }
    },
    {
@@ -189,10 +216,10 @@
      "short_label": "ESN"
     },
     "stats": {
-     "FOR": 0,
-     "AGAINST": 25,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 2
+     "FOR": 1,
+     "AGAINST": 22,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 3
     }
    }
   ],
@@ -204,10 +231,10 @@
      "label": "Germany"
     },
     "stats": {
-     "FOR": 33,
-     "AGAINST": 50,
-     "ABSTENTION": 7,
-     "DID_NOT_VOTE": 6
+     "FOR": 76,
+     "AGAINST": 12,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 7
     }
    },
    {
@@ -217,10 +244,10 @@
      "label": "France"
     },
     "stats": {
-     "FOR": 34,
-     "AGAINST": 38,
-     "ABSTENTION": 1,
-     "DID_NOT_VOTE": 8
+     "FOR": 45,
+     "AGAINST": 32,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 4
     }
    },
    {
@@ -230,10 +257,10 @@
      "label": "Italy"
     },
     "stats": {
-     "FOR": 28,
-     "AGAINST": 37,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 11
+     "FOR": 33,
+     "AGAINST": 4,
+     "ABSTENTION": 19,
+     "DID_NOT_VOTE": 20
     }
    },
    {
@@ -243,10 +270,10 @@
      "label": "Spain"
     },
     "stats": {
-     "FOR": 25,
-     "AGAINST": 30,
+     "FOR": 41,
+     "AGAINST": 8,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 5
+     "DID_NOT_VOTE": 11
     }
    },
    {
@@ -256,10 +283,10 @@
      "label": "Poland"
     },
     "stats": {
-     "FOR": 3,
-     "AGAINST": 47,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 3
+     "FOR": 25,
+     "AGAINST": 23,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 4
     }
    },
    {
@@ -269,10 +296,10 @@
      "label": "Romania"
     },
     "stats": {
-     "FOR": 4,
-     "AGAINST": 26,
+     "FOR": 20,
+     "AGAINST": 6,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 3
+     "DID_NOT_VOTE": 7
     }
    },
    {
@@ -282,10 +309,10 @@
      "label": "Netherlands"
     },
     "stats": {
-     "FOR": 12,
-     "AGAINST": 17,
+     "FOR": 21,
+     "AGAINST": 6,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 2
+     "DID_NOT_VOTE": 4
     }
    },
    {
@@ -295,10 +322,10 @@
      "label": "Belgium"
     },
     "stats": {
-     "FOR": 7,
-     "AGAINST": 10,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 5
+     "FOR": 18,
+     "AGAINST": 3,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -308,10 +335,10 @@
      "label": "Sweden"
     },
     "stats": {
-     "FOR": 8,
-     "AGAINST": 13,
+     "FOR": 17,
+     "AGAINST": 3,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 0
+     "DID_NOT_VOTE": 1
     }
    },
    {
@@ -321,10 +348,10 @@
      "label": "Czechia"
     },
     "stats": {
-     "FOR": 1,
-     "AGAINST": 17,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 3
+     "FOR": 8,
+     "AGAINST": 3,
+     "ABSTENTION": 8,
+     "DID_NOT_VOTE": 2
     }
    },
    {
@@ -334,10 +361,10 @@
      "label": "Hungary"
     },
     "stats": {
-     "FOR": 2,
-     "AGAINST": 14,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 5
+     "FOR": 7,
+     "AGAINST": 1,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 2
     }
    },
    {
@@ -347,9 +374,9 @@
      "label": "Portugal"
     },
     "stats": {
-     "FOR": 8,
+     "FOR": 16,
      "AGAINST": 2,
-     "ABSTENTION": 8,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 3
     }
    },
@@ -360,10 +387,10 @@
      "label": "Greece"
     },
     "stats": {
-     "FOR": 10,
-     "AGAINST": 11,
+     "FOR": 16,
+     "AGAINST": 4,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 0
+     "DID_NOT_VOTE": 1
     }
    },
    {
@@ -373,9 +400,9 @@
      "label": "Austria"
     },
     "stats": {
-     "FOR": 2,
-     "AGAINST": 10,
-     "ABSTENTION": 7,
+     "FOR": 13,
+     "AGAINST": 6,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
    },
@@ -386,9 +413,9 @@
      "label": "Bulgaria"
     },
     "stats": {
-     "FOR": 3,
-     "AGAINST": 11,
-     "ABSTENTION": 2,
+     "FOR": 12,
+     "AGAINST": 4,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
    },
@@ -399,9 +426,9 @@
      "label": "Slovakia"
     },
     "stats": {
-     "FOR": 0,
-     "AGAINST": 8,
-     "ABSTENTION": 6,
+     "FOR": 8,
+     "AGAINST": 2,
+     "ABSTENTION": 4,
      "DID_NOT_VOTE": 1
     }
    },
@@ -412,8 +439,8 @@
      "label": "Denmark"
     },
     "stats": {
-     "FOR": 6,
-     "AGAINST": 9,
+     "FOR": 13,
+     "AGAINST": 2,
      "ABSTENTION": 0,
      "DID_NOT_VOTE": 0
     }
@@ -425,9 +452,9 @@
      "label": "Finland"
     },
     "stats": {
-     "FOR": 5,
-     "AGAINST": 6,
-     "ABSTENTION": 3,
+     "FOR": 14,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
    },
@@ -438,9 +465,9 @@
      "label": "Ireland"
     },
     "stats": {
-     "FOR": 9,
-     "AGAINST": 3,
-     "ABSTENTION": 1,
+     "FOR": 13,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
    },
@@ -451,10 +478,10 @@
      "label": "Croatia"
     },
     "stats": {
-     "FOR": 5,
-     "AGAINST": 7,
+     "FOR": 9,
+     "AGAINST": 1,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 0
+     "DID_NOT_VOTE": 2
     }
    },
    {
@@ -464,10 +491,10 @@
      "label": "Lithuania"
     },
     "stats": {
-     "FOR": 4,
-     "AGAINST": 5,
+     "FOR": 9,
+     "AGAINST": 2,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 2
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -477,10 +504,10 @@
      "label": "Latvia"
     },
     "stats": {
-     "FOR": 0,
-     "AGAINST": 5,
-     "ABSTENTION": 2,
-     "DID_NOT_VOTE": 2
+     "FOR": 5,
+     "AGAINST": 1,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -490,8 +517,8 @@
      "label": "Slovenia"
     },
     "stats": {
-     "FOR": 4,
-     "AGAINST": 5,
+     "FOR": 9,
+     "AGAINST": 0,
      "ABSTENTION": 0,
      "DID_NOT_VOTE": 0
     }
@@ -503,10 +530,10 @@
      "label": "Estonia"
     },
     "stats": {
-     "FOR": 3,
-     "AGAINST": 3,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 1
+     "FOR": 6,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -516,8 +543,8 @@
      "label": "Luxembourg"
     },
     "stats": {
-     "FOR": 3,
-     "AGAINST": 3,
+     "FOR": 5,
+     "AGAINST": 1,
      "ABSTENTION": 0,
      "DID_NOT_VOTE": 0
     }
@@ -529,8 +556,8 @@
      "label": "Malta"
     },
     "stats": {
-     "FOR": 0,
-     "AGAINST": 5,
+     "FOR": 5,
+     "AGAINST": 0,
      "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
@@ -542,10 +569,10 @@
      "label": "Cyprus"
     },
     "stats": {
-     "FOR": 1,
-     "AGAINST": 4,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 1
+     "FOR": 5,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 0
     }
    }
   ]
@@ -570,7 +597,7 @@
     "photo_url": "/api/static/members/256810.jpg",
     "thumb_url": "/api/static/members/256810-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -591,7 +618,7 @@
     "photo_url": "/api/static/members/257043.jpg",
     "thumb_url": "/api/static/members/257043-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -612,7 +639,7 @@
     "photo_url": "/api/static/members/197490.jpg",
     "thumb_url": "/api/static/members/197490-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -633,7 +660,7 @@
     "photo_url": "/api/static/members/256820.jpg",
     "thumb_url": "/api/static/members/256820-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -675,7 +702,7 @@
     "photo_url": "/api/static/members/113523.jpg",
     "thumb_url": "/api/static/members/113523-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -696,7 +723,7 @@
     "photo_url": "/api/static/members/197403.jpg",
     "thumb_url": "/api/static/members/197403-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -738,7 +765,7 @@
     "photo_url": "/api/static/members/256956.jpg",
     "thumb_url": "/api/static/members/256956-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -759,7 +786,7 @@
     "photo_url": "/api/static/members/256869.jpg",
     "thumb_url": "/api/static/members/256869-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -780,7 +807,7 @@
     "photo_url": "/api/static/members/256858.jpg",
     "thumb_url": "/api/static/members/256858-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -868,27 +895,6 @@
   },
   {
    "member": {
-    "id": 130881,
-    "first_name": "Mieke",
-    "last_name": "ANDRIESE",
-    "full_name": "Mieke ANDRIESE",
-    "country": {
-     "code": "NLD",
-     "iso_alpha_2": "NL",
-     "label": "Netherlands"
-    },
-    "group": {
-     "code": "PFE",
-     "label": "Patriots for Europe",
-     "short_label": "PfE"
-    },
-    "photo_url": "/api/static/members/130881.jpg",
-    "thumb_url": "/api/static/members/130881-104.jpg"
-   },
-   "position": "AGAINST"
-  },
-  {
-   "member": {
     "id": 119652,
     "first_name": "Vytenis Povilas",
     "last_name": "ANDRIUKAITIS",
@@ -969,7 +975,7 @@
     "photo_url": "/api/static/members/124973.jpg",
     "thumb_url": "/api/static/members/124973-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -990,7 +996,7 @@
     "photo_url": "/api/static/members/257123.jpg",
     "thumb_url": "/api/static/members/257123-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1032,7 +1038,7 @@
     "photo_url": "/api/static/members/96808.jpg",
     "thumb_url": "/api/static/members/96808-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1053,7 +1059,7 @@
     "photo_url": "/api/static/members/24922.jpg",
     "thumb_url": "/api/static/members/24922-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1137,7 +1143,7 @@
     "photo_url": "/api/static/members/197492.jpg",
     "thumb_url": "/api/static/members/197492-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1179,7 +1185,7 @@
     "photo_url": "/api/static/members/28307.jpg",
     "thumb_url": "/api/static/members/28307-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1200,7 +1206,7 @@
     "photo_url": "/api/static/members/256934.jpg",
     "thumb_url": "/api/static/members/256934-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1305,7 +1311,7 @@
     "photo_url": "/api/static/members/197781.jpg",
     "thumb_url": "/api/static/members/197781-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1326,7 +1332,7 @@
     "photo_url": "/api/static/members/256936.jpg",
     "thumb_url": "/api/static/members/256936-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1347,7 +1353,7 @@
     "photo_url": "/api/static/members/257003.jpg",
     "thumb_url": "/api/static/members/257003-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1368,7 +1374,7 @@
     "photo_url": "/api/static/members/247735.jpg",
     "thumb_url": "/api/static/members/247735-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1431,7 +1437,7 @@
     "photo_url": "/api/static/members/257110.jpg",
     "thumb_url": "/api/static/members/257110-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1487,14 +1493,14 @@
      "label": "Czechia"
     },
     "group": {
-     "code": "NI",
-     "label": "Non-attached Members",
-     "short_label": "Non-attached"
+     "code": "PFE",
+     "label": "Patriots for Europe",
+     "short_label": "PfE"
     },
     "photo_url": "/api/static/members/256852.jpg",
     "thumb_url": "/api/static/members/256852-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -1515,7 +1521,7 @@
     "photo_url": "/api/static/members/256948.jpg",
     "thumb_url": "/api/static/members/256948-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -1578,7 +1584,7 @@
     "photo_url": "/api/static/members/256887.jpg",
     "thumb_url": "/api/static/members/256887-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1599,7 +1605,7 @@
     "photo_url": "/api/static/members/256947.jpg",
     "thumb_url": "/api/static/members/256947-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1620,7 +1626,7 @@
     "photo_url": "/api/static/members/197534.jpg",
     "thumb_url": "/api/static/members/197534-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1641,7 +1647,7 @@
     "photo_url": "/api/static/members/197658.jpg",
     "thumb_url": "/api/static/members/197658-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1683,7 +1689,7 @@
     "photo_url": "/api/static/members/197679.jpg",
     "thumb_url": "/api/static/members/197679-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1704,7 +1710,7 @@
     "photo_url": "/api/static/members/197408.jpg",
     "thumb_url": "/api/static/members/197408-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1725,7 +1731,7 @@
     "photo_url": "/api/static/members/197778.jpg",
     "thumb_url": "/api/static/members/197778-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1746,7 +1752,7 @@
     "photo_url": "/api/static/members/256960.jpg",
     "thumb_url": "/api/static/members/256960-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1767,7 +1773,7 @@
     "photo_url": "/api/static/members/197410.jpg",
     "thumb_url": "/api/static/members/197410-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1788,7 +1794,7 @@
     "photo_url": "/api/static/members/4746.jpg",
     "thumb_url": "/api/static/members/4746-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -1809,7 +1815,7 @@
     "photo_url": "/api/static/members/197648.jpg",
     "thumb_url": "/api/static/members/197648-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1830,7 +1836,7 @@
     "photo_url": "/api/static/members/23868.jpg",
     "thumb_url": "/api/static/members/23868-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1872,7 +1878,7 @@
     "photo_url": "/api/static/members/23788.jpg",
     "thumb_url": "/api/static/members/23788-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -1914,7 +1920,7 @@
     "photo_url": "/api/static/members/257005.jpg",
     "thumb_url": "/api/static/members/257005-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -2040,7 +2046,7 @@
     "photo_url": "/api/static/members/197636.jpg",
     "thumb_url": "/api/static/members/197636-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2103,7 +2109,7 @@
     "photo_url": "/api/static/members/101039.jpg",
     "thumb_url": "/api/static/members/101039-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2124,7 +2130,7 @@
     "photo_url": "/api/static/members/257024.jpg",
     "thumb_url": "/api/static/members/257024-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2229,7 +2235,7 @@
     "photo_url": "/api/static/members/187917.jpg",
     "thumb_url": "/api/static/members/187917-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -2250,7 +2256,7 @@
     "photo_url": "/api/static/members/197577.jpg",
     "thumb_url": "/api/static/members/197577-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2313,7 +2319,7 @@
     "photo_url": "/api/static/members/256841.jpg",
     "thumb_url": "/api/static/members/256841-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2355,7 +2361,7 @@
     "photo_url": "/api/static/members/257067.jpg",
     "thumb_url": "/api/static/members/257067-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -2376,7 +2382,7 @@
     "photo_url": "/api/static/members/251324.jpg",
     "thumb_url": "/api/static/members/251324-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2397,7 +2403,7 @@
     "photo_url": "/api/static/members/197470.jpg",
     "thumb_url": "/api/static/members/197470-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2418,7 +2424,7 @@
     "photo_url": "/api/static/members/204129.jpg",
     "thumb_url": "/api/static/members/204129-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2544,7 +2550,7 @@
     "photo_url": "/api/static/members/125012.jpg",
     "thumb_url": "/api/static/members/125012-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2565,7 +2571,7 @@
     "photo_url": "/api/static/members/257047.jpg",
     "thumb_url": "/api/static/members/257047-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2586,7 +2592,7 @@
     "photo_url": "/api/static/members/257081.jpg",
     "thumb_url": "/api/static/members/257081-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2670,7 +2676,7 @@
     "photo_url": "/api/static/members/257051.jpg",
     "thumb_url": "/api/static/members/257051-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2691,7 +2697,7 @@
     "photo_url": "/api/static/members/256928.jpg",
     "thumb_url": "/api/static/members/256928-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -2712,7 +2718,7 @@
     "photo_url": "/api/static/members/220840.jpg",
     "thumb_url": "/api/static/members/220840-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -2775,7 +2781,7 @@
     "photo_url": "/api/static/members/257296.jpg",
     "thumb_url": "/api/static/members/257296-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2817,7 +2823,7 @@
     "photo_url": "/api/static/members/28122.jpg",
     "thumb_url": "/api/static/members/28122-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2838,7 +2844,7 @@
     "photo_url": "/api/static/members/28219.jpg",
     "thumb_url": "/api/static/members/28219-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2859,7 +2865,7 @@
     "photo_url": "/api/static/members/256891.jpg",
     "thumb_url": "/api/static/members/256891-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2873,14 +2879,14 @@
      "label": "France"
     },
     "group": {
-     "code": "PFE",
-     "label": "Patriots for Europe",
-     "short_label": "PfE"
+     "code": "EPP",
+     "label": "European People\u2019s Party",
+     "short_label": "EPP"
     },
     "photo_url": "/api/static/members/256921.jpg",
     "thumb_url": "/api/static/members/256921-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2922,7 +2928,7 @@
     "photo_url": "/api/static/members/257096.jpg",
     "thumb_url": "/api/static/members/257096-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -2943,7 +2949,7 @@
     "photo_url": "/api/static/members/197786.jpg",
     "thumb_url": "/api/static/members/197786-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3048,7 +3054,7 @@
     "photo_url": "/api/static/members/197463.jpg",
     "thumb_url": "/api/static/members/197463-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3069,7 +3075,7 @@
     "photo_url": "/api/static/members/124861.jpg",
     "thumb_url": "/api/static/members/124861-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3090,7 +3096,7 @@
     "photo_url": "/api/static/members/197558.jpg",
     "thumb_url": "/api/static/members/197558-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3111,7 +3117,7 @@
     "photo_url": "/api/static/members/257093.jpg",
     "thumb_url": "/api/static/members/257093-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3132,7 +3138,7 @@
     "photo_url": "/api/static/members/257014.jpg",
     "thumb_url": "/api/static/members/257014-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3153,7 +3159,7 @@
     "photo_url": "/api/static/members/257147.jpg",
     "thumb_url": "/api/static/members/257147-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3258,7 +3264,7 @@
     "photo_url": "/api/static/members/257169.jpg",
     "thumb_url": "/api/static/members/257169-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3279,7 +3285,7 @@
     "photo_url": "/api/static/members/256937.jpg",
     "thumb_url": "/api/static/members/256937-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3300,7 +3306,7 @@
     "photo_url": "/api/static/members/257057.jpg",
     "thumb_url": "/api/static/members/257057-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3321,7 +3327,7 @@
     "photo_url": "/api/static/members/257297.jpg",
     "thumb_url": "/api/static/members/257297-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3363,7 +3369,7 @@
     "photo_url": "/api/static/members/257034.jpg",
     "thumb_url": "/api/static/members/257034-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3405,7 +3411,7 @@
     "photo_url": "/api/static/members/257094.jpg",
     "thumb_url": "/api/static/members/257094-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3426,7 +3432,7 @@
     "photo_url": "/api/static/members/257078.jpg",
     "thumb_url": "/api/static/members/257078-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3447,7 +3453,7 @@
     "photo_url": "/api/static/members/257100.jpg",
     "thumb_url": "/api/static/members/257100-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3468,7 +3474,7 @@
     "photo_url": "/api/static/members/257028.jpg",
     "thumb_url": "/api/static/members/257028-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3489,7 +3495,7 @@
     "photo_url": "/api/static/members/38542.jpg",
     "thumb_url": "/api/static/members/38542-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3510,7 +3516,7 @@
     "photo_url": "/api/static/members/236050.jpg",
     "thumb_url": "/api/static/members/236050-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -3552,7 +3558,7 @@
     "photo_url": "/api/static/members/257030.jpg",
     "thumb_url": "/api/static/members/257030-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3594,7 +3600,7 @@
     "photo_url": "/api/static/members/124858.jpg",
     "thumb_url": "/api/static/members/124858-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3615,7 +3621,7 @@
     "photo_url": "/api/static/members/204333.jpg",
     "thumb_url": "/api/static/members/204333-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3628,7 +3634,11 @@
      "iso_alpha_2": "IT",
      "label": "Italy"
     },
-    "group": null,
+    "group": {
+     "code": "SD",
+     "label": "Progressive Alliance of Socialists and Democrats",
+     "short_label": "S&D"
+    },
     "photo_url": "/api/static/members/257122.jpg",
     "thumb_url": "/api/static/members/257122-104.jpg"
    },
@@ -3674,7 +3684,7 @@
     "photo_url": "/api/static/members/28390.jpg",
     "thumb_url": "/api/static/members/28390-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3758,7 +3768,7 @@
     "photo_url": "/api/static/members/96826.jpg",
     "thumb_url": "/api/static/members/96826-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3821,7 +3831,7 @@
     "photo_url": "/api/static/members/257087.jpg",
     "thumb_url": "/api/static/members/257087-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3884,7 +3894,7 @@
     "photo_url": "/api/static/members/256874.jpg",
     "thumb_url": "/api/static/members/256874-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -3905,7 +3915,7 @@
     "photo_url": "/api/static/members/257048.jpg",
     "thumb_url": "/api/static/members/257048-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3926,7 +3936,7 @@
     "photo_url": "/api/static/members/197579.jpg",
     "thumb_url": "/api/static/members/197579-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3947,7 +3957,7 @@
     "photo_url": "/api/static/members/257237.jpg",
     "thumb_url": "/api/static/members/257237-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3968,7 +3978,7 @@
     "photo_url": "/api/static/members/197473.jpg",
     "thumb_url": "/api/static/members/197473-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3989,7 +3999,7 @@
     "photo_url": "/api/static/members/257095.jpg",
     "thumb_url": "/api/static/members/257095-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4010,7 +4020,7 @@
     "photo_url": "/api/static/members/96787.jpg",
     "thumb_url": "/api/static/members/96787-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4031,7 +4041,7 @@
     "photo_url": "/api/static/members/256853.jpg",
     "thumb_url": "/api/static/members/256853-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4052,7 +4062,7 @@
     "photo_url": "/api/static/members/256851.jpg",
     "thumb_url": "/api/static/members/256851-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4094,7 +4104,7 @@
     "photo_url": "/api/static/members/257076.jpg",
     "thumb_url": "/api/static/members/257076-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -4115,7 +4125,7 @@
     "photo_url": "/api/static/members/256862.jpg",
     "thumb_url": "/api/static/members/256862-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4157,7 +4167,7 @@
     "photo_url": "/api/static/members/260724.jpg",
     "thumb_url": "/api/static/members/260724-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4178,7 +4188,7 @@
     "photo_url": "/api/static/members/99945.jpg",
     "thumb_url": "/api/static/members/99945-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4220,7 +4230,7 @@
     "photo_url": "/api/static/members/28226.jpg",
     "thumb_url": "/api/static/members/28226-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4283,7 +4293,7 @@
     "photo_url": "/api/static/members/257088.jpg",
     "thumb_url": "/api/static/members/257088-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4325,7 +4335,7 @@
     "photo_url": "/api/static/members/197430.jpg",
     "thumb_url": "/api/static/members/197430-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4346,7 +4356,7 @@
     "photo_url": "/api/static/members/96811.jpg",
     "thumb_url": "/api/static/members/96811-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4409,7 +4419,7 @@
     "photo_url": "/api/static/members/257137.jpg",
     "thumb_url": "/api/static/members/257137-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -4430,7 +4440,7 @@
     "photo_url": "/api/static/members/197649.jpg",
     "thumb_url": "/api/static/members/197649-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4493,7 +4503,7 @@
     "photo_url": "/api/static/members/256840.jpg",
     "thumb_url": "/api/static/members/256840-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4514,7 +4524,7 @@
     "photo_url": "/api/static/members/1917.jpg",
     "thumb_url": "/api/static/members/1917-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4535,7 +4545,7 @@
     "photo_url": "/api/static/members/256857.jpg",
     "thumb_url": "/api/static/members/256857-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4577,7 +4587,7 @@
     "photo_url": "/api/static/members/96810.jpg",
     "thumb_url": "/api/static/members/96810-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4598,7 +4608,7 @@
     "photo_url": "/api/static/members/197607.jpg",
     "thumb_url": "/api/static/members/197607-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -4619,7 +4629,7 @@
     "photo_url": "/api/static/members/257098.jpg",
     "thumb_url": "/api/static/members/257098-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4640,7 +4650,7 @@
     "photo_url": "/api/static/members/25758.jpg",
     "thumb_url": "/api/static/members/25758-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4703,7 +4713,7 @@
     "photo_url": "/api/static/members/197414.jpg",
     "thumb_url": "/api/static/members/197414-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4766,7 +4776,7 @@
     "photo_url": "/api/static/members/257066.jpg",
     "thumb_url": "/api/static/members/257066-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -4850,7 +4860,7 @@
     "photo_url": "/api/static/members/197391.jpg",
     "thumb_url": "/api/static/members/197391-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4892,7 +4902,7 @@
     "photo_url": "/api/static/members/101585.jpg",
     "thumb_url": "/api/static/members/101585-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4955,7 +4965,7 @@
     "photo_url": "/api/static/members/197795.jpg",
     "thumb_url": "/api/static/members/197795-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -4976,7 +4986,7 @@
     "photo_url": "/api/static/members/2341.jpg",
     "thumb_url": "/api/static/members/2341-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5018,7 +5028,7 @@
     "photo_url": "/api/static/members/257097.jpg",
     "thumb_url": "/api/static/members/257097-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5102,7 +5112,7 @@
     "photo_url": "/api/static/members/257032.jpg",
     "thumb_url": "/api/static/members/257032-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5123,7 +5133,7 @@
     "photo_url": "/api/static/members/256986.jpg",
     "thumb_url": "/api/static/members/256986-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -5165,7 +5175,7 @@
     "photo_url": "/api/static/members/183916.jpg",
     "thumb_url": "/api/static/members/183916-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5207,7 +5217,7 @@
     "photo_url": "/api/static/members/256939.jpg",
     "thumb_url": "/api/static/members/256939-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5228,7 +5238,7 @@
     "photo_url": "/api/static/members/197794.jpg",
     "thumb_url": "/api/static/members/197794-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -5312,7 +5322,7 @@
     "photo_url": "/api/static/members/256866.jpg",
     "thumb_url": "/api/static/members/256866-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5333,7 +5343,7 @@
     "photo_url": "/api/static/members/251874.jpg",
     "thumb_url": "/api/static/members/251874-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5354,7 +5364,7 @@
     "photo_url": "/api/static/members/124807.jpg",
     "thumb_url": "/api/static/members/124807-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5375,7 +5385,7 @@
     "photo_url": "/api/static/members/125204.jpg",
     "thumb_url": "/api/static/members/125204-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5417,7 +5427,7 @@
     "photo_url": "/api/static/members/202036.jpg",
     "thumb_url": "/api/static/members/202036-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5459,7 +5469,7 @@
     "photo_url": "/api/static/members/197443.jpg",
     "thumb_url": "/api/static/members/197443-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5501,7 +5511,7 @@
     "photo_url": "/api/static/members/256919.jpg",
     "thumb_url": "/api/static/members/256919-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5522,7 +5532,7 @@
     "photo_url": "/api/static/members/257075.jpg",
     "thumb_url": "/api/static/members/257075-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5564,7 +5574,7 @@
     "photo_url": "/api/static/members/125027.jpg",
     "thumb_url": "/api/static/members/125027-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5585,7 +5595,7 @@
     "photo_url": "/api/static/members/257059.jpg",
     "thumb_url": "/api/static/members/257059-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5648,7 +5658,7 @@
     "photo_url": "/api/static/members/257055.jpg",
     "thumb_url": "/api/static/members/257055-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -5669,7 +5679,7 @@
     "photo_url": "/api/static/members/97399.jpg",
     "thumb_url": "/api/static/members/97399-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5711,7 +5721,7 @@
     "photo_url": "/api/static/members/124785.jpg",
     "thumb_url": "/api/static/members/124785-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5774,7 +5784,7 @@
     "photo_url": "/api/static/members/220908.jpg",
     "thumb_url": "/api/static/members/220908-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5795,7 +5805,7 @@
     "photo_url": "/api/static/members/94649.jpg",
     "thumb_url": "/api/static/members/94649-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -5816,7 +5826,7 @@
     "photo_url": "/api/static/members/262021.jpg",
     "thumb_url": "/api/static/members/262021-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5837,7 +5847,7 @@
     "photo_url": "/api/static/members/197780.jpg",
     "thumb_url": "/api/static/members/197780-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5858,7 +5868,7 @@
     "photo_url": "/api/static/members/256830.jpg",
     "thumb_url": "/api/static/members/256830-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5900,7 +5910,7 @@
     "photo_url": "/api/static/members/197618.jpg",
     "thumb_url": "/api/static/members/197618-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5942,7 +5952,7 @@
     "photo_url": "/api/static/members/197543.jpg",
     "thumb_url": "/api/static/members/197543-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5963,7 +5973,7 @@
     "photo_url": "/api/static/members/256803.jpg",
     "thumb_url": "/api/static/members/256803-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5984,7 +5994,7 @@
     "photo_url": "/api/static/members/23816.jpg",
     "thumb_url": "/api/static/members/23816-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6005,7 +6015,7 @@
     "photo_url": "/api/static/members/96830.jpg",
     "thumb_url": "/api/static/members/96830-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6026,7 +6036,7 @@
     "photo_url": "/api/static/members/28150.jpg",
     "thumb_url": "/api/static/members/28150-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6110,7 +6120,7 @@
     "photo_url": "/api/static/members/256985.jpg",
     "thumb_url": "/api/static/members/256985-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6131,7 +6141,7 @@
     "photo_url": "/api/static/members/197444.jpg",
     "thumb_url": "/api/static/members/197444-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6173,7 +6183,7 @@
     "photo_url": "/api/static/members/197514.jpg",
     "thumb_url": "/api/static/members/197514-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6194,7 +6204,7 @@
     "photo_url": "/api/static/members/257033.jpg",
     "thumb_url": "/api/static/members/257033-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6257,7 +6267,7 @@
     "photo_url": "/api/static/members/197646.jpg",
     "thumb_url": "/api/static/members/197646-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6299,7 +6309,7 @@
     "photo_url": "/api/static/members/125023.jpg",
     "thumb_url": "/api/static/members/125023-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6320,7 +6330,7 @@
     "photo_url": "/api/static/members/197682.jpg",
     "thumb_url": "/api/static/members/197682-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6341,7 +6351,7 @@
     "photo_url": "/api/static/members/197800.jpg",
     "thumb_url": "/api/static/members/197800-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6383,7 +6393,7 @@
     "photo_url": "/api/static/members/197412.jpg",
     "thumb_url": "/api/static/members/197412-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6404,7 +6414,7 @@
     "photo_url": "/api/static/members/22418.jpg",
     "thumb_url": "/api/static/members/22418-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6425,7 +6435,7 @@
     "photo_url": "/api/static/members/124895.jpg",
     "thumb_url": "/api/static/members/124895-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6446,7 +6456,7 @@
     "photo_url": "/api/static/members/96780.jpg",
     "thumb_url": "/api/static/members/96780-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6467,7 +6477,7 @@
     "photo_url": "/api/static/members/197770.jpg",
     "thumb_url": "/api/static/members/197770-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6509,7 +6519,7 @@
     "photo_url": "/api/static/members/122978.jpg",
     "thumb_url": "/api/static/members/122978-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6530,7 +6540,7 @@
     "photo_url": "/api/static/members/257065.jpg",
     "thumb_url": "/api/static/members/257065-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6572,7 +6582,7 @@
     "photo_url": "/api/static/members/124715.jpg",
     "thumb_url": "/api/static/members/124715-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6593,7 +6603,7 @@
     "photo_url": "/api/static/members/197624.jpg",
     "thumb_url": "/api/static/members/197624-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6614,7 +6624,7 @@
     "photo_url": "/api/static/members/256918.jpg",
     "thumb_url": "/api/static/members/256918-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6635,7 +6645,7 @@
     "photo_url": "/api/static/members/197392.jpg",
     "thumb_url": "/api/static/members/197392-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6656,7 +6666,7 @@
     "photo_url": "/api/static/members/257144.jpg",
     "thumb_url": "/api/static/members/257144-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6677,7 +6687,7 @@
     "photo_url": "/api/static/members/257120.jpg",
     "thumb_url": "/api/static/members/257120-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6740,7 +6750,7 @@
     "photo_url": "/api/static/members/189065.jpg",
     "thumb_url": "/api/static/members/189065-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -6761,7 +6771,7 @@
     "photo_url": "/api/static/members/197517.jpg",
     "thumb_url": "/api/static/members/197517-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6845,7 +6855,7 @@
     "photo_url": "/api/static/members/256898.jpg",
     "thumb_url": "/api/static/members/256898-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6887,7 +6897,7 @@
     "photo_url": "/api/static/members/257031.jpg",
     "thumb_url": "/api/static/members/257031-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6908,7 +6918,7 @@
     "photo_url": "/api/static/members/197840.jpg",
     "thumb_url": "/api/static/members/197840-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6950,7 +6960,7 @@
     "photo_url": "/api/static/members/256941.jpg",
     "thumb_url": "/api/static/members/256941-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6971,7 +6981,7 @@
     "photo_url": "/api/static/members/257256.jpg",
     "thumb_url": "/api/static/members/257256-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7013,7 +7023,7 @@
     "photo_url": "/api/static/members/257007.jpg",
     "thumb_url": "/api/static/members/257007-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7055,7 +7065,7 @@
     "photo_url": "/api/static/members/96934.jpg",
     "thumb_url": "/api/static/members/96934-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7097,7 +7107,7 @@
     "photo_url": "/api/static/members/197839.jpg",
     "thumb_url": "/api/static/members/197839-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7118,7 +7128,7 @@
     "photo_url": "/api/static/members/197469.jpg",
     "thumb_url": "/api/static/members/197469-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7181,7 +7191,7 @@
     "photo_url": "/api/static/members/257013.jpg",
     "thumb_url": "/api/static/members/257013-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7202,7 +7212,7 @@
     "photo_url": "/api/static/members/191693.jpg",
     "thumb_url": "/api/static/members/191693-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7223,7 +7233,7 @@
     "photo_url": "/api/static/members/125068.jpg",
     "thumb_url": "/api/static/members/125068-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7286,7 +7296,7 @@
     "photo_url": "/api/static/members/96668.jpg",
     "thumb_url": "/api/static/members/96668-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7307,7 +7317,7 @@
     "photo_url": "/api/static/members/249603.jpg",
     "thumb_url": "/api/static/members/249603-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7349,7 +7359,7 @@
     "photo_url": "/api/static/members/256957.jpg",
     "thumb_url": "/api/static/members/256957-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7370,7 +7380,7 @@
     "photo_url": "/api/static/members/256831.jpg",
     "thumb_url": "/api/static/members/256831-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7391,7 +7401,7 @@
     "photo_url": "/api/static/members/256924.jpg",
     "thumb_url": "/api/static/members/256924-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -7412,7 +7422,7 @@
     "photo_url": "/api/static/members/270261.jpg",
     "thumb_url": "/api/static/members/270261-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7433,7 +7443,7 @@
     "photo_url": "/api/static/members/197528.jpg",
     "thumb_url": "/api/static/members/197528-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7454,7 +7464,7 @@
     "photo_url": "/api/static/members/257037.jpg",
     "thumb_url": "/api/static/members/257037-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7475,7 +7485,7 @@
     "photo_url": "/api/static/members/197523.jpg",
     "thumb_url": "/api/static/members/197523-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7496,7 +7506,7 @@
     "photo_url": "/api/static/members/197406.jpg",
     "thumb_url": "/api/static/members/197406-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -7517,7 +7527,7 @@
     "photo_url": "/api/static/members/256861.jpg",
     "thumb_url": "/api/static/members/256861-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7538,7 +7548,7 @@
     "photo_url": "/api/static/members/220871.jpg",
     "thumb_url": "/api/static/members/220871-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7559,7 +7569,7 @@
     "photo_url": "/api/static/members/256846.jpg",
     "thumb_url": "/api/static/members/256846-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7580,7 +7590,7 @@
     "photo_url": "/api/static/members/23699.jpg",
     "thumb_url": "/api/static/members/23699-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7601,7 +7611,7 @@
     "photo_url": "/api/static/members/197525.jpg",
     "thumb_url": "/api/static/members/197525-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7643,7 +7653,7 @@
     "photo_url": "/api/static/members/97968.jpg",
     "thumb_url": "/api/static/members/97968-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7706,7 +7716,7 @@
     "photo_url": "/api/static/members/256845.jpg",
     "thumb_url": "/api/static/members/256845-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7727,7 +7737,7 @@
     "photo_url": "/api/static/members/261038.jpg",
     "thumb_url": "/api/static/members/261038-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7769,7 +7779,7 @@
     "photo_url": "/api/static/members/256864.jpg",
     "thumb_url": "/api/static/members/256864-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7790,7 +7800,7 @@
     "photo_url": "/api/static/members/198084.jpg",
     "thumb_url": "/api/static/members/198084-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7853,7 +7863,7 @@
     "photo_url": "/api/static/members/256973.jpg",
     "thumb_url": "/api/static/members/256973-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7874,7 +7884,7 @@
     "photo_url": "/api/static/members/197445.jpg",
     "thumb_url": "/api/static/members/197445-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7916,7 +7926,7 @@
     "photo_url": "/api/static/members/256865.jpg",
     "thumb_url": "/api/static/members/256865-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8084,7 +8094,7 @@
     "photo_url": "/api/static/members/257261.jpg",
     "thumb_url": "/api/static/members/257261-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8126,7 +8136,7 @@
     "photo_url": "/api/static/members/198373.jpg",
     "thumb_url": "/api/static/members/198373-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8147,7 +8157,7 @@
     "photo_url": "/api/static/members/256920.jpg",
     "thumb_url": "/api/static/members/256920-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8189,7 +8199,7 @@
     "photo_url": "/api/static/members/95074.jpg",
     "thumb_url": "/api/static/members/95074-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8231,7 +8241,7 @@
     "photo_url": "/api/static/members/23781.jpg",
     "thumb_url": "/api/static/members/23781-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8252,7 +8262,7 @@
     "photo_url": "/api/static/members/204336.jpg",
     "thumb_url": "/api/static/members/204336-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8273,7 +8283,7 @@
     "photo_url": "/api/static/members/1927.jpg",
     "thumb_url": "/api/static/members/1927-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8294,7 +8304,7 @@
     "photo_url": "/api/static/members/124808.jpg",
     "thumb_url": "/api/static/members/124808-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8315,7 +8325,7 @@
     "photo_url": "/api/static/members/197494.jpg",
     "thumb_url": "/api/static/members/197494-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8336,7 +8346,7 @@
     "photo_url": "/api/static/members/220896.jpg",
     "thumb_url": "/api/static/members/220896-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8357,7 +8367,7 @@
     "photo_url": "/api/static/members/257129.jpg",
     "thumb_url": "/api/static/members/257129-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8420,7 +8430,7 @@
     "photo_url": "/api/static/members/256860.jpg",
     "thumb_url": "/api/static/members/256860-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8441,7 +8451,7 @@
     "photo_url": "/api/static/members/125042.jpg",
     "thumb_url": "/api/static/members/125042-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8483,7 +8493,7 @@
     "photo_url": "/api/static/members/28399.jpg",
     "thumb_url": "/api/static/members/28399-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8525,7 +8535,7 @@
     "photo_url": "/api/static/members/96709.jpg",
     "thumb_url": "/api/static/members/96709-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8546,7 +8556,7 @@
     "photo_url": "/api/static/members/197493.jpg",
     "thumb_url": "/api/static/members/197493-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8588,7 +8598,7 @@
     "photo_url": "/api/static/members/257149.jpg",
     "thumb_url": "/api/static/members/257149-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8672,7 +8682,7 @@
     "photo_url": "/api/static/members/197653.jpg",
     "thumb_url": "/api/static/members/197653-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8693,7 +8703,7 @@
     "photo_url": "/api/static/members/190713.jpg",
     "thumb_url": "/api/static/members/190713-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8777,7 +8787,7 @@
     "photo_url": "/api/static/members/257082.jpg",
     "thumb_url": "/api/static/members/257082-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8882,7 +8892,7 @@
     "photo_url": "/api/static/members/124828.jpg",
     "thumb_url": "/api/static/members/124828-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8966,7 +8976,7 @@
     "photo_url": "/api/static/members/96936.jpg",
     "thumb_url": "/api/static/members/96936-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9008,7 +9018,7 @@
     "photo_url": "/api/static/members/124691.jpg",
     "thumb_url": "/api/static/members/124691-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9029,7 +9039,7 @@
     "photo_url": "/api/static/members/98341.jpg",
     "thumb_url": "/api/static/members/98341-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9092,7 +9102,7 @@
     "photo_url": "/api/static/members/197841.jpg",
     "thumb_url": "/api/static/members/197841-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9113,7 +9123,7 @@
     "photo_url": "/api/static/members/124806.jpg",
     "thumb_url": "/api/static/members/124806-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9134,7 +9144,7 @@
     "photo_url": "/api/static/members/257300.jpg",
     "thumb_url": "/api/static/members/257300-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9176,7 +9186,7 @@
     "photo_url": "/api/static/members/256980.jpg",
     "thumb_url": "/api/static/members/256980-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9197,7 +9207,7 @@
     "photo_url": "/api/static/members/197662.jpg",
     "thumb_url": "/api/static/members/197662-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9218,7 +9228,7 @@
     "photo_url": "/api/static/members/256943.jpg",
     "thumb_url": "/api/static/members/256943-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9281,7 +9291,7 @@
     "photo_url": "/api/static/members/256974.jpg",
     "thumb_url": "/api/static/members/256974-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9386,7 +9396,7 @@
     "photo_url": "/api/static/members/197824.jpg",
     "thumb_url": "/api/static/members/197824-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9407,7 +9417,7 @@
     "photo_url": "/api/static/members/28400.jpg",
     "thumb_url": "/api/static/members/28400-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9449,7 +9459,7 @@
     "photo_url": "/api/static/members/24942.jpg",
     "thumb_url": "/api/static/members/24942-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9491,7 +9501,7 @@
     "photo_url": "/api/static/members/245770.jpg",
     "thumb_url": "/api/static/members/245770-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9512,7 +9522,7 @@
     "photo_url": "/api/static/members/197711.jpg",
     "thumb_url": "/api/static/members/197711-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9554,7 +9564,7 @@
     "photo_url": "/api/static/members/72779.jpg",
     "thumb_url": "/api/static/members/72779-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9575,7 +9585,7 @@
     "photo_url": "/api/static/members/257151.jpg",
     "thumb_url": "/api/static/members/257151-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9659,7 +9669,7 @@
     "photo_url": "/api/static/members/197647.jpg",
     "thumb_url": "/api/static/members/197647-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9722,7 +9732,7 @@
     "photo_url": "/api/static/members/124802.jpg",
     "thumb_url": "/api/static/members/124802-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9743,7 +9753,7 @@
     "photo_url": "/api/static/members/257103.jpg",
     "thumb_url": "/api/static/members/257103-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9785,7 +9795,7 @@
     "photo_url": "/api/static/members/256843.jpg",
     "thumb_url": "/api/static/members/256843-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9827,7 +9837,7 @@
     "photo_url": "/api/static/members/257027.jpg",
     "thumb_url": "/api/static/members/257027-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9848,7 +9858,7 @@
     "photo_url": "/api/static/members/88882.jpg",
     "thumb_url": "/api/static/members/88882-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9890,7 +9900,7 @@
     "photo_url": "/api/static/members/256847.jpg",
     "thumb_url": "/api/static/members/256847-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9911,7 +9921,7 @@
     "photo_url": "/api/static/members/239260.jpg",
     "thumb_url": "/api/static/members/239260-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9974,7 +9984,7 @@
     "photo_url": "/api/static/members/257039.jpg",
     "thumb_url": "/api/static/members/257039-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9995,7 +10005,7 @@
     "photo_url": "/api/static/members/124784.jpg",
     "thumb_url": "/api/static/members/124784-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10016,7 +10026,7 @@
     "photo_url": "/api/static/members/4289.jpg",
     "thumb_url": "/api/static/members/4289-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10037,7 +10047,7 @@
     "photo_url": "/api/static/members/124701.jpg",
     "thumb_url": "/api/static/members/124701-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10058,7 +10068,7 @@
     "photo_url": "/api/static/members/197802.jpg",
     "thumb_url": "/api/static/members/197802-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10079,7 +10089,7 @@
     "photo_url": "/api/static/members/197734.jpg",
     "thumb_url": "/api/static/members/197734-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -10163,7 +10173,7 @@
     "photo_url": "/api/static/members/107212.jpg",
     "thumb_url": "/api/static/members/107212-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10184,7 +10194,7 @@
     "photo_url": "/api/static/members/257049.jpg",
     "thumb_url": "/api/static/members/257049-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10247,7 +10257,7 @@
     "photo_url": "/api/static/members/197432.jpg",
     "thumb_url": "/api/static/members/197432-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10310,7 +10320,7 @@
     "photo_url": "/api/static/members/197687.jpg",
     "thumb_url": "/api/static/members/197687-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10352,7 +10362,7 @@
     "photo_url": "/api/static/members/257018.jpg",
     "thumb_url": "/api/static/members/257018-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10373,7 +10383,7 @@
     "photo_url": "/api/static/members/2152.jpg",
     "thumb_url": "/api/static/members/2152-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10394,7 +10404,7 @@
     "photo_url": "/api/static/members/257086.jpg",
     "thumb_url": "/api/static/members/257086-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10415,7 +10425,7 @@
     "photo_url": "/api/static/members/129073.jpg",
     "thumb_url": "/api/static/members/129073-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10436,7 +10446,7 @@
     "photo_url": "/api/static/members/256993.jpg",
     "thumb_url": "/api/static/members/256993-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10478,7 +10488,7 @@
     "photo_url": "/api/static/members/256989.jpg",
     "thumb_url": "/api/static/members/256989-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10499,7 +10509,7 @@
     "photo_url": "/api/static/members/125093.jpg",
     "thumb_url": "/api/static/members/125093-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -10562,7 +10572,7 @@
     "photo_url": "/api/static/members/257040.jpg",
     "thumb_url": "/api/static/members/257040-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10625,7 +10635,7 @@
     "photo_url": "/api/static/members/110673.jpg",
     "thumb_url": "/api/static/members/110673-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10709,7 +10719,7 @@
     "photo_url": "/api/static/members/197845.jpg",
     "thumb_url": "/api/static/members/197845-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10751,7 +10761,7 @@
     "photo_url": "/api/static/members/197738.jpg",
     "thumb_url": "/api/static/members/197738-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10814,7 +10824,7 @@
     "photo_url": "/api/static/members/257150.jpg",
     "thumb_url": "/api/static/members/257150-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -10898,7 +10908,7 @@
     "photo_url": "/api/static/members/40599.jpg",
     "thumb_url": "/api/static/members/40599-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10961,7 +10971,7 @@
     "photo_url": "/api/static/members/256844.jpg",
     "thumb_url": "/api/static/members/256844-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10982,7 +10992,7 @@
     "photo_url": "/api/static/members/257145.jpg",
     "thumb_url": "/api/static/members/257145-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11003,7 +11013,7 @@
     "photo_url": "/api/static/members/197404.jpg",
     "thumb_url": "/api/static/members/197404-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11024,7 +11034,7 @@
     "photo_url": "/api/static/members/257107.jpg",
     "thumb_url": "/api/static/members/257107-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11045,7 +11055,7 @@
     "photo_url": "/api/static/members/256907.jpg",
     "thumb_url": "/api/static/members/256907-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11087,7 +11097,7 @@
     "photo_url": "/api/static/members/257128.jpg",
     "thumb_url": "/api/static/members/257128-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11108,7 +11118,7 @@
     "photo_url": "/api/static/members/197820.jpg",
     "thumb_url": "/api/static/members/197820-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11129,7 +11139,7 @@
     "photo_url": "/api/static/members/257041.jpg",
     "thumb_url": "/api/static/members/257041-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11192,7 +11202,7 @@
     "photo_url": "/api/static/members/124850.jpg",
     "thumb_url": "/api/static/members/124850-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11213,7 +11223,7 @@
     "photo_url": "/api/static/members/188945.jpg",
     "thumb_url": "/api/static/members/188945-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11234,7 +11244,7 @@
     "photo_url": "/api/static/members/256902.jpg",
     "thumb_url": "/api/static/members/256902-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11255,7 +11265,7 @@
     "photo_url": "/api/static/members/188096.jpg",
     "thumb_url": "/api/static/members/188096-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11276,7 +11286,7 @@
     "photo_url": "/api/static/members/257104.jpg",
     "thumb_url": "/api/static/members/257104-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11318,7 +11328,7 @@
     "photo_url": "/api/static/members/96998.jpg",
     "thumb_url": "/api/static/members/96998-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11339,7 +11349,7 @@
     "photo_url": "/api/static/members/103381.jpg",
     "thumb_url": "/api/static/members/103381-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11402,7 +11412,7 @@
     "photo_url": "/api/static/members/197413.jpg",
     "thumb_url": "/api/static/members/197413-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11486,7 +11496,7 @@
     "photo_url": "/api/static/members/256904.jpg",
     "thumb_url": "/api/static/members/256904-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11528,7 +11538,7 @@
     "photo_url": "/api/static/members/206158.jpg",
     "thumb_url": "/api/static/members/206158-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11549,7 +11559,7 @@
     "photo_url": "/api/static/members/204413.jpg",
     "thumb_url": "/api/static/members/204413-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11570,7 +11580,7 @@
     "photo_url": "/api/static/members/96653.jpg",
     "thumb_url": "/api/static/members/96653-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11612,7 +11622,7 @@
     "photo_url": "/api/static/members/197773.jpg",
     "thumb_url": "/api/static/members/197773-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11717,7 +11727,7 @@
     "photo_url": "/api/static/members/125670.jpg",
     "thumb_url": "/api/static/members/125670-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11738,7 +11748,7 @@
     "photo_url": "/api/static/members/257127.jpg",
     "thumb_url": "/api/static/members/257127-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11759,7 +11769,7 @@
     "photo_url": "/api/static/members/98219.jpg",
     "thumb_url": "/api/static/members/98219-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11843,7 +11853,7 @@
     "photo_url": "/api/static/members/197578.jpg",
     "thumb_url": "/api/static/members/197578-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11906,7 +11916,7 @@
     "photo_url": "/api/static/members/256809.jpg",
     "thumb_url": "/api/static/members/256809-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11927,7 +11937,7 @@
     "photo_url": "/api/static/members/256917.jpg",
     "thumb_url": "/api/static/members/256917-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11948,7 +11958,7 @@
     "photo_url": "/api/static/members/257113.jpg",
     "thumb_url": "/api/static/members/257113-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11969,7 +11979,7 @@
     "photo_url": "/api/static/members/37312.jpg",
     "thumb_url": "/api/static/members/37312-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11990,7 +12000,7 @@
     "photo_url": "/api/static/members/213330.jpg",
     "thumb_url": "/api/static/members/213330-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -12011,7 +12021,7 @@
     "photo_url": "/api/static/members/256979.jpg",
     "thumb_url": "/api/static/members/256979-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12053,7 +12063,7 @@
     "photo_url": "/api/static/members/197670.jpg",
     "thumb_url": "/api/static/members/197670-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12116,7 +12126,7 @@
     "photo_url": "/api/static/members/197422.jpg",
     "thumb_url": "/api/static/members/197422-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12137,7 +12147,7 @@
     "photo_url": "/api/static/members/267485.jpg",
     "thumb_url": "/api/static/members/267485-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12158,7 +12168,7 @@
     "photo_url": "/api/static/members/28223.jpg",
     "thumb_url": "/api/static/members/28223-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12200,7 +12210,7 @@
     "photo_url": "/api/static/members/197425.jpg",
     "thumb_url": "/api/static/members/197425-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12221,7 +12231,7 @@
     "photo_url": "/api/static/members/256959.jpg",
     "thumb_url": "/api/static/members/256959-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12242,7 +12252,7 @@
     "photo_url": "/api/static/members/257009.jpg",
     "thumb_url": "/api/static/members/257009-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12284,7 +12294,7 @@
     "photo_url": "/api/static/members/197677.jpg",
     "thumb_url": "/api/static/members/197677-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12305,7 +12315,7 @@
     "photo_url": "/api/static/members/86057.jpg",
     "thumb_url": "/api/static/members/86057-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12326,7 +12336,7 @@
     "photo_url": "/api/static/members/256971.jpg",
     "thumb_url": "/api/static/members/256971-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12347,7 +12357,7 @@
     "photo_url": "/api/static/members/197426.jpg",
     "thumb_url": "/api/static/members/197426-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12368,7 +12378,7 @@
     "photo_url": "/api/static/members/256946.jpg",
     "thumb_url": "/api/static/members/256946-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12389,7 +12399,7 @@
     "photo_url": "/api/static/members/201945.jpg",
     "thumb_url": "/api/static/members/201945-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12452,7 +12462,7 @@
     "photo_url": "/api/static/members/125325.jpg",
     "thumb_url": "/api/static/members/125325-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12494,7 +12504,7 @@
     "photo_url": "/api/static/members/197417.jpg",
     "thumb_url": "/api/static/members/197417-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12536,7 +12546,7 @@
     "photo_url": "/api/static/members/197784.jpg",
     "thumb_url": "/api/static/members/197784-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12557,7 +12567,7 @@
     "photo_url": "/api/static/members/256889.jpg",
     "thumb_url": "/api/static/members/256889-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12599,7 +12609,7 @@
     "photo_url": "/api/static/members/256871.jpg",
     "thumb_url": "/api/static/members/256871-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12620,7 +12630,7 @@
     "photo_url": "/api/static/members/257068.jpg",
     "thumb_url": "/api/static/members/257068-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12641,7 +12651,7 @@
     "photo_url": "/api/static/members/257109.jpg",
     "thumb_url": "/api/static/members/257109-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -12704,7 +12714,7 @@
     "photo_url": "/api/static/members/256916.jpg",
     "thumb_url": "/api/static/members/256916-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12746,7 +12756,7 @@
     "photo_url": "/api/static/members/119435.jpg",
     "thumb_url": "/api/static/members/119435-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12809,7 +12819,7 @@
     "photo_url": "/api/static/members/256926.jpg",
     "thumb_url": "/api/static/members/256926-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12830,7 +12840,7 @@
     "photo_url": "/api/static/members/257101.jpg",
     "thumb_url": "/api/static/members/257101-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12851,7 +12861,7 @@
     "photo_url": "/api/static/members/256962.jpg",
     "thumb_url": "/api/static/members/256962-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12872,7 +12882,7 @@
     "photo_url": "/api/static/members/197772.jpg",
     "thumb_url": "/api/static/members/197772-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12914,7 +12924,28 @@
     "photo_url": "/api/static/members/257119.jpg",
     "thumb_url": "/api/static/members/257119-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
+  },
+  {
+   "member": {
+    "id": 256991,
+    "first_name": "Sebastiaan",
+    "last_name": "ST\u00d6TELER",
+    "full_name": "Sebastiaan ST\u00d6TELER",
+    "country": {
+     "code": "NLD",
+     "iso_alpha_2": "NL",
+     "label": "Netherlands"
+    },
+    "group": {
+     "code": "PFE",
+     "label": "Patriots for Europe",
+     "short_label": "PfE"
+    },
+    "photo_url": "/api/static/members/256991.jpg",
+    "thumb_url": "/api/static/members/256991-104.jpg"
+   },
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -12935,7 +12966,7 @@
     "photo_url": "/api/static/members/256839.jpg",
     "thumb_url": "/api/static/members/256839-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12977,7 +13008,7 @@
     "photo_url": "/api/static/members/257026.jpg",
     "thumb_url": "/api/static/members/257026-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12998,7 +13029,7 @@
     "photo_url": "/api/static/members/256855.jpg",
     "thumb_url": "/api/static/members/256855-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -13082,7 +13113,7 @@
     "photo_url": "/api/static/members/124813.jpg",
     "thumb_url": "/api/static/members/124813-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13124,7 +13155,7 @@
     "photo_url": "/api/static/members/257160.jpg",
     "thumb_url": "/api/static/members/257160-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13145,7 +13176,7 @@
     "photo_url": "/api/static/members/256863.jpg",
     "thumb_url": "/api/static/members/256863-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13250,7 +13281,7 @@
     "photo_url": "/api/static/members/257089.jpg",
     "thumb_url": "/api/static/members/257089-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13271,7 +13302,7 @@
     "photo_url": "/api/static/members/256968.jpg",
     "thumb_url": "/api/static/members/256968-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13292,7 +13323,7 @@
     "photo_url": "/api/static/members/197655.jpg",
     "thumb_url": "/api/static/members/197655-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13313,7 +13344,7 @@
     "photo_url": "/api/static/members/204449.jpg",
     "thumb_url": "/api/static/members/204449-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13418,7 +13449,7 @@
     "photo_url": "/api/static/members/256885.jpg",
     "thumb_url": "/api/static/members/256885-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13439,7 +13470,7 @@
     "photo_url": "/api/static/members/197402.jpg",
     "thumb_url": "/api/static/members/197402-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13481,7 +13512,7 @@
     "photo_url": "/api/static/members/197672.jpg",
     "thumb_url": "/api/static/members/197672-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13523,7 +13554,7 @@
     "photo_url": "/api/static/members/256814.jpg",
     "thumb_url": "/api/static/members/256814-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13544,7 +13575,7 @@
     "photo_url": "/api/static/members/125104.jpg",
     "thumb_url": "/api/static/members/125104-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13565,7 +13596,7 @@
     "photo_url": "/api/static/members/219652.jpg",
     "thumb_url": "/api/static/members/219652-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13628,7 +13659,7 @@
     "photo_url": "/api/static/members/257163.jpg",
     "thumb_url": "/api/static/members/257163-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -13649,7 +13680,7 @@
     "photo_url": "/api/static/members/124795.jpg",
     "thumb_url": "/api/static/members/124795-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13712,7 +13743,7 @@
     "photo_url": "/api/static/members/256804.jpg",
     "thumb_url": "/api/static/members/256804-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13775,7 +13806,7 @@
     "photo_url": "/api/static/members/256950.jpg",
     "thumb_url": "/api/static/members/256950-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13796,7 +13827,7 @@
     "photo_url": "/api/static/members/198183.jpg",
     "thumb_url": "/api/static/members/198183-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13817,7 +13848,7 @@
     "photo_url": "/api/static/members/256806.jpg",
     "thumb_url": "/api/static/members/256806-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13859,7 +13890,7 @@
     "photo_url": "/api/static/members/257050.jpg",
     "thumb_url": "/api/static/members/257050-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -13922,7 +13953,7 @@
     "photo_url": "/api/static/members/197810.jpg",
     "thumb_url": "/api/static/members/197810-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13943,7 +13974,7 @@
     "photo_url": "/api/static/members/28617.jpg",
     "thumb_url": "/api/static/members/28617-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14027,7 +14058,7 @@
     "photo_url": "/api/static/members/257438.jpg",
     "thumb_url": "/api/static/members/257438-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14048,7 +14079,7 @@
     "photo_url": "/api/static/members/256976.jpg",
     "thumb_url": "/api/static/members/256976-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14069,7 +14100,7 @@
     "photo_url": "/api/static/members/256884.jpg",
     "thumb_url": "/api/static/members/256884-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14111,7 +14142,7 @@
     "photo_url": "/api/static/members/256983.jpg",
     "thumb_url": "/api/static/members/256983-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14132,7 +14163,7 @@
     "photo_url": "/api/static/members/125106.jpg",
     "thumb_url": "/api/static/members/125106-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14188,9 +14219,9 @@
      "label": "Italy"
     },
     "group": {
-     "code": "NI",
-     "label": "Non-attached Members",
-     "short_label": "Non-attached"
+     "code": "PFE",
+     "label": "Patriots for Europe",
+     "short_label": "PfE"
     },
     "photo_url": "/api/static/members/257125.jpg",
     "thumb_url": "/api/static/members/257125-104.jpg"
@@ -14237,7 +14268,7 @@
     "photo_url": "/api/static/members/257061.jpg",
     "thumb_url": "/api/static/members/257061-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14300,7 +14331,7 @@
     "photo_url": "/api/static/members/257099.jpg",
     "thumb_url": "/api/static/members/257099-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14321,7 +14352,7 @@
     "photo_url": "/api/static/members/96756.jpg",
     "thumb_url": "/api/static/members/96756-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14342,7 +14373,7 @@
     "photo_url": "/api/static/members/256879.jpg",
     "thumb_url": "/api/static/members/256879-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14363,7 +14394,7 @@
     "photo_url": "/api/static/members/256811.jpg",
     "thumb_url": "/api/static/members/256811-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14384,7 +14415,7 @@
     "photo_url": "/api/static/members/260035.jpg",
     "thumb_url": "/api/static/members/260035-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14405,7 +14436,7 @@
     "photo_url": "/api/static/members/256859.jpg",
     "thumb_url": "/api/static/members/256859-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14426,7 +14457,7 @@
     "photo_url": "/api/static/members/257437.jpg",
     "thumb_url": "/api/static/members/257437-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14447,7 +14478,7 @@
     "photo_url": "/api/static/members/34232.jpg",
     "thumb_url": "/api/static/members/34232-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14489,7 +14520,7 @@
     "photo_url": "/api/static/members/98582.jpg",
     "thumb_url": "/api/static/members/98582-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14510,7 +14541,7 @@
     "photo_url": "/api/static/members/199941.jpg",
     "thumb_url": "/api/static/members/199941-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14552,7 +14583,7 @@
     "photo_url": "/api/static/members/257143.jpg",
     "thumb_url": "/api/static/members/257143-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14594,7 +14625,7 @@
     "photo_url": "/api/static/members/256966.jpg",
     "thumb_url": "/api/static/members/256966-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14615,7 +14646,7 @@
     "photo_url": "/api/static/members/197537.jpg",
     "thumb_url": "/api/static/members/197537-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14636,7 +14667,7 @@
     "photo_url": "/api/static/members/96761.jpg",
     "thumb_url": "/api/static/members/96761-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14657,7 +14688,7 @@
     "photo_url": "/api/static/members/125065.jpg",
     "thumb_url": "/api/static/members/125065-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14678,7 +14709,7 @@
     "photo_url": "/api/static/members/197552.jpg",
     "thumb_url": "/api/static/members/197552-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14699,7 +14730,7 @@
     "photo_url": "/api/static/members/204400.jpg",
     "thumb_url": "/api/static/members/204400-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14720,7 +14751,7 @@
     "photo_url": "/api/static/members/37324.jpg",
     "thumb_url": "/api/static/members/37324-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14762,7 +14793,7 @@
     "photo_url": "/api/static/members/197863.jpg",
     "thumb_url": "/api/static/members/197863-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14783,7 +14814,7 @@
     "photo_url": "/api/static/members/197429.jpg",
     "thumb_url": "/api/static/members/197429-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14804,7 +14835,7 @@
     "photo_url": "/api/static/members/197405.jpg",
     "thumb_url": "/api/static/members/197405-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14825,7 +14856,7 @@
     "photo_url": "/api/static/members/256967.jpg",
     "thumb_url": "/api/static/members/256967-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14846,7 +14877,7 @@
     "photo_url": "/api/static/members/257045.jpg",
     "thumb_url": "/api/static/members/257045-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14867,7 +14898,7 @@
     "photo_url": "/api/static/members/257046.jpg",
     "thumb_url": "/api/static/members/257046-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14888,7 +14919,7 @@
     "photo_url": "/api/static/members/28229.jpg",
     "thumb_url": "/api/static/members/28229-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14909,7 +14940,7 @@
     "photo_url": "/api/static/members/256977.jpg",
     "thumb_url": "/api/static/members/256977-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14951,7 +14982,7 @@
     "photo_url": "/api/static/members/261796.jpg",
     "thumb_url": "/api/static/members/261796-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -14993,7 +15024,7 @@
     "photo_url": "/api/static/members/197769.jpg",
     "thumb_url": "/api/static/members/197769-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15014,7 +15045,7 @@
     "photo_url": "/api/static/members/220801.jpg",
     "thumb_url": "/api/static/members/220801-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15035,7 +15066,7 @@
     "photo_url": "/api/static/members/39725.jpg",
     "thumb_url": "/api/static/members/39725-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15056,7 +15087,7 @@
     "photo_url": "/api/static/members/197652.jpg",
     "thumb_url": "/api/static/members/197652-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15077,7 +15108,7 @@
     "photo_url": "/api/static/members/197421.jpg",
     "thumb_url": "/api/static/members/197421-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15119,7 +15150,7 @@
     "photo_url": "/api/static/members/5392.jpg",
     "thumb_url": "/api/static/members/5392-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15140,7 +15171,7 @@
     "photo_url": "/api/static/members/185619.jpg",
     "thumb_url": "/api/static/members/185619-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15182,7 +15213,7 @@
     "photo_url": "/api/static/members/257011.jpg",
     "thumb_url": "/api/static/members/257011-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15224,7 +15255,7 @@
     "photo_url": "/api/static/members/197842.jpg",
     "thumb_url": "/api/static/members/197842-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15329,7 +15360,7 @@
     "photo_url": "/api/static/members/197606.jpg",
     "thumb_url": "/api/static/members/197606-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15350,7 +15381,7 @@
     "photo_url": "/api/static/members/124713.jpg",
     "thumb_url": "/api/static/members/124713-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15371,7 +15402,7 @@
     "photo_url": "/api/static/members/124893.jpg",
     "thumb_url": "/api/static/members/124893-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15434,7 +15465,7 @@
     "photo_url": "/api/static/members/197621.jpg",
     "thumb_url": "/api/static/members/197621-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15455,7 +15486,7 @@
     "photo_url": "/api/static/members/185341.jpg",
     "thumb_url": "/api/static/members/185341-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15476,7 +15507,7 @@
     "photo_url": "/api/static/members/96933.jpg",
     "thumb_url": "/api/static/members/96933-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15497,7 +15528,7 @@
     "photo_url": "/api/static/members/28615.jpg",
     "thumb_url": "/api/static/members/28615-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -15539,7 +15570,7 @@
     "photo_url": "/api/static/members/257010.jpg",
     "thumb_url": "/api/static/members/257010-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15560,7 +15591,7 @@
     "photo_url": "/api/static/members/96791.jpg",
     "thumb_url": "/api/static/members/96791-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15581,7 +15612,7 @@
     "photo_url": "/api/static/members/257085.jpg",
     "thumb_url": "/api/static/members/257085-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15644,104 +15675,76 @@
     "photo_url": "/api/static/members/58766.jpg",
     "thumb_url": "/api/static/members/58766-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   }
  ],
  "sources": [
   {
-   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-02-10-RCV_FR.xml",
-   "accessed_at": "2026-02-10T16:00:03.669456",
-   "name": "Results of roll-call votes (XML)"
-  },
-  {
-   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0255_EN.html",
-   "accessed_at": "2026-02-10T16:00:10.710766",
-   "name": "Report or resolution"
-  },
-  {
-   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0132(COD)",
-   "accessed_at": "2026-02-10T16:01:05.325652",
-   "name": "Procedure file (Legislative Observatory)"
-  },
-  {
-   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-02-10-VOT_EN.xml",
-   "accessed_at": "2026-02-11T20:00:02.588185",
+   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-10-21-VOT_EN.xml",
+   "accessed_at": "2025-10-22T19:00:13.445557",
    "name": "Results of votes (XML)"
   },
   {
-   "url": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33617",
-   "accessed_at": "2026-03-10T12:31:19.300227",
-   "name": "Press release"
+   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2025-10-21-RCV_FR.xml",
+   "accessed_at": "2025-10-28T22:04:54.301770",
+   "name": "Results of roll-call votes (XML)"
+  },
+  {
+   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0020_EN.html",
+   "accessed_at": "2025-10-28T22:05:00.382576",
+   "name": "Report or resolution"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=EP:P10_A(2025)0020",
+   "accessed_at": "2025-10-28T22:05:12.115858",
+   "name": "Report or resolution (EUR-Lex)"
+  },
+  {
+   "url": "https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0455(COD)",
+   "accessed_at": "2025-10-28T22:05:47.579453",
+   "name": "Procedure file (Legislative Observatory)"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/procedure/EN/2023_455",
+   "accessed_at": "2025-10-28T22:05:55.421785",
+   "name": "Procedure file (EUR-Lex)"
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1855084",
+   "accessed_at": "2026-01-11T23:38:03.745788",
+   "name": "Vote summary (Legislative Observatory)"
   }
  ],
  "links": [
   {
-   "title": "Press release",
-   "description": "Press release published by the European Parliament\u2019s Press Service. Press releases often contain more information about the subject of the vote and next steps.",
-   "url": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33617"
+   "title": "Summary",
+   "description": "Summary published in the Legislative Observatory. Summaries contain more information about the subject of the vote. Compared to press releases, they are usually more detailed, but can also contain more technical language.",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1855084"
   },
   {
    "title": "Report or resolution",
    "description": "Original text of the report or resolution as tabled. The text may be different from the adopted text if MEPs have adopted amendments.",
-   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0255_EN.html"
+   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0020_EN.html"
   },
   {
    "title": "Texts adopted",
    "description": "Texts adopted during the plenary session, including changes from amendments.",
-   "url": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0026_EN.html"
+   "url": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0047_EN.html"
   },
   {
    "title": "Legislative Observatory",
    "description": "Find out more about the procedure this vote is part of. This includes information about the current state of the procedure, past and upcoming steps, as well as key players.",
-   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0132(COD)"
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0455(COD)"
   }
  ],
  "related": [
   {
-   "id": "184418",
+   "id": "179790",
    "is_main": true,
-   "timestamp": "2026-02-10T12:58:00",
-   "description": "Proposition de rejet - Am 14= 15= 16=",
-   "amendment_subject": "Proposal for rejection",
-   "amendment_number": "14=\n15=\n16=",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "GUE_NGL",
-      "label": "The Left in the European Parliament",
-      "short_label": "The Left"
-     },
-     "committee": null
-    },
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "SD",
-      "label": "Progressive Alliance of Socialists and Democrats",
-      "short_label": "S&D"
-     },
-     "committee": null
-    },
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "GREEN_EFA",
-      "label": "Greens/European Free Alliance",
-      "short_label": "Greens/EFA"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "184168",
-   "is_main": true,
-   "timestamp": "2026-02-10T12:58:15",
-   "description": "Accord provisoire - Am 13",
+   "timestamp": "2025-10-21T12:20:59",
+   "description": "Accord provisoire - Am 20",
    "amendment_subject": "Provisional agreement",
-   "amendment_number": "13",
+   "amendment_number": "20",
    "amendment_authors": [
     {
      "type": "COMMITTEE",

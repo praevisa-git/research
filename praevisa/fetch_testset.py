@@ -14,6 +14,8 @@ Inclusion filter is exactly the one frozen in METHODOLOGY.md §2:
   * procedure.type == "COD"
   * result in {ADOPTED, REJECTED}
   * a real per-group roll-call exists (stats.by_group non-empty, some ballots cast)
+  * timestamp >= 2024-07-16 (10th parliamentary term only; Decision 4) — keeps the
+    group taxonomy consistent (no defunct 9th-term ID group)
 
 Selection (METHODOLOGY.md §2): from the eligible COD pool, pick a set spanning the
 range of observed EP yes-share. Deterministic: sort the pool ascending by yes-share
@@ -34,6 +36,7 @@ from pathlib import Path
 API = "https://howtheyvote.eu/api"
 PAGE_SIZE = 100
 THROTTLE_S = 0.10          # polite delay between detail fetches
+TERM10_CUTOFF = "2024-07-16"   # 10th parliamentary term start (Decision 4)
 TARGET_N = 22              # desired test-set size (clamped to [18, 25] by pool)
 MIN_N, MAX_N = 18, 25
 
@@ -61,13 +64,17 @@ def _ep_yes_share(by_group: list[dict]) -> float | None:
 
 
 def list_candidates() -> list[dict]:
-    """All list-level stubs that are is_main and ADOPTED/REJECTED."""
+    """List stubs that are is_main, ADOPTED/REJECTED, and 10th-term (Decision 4)."""
     out: list[dict] = []
     page = 1
     while True:
         d = _get(f"{API}/votes?page={page}&page_size={PAGE_SIZE}")
         for r in d["results"]:
-            if r.get("is_main") and r.get("result") in ("ADOPTED", "REJECTED"):
+            if (
+                r.get("is_main")
+                and r.get("result") in ("ADOPTED", "REJECTED")
+                and (r.get("timestamp") or "") >= TERM10_CUTOFF
+            ):
                 out.append(r)
         if not d.get("has_next"):
             break
@@ -158,7 +165,8 @@ def main() -> None:
 
     index = {
         "source": "howtheyvote.eu/api",
-        "inclusion_filter": "is_main & procedure.type==COD & result in {ADOPTED,REJECTED} & non-empty stats.by_group",
+        "inclusion_filter": f"is_main & procedure.type==COD & result in {{ADOPTED,REJECTED}} & non-empty stats.by_group & timestamp>={TERM10_CUTOFF}",
+        "term": "10th parliamentary term only (Decision 4)",
         "yes_share_denominator": "FOR/(FOR+AGAINST+ABSTENTION) [DID_NOT_VOTE excluded]",
         "n_candidates_scanned": len(candidates),
         "n_cod_pool": len(pool),

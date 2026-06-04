@@ -50,6 +50,16 @@ Inclusion filter (all must hold):
 - `procedure.type == "COD"` (ordinary legislative procedure, ***I first reading)
 - `result ∈ {ADOPTED, REJECTED}`
 - a real per-group roll-call exists (`stats.by_group` present and non-empty)
+- `timestamp >= 2024-07-16` (10th parliamentary term only) — [RESOLVED — DECISION 4]
+
+**Why the term restriction.** A group's yes-rate is only a stable prediction unit
+*within* a parliamentary term. The 9th term (to 2024-04) reports an `ID` group
+(Identity & Democracy) that dissolved at the June-2024 election with no clean
+successor (members split across PfE, ESN, ECR, NI); the 10th term reports PfE+ESN
+instead. Mixing terms would either fabricate a false group continuity or rest each
+group's LOO mean on a term-specific subset. We restrict to the 10th term, which
+also matches the product's scope. The eligible 10th-term COD pool is ~180 files —
+ample for a yes-share-spanning set including rejected files.
 
 Target: **18–25 files**, deliberately spanning a range of EP yes-shares (not all
 near-unanimous). Selection within the eligible pool is by spread of EP yes-share,
@@ -174,3 +184,9 @@ Resolved: `MAJORITY_SET = {EPP, S&D, Renew}` (centrist trio); all others → 0.0
 **DECISION 3 — aggregate EP yes-share weights `w(g)`.**
 Resolved: weight by each group's **seat share** from `praevisa/data.py`.
 (Rejected: weight by actual ballots cast on the file.)
+
+**DECISION 4 — parliamentary term scope.**
+Resolved: **10th term only** (`timestamp >= 2024-07-16`). Surfaced after the first
+pull returned a term-straddling set (16 ninth-term files carrying the now-defunct
+`ID` group). (Rejected: keep mixed set with a per-term group superset; keep mixed
+set mapping `ID→PfE`.)

@@ -1,69 +1,88 @@
 {
- "id": "190938",
+ "id": "184191",
  "is_main": true,
- "timestamp": "2026-04-29T13:26:36",
- "display_title": "Market stability reserve for the buildings, road transport and additional sector",
- "description": "Proposition de la Commission",
- "amendment_subject": null,
- "amendment_number": null,
- "amendment_authors": null,
- "reference": "A10-0098/2026",
- "geo_areas": [],
+ "timestamp": "2026-02-10T13:02:28",
+ "display_title": "Bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products",
+ "description": "Accord provisoire - Am 89",
+ "amendment_subject": "Provisional agreement",
+ "amendment_number": "89",
+ "amendment_authors": [
+  {
+   "type": "COMMITTEE",
+   "group": null,
+   "committee": null
+  }
+ ],
+ "reference": "A10-0254/2025",
+ "geo_areas": [
+  {
+   "code": "ARG",
+   "iso_alpha_2": "AR",
+   "label": "Argentina"
+  },
+  {
+   "code": "BRA",
+   "iso_alpha_2": "BR",
+   "label": "Brazil"
+  },
+  {
+   "code": "PRY",
+   "iso_alpha_2": "PY",
+   "label": "Paraguay"
+  },
+  {
+   "code": "URY",
+   "iso_alpha_2": "UY",
+   "label": "Uruguay"
+  }
+ ],
  "eurovoc_concepts": [],
  "oeil_subjects": [
   {
-   "code": "3.60.08",
-   "label": "Energy efficiency"
+   "code": "6.20.05",
+   "label": "Multilateral and plurilateral economic and trade agreements and relations"
   },
   {
-   "code": "3.70.02",
-   "label": "Atmospheric pollution, motor vehicle pollution"
-  },
-  {
-   "code": "3.70.03",
-   "label": "Climate policy, climate change, ozone layer"
-  },
-  {
-   "code": "3.70.18",
-   "label": "International and regional environment protection measures and agreements"
+   "code": "6.40.10",
+   "label": "Relations with Latin America, Central America, Caribbean islands"
   }
  ],
  "topics": [
   {
-   "code": "energy",
-   "label": "Energy"
+   "code": "international-trade",
+   "label": "International trade"
   },
   {
-   "code": "climate-and-environment",
-   "label": "Climate and environment"
-  },
-  {
-   "code": "climate-change",
-   "label": "Climate change"
+   "code": "foreign-affairs",
+   "label": "Foreign affairs"
   }
  ],
  "responsible_committees": [
   {
-   "code": "ENVI",
-   "label": "Environment, Climate and Food Safety",
-   "abbreviation": "ENVI"
+   "code": "INTA",
+   "label": "International Trade",
+   "abbreviation": "INTA"
   }
  ],
  "result": "ADOPTED",
  "procedure": {
-  "title": "Market stability reserve for the buildings, road transport and additional sectors",
+  "title": "Bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products",
   "type": "COD",
-  "reference": "2025/0380(COD)",
+  "reference": "2025/0322(COD)",
   "stage": "OLP_FIRST_READING"
  },
- "snippet": null,
- "sharepic_url": "/api/static/votes/sharepic-190938.png",
+ "snippet": {
+  "text": "<p>The European Parliament adopted by 483 votes to 102, with 67 abstentions, a legislative resolution on the proposal for a regulation of the European Parliament and of the Council implementing the bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products.</p><p>The proposed regulation sets out how the EU could temporarily suspend tariff preferences envisaged in the EU-Mercosur trade deal on agricultural imports from the Mercosur countries (Argentina, Brazil, Paraguay, and Uruguay), if a surge in these imports harms EU producers.</p><p>Parliament adopted its position at first reading by amending the Commission's proposal\u2026</p>",
+  "source_type": "OEIL_SUMMARY",
+  "source_url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1887233"
+ },
+ "sharepic_url": "/api/static/votes/sharepic-184191.png",
  "stats": {
   "total": {
-   "FOR": 433,
-   "AGAINST": 120,
-   "ABSTENTION": 91,
-   "DID_NOT_VOTE": 75
+   "FOR": 483,
+   "AGAINST": 102,
+   "ABSTENTION": 67,
+   "DID_NOT_VOTE": 67
   },
   "by_group": [
    {
@@ -73,10 +92,10 @@
      "short_label": "EPP"
     },
     "stats": {
-     "FOR": 140,
-     "AGAINST": 1,
-     "ABSTENTION": 18,
-     "DID_NOT_VOTE": 26
+     "FOR": 170,
+     "AGAINST": 7,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
     }
    },
    {
@@ -86,10 +105,10 @@
      "short_label": "S&D"
     },
     "stats": {
-     "FOR": 120,
-     "AGAINST": 0,
-     "ABSTENTION": 3,
-     "DID_NOT_VOTE": 12
+     "FOR": 105,
+     "AGAINST": 3,
+     "ABSTENTION": 13,
+     "DID_NOT_VOTE": 14
     }
    },
    {
@@ -99,10 +118,10 @@
      "short_label": "PfE"
     },
     "stats": {
-     "FOR": 8,
-     "AGAINST": 55,
-     "ABSTENTION": 12,
-     "DID_NOT_VOTE": 10
+     "FOR": 14,
+     "AGAINST": 56,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 14
     }
    },
    {
@@ -112,10 +131,10 @@
      "short_label": "ECR"
     },
     "stats": {
-     "FOR": 3,
-     "AGAINST": 48,
-     "ABSTENTION": 29,
-     "DID_NOT_VOTE": 1
+     "FOR": 52,
+     "AGAINST": 21,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
     }
    },
    {
@@ -125,10 +144,10 @@
      "short_label": "Renew"
     },
     "stats": {
-     "FOR": 60,
-     "AGAINST": 0,
-     "ABSTENTION": 6,
-     "DID_NOT_VOTE": 11
+     "FOR": 68,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
     }
    },
    {
@@ -138,10 +157,10 @@
      "short_label": "Greens/EFA"
     },
     "stats": {
-     "FOR": 44,
-     "AGAINST": 1,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 8
+     "FOR": 34,
+     "AGAINST": 0,
+     "ABSTENTION": 14,
+     "DID_NOT_VOTE": 5
     }
    },
    {
@@ -151,10 +170,10 @@
      "short_label": "The Left"
     },
     "stats": {
-     "FOR": 29,
-     "AGAINST": 1,
-     "ABSTENTION": 13,
-     "DID_NOT_VOTE": 3
+     "FOR": 3,
+     "AGAINST": 9,
+     "ABSTENTION": 30,
+     "DID_NOT_VOTE": 4
     }
    },
    {
@@ -164,10 +183,10 @@
      "short_label": "Non-attached"
     },
     "stats": {
-     "FOR": 7,
-     "AGAINST": 11,
-     "ABSTENTION": 8,
-     "DID_NOT_VOTE": 4
+     "FOR": 16,
+     "AGAINST": 4,
+     "ABSTENTION": 10,
+     "DID_NOT_VOTE": 2
     }
    },
    {
@@ -177,10 +196,10 @@
      "short_label": "ESN"
     },
     "stats": {
-     "FOR": 22,
-     "AGAINST": 3,
-     "ABSTENTION": 2,
-     "DID_NOT_VOTE": 0
+     "FOR": 21,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 5
     }
    }
   ],
@@ -192,10 +211,10 @@
      "label": "Germany"
     },
     "stats": {
-     "FOR": 78,
-     "AGAINST": 5,
-     "ABSTENTION": 3,
-     "DID_NOT_VOTE": 10
+     "FOR": 76,
+     "AGAINST": 2,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 7
     }
    },
    {
@@ -205,10 +224,10 @@
      "label": "France"
     },
     "stats": {
-     "FOR": 33,
-     "AGAINST": 28,
-     "ABSTENTION": 14,
-     "DID_NOT_VOTE": 6
+     "FOR": 25,
+     "AGAINST": 25,
+     "ABSTENTION": 24,
+     "DID_NOT_VOTE": 7
     }
    },
    {
@@ -218,10 +237,10 @@
      "label": "Italy"
     },
     "stats": {
-     "FOR": 36,
-     "AGAINST": 6,
-     "ABSTENTION": 24,
-     "DID_NOT_VOTE": 10
+     "FOR": 48,
+     "AGAINST": 7,
+     "ABSTENTION": 10,
+     "DID_NOT_VOTE": 11
     }
    },
    {
@@ -231,10 +250,10 @@
      "label": "Spain"
     },
     "stats": {
-     "FOR": 28,
-     "AGAINST": 7,
-     "ABSTENTION": 17,
-     "DID_NOT_VOTE": 8
+     "FOR": 41,
+     "AGAINST": 6,
+     "ABSTENTION": 8,
+     "DID_NOT_VOTE": 5
     }
    },
    {
@@ -244,10 +263,10 @@
      "label": "Poland"
     },
     "stats": {
-     "FOR": 26,
-     "AGAINST": 26,
+     "FOR": 27,
+     "AGAINST": 21,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 1
+     "DID_NOT_VOTE": 5
     }
    },
    {
@@ -257,10 +276,10 @@
      "label": "Romania"
     },
     "stats": {
-     "FOR": 18,
-     "AGAINST": 8,
-     "ABSTENTION": 1,
-     "DID_NOT_VOTE": 6
+     "FOR": 30,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
     }
    },
    {
@@ -270,10 +289,10 @@
      "label": "Netherlands"
     },
     "stats": {
-     "FOR": 18,
-     "AGAINST": 10,
+     "FOR": 22,
+     "AGAINST": 7,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 3
+     "DID_NOT_VOTE": 2
     }
    },
    {
@@ -284,9 +303,9 @@
     },
     "stats": {
      "FOR": 10,
-     "AGAINST": 5,
-     "ABSTENTION": 7,
-     "DID_NOT_VOTE": 0
+     "AGAINST": 3,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 5
     }
    },
    {
@@ -296,10 +315,10 @@
      "label": "Sweden"
     },
     "stats": {
-     "FOR": 15,
-     "AGAINST": 3,
+     "FOR": 21,
+     "AGAINST": 0,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 3
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -309,10 +328,10 @@
      "label": "Czechia"
     },
     "stats": {
-     "FOR": 20,
+     "FOR": 17,
      "AGAINST": 0,
-     "ABSTENTION": 0,
-     "DID_NOT_VOTE": 1
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 3
     }
    },
    {
@@ -323,9 +342,9 @@
     },
     "stats": {
      "FOR": 3,
-     "AGAINST": 0,
-     "ABSTENTION": 7,
-     "DID_NOT_VOTE": 11
+     "AGAINST": 12,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
     }
    },
    {
@@ -335,10 +354,10 @@
      "label": "Portugal"
     },
     "stats": {
-     "FOR": 18,
+     "FOR": 15,
      "AGAINST": 1,
      "ABSTENTION": 2,
-     "DID_NOT_VOTE": 0
+     "DID_NOT_VOTE": 3
     }
    },
    {
@@ -348,10 +367,10 @@
      "label": "Greece"
     },
     "stats": {
-     "FOR": 11,
-     "AGAINST": 3,
-     "ABSTENTION": 6,
-     "DID_NOT_VOTE": 1
+     "FOR": 8,
+     "AGAINST": 12,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -361,8 +380,8 @@
      "label": "Austria"
     },
     "stats": {
-     "FOR": 13,
-     "AGAINST": 6,
+     "FOR": 19,
+     "AGAINST": 0,
      "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
@@ -374,10 +393,10 @@
      "label": "Bulgaria"
     },
     "stats": {
-     "FOR": 14,
-     "AGAINST": 1,
+     "FOR": 16,
+     "AGAINST": 0,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 2
+     "DID_NOT_VOTE": 1
     }
    },
    {
@@ -387,9 +406,9 @@
      "label": "Slovakia"
     },
     "stats": {
-     "FOR": 9,
+     "FOR": 14,
      "AGAINST": 0,
-     "ABSTENTION": 5,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 1
     }
    },
@@ -400,8 +419,8 @@
      "label": "Denmark"
     },
     "stats": {
-     "FOR": 13,
-     "AGAINST": 1,
+     "FOR": 14,
+     "AGAINST": 0,
      "ABSTENTION": 1,
      "DID_NOT_VOTE": 0
     }
@@ -413,9 +432,9 @@
      "label": "Finland"
     },
     "stats": {
-     "FOR": 13,
-     "AGAINST": 1,
-     "ABSTENTION": 0,
+     "FOR": 12,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
      "DID_NOT_VOTE": 1
     }
    },
@@ -426,10 +445,10 @@
      "label": "Ireland"
     },
     "stats": {
-     "FOR": 14,
-     "AGAINST": 0,
+     "FOR": 9,
+     "AGAINST": 4,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 0
+     "DID_NOT_VOTE": 1
     }
    },
    {
@@ -439,10 +458,10 @@
      "label": "Croatia"
     },
     "stats": {
-     "FOR": 8,
-     "AGAINST": 1,
+     "FOR": 12,
+     "AGAINST": 0,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 3
+     "DID_NOT_VOTE": 0
     }
    },
    {
@@ -452,10 +471,10 @@
      "label": "Lithuania"
     },
     "stats": {
-     "FOR": 9,
-     "AGAINST": 2,
+     "FOR": 10,
+     "AGAINST": 0,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 0
+     "DID_NOT_VOTE": 1
     }
    },
    {
@@ -465,10 +484,10 @@
      "label": "Latvia"
     },
     "stats": {
-     "FOR": 4,
-     "AGAINST": 3,
-     "ABSTENTION": 1,
-     "DID_NOT_VOTE": 1
+     "FOR": 6,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
     }
    },
    {
@@ -478,9 +497,9 @@
      "label": "Slovenia"
     },
     "stats": {
-     "FOR": 9,
+     "FOR": 8,
      "AGAINST": 0,
-     "ABSTENTION": 0,
+     "ABSTENTION": 1,
      "DID_NOT_VOTE": 0
     }
    },
@@ -491,9 +510,9 @@
      "label": "Estonia"
     },
     "stats": {
-     "FOR": 4,
-     "AGAINST": 1,
-     "ABSTENTION": 2,
+     "FOR": 7,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
      "DID_NOT_VOTE": 0
     }
    },
@@ -505,8 +524,8 @@
     },
     "stats": {
      "FOR": 5,
-     "AGAINST": 1,
-     "ABSTENTION": 0,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
      "DID_NOT_VOTE": 0
     }
    },
@@ -517,10 +536,10 @@
      "label": "Malta"
     },
     "stats": {
-     "FOR": 1,
+     "FOR": 5,
      "AGAINST": 0,
      "ABSTENTION": 0,
-     "DID_NOT_VOTE": 5
+     "DID_NOT_VOTE": 1
     }
    },
    {
@@ -579,7 +598,7 @@
     "photo_url": "/api/static/members/257043.jpg",
     "thumb_url": "/api/static/members/257043-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -663,7 +682,7 @@
     "photo_url": "/api/static/members/113523.jpg",
     "thumb_url": "/api/static/members/113523-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -684,7 +703,7 @@
     "photo_url": "/api/static/members/197403.jpg",
     "thumb_url": "/api/static/members/197403-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -705,7 +724,7 @@
     "photo_url": "/api/static/members/197400.jpg",
     "thumb_url": "/api/static/members/197400-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -726,7 +745,7 @@
     "photo_url": "/api/static/members/256956.jpg",
     "thumb_url": "/api/static/members/256956-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -747,7 +766,7 @@
     "photo_url": "/api/static/members/256869.jpg",
     "thumb_url": "/api/static/members/256869-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -768,7 +787,7 @@
     "photo_url": "/api/static/members/256858.jpg",
     "thumb_url": "/api/static/members/256858-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -810,7 +829,7 @@
     "photo_url": "/api/static/members/256805.jpg",
     "thumb_url": "/api/static/members/256805-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -957,7 +976,7 @@
     "photo_url": "/api/static/members/124973.jpg",
     "thumb_url": "/api/static/members/124973-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -999,7 +1018,7 @@
     "photo_url": "/api/static/members/257138.jpg",
     "thumb_url": "/api/static/members/257138-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -1020,7 +1039,7 @@
     "photo_url": "/api/static/members/96808.jpg",
     "thumb_url": "/api/static/members/96808-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1062,7 +1081,7 @@
     "photo_url": "/api/static/members/256829.jpg",
     "thumb_url": "/api/static/members/256829-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -1104,7 +1123,7 @@
     "photo_url": "/api/static/members/197701.jpg",
     "thumb_url": "/api/static/members/197701-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -1146,7 +1165,7 @@
     "photo_url": "/api/static/members/257015.jpg",
     "thumb_url": "/api/static/members/257015-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -1188,7 +1207,7 @@
     "photo_url": "/api/static/members/256934.jpg",
     "thumb_url": "/api/static/members/256934-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1230,7 +1249,7 @@
     "photo_url": "/api/static/members/256929.jpg",
     "thumb_url": "/api/static/members/256929-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1272,7 +1291,7 @@
     "photo_url": "/api/static/members/257117.jpg",
     "thumb_url": "/api/static/members/257117-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1314,7 +1333,7 @@
     "photo_url": "/api/static/members/256936.jpg",
     "thumb_url": "/api/static/members/256936-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1335,7 +1354,7 @@
     "photo_url": "/api/static/members/257003.jpg",
     "thumb_url": "/api/static/members/257003-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1440,7 +1459,7 @@
     "photo_url": "/api/static/members/197684.jpg",
     "thumb_url": "/api/static/members/197684-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1461,7 +1480,7 @@
     "photo_url": "/api/static/members/257000.jpg",
     "thumb_url": "/api/static/members/257000-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1482,7 +1501,7 @@
     "photo_url": "/api/static/members/256852.jpg",
     "thumb_url": "/api/static/members/256852-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1503,7 +1522,7 @@
     "photo_url": "/api/static/members/256948.jpg",
     "thumb_url": "/api/static/members/256948-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -1524,7 +1543,7 @@
     "photo_url": "/api/static/members/124760.jpg",
     "thumb_url": "/api/static/members/124760-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1671,7 +1690,7 @@
     "photo_url": "/api/static/members/197679.jpg",
     "thumb_url": "/api/static/members/197679-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1696,6 +1715,27 @@
   },
   {
    "member": {
+    "id": 197778,
+    "first_name": "Tom",
+    "last_name": "BERENDSEN",
+    "full_name": "Tom BERENDSEN",
+    "country": {
+     "code": "NLD",
+     "iso_alpha_2": "NL",
+     "label": "Netherlands"
+    },
+    "group": {
+     "code": "EPP",
+     "label": "European People\u2019s Party",
+     "short_label": "EPP"
+    },
+    "photo_url": "/api/static/members/197778.jpg",
+    "thumb_url": "/api/static/members/197778-104.jpg"
+   },
+   "position": "FOR"
+  },
+  {
+   "member": {
     "id": 256960,
     "first_name": "Sibylle",
     "last_name": "BERG",
@@ -1713,7 +1753,7 @@
     "photo_url": "/api/static/members/256960.jpg",
     "thumb_url": "/api/static/members/256960-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -1755,7 +1795,7 @@
     "photo_url": "/api/static/members/4746.jpg",
     "thumb_url": "/api/static/members/4746-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1797,7 +1837,7 @@
     "photo_url": "/api/static/members/23868.jpg",
     "thumb_url": "/api/static/members/23868-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -1843,27 +1883,6 @@
   },
   {
    "member": {
-    "id": 277178,
-    "first_name": "Majbritt",
-    "last_name": "BIRKHOLM",
-    "full_name": "Majbritt BIRKHOLM",
-    "country": {
-     "code": "DNK",
-     "iso_alpha_2": "DK",
-     "label": "Denmark"
-    },
-    "group": {
-     "code": "PFE",
-     "label": "Patriots for Europe",
-     "short_label": "PfE"
-    },
-    "photo_url": "/api/static/members/277178.jpg",
-    "thumb_url": "/api/static/members/277178-104.jpg"
-   },
-   "position": "ABSTENTION"
-  },
-  {
-   "member": {
     "id": 197435,
     "first_name": "Gabriele",
     "last_name": "BISCHOFF",
@@ -1902,7 +1921,7 @@
     "photo_url": "/api/static/members/257005.jpg",
     "thumb_url": "/api/static/members/257005-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2217,7 +2236,7 @@
     "photo_url": "/api/static/members/187917.jpg",
     "thumb_url": "/api/static/members/187917-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -2259,7 +2278,7 @@
     "photo_url": "/api/static/members/124984.jpg",
     "thumb_url": "/api/static/members/124984-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -2343,7 +2362,7 @@
     "photo_url": "/api/static/members/257067.jpg",
     "thumb_url": "/api/static/members/257067-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2385,7 +2404,7 @@
     "photo_url": "/api/static/members/197470.jpg",
     "thumb_url": "/api/static/members/197470-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2406,7 +2425,7 @@
     "photo_url": "/api/static/members/204129.jpg",
     "thumb_url": "/api/static/members/204129-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2679,7 +2698,7 @@
     "photo_url": "/api/static/members/256928.jpg",
     "thumb_url": "/api/static/members/256928-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -2721,7 +2740,7 @@
     "photo_url": "/api/static/members/256915.jpg",
     "thumb_url": "/api/static/members/256915-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -2809,6 +2828,27 @@
   },
   {
    "member": {
+    "id": 28219,
+    "first_name": "Daniel",
+    "last_name": "CASPARY",
+    "full_name": "Daniel CASPARY",
+    "country": {
+     "code": "DEU",
+     "iso_alpha_2": "DE",
+     "label": "Germany"
+    },
+    "group": {
+     "code": "EPP",
+     "label": "European People\u2019s Party",
+     "short_label": "EPP"
+    },
+    "photo_url": "/api/static/members/28219.jpg",
+    "thumb_url": "/api/static/members/28219-104.jpg"
+   },
+   "position": "FOR"
+  },
+  {
+   "member": {
     "id": 256891,
     "first_name": "Benoit",
     "last_name": "CASSART",
@@ -2826,7 +2866,7 @@
     "photo_url": "/api/static/members/256891.jpg",
     "thumb_url": "/api/static/members/256891-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2889,7 +2929,7 @@
     "photo_url": "/api/static/members/257096.jpg",
     "thumb_url": "/api/static/members/257096-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -2973,7 +3013,7 @@
     "photo_url": "/api/static/members/197782.jpg",
     "thumb_url": "/api/static/members/197782-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3015,7 +3055,7 @@
     "photo_url": "/api/static/members/197463.jpg",
     "thumb_url": "/api/static/members/197463-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3036,7 +3076,7 @@
     "photo_url": "/api/static/members/124861.jpg",
     "thumb_url": "/api/static/members/124861-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3078,7 +3118,7 @@
     "photo_url": "/api/static/members/257093.jpg",
     "thumb_url": "/api/static/members/257093-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3120,7 +3160,7 @@
     "photo_url": "/api/static/members/257147.jpg",
     "thumb_url": "/api/static/members/257147-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3162,7 +3202,7 @@
     "photo_url": "/api/static/members/257023.jpg",
     "thumb_url": "/api/static/members/257023-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3183,7 +3223,7 @@
     "photo_url": "/api/static/members/245018.jpg",
     "thumb_url": "/api/static/members/245018-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3204,7 +3244,7 @@
     "photo_url": "/api/static/members/197503.jpg",
     "thumb_url": "/api/static/members/197503-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3225,7 +3265,7 @@
     "photo_url": "/api/static/members/257169.jpg",
     "thumb_url": "/api/static/members/257169-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3246,7 +3286,7 @@
     "photo_url": "/api/static/members/256937.jpg",
     "thumb_url": "/api/static/members/256937-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3330,7 +3370,7 @@
     "photo_url": "/api/static/members/257034.jpg",
     "thumb_url": "/api/static/members/257034-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3372,7 +3412,7 @@
     "photo_url": "/api/static/members/257094.jpg",
     "thumb_url": "/api/static/members/257094-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3414,7 +3454,7 @@
     "photo_url": "/api/static/members/257100.jpg",
     "thumb_url": "/api/static/members/257100-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3477,7 +3517,7 @@
     "photo_url": "/api/static/members/236050.jpg",
     "thumb_url": "/api/static/members/236050-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3519,7 +3559,7 @@
     "photo_url": "/api/static/members/257030.jpg",
     "thumb_url": "/api/static/members/257030-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3561,7 +3601,7 @@
     "photo_url": "/api/static/members/124858.jpg",
     "thumb_url": "/api/static/members/124858-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3583,6 +3623,23 @@
     "thumb_url": "/api/static/members/204333-104.jpg"
    },
    "position": "FOR"
+  },
+  {
+   "member": {
+    "id": 257122,
+    "first_name": "Antonio",
+    "last_name": "DECARO",
+    "full_name": "Antonio DECARO",
+    "country": {
+     "code": "ITA",
+     "iso_alpha_2": "IT",
+     "label": "Italy"
+    },
+    "group": null,
+    "photo_url": "/api/static/members/257122.jpg",
+    "thumb_url": "/api/static/members/257122-104.jpg"
+   },
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3645,7 +3702,7 @@
     "photo_url": "/api/static/members/257155.jpg",
     "thumb_url": "/api/static/members/257155-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -3813,7 +3870,7 @@
     "photo_url": "/api/static/members/256834.jpg",
     "thumb_url": "/api/static/members/256834-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3939,7 +3996,7 @@
     "photo_url": "/api/static/members/257095.jpg",
     "thumb_url": "/api/static/members/257095-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -3960,7 +4017,7 @@
     "photo_url": "/api/static/members/96787.jpg",
     "thumb_url": "/api/static/members/96787-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -3981,7 +4038,7 @@
     "photo_url": "/api/static/members/256853.jpg",
     "thumb_url": "/api/static/members/256853-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -4065,7 +4122,7 @@
     "photo_url": "/api/static/members/256862.jpg",
     "thumb_url": "/api/static/members/256862-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4107,7 +4164,7 @@
     "photo_url": "/api/static/members/260724.jpg",
     "thumb_url": "/api/static/members/260724-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4254,7 +4311,7 @@
     "photo_url": "/api/static/members/257091.jpg",
     "thumb_url": "/api/static/members/257091-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4296,7 +4353,7 @@
     "photo_url": "/api/static/members/96811.jpg",
     "thumb_url": "/api/static/members/96811-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4317,7 +4374,7 @@
     "photo_url": "/api/static/members/256961.jpg",
     "thumb_url": "/api/static/members/256961-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4401,7 +4458,7 @@
     "photo_url": "/api/static/members/256823.jpg",
     "thumb_url": "/api/static/members/256823-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4485,7 +4542,7 @@
     "photo_url": "/api/static/members/256857.jpg",
     "thumb_url": "/api/static/members/256857-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4527,7 +4584,7 @@
     "photo_url": "/api/static/members/96810.jpg",
     "thumb_url": "/api/static/members/96810-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4548,7 +4605,7 @@
     "photo_url": "/api/static/members/197607.jpg",
     "thumb_url": "/api/static/members/197607-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -4590,7 +4647,7 @@
     "photo_url": "/api/static/members/25758.jpg",
     "thumb_url": "/api/static/members/25758-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4611,7 +4668,7 @@
     "photo_url": "/api/static/members/256906.jpg",
     "thumb_url": "/api/static/members/256906-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4632,7 +4689,7 @@
     "photo_url": "/api/static/members/124985.jpg",
     "thumb_url": "/api/static/members/124985-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4695,7 +4752,7 @@
     "photo_url": "/api/static/members/198490.jpg",
     "thumb_url": "/api/static/members/198490-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4863,7 +4920,7 @@
     "photo_url": "/api/static/members/257299.jpg",
     "thumb_url": "/api/static/members/257299-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -4905,7 +4962,7 @@
     "photo_url": "/api/static/members/197795.jpg",
     "thumb_url": "/api/static/members/197795-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4947,7 +5004,7 @@
     "photo_url": "/api/static/members/257012.jpg",
     "thumb_url": "/api/static/members/257012-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -4968,7 +5025,7 @@
     "photo_url": "/api/static/members/257097.jpg",
     "thumb_url": "/api/static/members/257097-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5115,7 +5172,7 @@
     "photo_url": "/api/static/members/183916.jpg",
     "thumb_url": "/api/static/members/183916-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5136,7 +5193,7 @@
     "photo_url": "/api/static/members/96833.jpg",
     "thumb_url": "/api/static/members/96833-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5157,7 +5214,7 @@
     "photo_url": "/api/static/members/256939.jpg",
     "thumb_url": "/api/static/members/256939-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -5178,7 +5235,7 @@
     "photo_url": "/api/static/members/197794.jpg",
     "thumb_url": "/api/static/members/197794-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5241,7 +5298,7 @@
     "photo_url": "/api/static/members/256901.jpg",
     "thumb_url": "/api/static/members/256901-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -5262,7 +5319,7 @@
     "photo_url": "/api/static/members/256866.jpg",
     "thumb_url": "/api/static/members/256866-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -5325,7 +5382,7 @@
     "photo_url": "/api/static/members/125204.jpg",
     "thumb_url": "/api/static/members/125204-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5388,7 +5445,7 @@
     "photo_url": "/api/static/members/197694.jpg",
     "thumb_url": "/api/static/members/197694-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -5409,7 +5466,7 @@
     "photo_url": "/api/static/members/197443.jpg",
     "thumb_url": "/api/static/members/197443-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5472,7 +5529,7 @@
     "photo_url": "/api/static/members/257075.jpg",
     "thumb_url": "/api/static/members/257075-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5514,7 +5571,7 @@
     "photo_url": "/api/static/members/125027.jpg",
     "thumb_url": "/api/static/members/125027-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5535,7 +5592,7 @@
     "photo_url": "/api/static/members/257059.jpg",
     "thumb_url": "/api/static/members/257059-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5598,7 +5655,7 @@
     "photo_url": "/api/static/members/257055.jpg",
     "thumb_url": "/api/static/members/257055-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5661,7 +5718,7 @@
     "photo_url": "/api/static/members/124785.jpg",
     "thumb_url": "/api/static/members/124785-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5745,7 +5802,7 @@
     "photo_url": "/api/static/members/94649.jpg",
     "thumb_url": "/api/static/members/94649-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5766,7 +5823,7 @@
     "photo_url": "/api/static/members/262021.jpg",
     "thumb_url": "/api/static/members/262021-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5787,7 +5844,7 @@
     "photo_url": "/api/static/members/197780.jpg",
     "thumb_url": "/api/static/members/197780-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -5843,14 +5900,14 @@
      "label": "Italy"
     },
     "group": {
-     "code": "RENEW",
-     "label": "Renew Europe",
-     "short_label": "Renew"
+     "code": "SD",
+     "label": "Progressive Alliance of Socialists and Democrats",
+     "short_label": "S&D"
     },
     "photo_url": "/api/static/members/197618.jpg",
     "thumb_url": "/api/static/members/197618-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -5871,7 +5928,7 @@
     "photo_url": "/api/static/members/257130.jpg",
     "thumb_url": "/api/static/members/257130-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -5955,7 +6012,7 @@
     "photo_url": "/api/static/members/96830.jpg",
     "thumb_url": "/api/static/members/96830-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -5976,7 +6033,7 @@
     "photo_url": "/api/static/members/28150.jpg",
     "thumb_url": "/api/static/members/28150-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -6039,7 +6096,7 @@
     "photo_url": "/api/static/members/270719.jpg",
     "thumb_url": "/api/static/members/270719-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6102,7 +6159,7 @@
     "photo_url": "/api/static/members/198176.jpg",
     "thumb_url": "/api/static/members/198176-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6186,7 +6243,7 @@
     "photo_url": "/api/static/members/256842.jpg",
     "thumb_url": "/api/static/members/256842-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6207,7 +6264,7 @@
     "photo_url": "/api/static/members/197646.jpg",
     "thumb_url": "/api/static/members/197646-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6249,7 +6306,7 @@
     "photo_url": "/api/static/members/125023.jpg",
     "thumb_url": "/api/static/members/125023-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -6354,7 +6411,7 @@
     "photo_url": "/api/static/members/22418.jpg",
     "thumb_url": "/api/static/members/22418-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6396,7 +6453,7 @@
     "photo_url": "/api/static/members/96780.jpg",
     "thumb_url": "/api/static/members/96780-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6522,7 +6579,7 @@
     "photo_url": "/api/static/members/124715.jpg",
     "thumb_url": "/api/static/members/124715-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6606,7 +6663,7 @@
     "photo_url": "/api/static/members/257144.jpg",
     "thumb_url": "/api/static/members/257144-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6627,7 +6684,7 @@
     "photo_url": "/api/static/members/257120.jpg",
     "thumb_url": "/api/static/members/257120-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6690,7 +6747,7 @@
     "photo_url": "/api/static/members/189065.jpg",
     "thumb_url": "/api/static/members/189065-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6732,7 +6789,7 @@
     "photo_url": "/api/static/members/112747.jpg",
     "thumb_url": "/api/static/members/112747-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6795,7 +6852,7 @@
     "photo_url": "/api/static/members/256898.jpg",
     "thumb_url": "/api/static/members/256898-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6858,7 +6915,7 @@
     "photo_url": "/api/static/members/197840.jpg",
     "thumb_url": "/api/static/members/197840-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -6879,7 +6936,7 @@
     "photo_url": "/api/static/members/257022.jpg",
     "thumb_url": "/api/static/members/257022-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -6942,7 +6999,7 @@
     "photo_url": "/api/static/members/256908.jpg",
     "thumb_url": "/api/static/members/256908-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -6963,7 +7020,7 @@
     "photo_url": "/api/static/members/257007.jpg",
     "thumb_url": "/api/static/members/257007-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7068,7 +7125,7 @@
     "photo_url": "/api/static/members/197469.jpg",
     "thumb_url": "/api/static/members/197469-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7110,7 +7167,7 @@
     "photo_url": "/api/static/members/256900.jpg",
     "thumb_url": "/api/static/members/256900-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7278,7 +7335,7 @@
     "photo_url": "/api/static/members/256890.jpg",
     "thumb_url": "/api/static/members/256890-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7341,7 +7398,7 @@
     "photo_url": "/api/static/members/256924.jpg",
     "thumb_url": "/api/static/members/256924-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7467,7 +7524,7 @@
     "photo_url": "/api/static/members/256861.jpg",
     "thumb_url": "/api/static/members/256861-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -7488,7 +7545,7 @@
     "photo_url": "/api/static/members/220871.jpg",
     "thumb_url": "/api/static/members/220871-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7530,28 +7587,7 @@
     "photo_url": "/api/static/members/23699.jpg",
     "thumb_url": "/api/static/members/23699-104.jpg"
    },
-   "position": "FOR"
-  },
-  {
-   "member": {
-    "id": 276060,
-    "first_name": "Willemien",
-    "last_name": "KONING",
-    "full_name": "Willemien KONING",
-    "country": {
-     "code": "NLD",
-     "iso_alpha_2": "NL",
-     "label": "Netherlands"
-    },
-    "group": {
-     "code": "EPP",
-     "label": "European People\u2019s Party",
-     "short_label": "EPP"
-    },
-    "photo_url": "/api/static/members/276060.jpg",
-    "thumb_url": "/api/static/members/276060-104.jpg"
-   },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7593,7 +7629,7 @@
     "photo_url": "/api/static/members/197699.jpg",
     "thumb_url": "/api/static/members/197699-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -7635,7 +7671,7 @@
     "photo_url": "/api/static/members/256909.jpg",
     "thumb_url": "/api/static/members/256909-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -7740,7 +7776,7 @@
     "photo_url": "/api/static/members/256864.jpg",
     "thumb_url": "/api/static/members/256864-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -7761,7 +7797,7 @@
     "photo_url": "/api/static/members/198084.jpg",
     "thumb_url": "/api/static/members/198084-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -7887,7 +7923,7 @@
     "photo_url": "/api/static/members/256865.jpg",
     "thumb_url": "/api/static/members/256865-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -7908,7 +7944,7 @@
     "photo_url": "/api/static/members/197697.jpg",
     "thumb_url": "/api/static/members/197697-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -7954,27 +7990,6 @@
   },
   {
    "member": {
-    "id": 277057,
-    "first_name": "Marie-Sophie",
-    "last_name": "LANIG",
-    "full_name": "Marie-Sophie LANIG",
-    "country": {
-     "code": "DEU",
-     "iso_alpha_2": "DE",
-     "label": "Germany"
-    },
-    "group": {
-     "code": "EPP",
-     "label": "European People\u2019s Party",
-     "short_label": "EPP"
-    },
-    "photo_url": "/api/static/members/277057.jpg",
-    "thumb_url": "/api/static/members/277057-104.jpg"
-   },
-   "position": "FOR"
-  },
-  {
-   "member": {
     "id": 256954,
     "first_name": "Afroditi",
     "last_name": "LATINOPOULOU",
@@ -7992,7 +8007,7 @@
     "photo_url": "/api/static/members/256954.jpg",
     "thumb_url": "/api/static/members/256954-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -8013,7 +8028,7 @@
     "photo_url": "/api/static/members/256899.jpg",
     "thumb_url": "/api/static/members/256899-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8097,7 +8112,7 @@
     "photo_url": "/api/static/members/257118.jpg",
     "thumb_url": "/api/static/members/257118-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8118,7 +8133,7 @@
     "photo_url": "/api/static/members/198373.jpg",
     "thumb_url": "/api/static/members/198373-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8139,7 +8154,7 @@
     "photo_url": "/api/static/members/256920.jpg",
     "thumb_url": "/api/static/members/256920-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8349,7 +8364,7 @@
     "photo_url": "/api/static/members/257129.jpg",
     "thumb_url": "/api/static/members/257129-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8412,7 +8427,7 @@
     "photo_url": "/api/static/members/256860.jpg",
     "thumb_url": "/api/static/members/256860-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8433,7 +8448,7 @@
     "photo_url": "/api/static/members/125042.jpg",
     "thumb_url": "/api/static/members/125042-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8475,7 +8490,7 @@
     "photo_url": "/api/static/members/28399.jpg",
     "thumb_url": "/api/static/members/28399-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8496,7 +8511,7 @@
     "photo_url": "/api/static/members/96675.jpg",
     "thumb_url": "/api/static/members/96675-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8538,7 +8553,7 @@
     "photo_url": "/api/static/members/197493.jpg",
     "thumb_url": "/api/static/members/197493-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8580,7 +8595,7 @@
     "photo_url": "/api/static/members/257149.jpg",
     "thumb_url": "/api/static/members/257149-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8643,7 +8658,7 @@
     "photo_url": "/api/static/members/257077.jpg",
     "thumb_url": "/api/static/members/257077-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8664,7 +8679,7 @@
     "photo_url": "/api/static/members/197653.jpg",
     "thumb_url": "/api/static/members/197653-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8685,7 +8700,7 @@
     "photo_url": "/api/static/members/190713.jpg",
     "thumb_url": "/api/static/members/190713-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8706,7 +8721,7 @@
     "photo_url": "/api/static/members/256824.jpg",
     "thumb_url": "/api/static/members/256824-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -8727,7 +8742,7 @@
     "photo_url": "/api/static/members/4395.jpg",
     "thumb_url": "/api/static/members/4395-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -8811,7 +8826,7 @@
     "photo_url": "/api/static/members/257132.jpg",
     "thumb_url": "/api/static/members/257132-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8853,7 +8868,7 @@
     "photo_url": "/api/static/members/257063.jpg",
     "thumb_url": "/api/static/members/257063-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8874,7 +8889,7 @@
     "photo_url": "/api/static/members/124828.jpg",
     "thumb_url": "/api/static/members/124828-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8916,7 +8931,7 @@
     "photo_url": "/api/static/members/257016.jpg",
     "thumb_url": "/api/static/members/257016-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -8937,7 +8952,7 @@
     "photo_url": "/api/static/members/256922.jpg",
     "thumb_url": "/api/static/members/256922-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8958,7 +8973,7 @@
     "photo_url": "/api/static/members/96936.jpg",
     "thumb_url": "/api/static/members/96936-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -8979,7 +8994,7 @@
     "photo_url": "/api/static/members/208722.jpg",
     "thumb_url": "/api/static/members/208722-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9000,7 +9015,7 @@
     "photo_url": "/api/static/members/124691.jpg",
     "thumb_url": "/api/static/members/124691-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9042,7 +9057,7 @@
     "photo_url": "/api/static/members/38511.jpg",
     "thumb_url": "/api/static/members/38511-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9126,7 +9141,7 @@
     "photo_url": "/api/static/members/257300.jpg",
     "thumb_url": "/api/static/members/257300-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9147,7 +9162,7 @@
     "photo_url": "/api/static/members/204418.jpg",
     "thumb_url": "/api/static/members/204418-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9273,7 +9288,7 @@
     "photo_url": "/api/static/members/256974.jpg",
     "thumb_url": "/api/static/members/256974-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -9336,7 +9351,7 @@
     "photo_url": "/api/static/members/193292.jpg",
     "thumb_url": "/api/static/members/193292-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9378,7 +9393,7 @@
     "photo_url": "/api/static/members/197824.jpg",
     "thumb_url": "/api/static/members/197824-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9399,7 +9414,7 @@
     "photo_url": "/api/static/members/28400.jpg",
     "thumb_url": "/api/static/members/28400-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9441,7 +9456,7 @@
     "photo_url": "/api/static/members/24942.jpg",
     "thumb_url": "/api/static/members/24942-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9483,7 +9498,7 @@
     "photo_url": "/api/static/members/245770.jpg",
     "thumb_url": "/api/static/members/245770-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9504,7 +9519,7 @@
     "photo_url": "/api/static/members/197711.jpg",
     "thumb_url": "/api/static/members/197711-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9525,7 +9540,7 @@
     "photo_url": "/api/static/members/257140.jpg",
     "thumb_url": "/api/static/members/257140-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -9588,7 +9603,7 @@
     "photo_url": "/api/static/members/257054.jpg",
     "thumb_url": "/api/static/members/257054-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -9651,7 +9666,7 @@
     "photo_url": "/api/static/members/197647.jpg",
     "thumb_url": "/api/static/members/197647-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9693,7 +9708,7 @@
     "photo_url": "/api/static/members/257298.jpg",
     "thumb_url": "/api/static/members/257298-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -9777,7 +9792,7 @@
     "photo_url": "/api/static/members/256843.jpg",
     "thumb_url": "/api/static/members/256843-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9798,7 +9813,7 @@
     "photo_url": "/api/static/members/257111.jpg",
     "thumb_url": "/api/static/members/257111-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9819,7 +9834,7 @@
     "photo_url": "/api/static/members/257027.jpg",
     "thumb_url": "/api/static/members/257027-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9903,7 +9918,7 @@
     "photo_url": "/api/static/members/239260.jpg",
     "thumb_url": "/api/static/members/239260-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9966,7 +9981,7 @@
     "photo_url": "/api/static/members/257039.jpg",
     "thumb_url": "/api/static/members/257039-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -9987,7 +10002,7 @@
     "photo_url": "/api/static/members/124784.jpg",
     "thumb_url": "/api/static/members/124784-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10008,7 +10023,7 @@
     "photo_url": "/api/static/members/4289.jpg",
     "thumb_url": "/api/static/members/4289-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10050,7 +10065,7 @@
     "photo_url": "/api/static/members/197802.jpg",
     "thumb_url": "/api/static/members/197802-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10176,7 +10191,7 @@
     "photo_url": "/api/static/members/257049.jpg",
     "thumb_url": "/api/static/members/257049-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10281,7 +10296,7 @@
     "photo_url": "/api/static/members/257083.jpg",
     "thumb_url": "/api/static/members/257083-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -10365,7 +10380,7 @@
     "photo_url": "/api/static/members/2152.jpg",
     "thumb_url": "/api/static/members/2152-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10407,7 +10422,7 @@
     "photo_url": "/api/static/members/129073.jpg",
     "thumb_url": "/api/static/members/129073-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10428,7 +10443,7 @@
     "photo_url": "/api/static/members/256993.jpg",
     "thumb_url": "/api/static/members/256993-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10449,7 +10464,7 @@
     "photo_url": "/api/static/members/257135.jpg",
     "thumb_url": "/api/static/members/257135-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -10470,7 +10485,7 @@
     "photo_url": "/api/static/members/256989.jpg",
     "thumb_url": "/api/static/members/256989-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10512,7 +10527,7 @@
     "photo_url": "/api/static/members/244571.jpg",
     "thumb_url": "/api/static/members/244571-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -10533,7 +10548,7 @@
     "photo_url": "/api/static/members/256952.jpg",
     "thumb_url": "/api/static/members/256952-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -10554,7 +10569,7 @@
     "photo_url": "/api/static/members/257040.jpg",
     "thumb_url": "/api/static/members/257040-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10638,7 +10653,7 @@
     "photo_url": "/api/static/members/257126.jpg",
     "thumb_url": "/api/static/members/257126-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -10659,7 +10674,7 @@
     "photo_url": "/api/static/members/256903.jpg",
     "thumb_url": "/api/static/members/256903-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -10680,7 +10695,7 @@
     "photo_url": "/api/static/members/30123.jpg",
     "thumb_url": "/api/static/members/30123-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10806,7 +10821,7 @@
     "photo_url": "/api/static/members/257150.jpg",
     "thumb_url": "/api/static/members/257150-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10932,7 +10947,7 @@
     "photo_url": "/api/static/members/257115.jpg",
     "thumb_url": "/api/static/members/257115-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -10974,7 +10989,7 @@
     "photo_url": "/api/static/members/257145.jpg",
     "thumb_url": "/api/static/members/257145-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11037,7 +11052,7 @@
     "photo_url": "/api/static/members/256907.jpg",
     "thumb_url": "/api/static/members/256907-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11058,7 +11073,7 @@
     "photo_url": "/api/static/members/256813.jpg",
     "thumb_url": "/api/static/members/256813-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11100,7 +11115,7 @@
     "photo_url": "/api/static/members/197820.jpg",
     "thumb_url": "/api/static/members/197820-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11142,7 +11157,7 @@
     "photo_url": "/api/static/members/257019.jpg",
     "thumb_url": "/api/static/members/257019-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11163,7 +11178,7 @@
     "photo_url": "/api/static/members/256969.jpg",
     "thumb_url": "/api/static/members/256969-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11205,7 +11220,7 @@
     "photo_url": "/api/static/members/188945.jpg",
     "thumb_url": "/api/static/members/188945-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11226,7 +11241,7 @@
     "photo_url": "/api/static/members/256902.jpg",
     "thumb_url": "/api/static/members/256902-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11268,7 +11283,7 @@
     "photo_url": "/api/static/members/257104.jpg",
     "thumb_url": "/api/static/members/257104-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11436,7 +11451,7 @@
     "photo_url": "/api/static/members/197832.jpg",
     "thumb_url": "/api/static/members/197832-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11478,7 +11493,7 @@
     "photo_url": "/api/static/members/256904.jpg",
     "thumb_url": "/api/static/members/256904-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -11562,7 +11577,7 @@
     "photo_url": "/api/static/members/96653.jpg",
     "thumb_url": "/api/static/members/96653-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11604,7 +11619,7 @@
     "photo_url": "/api/static/members/197773.jpg",
     "thumb_url": "/api/static/members/197773-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11625,7 +11640,7 @@
     "photo_url": "/api/static/members/257170.jpg",
     "thumb_url": "/api/static/members/257170-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11688,7 +11703,7 @@
     "photo_url": "/api/static/members/256911.jpg",
     "thumb_url": "/api/static/members/256911-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11730,7 +11745,7 @@
     "photo_url": "/api/static/members/257127.jpg",
     "thumb_url": "/api/static/members/257127-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11814,7 +11829,7 @@
     "photo_url": "/api/static/members/127766.jpg",
     "thumb_url": "/api/static/members/127766-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11856,7 +11871,7 @@
     "photo_url": "/api/static/members/256905.jpg",
     "thumb_url": "/api/static/members/256905-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11877,7 +11892,7 @@
     "photo_url": "/api/static/members/197500.jpg",
     "thumb_url": "/api/static/members/197500-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -11919,7 +11934,7 @@
     "photo_url": "/api/static/members/256917.jpg",
     "thumb_url": "/api/static/members/256917-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -11940,7 +11955,7 @@
     "photo_url": "/api/static/members/257113.jpg",
     "thumb_url": "/api/static/members/257113-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12087,7 +12102,7 @@
     "photo_url": "/api/static/members/190517.jpg",
     "thumb_url": "/api/static/members/190517-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -12171,7 +12186,7 @@
     "photo_url": "/api/static/members/257139.jpg",
     "thumb_url": "/api/static/members/257139-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -12234,7 +12249,7 @@
     "photo_url": "/api/static/members/257009.jpg",
     "thumb_url": "/api/static/members/257009-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -12311,9 +12326,9 @@
      "label": "Germany"
     },
     "group": {
-     "code": "RENEW",
-     "label": "Renew Europe",
-     "short_label": "Renew"
+     "code": "NI",
+     "label": "Non-attached Members",
+     "short_label": "Non-attached"
     },
     "photo_url": "/api/static/members/256971.jpg",
     "thumb_url": "/api/static/members/256971-104.jpg"
@@ -12360,7 +12375,7 @@
     "photo_url": "/api/static/members/256946.jpg",
     "thumb_url": "/api/static/members/256946-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12437,14 +12452,14 @@
      "label": "Netherlands"
     },
     "group": {
-     "code": "ECR",
-     "label": "European Conservatives and Reformists",
-     "short_label": "ECR"
+     "code": "EPP",
+     "label": "European People\u2019s Party",
+     "short_label": "EPP"
     },
     "photo_url": "/api/static/members/125325.jpg",
     "thumb_url": "/api/static/members/125325-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12507,7 +12522,7 @@
     "photo_url": "/api/static/members/257021.jpg",
     "thumb_url": "/api/static/members/257021-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12528,7 +12543,7 @@
     "photo_url": "/api/static/members/197784.jpg",
     "thumb_url": "/api/static/members/197784-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12633,7 +12648,7 @@
     "photo_url": "/api/static/members/257109.jpg",
     "thumb_url": "/api/static/members/257109-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12654,7 +12669,7 @@
     "photo_url": "/api/static/members/197825.jpg",
     "thumb_url": "/api/static/members/197825-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -12717,7 +12732,7 @@
     "photo_url": "/api/static/members/220897.jpg",
     "thumb_url": "/api/static/members/220897-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12738,7 +12753,7 @@
     "photo_url": "/api/static/members/119435.jpg",
     "thumb_url": "/api/static/members/119435-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12759,7 +12774,7 @@
     "photo_url": "/api/static/members/257025.jpg",
     "thumb_url": "/api/static/members/257025-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12864,7 +12879,7 @@
     "photo_url": "/api/static/members/197772.jpg",
     "thumb_url": "/api/static/members/197772-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12885,7 +12900,7 @@
     "photo_url": "/api/static/members/256990.jpg",
     "thumb_url": "/api/static/members/256990-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12906,7 +12921,7 @@
     "photo_url": "/api/static/members/257119.jpg",
     "thumb_url": "/api/static/members/257119-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -12927,7 +12942,7 @@
     "photo_url": "/api/static/members/256839.jpg",
     "thumb_url": "/api/static/members/256839-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -12990,7 +13005,7 @@
     "photo_url": "/api/static/members/256855.jpg",
     "thumb_url": "/api/static/members/256855-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -13074,7 +13089,7 @@
     "photo_url": "/api/static/members/124813.jpg",
     "thumb_url": "/api/static/members/124813-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13116,7 +13131,7 @@
     "photo_url": "/api/static/members/257160.jpg",
     "thumb_url": "/api/static/members/257160-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13137,7 +13152,7 @@
     "photo_url": "/api/static/members/256863.jpg",
     "thumb_url": "/api/static/members/256863-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -13179,7 +13194,7 @@
     "photo_url": "/api/static/members/256965.jpg",
     "thumb_url": "/api/static/members/256965-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13221,7 +13236,7 @@
     "photo_url": "/api/static/members/257116.jpg",
     "thumb_url": "/api/static/members/257116-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13284,7 +13299,7 @@
     "photo_url": "/api/static/members/197655.jpg",
     "thumb_url": "/api/static/members/197655-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13326,7 +13341,7 @@
     "photo_url": "/api/static/members/197831.jpg",
     "thumb_url": "/api/static/members/197831-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -13368,7 +13383,7 @@
     "photo_url": "/api/static/members/257090.jpg",
     "thumb_url": "/api/static/members/257090-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13410,7 +13425,7 @@
     "photo_url": "/api/static/members/256885.jpg",
     "thumb_url": "/api/static/members/256885-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13473,7 +13488,7 @@
     "photo_url": "/api/static/members/197672.jpg",
     "thumb_url": "/api/static/members/197672-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13494,7 +13509,7 @@
     "photo_url": "/api/static/members/96697.jpg",
     "thumb_url": "/api/static/members/96697-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13578,7 +13593,7 @@
     "photo_url": "/api/static/members/124700.jpg",
     "thumb_url": "/api/static/members/124700-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13620,7 +13635,7 @@
     "photo_url": "/api/static/members/257163.jpg",
     "thumb_url": "/api/static/members/257163-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13662,7 +13677,7 @@
     "photo_url": "/api/static/members/97236.jpg",
     "thumb_url": "/api/static/members/97236-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -13708,27 +13723,6 @@
   },
   {
    "member": {
-    "id": 275087,
-    "first_name": "Georgia",
-    "last_name": "TRAMACERE",
-    "full_name": "Georgia TRAMACERE",
-    "country": {
-     "code": "ITA",
-     "iso_alpha_2": "IT",
-     "label": "Italy"
-    },
-    "group": {
-     "code": "SD",
-     "label": "Progressive Alliance of Socialists and Democrats",
-     "short_label": "S&D"
-    },
-    "photo_url": "/api/static/members/275087.jpg",
-    "thumb_url": "/api/static/members/275087-104.jpg"
-   },
-   "position": "FOR"
-  },
-  {
-   "member": {
     "id": 257133,
     "first_name": "Pasquale",
     "last_name": "TRIDICO",
@@ -13746,7 +13740,7 @@
     "photo_url": "/api/static/members/257133.jpg",
     "thumb_url": "/api/static/members/257133-104.jpg"
    },
-   "position": "FOR"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -13767,7 +13761,7 @@
     "photo_url": "/api/static/members/256925.jpg",
     "thumb_url": "/api/static/members/256925-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13830,7 +13824,7 @@
     "photo_url": "/api/static/members/256806.jpg",
     "thumb_url": "/api/static/members/256806-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13851,7 +13845,7 @@
     "photo_url": "/api/static/members/257062.jpg",
     "thumb_url": "/api/static/members/257062-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13872,7 +13866,7 @@
     "photo_url": "/api/static/members/257050.jpg",
     "thumb_url": "/api/static/members/257050-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -13893,7 +13887,7 @@
     "photo_url": "/api/static/members/257114.jpg",
     "thumb_url": "/api/static/members/257114-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13977,7 +13971,7 @@
     "photo_url": "/api/static/members/257258.jpg",
     "thumb_url": "/api/static/members/257258-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -13998,7 +13992,7 @@
     "photo_url": "/api/static/members/256875.jpg",
     "thumb_url": "/api/static/members/256875-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -14082,7 +14076,7 @@
     "photo_url": "/api/static/members/256884.jpg",
     "thumb_url": "/api/static/members/256884-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14117,14 +14111,14 @@
      "label": "Netherlands"
     },
     "group": {
-     "code": "ECR",
-     "label": "European Conservatives and Reformists",
-     "short_label": "ECR"
+     "code": "EPP",
+     "label": "European People\u2019s Party",
+     "short_label": "EPP"
     },
     "photo_url": "/api/static/members/256983.jpg",
     "thumb_url": "/api/static/members/256983-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14145,7 +14139,7 @@
     "photo_url": "/api/static/members/125106.jpg",
     "thumb_url": "/api/static/members/125106-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14201,14 +14195,14 @@
      "label": "Italy"
     },
     "group": {
-     "code": "ESN",
-     "label": "Europe of Sovereign Nations",
-     "short_label": "ESN"
+     "code": "NI",
+     "label": "Non-attached Members",
+     "short_label": "Non-attached"
     },
     "photo_url": "/api/static/members/257125.jpg",
     "thumb_url": "/api/static/members/257125-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -14292,7 +14286,7 @@
     "photo_url": "/api/static/members/130100.jpg",
     "thumb_url": "/api/static/members/130100-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14313,7 +14307,7 @@
     "photo_url": "/api/static/members/257099.jpg",
     "thumb_url": "/api/static/members/257099-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14355,7 +14349,7 @@
     "photo_url": "/api/static/members/256879.jpg",
     "thumb_url": "/api/static/members/256879-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14376,7 +14370,7 @@
     "photo_url": "/api/static/members/256811.jpg",
     "thumb_url": "/api/static/members/256811-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14418,7 +14412,7 @@
     "photo_url": "/api/static/members/256859.jpg",
     "thumb_url": "/api/static/members/256859-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -14439,7 +14433,7 @@
     "photo_url": "/api/static/members/257437.jpg",
     "thumb_url": "/api/static/members/257437-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14481,7 +14475,7 @@
     "photo_url": "/api/static/members/125001.jpg",
     "thumb_url": "/api/static/members/125001-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14502,7 +14496,7 @@
     "photo_url": "/api/static/members/98582.jpg",
     "thumb_url": "/api/static/members/98582-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14527,6 +14521,27 @@
   },
   {
    "member": {
+    "id": 124875,
+    "first_name": "Anders",
+    "last_name": "VISTISEN",
+    "full_name": "Anders VISTISEN",
+    "country": {
+     "code": "DNK",
+     "iso_alpha_2": "DK",
+     "label": "Denmark"
+    },
+    "group": {
+     "code": "PFE",
+     "label": "Patriots for Europe",
+     "short_label": "PfE"
+    },
+    "photo_url": "/api/static/members/124875.jpg",
+    "thumb_url": "/api/static/members/124875-104.jpg"
+   },
+   "position": "FOR"
+  },
+  {
+   "member": {
     "id": 257143,
     "first_name": "Mariateresa",
     "last_name": "VIVALDINI",
@@ -14544,7 +14559,7 @@
     "photo_url": "/api/static/members/257143.jpg",
     "thumb_url": "/api/static/members/257143-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14586,7 +14601,7 @@
     "photo_url": "/api/static/members/256966.jpg",
     "thumb_url": "/api/static/members/256966-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14628,7 +14643,7 @@
     "photo_url": "/api/static/members/96761.jpg",
     "thumb_url": "/api/static/members/96761-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14649,7 +14664,7 @@
     "photo_url": "/api/static/members/125065.jpg",
     "thumb_url": "/api/static/members/125065-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14691,7 +14706,7 @@
     "photo_url": "/api/static/members/204400.jpg",
     "thumb_url": "/api/static/members/204400-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14775,7 +14790,7 @@
     "photo_url": "/api/static/members/197429.jpg",
     "thumb_url": "/api/static/members/197429-104.jpg"
    },
-   "position": "FOR"
+   "position": "AGAINST"
   },
   {
    "member": {
@@ -14817,7 +14832,7 @@
     "photo_url": "/api/static/members/256967.jpg",
     "thumb_url": "/api/static/members/256967-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "ABSTENTION"
   },
   {
    "member": {
@@ -14922,7 +14937,7 @@
     "photo_url": "/api/static/members/123562.jpg",
     "thumb_url": "/api/static/members/123562-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "FOR"
   },
   {
    "member": {
@@ -14943,7 +14958,7 @@
     "photo_url": "/api/static/members/261796.jpg",
     "thumb_url": "/api/static/members/261796-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -14964,7 +14979,7 @@
     "photo_url": "/api/static/members/214839.jpg",
     "thumb_url": "/api/static/members/214839-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15006,7 +15021,7 @@
     "photo_url": "/api/static/members/220801.jpg",
     "thumb_url": "/api/static/members/220801-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15132,7 +15147,7 @@
     "photo_url": "/api/static/members/185619.jpg",
     "thumb_url": "/api/static/members/185619-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15216,7 +15231,7 @@
     "photo_url": "/api/static/members/197842.jpg",
     "thumb_url": "/api/static/members/197842-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15251,14 +15266,14 @@
      "label": "Poland"
     },
     "group": {
-     "code": "PFE",
-     "label": "Patriots for Europe",
-     "short_label": "PfE"
+     "code": "ESN",
+     "label": "Europe of Sovereign Nations",
+     "short_label": "ESN"
     },
     "photo_url": "/api/static/members/257069.jpg",
     "thumb_url": "/api/static/members/257069-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15321,7 +15336,7 @@
     "photo_url": "/api/static/members/197606.jpg",
     "thumb_url": "/api/static/members/197606-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15342,7 +15357,7 @@
     "photo_url": "/api/static/members/124713.jpg",
     "thumb_url": "/api/static/members/124713-104.jpg"
    },
-   "position": "FOR"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15426,7 +15441,7 @@
     "photo_url": "/api/static/members/197621.jpg",
     "thumb_url": "/api/static/members/197621-104.jpg"
    },
-   "position": "ABSTENTION"
+   "position": "FOR"
   },
   {
    "member": {
@@ -15489,7 +15504,7 @@
     "photo_url": "/api/static/members/28615.jpg",
     "thumb_url": "/api/static/members/28615-104.jpg"
    },
-   "position": "AGAINST"
+   "position": "DID_NOT_VOTE"
   },
   {
    "member": {
@@ -15636,111 +15651,78 @@
     "photo_url": "/api/static/members/58766.jpg",
     "thumb_url": "/api/static/members/58766-104.jpg"
    },
-   "position": "DID_NOT_VOTE"
+   "position": "FOR"
   }
  ],
  "sources": [
   {
-   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-RCV_FR.xml",
-   "accessed_at": "2026-04-29T15:00:14.477402",
+   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-02-10-RCV_FR.xml",
+   "accessed_at": "2026-02-10T16:00:03.669459",
    "name": "Results of roll-call votes (XML)"
   },
   {
-   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2026-0098_EN.html",
-   "accessed_at": "2026-04-29T15:01:43.788974",
+   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0254_EN.html",
+   "accessed_at": "2026-02-10T16:00:10.710765",
    "name": "Report or resolution"
   },
   {
-   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0380(COD)",
-   "accessed_at": "2026-04-29T15:04:06.622705",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0322(COD)",
+   "accessed_at": "2026-02-10T16:01:05.325651",
    "name": "Procedure file (Legislative Observatory)"
   },
   {
-   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-04-29-VOT_EN.xml",
-   "accessed_at": "2026-04-30T19:00:00.855666",
+   "url": "https://www.europarl.europa.eu/doceo/document/PV-10-2026-02-10-VOT_EN.xml",
+   "accessed_at": "2026-02-11T20:00:02.588188",
    "name": "Results of votes (XML)"
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1887233",
+   "accessed_at": "2026-03-02T06:02:22.984854",
+   "name": "Vote summary (Legislative Observatory)"
   }
  ],
  "links": [
   {
+   "title": "Summary",
+   "description": "Summary published in the Legislative Observatory. Summaries contain more information about the subject of the vote. Compared to press releases, they are usually more detailed, but can also contain more technical language.",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1887233"
+  },
+  {
    "title": "Report or resolution",
    "description": "Original text of the report or resolution as tabled. The text may be different from the adopted text if MEPs have adopted amendments.",
-   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2026-0098_EN.html"
+   "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0254_EN.html"
   },
   {
    "title": "Texts adopted",
    "description": "Texts adopted during the plenary session, including changes from amendments.",
-   "url": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0139_EN.html"
+   "url": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0315_EN.html"
   },
   {
    "title": "Legislative Observatory",
    "description": "Find out more about the procedure this vote is part of. This includes information about the current state of the procedure, past and upcoming steps, as well as key players.",
-   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0380(COD)"
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0322(COD)"
   }
  ],
  "related": [
   {
-   "id": "191536",
+   "id": "184684",
    "is_main": false,
-   "timestamp": "2026-04-29T13:22:23",
-   "description": "Amendements de la commission comp\u00e9tente - votes s\u00e9par\u00e9s - Am 1",
-   "amendment_subject": "Amendments by the committee responsible \u2013 separate votes",
-   "amendment_number": "1",
+   "timestamp": "2026-02-10T13:02:11",
+   "description": "Demande de proc\u00e9der au vote sur les amendements",
+   "amendment_subject": "Proposal to vote on amendments",
+   "amendment_number": null,
    "amendment_authors": [
     {
-     "type": "COMMITTEE",
+     "type": "MEMBERS",
      "group": null,
      "committee": null
-    }
-   ],
-   "result": "ADOPTED"
-  },
-  {
-   "id": "191537",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:22:33",
-   "description": "Amendements de la commission comp\u00e9tente - votes s\u00e9par\u00e9s - Am 4",
-   "amendment_subject": "Amendments by the committee responsible \u2013 separate votes",
-   "amendment_number": "4",
-   "amendment_authors": [
-    {
-     "type": "COMMITTEE",
-     "group": null,
-     "committee": null
-    }
-   ],
-   "result": "ADOPTED"
-  },
-  {
-   "id": "191538",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:22:44",
-   "description": "Amendements de la commission comp\u00e9tente - votes s\u00e9par\u00e9s - Am 8",
-   "amendment_subject": "Amendments by the committee responsible \u2013 separate votes",
-   "amendment_number": "8",
-   "amendment_authors": [
-    {
-     "type": "COMMITTEE",
-     "group": null,
-     "committee": null
-    }
-   ],
-   "result": "ADOPTED"
-  },
-  {
-   "id": "191542",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:23:15",
-   "description": "Article 1, \u00a7 1, point 4 - Am 25",
-   "amendment_subject": "Article 1, \u00a7 1, point 4",
-   "amendment_number": "25",
-   "amendment_authors": [
+    },
     {
      "type": "GROUP",
      "group": {
-      "code": "ECR",
-      "label": "European Conservatives and Reformists",
-      "short_label": "ECR"
+      "code": "GUE_NGL",
+      "label": "The Left in the European Parliament",
+      "short_label": "The Left"
      },
      "committee": null
     }
@@ -15748,143 +15730,19 @@
    "result": "REJECTED"
   },
   {
-   "id": "191543",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:23:27",
-   "description": "Apr\u00e8s l'article 1 - Am 20",
-   "amendment_subject": "After Article 1",
-   "amendment_number": "20",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "PFE",
-      "label": "Patriots for Europe",
-      "short_label": "PfE"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "191544",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:23:38",
-   "description": "Apr\u00e8s l'article 1 - Am 26",
-   "amendment_subject": "After Article 1",
-   "amendment_number": "26",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "ECR",
-      "label": "European Conservatives and Reformists",
-      "short_label": "ECR"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "191926",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:23:52",
-   "description": "Apr\u00e8s l'article 1 - Am 27",
-   "amendment_subject": "After Article 1",
-   "amendment_number": "27",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "ECR",
-      "label": "European Conservatives and Reformists",
-      "short_label": "ECR"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "191546",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:25:48",
-   "description": "Apr\u00e8s le consid\u00e9rant 6 - Am 17",
-   "amendment_subject": "After recital 6",
-   "amendment_number": "17",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "PFE",
-      "label": "Patriots for Europe",
-      "short_label": "PfE"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "191547",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:26:11",
-   "description": "Apr\u00e8s le consid\u00e9rant 6 - Am 23",
-   "amendment_subject": "After recital 6",
-   "amendment_number": "23",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "ECR",
-      "label": "European Conservatives and Reformists",
-      "short_label": "ECR"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "191548",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:26:23",
-   "description": "Apr\u00e8s le consid\u00e9rant 6 - Am 24",
-   "amendment_subject": "After recital 6",
-   "amendment_number": "24",
-   "amendment_authors": [
-    {
-     "type": "GROUP",
-     "group": {
-      "code": "ECR",
-      "label": "European Conservatives and Reformists",
-      "short_label": "ECR"
-     },
-     "committee": null
-    }
-   ],
-   "result": "REJECTED"
-  },
-  {
-   "id": "190938",
+   "id": "184191",
    "is_main": true,
-   "timestamp": "2026-04-29T13:26:36",
-   "description": "Proposition de la Commission",
-   "amendment_subject": null,
-   "amendment_number": null,
-   "amendment_authors": [],
-   "result": "ADOPTED"
-  },
-  {
-   "id": "191549",
-   "is_main": false,
-   "timestamp": "2026-04-29T13:26:59",
-   "description": "Demande de renvoi en commission",
-   "amendment_subject": null,
-   "amendment_number": null,
-   "amendment_authors": [],
+   "timestamp": "2026-02-10T13:02:28",
+   "description": "Accord provisoire - Am 89",
+   "amendment_subject": "Provisional agreement",
+   "amendment_number": "89",
+   "amendment_authors": [
+    {
+     "type": "COMMITTEE",
+     "group": null,
+     "committee": null
+    }
+   ],
    "result": "ADOPTED"
   }
  ]

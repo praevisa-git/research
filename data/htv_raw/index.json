@@ -1,13 +1,13 @@
 {
  "source": "howtheyvote.eu/api",
- "inclusion_filter": "is_main & procedure.type==COD & result in {ADOPTED,REJECTED} & non-empty stats.by_group",
+ "inclusion_filter": "is_main & procedure.type==COD & result in {ADOPTED,REJECTED} & non-empty stats.by_group & timestamp>=2024-07-16",
+ "term": "10th parliamentary term only (Decision 4)",
  "yes_share_denominator": "FOR/(FOR+AGAINST+ABSTENTION) [DID_NOT_VOTE excluded]",
- "n_candidates_scanned": 916,
- "n_cod_pool": 299,
+ "n_candidates_scanned": 545,
+ "n_cod_pool": 123,
  "cod_stage_distribution": {
-  "OLP_FIRST_READING": 295,
-  "OLP_SECOND_READING": 1,
-  "null": 3
+  "OLP_FIRST_READING": 122,
+  "OLP_SECOND_READING": 1
  },
  "n_selected": 22,
  "selection_rule": "sort pool by yes_share asc; take evenly spaced positions incl. min and max",
@@ -21,131 +21,139 @@
    "n_groups": 9
   },
   {
-   "id": "184418",
-   "reference": "2025/0132(COD)",
+   "id": "182614",
+   "reference": "2025/0045(COD)",
    "result": "REJECTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.336907,
+   "yes_share": 0.177005,
    "n_groups": 9
   },
   {
-   "id": "164499",
-   "reference": "2022/0195(COD)",
-   "result": "ADOPTED",
+   "id": "189581",
+   "reference": "2025/0261(COD)",
+   "result": "REJECTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.523885,
-   "n_groups": 8
-  },
-  {
-   "id": "166959",
-   "reference": "2023/0266(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.577815,
-   "n_groups": 8
-  },
-  {
-   "id": "168292",
-   "reference": "2023/0138(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.61474,
-   "n_groups": 8
-  },
-  {
-   "id": "166929",
-   "reference": "2016/0132(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.649518,
-   "n_groups": 8
-  },
-  {
-   "id": "190938",
-   "reference": "2025/0380(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.67236,
+   "yes_share": 0.250784,
    "n_groups": 9
   },
   {
-   "id": "168586",
-   "reference": "2024/0028(COD)",
-   "result": "ADOPTED",
+   "id": "181393",
+   "reference": "2025/0524(COD)",
+   "result": "REJECTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.709784,
-   "n_groups": 8
-  },
-  {
-   "id": "165167",
-   "reference": "2023/0133(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.738211,
-   "n_groups": 8
-  },
-  {
-   "id": "166172",
-   "reference": "2022/0131(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.757329,
-   "n_groups": 8
-  },
-  {
-   "id": "168332",
-   "reference": "2021/0296(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.777414,
-   "n_groups": 8
-  },
-  {
-   "id": "164462",
-   "reference": "2021/0422(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.802251,
-   "n_groups": 8
-  },
-  {
-   "id": "166241",
-   "reference": "2023/0234(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.8224,
-   "n_groups": 8
-  },
-  {
-   "id": "168470",
-   "reference": "2023/0210(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.840461,
-   "n_groups": 8
-  },
-  {
-   "id": "189916",
-   "reference": "2025/0073(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.858877,
+   "yes_share": 0.366771,
    "n_groups": 9
   },
   {
-   "id": "163299",
-   "reference": "2023/0272(COD)",
+   "id": "174881",
+   "reference": "2023/0404(COD)",
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.875796,
-   "n_groups": 8
+   "yes_share": 0.539604,
+   "n_groups": 9
   },
   {
-   "id": "177025",
-   "reference": "2024/0035(COD)",
+   "id": "184168",
+   "reference": "2025/0132(COD)",
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.903469,
+   "yes_share": 0.607362,
+   "n_groups": 9
+  },
+  {
+   "id": "193315",
+   "reference": "2025/0097(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.637306,
+   "n_groups": 9
+  },
+  {
+   "id": "182460",
+   "reference": "2025/0322(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.651057,
+   "n_groups": 9
+  },
+  {
+   "id": "174880",
+   "reference": "2024/0027(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.668293,
+   "n_groups": 9
+  },
+  {
+   "id": "189313",
+   "reference": "2025/0260(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.681747,
+   "n_groups": 9
+  },
+  {
+   "id": "180954",
+   "reference": "2025/0090(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.703876,
+   "n_groups": 9
+  },
+  {
+   "id": "179790",
+   "reference": "2023/0455(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.727132,
+   "n_groups": 9
+  },
+  {
+   "id": "184191",
+   "reference": "2025/0322(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.740798,
+   "n_groups": 9
+  },
+  {
+   "id": "192436",
+   "reference": "2024/0017(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.767372,
+   "n_groups": 9
+  },
+  {
+   "id": "190027",
+   "reference": "2025/0207(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.807988,
+   "n_groups": 9
+  },
+  {
+   "id": "178147",
+   "reference": "2025/0129(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.832565,
+   "n_groups": 9
+  },
+  {
+   "id": "180979",
+   "reference": "2025/0108(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.852433,
+   "n_groups": 9
+  },
+  {
+   "id": "182479",
+   "reference": "2025/0251(COD)",
+   "result": "ADOPTED",
+   "stage": "OLP_FIRST_READING",
+   "yes_share": 0.881024,
    "n_groups": 9
   },
   {
@@ -157,36 +165,28 @@
    "n_groups": 9
   },
   {
-   "id": "166146",
-   "reference": "2023/0163(COD)",
+   "id": "178285",
+   "reference": "2025/0039(COD)",
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.943709,
-   "n_groups": 8
+   "yes_share": 0.943425,
+   "n_groups": 9
   },
   {
-   "id": "168458",
-   "reference": "2023/0393(COD)",
+   "id": "184110",
+   "reference": "2024/0318(COD)",
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.960443,
-   "n_groups": 8
+   "yes_share": 0.95525,
+   "n_groups": 9
   },
   {
-   "id": "166040",
-   "reference": "2023/0049(COD)",
+   "id": "178406",
+   "reference": "2025/0023(COD)",
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
-   "yes_share": 0.980263,
-   "n_groups": 8
-  },
-  {
-   "id": "166243",
-   "reference": "2023/0356(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.994575,
-   "n_groups": 8
+   "yes_share": 0.992504,
+   "n_groups": 9
   }
  ]
 }
