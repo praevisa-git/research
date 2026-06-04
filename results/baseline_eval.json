@@ -1,0 +1,282 @@
+{
+ "test_set": {
+  "n_files": 22,
+  "n_groups": 9,
+  "groups": [
+   "EPP",
+   "S&D",
+   "PfE",
+   "ECR",
+   "Renew",
+   "Greens",
+   "Left",
+   "ESN",
+   "NI"
+  ],
+  "files": [
+   {
+    "id": "190403",
+    "reference": "2021/0297(COD)",
+    "result": "REJECTED",
+    "observed_share": 0.059542
+   },
+   {
+    "id": "182614",
+    "reference": "2025/0045(COD)",
+    "result": "REJECTED",
+    "observed_share": 0.177005
+   },
+   {
+    "id": "189581",
+    "reference": "2025/0261(COD)",
+    "result": "REJECTED",
+    "observed_share": 0.250784
+   },
+   {
+    "id": "181393",
+    "reference": "2025/0524(COD)",
+    "result": "REJECTED",
+    "observed_share": 0.366771
+   },
+   {
+    "id": "174881",
+    "reference": "2023/0404(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.539604
+   },
+   {
+    "id": "184168",
+    "reference": "2025/0132(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.607362
+   },
+   {
+    "id": "193315",
+    "reference": "2025/0097(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.637306
+   },
+   {
+    "id": "182460",
+    "reference": "2025/0322(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.651057
+   },
+   {
+    "id": "174880",
+    "reference": "2024/0027(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.668293
+   },
+   {
+    "id": "189313",
+    "reference": "2025/0260(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.681747
+   },
+   {
+    "id": "180954",
+    "reference": "2025/0090(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.703876
+   },
+   {
+    "id": "179790",
+    "reference": "2023/0455(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.727132
+   },
+   {
+    "id": "184191",
+    "reference": "2025/0322(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.740798
+   },
+   {
+    "id": "192436",
+    "reference": "2024/0017(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.767372
+   },
+   {
+    "id": "190027",
+    "reference": "2025/0207(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.807988
+   },
+   {
+    "id": "178147",
+    "reference": "2025/0129(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.832565
+   },
+   {
+    "id": "180979",
+    "reference": "2025/0108(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.852433
+   },
+   {
+    "id": "182479",
+    "reference": "2025/0251(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.881024
+   },
+   {
+    "id": "178405",
+    "reference": "2025/0022(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.921687
+   },
+   {
+    "id": "178285",
+    "reference": "2025/0039(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.943425
+   },
+   {
+    "id": "184110",
+    "reference": "2024/0318(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.95525
+   },
+   {
+    "id": "178406",
+    "reference": "2025/0023(COD)",
+    "result": "ADOPTED",
+    "observed_share": 0.992504
+   }
+  ]
+ },
+ "protocol": "leave-one-out, one fold per file (METHODOLOGY \u00a74)",
+ "metric_defs": {
+  "per_group_mse": "mean_f (pred - obs)^2 over files where the group is defined",
+  "per_group_brier": "identical to per_group_mse on the [0,1] yes-rate (METHODOLOGY \u00a75)",
+  "mse_macro": "mean of per_group_mse across groups (groups weighted equally)",
+  "mse_micro": "mean (pred-obs)^2 across all defined cells (cells weighted equally)",
+  "ep_yes_share_sse": "sum_f (pred_share - obs_share)^2; pred_share seat-weighted (Decision 3)",
+  "yes_rate_denominator": "FOR/(FOR+AGAINST+ABSTENTION) (Decision 1)"
+ },
+ "results": {
+  "baseline_A": {
+   "per_group_mse": {
+    "EPP": 0.13382996100342362,
+    "S&D": 0.15830594366368292,
+    "PfE": 0.1923578957719956,
+    "ECR": 0.1999562483234828,
+    "Renew": 0.16038731273097806,
+    "Greens": 0.16291288809919247,
+    "Left": 0.19808218686259585,
+    "ESN": 0.20726018713418493,
+    "NI": 0.07708757777726559
+   },
+   "per_group_brier": {
+    "EPP": 0.13382996100342362,
+    "S&D": 0.15830594366368292,
+    "PfE": 0.1923578957719956,
+    "ECR": 0.1999562483234828,
+    "Renew": 0.16038731273097806,
+    "Greens": 0.16291288809919247,
+    "Left": 0.19808218686259585,
+    "ESN": 0.20726018713418493,
+    "NI": 0.07708757777726559
+   },
+   "mse_macro": 0.16557557792964464,
+   "mse_micro": 0.16557557792964467,
+   "ep_yes_share_sse": 1.5054107580035472,
+   "ep_yes_share_rmse": 0.2615870060370621,
+   "n_cells_graded": 198,
+   "n_cells_undefined": 0
+  },
+  "baseline_C": {
+   "per_group_mse": {
+    "EPP": 0.14322812866879142,
+    "S&D": 0.18182562964408785,
+    "PfE": 0.29907168609187595,
+    "ECR": 0.4623534327058892,
+    "Renew": 0.1729410676280333,
+    "Greens": 0.6180172593119457,
+    "Left": 0.38221335595884726,
+    "ESN": 0.3984868783406999,
+    "NI": 0.25806571646992454
+   },
+   "per_group_brier": {
+    "EPP": 0.14322812866879142,
+    "S&D": 0.18182562964408785,
+    "PfE": 0.29907168609187595,
+    "ECR": 0.4623534327058892,
+    "Renew": 0.1729410676280333,
+    "Greens": 0.6180172593119457,
+    "Left": 0.38221335595884726,
+    "ESN": 0.3984868783406999,
+    "NI": 0.25806571646992454
+   },
+   "mse_macro": 0.32402257275778834,
+   "mse_micro": 0.32402257275778834,
+   "ep_yes_share_sse": 1.6878546569597626,
+   "ep_yes_share_rmse": 0.27698495667715195,
+   "n_cells_graded": 198,
+   "n_cells_undefined": 0
+  },
+  "const_0.95": {
+   "per_group_mse": {
+    "EPP": 0.14322812866879142,
+    "S&D": 0.18182562964408785,
+    "PfE": 0.4757288568164647,
+    "ECR": 0.3196076474312662,
+    "Renew": 0.1729410676280333,
+    "Greens": 0.1945535024358878,
+    "Left": 0.38375606523986144,
+    "ESN": 0.38432998714230676,
+    "NI": 0.28796384864078395
+   },
+   "per_group_brier": {
+    "EPP": 0.14322812866879142,
+    "S&D": 0.18182562964408785,
+    "PfE": 0.4757288568164647,
+    "ECR": 0.3196076474312662,
+    "Renew": 0.1729410676280333,
+    "Greens": 0.1945535024358878,
+    "Left": 0.38375606523986144,
+    "ESN": 0.38432998714230676,
+    "NI": 0.28796384864078395
+   },
+   "mse_macro": 0.28265941484972035,
+   "mse_micro": 0.2826594148497204,
+   "ep_yes_share_sse": 3.0820658703663657,
+   "ep_yes_share_rmse": 0.37429120107006414,
+   "n_cells_graded": 198,
+   "n_cells_undefined": 0
+  },
+  "const_mean": {
+   "per_group_mse": {
+    "EPP": 0.16216497272148803,
+    "S&D": 0.16909248236693306,
+    "PfE": 0.22592426366021207,
+    "ECR": 0.18949244840685173,
+    "Renew": 0.18012660980012477,
+    "Greens": 0.16607148849657916,
+    "Left": 0.19651075775839608,
+    "ESN": 0.2027637729637065,
+    "NI": 0.09123661450479358
+   },
+   "per_group_brier": {
+    "EPP": 0.16216497272148803,
+    "S&D": 0.16909248236693306,
+    "PfE": 0.22592426366021207,
+    "ECR": 0.18949244840685173,
+    "Renew": 0.18012660980012477,
+    "Greens": 0.16607148849657916,
+    "Left": 0.19651075775839608,
+    "ESN": 0.2027637729637065,
+    "NI": 0.09123661450479358
+   },
+   "mse_macro": 0.1759314900754539,
+   "mse_micro": 0.1759314900754539,
+   "ep_yes_share_sse": 1.5404676117405272,
+   "ep_yes_share_rmse": 0.2646152963815865,
+   "n_cells_graded": 198,
+   "n_cells_undefined": 0
+  }
+ }
+}
