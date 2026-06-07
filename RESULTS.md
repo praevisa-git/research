@@ -132,11 +132,70 @@ separable from A. Treat baseline_A and const_mean as a tied floor; a real model 
 clear that band, not just nose ahead of it. (Caveat: this bootstraps test-set
 sampling only, with LOO predictions held fixed — Decision 6.)
 
+## Part 1 — Contested-subset check
+
+The §5b verdict (baseline_A tied with const_mean over all 22 files) raised the
+obvious question: maybe the per-group signal is real but only shows up on the
+*contested* files, drowned out by the easy near-unanimous ones. We test that by
+**stratified re-evaluation**: LOO predictions are held fixed (Decision 6) and the
+evaluation sample is restricted to contested subsets defined three ways.
+Reproduce: `uv run python -m praevisa.contested_subset`
+([`results/contested_subset.json`](results/contested_subset.json)).
+
+**Contestedness lenses** (all post-hoc — defined from observed yes-rates, so this is
+descriptive "where is A more accurate", not a prospective claim):
+
+- **dispersion** — stdev of the 9 group yes-rates on a file. *This lens mechanically
+  favors A*: const_mean predicts one scalar for all groups, so its per-file loss
+  essentially **is** that dispersion. A "win" here is near-tautological — reported as
+  an upper bound, not evidence.
+- **boundary** — closeness of the EP yes-share to 0.5 (outcome in doubt). Outcome-
+  defined, not mechanically tied to per-group variance.
+- **rejected** — the 4 REJECTED files (outcome-defined; n=4, descriptive only).
+
+baseline_A vs the const_mean floor, paired (positive `mean_diff` = const_mean worse
+than A; same bootstrap seed 0 / 10k + Wilcoxon as §5b, restricted to the subset):
+
+| subset | n | A MSE | const_mean MSE | mean_diff | 95% CI | wilcox p | A wins? |
+|---|---:|---:|---:|---:|---|---:|---|
+| full | 22 | 0.1656 | 0.1759 | +0.0104 | [−0.018, +0.036] | 0.354 | no |
+| dispersion bottom-half (routine) | 11 | 0.1508 | 0.1552 | +0.0044 | [−0.027, +0.033] | 0.577 | no |
+| dispersion top-half (UPPER BOUND) | 11 | 0.1803 | 0.1966 | +0.0163 | [−0.030, +0.058] | 0.465 | no |
+| dispersion top-third (UPPER BOUND) | 7 | 0.2138 | 0.2150 | +0.0012 | [−0.062, +0.059] | 1.000 | no |
+| boundary closest-to-0.5 | 11 | 0.1644 | 0.1811 | +0.0167 | [−0.034, +0.061] | 0.831 | no |
+| REJECTED only | 4 | 0.3489 | 0.2593 | **−0.0896** | [−0.122, −0.057] | n<6 | **A worse** |
+
+**Verdict — the contested subset does NOT rescue Baseline A; it indicts it.**
+
+- On **no** contested lens does A significantly beat const_mean — every CI spans 0,
+  every Wilcoxon p ≫ 0.05. The §5b tie holds under stratification.
+- Even on the **mechanically-favorable** dispersion lens the gap stays inside the
+  noise, and on the most-dispersed *third* it collapses to +0.0012 (p = 1.000): where
+  A should win by construction, it doesn't clear sampling error at n = 7.
+- On the **REJECTED** files — the genuinely contested, lost votes — A is **worse than
+  the pooled mean** (mean_diff −0.0896, bootstrap CI entirely below 0). The reason is
+  diagnostic: A predicts each group's historical mean (EPP/S&D/Renew ≈ 0.85 yes), but
+  on a file the Parliament *rejected* even the centrist trio voted low, so the
+  stable-group-yes-rate assumption inverts. baseline_C (0.95 for the trio) is
+  catastrophic there (0.49). n = 4, so this is a signal not a test — but it points the
+  same way as everything else.
+
+**Implication for the product.** A backward per-group-mean baseline carries no
+established forecasting signal beyond the pooled mean on this set, and what little it
+has evaporates (or reverses) exactly on the contested votes where forecasting value
+is supposed to live. This is consistent with the broader thesis: the value is not in
+"what each group usually does" but in the contested universe (mandates, amendments,
+close/lost votes), which a historical-mean baseline cannot reach. A real model must
+clear the const_mean floor *on the contested subset*, prospectively — not just nose
+ahead of it on the full set. That bar is now explicit.
+
 ## Provenance
 
 - Raw per-vote JSON + pull index: [`data/htv_raw/`](data/htv_raw/) (committed).
 - Baselines + loaders: [`praevisa/baselines.py`](praevisa/baselines.py).
 - LOO harness + metrics: [`praevisa/baseline_eval.py`](praevisa/baseline_eval.py).
 - Robustness harness: [`praevisa/baseline_robustness.py`](praevisa/baseline_robustness.py).
+- Contested-subset check: [`praevisa/contested_subset.py`](praevisa/contested_subset.py).
 - Machine-readable results: [`results/baseline_eval.json`](results/baseline_eval.json),
-  [`results/baseline_robustness.json`](results/baseline_robustness.json).
+  [`results/baseline_robustness.json`](results/baseline_robustness.json),
+  [`results/contested_subset.json`](results/contested_subset.json).
