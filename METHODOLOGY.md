@@ -161,6 +161,34 @@ denominator from DECISION 1.
 
 ---
 
+## 5b. Robustness / significance (added after step 5)
+
+The headline gaps are thin on only 22 files (baseline_A MSE_micro 0.1656 vs
+const_mean 0.1759), so we test whether the ranking is real or sampling noise.
+
+- **Unit of analysis:** per-file loss = mean of the 9 cell squared errors for that
+  file. Since the design is balanced (9 defined cells per file), the mean of these
+  22 per-file losses equals MSE_micro exactly. Each predictor also has a per-file
+  squared error of the aggregate EP yes-share.
+- **Resampling:** cluster bootstrap over **files** (the file is the unit; this
+  respects the dependence among the 9 cells within a file). 10,000 resamples,
+  fixed seed = 0 (so a fresh clone reproduces every number — Decision 5).
+- **What is held fixed:** the LOO predictions are computed **once** and held fixed;
+  the bootstrap resamples only the evaluation sample (Decision 6). This quantifies
+  test-set sampling uncertainty — "how stable is the ranking given only 22 files?"
+  — not fit instability. (Rejected: refit LOO inside each resample; the
+  resampling×LOO interaction is expensive and harder to interpret.)
+- **Reported per predictor:** MSE_micro and mean per-file share squared error, each
+  with a 95% percentile bootstrap CI.
+- **Pairwise vs the apparent winner (baseline_A):** the paired per-file loss
+  difference `d_f = loss_rival(f) − loss_A(f)`; its mean, 95% bootstrap CI, a
+  win-fraction (share of resamples in which A has the lower mean loss), and a
+  two-sided **Wilcoxon signed-rank** p-value on the 22 paired differences. Same for
+  the share error. A gap is called real only if the CI excludes 0 *and* the
+  Wilcoxon p < 0.05.
+
+---
+
 ## 6. Reproducibility
 
 A fresh clone regenerates every number with one documented command (e.g.
@@ -190,3 +218,11 @@ Resolved: **10th term only** (`timestamp >= 2024-07-16`). Surfaced after the fir
 pull returned a term-straddling set (16 ninth-term files carrying the now-defunct
 `ID` group). (Rejected: keep mixed set with a per-term group superset; keep mixed
 set mapping `ID→PfE`.)
+
+**DECISION 5 — bootstrap seed & resamples (robustness).**
+Resolved: fixed seed = 0, 10,000 resamples, cluster bootstrap over files. Fixed so
+the robustness numbers are exactly reproducible from a fresh clone.
+
+**DECISION 6 — bootstrap target (robustness).**
+Resolved: hold LOO predictions fixed and bootstrap the evaluation sample (quantify
+test-set sampling uncertainty). (Rejected: refit LOO inside each resample.)

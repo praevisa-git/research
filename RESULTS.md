@@ -99,9 +99,44 @@ EP yes-share = `FOR/(FOR+AGAINST+ABSTENTION)` over all groups (Decision 1).
   **0.6180**, ECR **0.4624**, Left **0.3822**, ESN **0.3985**. This is the documented cost
   of the frozen Decision-2 partition, surfaced rather than hidden.
 
+## Robustness / significance
+
+The headline gaps are thin on 22 files, so we test them: cluster bootstrap over
+files (10,000 resamples, seed 0), LOO predictions held fixed (METHODOLOGY §5b,
+Decisions 5–6). Reproduce: `uv run python -m praevisa.baseline_robustness`
+([`results/baseline_robustness.json`](results/baseline_robustness.json)).
+
+MSE_micro with 95% bootstrap CI:
+
+| predictor | MSE_micro | 95% CI |
+|---|---:|---|
+| baseline_A | 0.1656 | [0.1268, 0.2085] |
+| const_mean | 0.1759 | [0.1531, 0.2012] |
+| const_0.95 | 0.2827 | [0.2079, 0.3610] |
+| baseline_C | 0.3240 | [0.2607, 0.3885] |
+
+Paired vs baseline_A (per-file cell loss; positive mean_diff = rival worse than A):
+
+| rival | mean_diff | 95% CI | win-frac | Wilcoxon p | gap real? |
+|---|---:|---|---:|---:|---|
+| baseline_C | +0.1584 | [+0.1064, +0.2097] | 1.000 | 0.0000 | **yes** |
+| const_0.95 | +0.1171 | [+0.0603, +0.1731] | 1.000 | 0.0009 | **yes** |
+| const_mean | +0.0104 | [−0.0177, +0.0357] | 0.778 | 0.3535 | **no** |
+
+**Verdict.** baseline_A decisively beats both 0.95/0.05 constants (CI excludes 0,
+p < 0.001). But **baseline_A is statistically indistinguishable from const_mean** on
+this set — the per-group signal beyond the pooled mean is not established at n = 22
+(mean_diff +0.0104, CI spans 0, Wilcoxon p = 0.35). On the aggregate EP yes-share,
+only const_0.95 is significantly worse than A; const_mean and baseline_C are not
+separable from A. Treat baseline_A and const_mean as a tied floor; a real model must
+clear that band, not just nose ahead of it. (Caveat: this bootstraps test-set
+sampling only, with LOO predictions held fixed — Decision 6.)
+
 ## Provenance
 
 - Raw per-vote JSON + pull index: [`data/htv_raw/`](data/htv_raw/) (committed).
 - Baselines + loaders: [`praevisa/baselines.py`](praevisa/baselines.py).
 - LOO harness + metrics: [`praevisa/baseline_eval.py`](praevisa/baseline_eval.py).
-- Machine-readable results: [`results/baseline_eval.json`](results/baseline_eval.json).
+- Robustness harness: [`praevisa/baseline_robustness.py`](praevisa/baseline_robustness.py).
+- Machine-readable results: [`results/baseline_eval.json`](results/baseline_eval.json),
+  [`results/baseline_robustness.json`](results/baseline_robustness.json).
