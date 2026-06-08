@@ -263,13 +263,59 @@ def build_corpus(committee: str, max_pdfs: int | None = None) -> dict:
     return {"committee": committee, "n_records": len(clean), "records": clean}
 
 
-def main() -> None:
-    committee = sys.argv[1] if len(sys.argv) > 1 else "ECON"
+# Full EP standing-committee set (10th term). These are the committees that lead or
+# share legislative (COD) files; subcommittees (SEDE/DROI/FISC/SANT) rarely lead and
+# are omitted. Each is scraped from europarl.europa.eu/committees/en/<code>/meetings/votes.
+COMMITTEES = [
+    "AFET", "DEVE", "INTA", "BUDG", "CONT", "ECON", "EMPL", "ENVI", "ITRE",
+    "IMCO", "TRAN", "REGI", "AGRI", "PECH", "CULT", "JURI", "LIBE", "AFCO",
+    "FEMM", "PETI",
+]
+
+
+def _write_corpus(committee: str) -> dict:
     corpus = build_corpus(committee)
     out = f"committee_corpus_{committee}.json"
     with open(out, "w") as f:
         json.dump(corpus, f, ensure_ascii=False, indent=1)
     print(f"\nwrote {out} ({corpus['n_records']} vote records)")
+    return corpus
+
+
+def build_all(committees: list[str]) -> None:
+    """Scrape every committee, write its corpus, and print a coverage table.
+
+    Resilient: a committee whose votes page or PDFs fail to parse yields an empty
+    corpus and is reported, not fatal — so one bad layout never blocks the rest.
+    """
+    summary = []
+    for c in committees:
+        print(f"\n{'='*70}\n{c}\n{'='*70}")
+        try:
+            corpus = _write_corpus(c)
+            recs = corpus["records"]
+            cod = {r["procedure"] for r in recs if r["procedure"].endswith("(COD)")}
+            summary.append((c, len(recs), len(cod)))
+        except Exception as e:  # noqa: BLE001 — one committee must not kill the run
+            print(f"  {c}: FAILED ({type(e).__name__}: {e})")
+            summary.append((c, 0, 0))
+
+    print(f"\n{'='*70}\nCOVERAGE SUMMARY\n{'='*70}")
+    print(f"{'committee':10s}{'records':>9s}{'COD procs':>11s}")
+    print("-" * 30)
+    for c, n, ncod in summary:
+        print(f"{c:10s}{n:>9d}{ncod:>11d}")
+    tot_cod = sum(ncod for _, _, ncod in summary)
+    print("-" * 30)
+    print(f"{'TOTAL':10s}{sum(n for _,n,_ in summary):>9d}{tot_cod:>11d} (COD-proc instances; dedup across committees in Stage 0)")
+
+
+def main() -> None:
+    arg = sys.argv[1] if len(sys.argv) > 1 else "ECON"
+    if arg.lower() == "all":
+        build_all(COMMITTEES)
+    else:
+        _write_corpus(arg)
 
 
 if __name__ == "__main__":
