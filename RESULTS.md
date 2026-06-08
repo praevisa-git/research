@@ -165,6 +165,12 @@ than A; same bootstrap seed 0 / 10k + Wilcoxon as §5b, restricted to the subset
 | boundary closest-to-0.5 | 11 | 0.1644 | 0.1811 | +0.0167 | [−0.034, +0.061] | 0.831 | no |
 | REJECTED only | 4 | 0.3489 | 0.2593 | **−0.0896** | [−0.122, −0.057] | n<6 | **A worse** |
 
+> Note: the `0.1508` in the routine row is baseline_A's *actual, computed* loss on that
+> subset (0.15081, reproducible from `results/contested_subset.json`). Its collision with
+> the retired phantom figure 0.1508 is a coincidence, not a reappearance of it. The
+> phantom (group MSE 0.1004 / 0.1508) has no artifact and is dead; the real Baseline A
+> group MSE is **0.1656** (§ headline metrics).
+
 **Verdict — the contested subset does NOT rescue Baseline A; it indicts it.**
 
 - On **no** contested lens does A significantly beat const_mean — every CI spans 0,
