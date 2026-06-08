@@ -5,29 +5,23 @@ The kill-switch before any modeling. The prospective test needs PAIRS of
 COD files. This script counts how many such pairs actually exist in the data we
 have, so we learn — cheaply — whether the test is runnable at all.
 
-Inputs (committed):
-  committee_corpus_*.json        — scraped committee roll-calls (per-MEP, per-group)
-  data/htv_plenary_by_proc.json  — procedure.reference -> plenary votes (best-effort
-                                   join built by scripts/build_plenary_join.py)
+Inputs:
+  committee_corpus_*.json  — scraped committee roll-calls (per-MEP, per-group; local)
+  praevisa.resolve_plenary — procedure -> plenary vote, via HTV's COMPLETE bulk export
+                             (not the capped /api/votes list); per-group via by-id API
 
 It reports, for COD procedures that have a usable PRE-PLENARY committee roll-call:
-  * how many have per-group committee data (the SIGNAL side — reliable, local data),
-  * how many we could CONFIRM a plenary main first-reading vote with per-group data
-    (the OUTCOME side) and thus form a usable PAIR,
-  * how many of those confirmed pairs are CONTESTED ex ante (committee not unanimous).
+  * how many have per-group committee data (the SIGNAL side),
+  * how many resolve to a plenary main first-reading vote with per-group data (the
+    OUTCOME side) and thus form a usable PAIR,
+  * how many of those pairs are CONTESTED ex ante (committee not unanimous).
 
-DATA CAVEAT — READ BEFORE TRUSTING THE PAIR COUNT. The HowTheyVote `/api/votes` LIST
-endpoint is NOT a complete enumeration: it returns a capped/rolling window (~2352
-votes) and demonstrably omits older votes that exist and are fetchable by id (e.g.
-vote 184168 = 2025/0132, which IS in our committed 22-file set, does not appear in the
-list even when date-filtered). Therefore an UNCONFIRMED plenary match here means
-"not found via the list", NOT "no plenary vote exists". Many unconfirmed procedures
-are either (a) recent files whose plenary vote is still pending, or (b) older votes
-outside the list window. The confirmed-pair count is a LOWER BOUND. The real cost this
-gate surfaces is that pairing committee signals to plenary outcomes needs a reliable
-procedure->vote resolver, which this API does not cleanly provide.
+The earlier list-window ambiguity is GONE: resolve_plenary indexes the full ~24k-vote
+bulk table, so a procedure with no plenary match here genuinely has no plenary main
+first-reading COD vote yet (pending or routed otherwise) — an authoritative answer,
+not "unknown / outside a window".
 
-No modeling here. Just the count that decides go / no-go / inconclusive.
+No modeling here. Just the count that decides go / no-go.
 
 Run:  uv run python -m praevisa.stage0_feasibility
 """
@@ -39,7 +33,6 @@ import json
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-PLENARY_JOIN = REPO / "data" / "htv_plenary_by_proc.json"
 
 # committee corpus group code -> canonical 10th-term code
 COMMITTEE_GROUP_MAP = {
@@ -111,45 +104,35 @@ def load_committee_cod():
     return by_proc
 
 
-def load_htv_raw_procs():
-    """Authoritative procedure -> plenary id from the committed 22-file set.
+def usable_plenary(proc, index):
+    """Authoritatively resolve a usable plenary outcome for `proc`, or None.
 
-    Every file in data/htv_raw is, by construction, a main OLP first-reading vote with
-    per-group data, so its presence confirms a usable plenary outcome regardless of the
-    incomplete list endpoint.
+    Uses the bulk-export resolver (praevisa.resolve_plenary), which is complete — so
+    None here means the procedure genuinely has NO plenary main first-reading COD vote
+    yet (pending or routed otherwise), not "unknown / outside a window". Per-group
+    availability is confirmed by a by-id detail fetch.
     """
-    try:
-        from .baselines import load_testset
-        return {r.reference: r.id for r in load_testset()}
-    except Exception:
-        return {}
-
-
-def usable_plenary(proc, plenary_index, raw_procs):
-    """Confirm a usable plenary outcome for `proc` from either reliable source.
-
-    Returns {"id":..., "source":...} or None. Sources: 'htv_raw' (authoritative,
-    committed 22-file set) or 'join' (best-effort, from the capped list endpoint).
-    """
-    if proc in raw_procs:
-        return {"id": raw_procs[proc], "result": None, "source": "htv_raw"}
-    for v in plenary_index.get(proc, []):
-        if v.get("main") and v.get("stage") == "OLP_FIRST_READING" and v.get("bg"):
-            return {"id": v["id"], "result": v.get("result"), "source": "join"}
-    return None
+    from . import resolve_plenary
+    row = resolve_plenary.resolve_first_reading(proc, index)
+    if row is None:
+        return None
+    bg = resolve_plenary.fetch_by_group(row["id"])
+    n_groups = len(bg) if bg else 0
+    return {"id": row["id"], "result": row["result"], "groups": n_groups,
+            "ts": row.get("timestamp", "")[:10]}
 
 
 def main():
+    from . import resolve_plenary
     committee = load_committee_cod()
-    plenary_index = json.loads(PLENARY_JOIN.read_text()) if PLENARY_JOIN.exists() else {}
-    raw_procs = load_htv_raw_procs()
+    index = resolve_plenary.load_index()  # complete bulk-export index
 
     rows = []
     for proc, rec in sorted(committee.items()):
         yes, n = _committee_yes(rec)
         grates = _committee_group_rates(rec["votes"])
         n_groups = sum(1 for v in grates.values() if v is not None)
-        plen = usable_plenary(proc, plenary_index, raw_procs)
+        plen = usable_plenary(proc, index)
         contested = (yes is not None and yes < CONTESTED_MAX_YES)
         rows.append({
             "procedure": proc, "committee": rec["committee"],
@@ -158,8 +141,9 @@ def main():
             "committee_groups_defined": n_groups,
             "contested_ex_ante": contested,
             "plenary_vote_id": plen["id"] if plen else None,
-            "plenary_source": plen["source"] if plen else None,
-            "usable_pair": bool(plen and n_groups >= 5),
+            "plenary_result": plen["result"] if plen else None,
+            "plenary_groups": plen["groups"] if plen else 0,
+            "usable_pair": bool(plen and n_groups >= 5 and plen["groups"] >= 5),
         })
 
     n_signal = len(rows)
@@ -172,30 +156,32 @@ def main():
     print("SIGNAL side (reliable, local committee data):")
     print(f"  COD procedures with a pre-plenary committee per-group signal : {n_signal}")
     print(f"  ... CONTESTED ex ante (committee yes < {CONTESTED_MAX_YES})            : {n_contested_signal}\n")
-    print("OUTCOME side (HTV list endpoint is incomplete -> LOWER BOUND):")
-    print(f"  plenary outcome CONFIRMED -> usable PAIR                     : {n_pair}")
+    print("OUTCOME side (authoritative via bulk-export resolver):")
+    print(f"  resolves to a usable plenary PAIR                           : {n_pair}")
     print(f"  ... of which contested ex ante                              : {n_contested_pair}")
-    print(f"  plenary UNCONFIRMED (unknown: pending OR outside list window): {n_unconfirmed}\n")
+    print(f"  no plenary first-reading vote yet (pending / routed otherwise): {n_unconfirmed}\n")
 
     print(f"{'procedure':16s} {'cmte':5s} {'n':>4s} {'cmte_yes':>8s} {'grps':>4s} "
           f"{'contested':>9s}  {'plenary':<16s}")
     print("-" * 72)
     for r in rows:
         if r["usable_pair"]:
-            status = f"{r['plenary_vote_id']} ({r['plenary_source']})"
+            status = f"{r['plenary_vote_id']} {r['plenary_result'][:4].lower()}"
+        elif r["plenary_vote_id"]:
+            status = f"{r['plenary_vote_id']} (few groups)"
         else:
-            status = "unconfirmed"
+            status = "none (pending)"
         cy = r["committee_yes"] if r["committee_yes"] is not None else float("nan")
         print(f"{r['procedure']:16s} {r['committee']:5s} {r['committee_n']:>4d} "
               f"{cy:>8.2f} {r['committee_groups_defined']:>4d} "
               f"{str(r['contested_ex_ante']):>9s}  {status:<16s}")
 
     out = {
+        "resolver": "praevisa.resolve_plenary (HTV bulk export, complete table)",
         "signal_side": {"n_signal": n_signal, "n_contested_signal": n_contested_signal},
-        "outcome_side_LOWER_BOUND": {
-            "n_confirmed_pairs": n_pair, "n_confirmed_contested_pairs": n_contested_pair,
-            "n_unconfirmed": n_unconfirmed,
-            "caveat": "HTV /api/votes list is a capped window; unconfirmed != absent",
+        "outcome_side": {
+            "n_pairs": n_pair, "n_contested_pairs": n_contested_pair,
+            "n_no_plenary_yet": n_unconfirmed,
         },
         "contested_max_yes": CONTESTED_MAX_YES, "rows": rows,
     }
@@ -203,10 +189,10 @@ def main():
     (REPO / "results" / "stage0_feasibility.json").write_text(json.dumps(out, indent=1))
     print("\nwritten: results/stage0_feasibility.json")
     print(f"\nVERDICT: signal side feasible ({n_signal} signals, {n_contested_signal} "
-          f"contested). {n_pair} pairs CONFIRMED ({n_contested_pair} contested) from only")
-    print(f"5 committees — a LOWER BOUND ({n_unconfirmed} unconfirmed: pending or out-of-window,")
-    print("not absent). Stage A target is ~>=10 pairs (>=6 contested): plausibly reachable")
-    print("by resolving the unconfirmed and widening beyond 5 committees. Tentative GO.")
+          f"contested). {n_pair} usable pairs ({n_contested_pair} contested) from only the")
+    print(f"5 scraped committees; {n_unconfirmed} have no first-reading plenary vote yet")
+    print("(pending). Stage A target ~>=10 pairs (>=6 contested): widen the committee scrape")
+    print("(resolver now makes pairing reliable across ALL committees and full history).")
     return out
 
 

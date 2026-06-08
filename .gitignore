@@ -20,3 +20,6 @@ committee_corpus_*.json
 
 # Local HTV pull cache (regenerable via scripts/build_plenary_join.py)
 data/htv_list_scan.json
+
+# HTV bulk export cache (regenerable via praevisa.resolve_plenary)
+data/htv_export/
