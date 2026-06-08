@@ -1,0 +1,324 @@
+{
+ "committee": "AFET",
+ "n_records": 1,
+ "records": [
+  {
+   "committee": "AFET",
+   "source": "https://www.europarl.europa.eu/cmsdata/300856/Final%20votes%20by%20Roll-call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "David McAllister (EPP) ...................................................................................................... 2",
+   "title": "1. Implementation of the common foreign and security policy – annual report 2025 (2025/2164(INI)),",
+   "subject": "2. EU-US political relations (2025/2084(INI)), Rapporteur: Michał Szczerba (EPP) ............................ 3",
+   "secret": false,
+   "tally": {
+    "+": 42,
+    "-": 14,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michael Gahler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rasa Juknevičienė",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Łukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Kovatchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Antonio López-Istúriz White",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David McAllister",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Davor Ivo Stier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Szczerba",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Riho Terras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabel Wiseler-Lima",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Helmut Brandstätter",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bernard Guetta",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ilhan Kyuchyuk",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marie-Agnes Strack- Zimmermann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lucia Annunziata",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tobias Cremer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giorgio Gori",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sven Mikser",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thijs Reuten",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nacho Sánchez Amor",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andreas Schieder",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Villy Søvndal",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petr Bystron",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Alexander Sell",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mieke Andriese",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jordan Bardella",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Bžoch",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Matthieu Valet",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roberto Vannacci",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pernando Barrena Arza",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Giorgos Georgiou",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Adam Bielan",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Arkadiusz Mularczyk",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Cristian Terheş",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Leoluca Orlando",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}

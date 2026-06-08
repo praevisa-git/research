@@ -1,0 +1,4583 @@
+{
+ "committee": "DEVE",
+ "n_records": 26,
+ "records": [
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/306139/2026-05-05%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Lukas Mandl (EPP)",
+   "title": "of Tuesday 05 May2026 Reinforcing development cooperation to address irregular population movements and their root causes in partner countries 1. page 2 (2025/2111(INI)) Rapporteur: Lukas Mandl (EPP) Promoting transnational governance on water in the interests of conflict prevention and peace (2025/2216(INI)), Rapporteur: 2. page 3 György Hölvényi (PfE) Reinforcing development cooperation to address irregular population movements and their root causes in partner countries (2025/2111(INI))",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 6,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Liudas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anna-Maja Henriksson",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hilde Vautmans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/305558/2026-04-14%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marit Maij (S&D)",
+   "title": "Termination of the Voluntary Partnership Agreement between the European Union and the Republic of Liberia on Forest Law Enforcement Governance and Trade in timber products to the European Union - Adoption of resolution accompanying the draft opinion (2025/0259(NLE)",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 0,
+    "-": 25,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "David Cormand",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/305558/2026-04-14%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marit Maij (S&D)",
+   "title": "Termination of the Voluntary Partnership Agreement between the European Union and the Republic of Liberia on Forest Law Enforcement Governance and Trade in timber products to the European Union (2025/0259M(NLE)) - Adoption of the draft opinion",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 13,
+    "-": 9,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "David Cormand",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "0"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "0"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/304390/2026-03-17%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marco Tarquinio (S&D)",
+   "title": "of Tuesday 17 March 2026 EU strategy to face the new theories against democracy 1. (2025/2050(INI)), Rapporteur: Marco Tarquinio (S&D) page 2 Conclusion, on behalf of the Union, of the Protocol on the implementation of the Sustainable Fisheries Partnership Agreement between the European Union and the Government of 2. page 3 the Cook Islands (2025-2032) (2025/0287(NLE) - C10- 0346/2025), Rapporteurs: Charles Goerens (Renew) Budget 2027: Pilot Projects and Preparatory Actions (PP-PAs) 3. page 4 for pre-assessment by the Commission EU strategy to face the new theories against democracy (2025/2050(INI))",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 14,
+    "-": 4,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/304390/2026-03-17%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "2025/0287(NLE)",
+   "rapporteur": "Marco Tarquinio (S&D)",
+   "title": "of Tuesday 17 March 2026 EU strategy to face the new theories against democracy 1. (2025/2050(INI)), Rapporteur: Marco Tarquinio (S&D) page 2 Conclusion, on behalf of the Union, of the Protocol on the implementation of the Sustainable Fisheries Partnership Agreement between the European Union and the Government of 2. page 3 the Cook Islands (2025-2032) (2025/0287(NLE) - C10- 0346/2025), Rapporteurs: Charles Goerens (Renew) Budget 2027: Pilot Projects and Preparatory Actions (PP-PAs) 3. page 4 for pre-assessment by the Commission EU strategy to face the new theories against democracy (2025/2050(INI))",
+   "subject": "VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 14,
+    "-": 2,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/304390/2026-03-17%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "2025/0287(NLE)",
+   "rapporteur": "Marco Tarquinio (S&D)",
+   "title": "Budget 2027: Pilot Projects and Preparatory Actions (PP-PAs) for pre-assessment by the Commission FINAL VOTE BY ROLL CALL BY THE COMMITTEES 60 + PPE Wouter Beke, Hildegard Bentele, Alexander Bernhuber, Ioan-Rareş Bogdan, Krzysztof Brejza, Sebastião Bugalho, Rosa Estaràs Ferragut, Jan Farský, Loucas Fourlas, Michael Gahler, Christophe Gomart, Rasa Juknevičienė, Sandra Kalniete, Łukasz Kohut, Ondřej Kolář, Andrey Kovatchev, Antonio López-Istúriz White, David McAllister, Lukas Mandl, Liudas Mažylis, Vangelis Meimarakis, Francisco José Millán Mon, Davor Ivo Stier, Tomas Tobé, Adrián Vázquez Lázara, Željana Zovko Renew Abir Al-Sahlani, Barry Andrews, Petras Auštrevičius, Dan Barna, Helmut Brandstätter, Engin Eroglu, Charles Goerens, Bernard Guetta, Jan-Christoph Oetjen, Marjan Šarec S&D Lucia Annunziata, Robert Biedroń, Udo Bullmann, Tobias Cremer, Elio Di Rupo, Sandra Gómez López, Hana Jalloul Muro, Murielle Laurent, Juan Fernando López Aguilar, Costas Mavrides, Matjaž Nemec, Thomas Pellerin-Carlin, Tonino Picula, Thijs Reuten, Chloé Ridel, Nacho Sánchez Amor, Andreas Schieder, Marco Tarquinio, Marta Temido, Nicola Zingaretti Verts/ALE Sergey Lagodinsky, Erik Marquardt, Hannah Neumann, Villy Søvndal 23 - ECR Adam Bielan, Paolo Inselvini, Marion Maréchal, Kristoffer Storm, Şerban Dimitrie Sturdza, Sebastian Tynkkynen ESN Tomasz Froelich, Marc Jongen, Alexander Sell NI Grzegorz Braun, Kostas Papadakis PfE Mieke Andriese, Fabrice Leggeri, Jorge Martín Frías, Hermann Tertsch, Pierre-Romain Thionnet The Left Marc Botenga, Danilo Della Valle, Özlem Demirel, Rima Hassan, Carolina Morace, Isabel Serra Sánchez Verts/ALE Mounir Satouri 5 0 PfE Viktória Ferenc, Tiago Moreira de Sá, António Tânger Corrêa Verts/ALE Jaume Asens Llodrà, Leoluca Orlando Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee, Vote on the provisional agreement resulting from interinstitutional negotiations",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEES RESPONSIBLE",
+   "secret": false,
+   "tally": {
+    "+": 14,
+    "-": 4,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/303220/2026-02-25%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Chloé Ridel (S&D) (AFET), Hildegard Bentele (PPE) (DEVE)",
+   "title": "of Wednesday 25 February 2026 Global Gateway – past impacts and future orientation (2025/2073(INI)), Rapporteurs: Chloé Ridel (S&D) (AFET), 1. page 2 Hildegard Bentele (PPE) (DEVE) - AM 351 Global Gateway – past impacts and future orientation (2025/2073(INI)), Rapporteurs: Chloé Ridel (S&D) (AFET), 2. page 3 Hildegard Bentele (PPE) (DEVE) - AM 372 2nd part Global Gateway – past impacts and future orientation (2025/2073(INI)), Rapporteurs: Chloé Ridel (S&D) (AFET), 3. page 4 Hildegard Bentele (PPE) (DEVE) - Final vote Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee, Rapporteurs: David McAllister (PPE) (AFET), Charles Goerens (Renew) (DEVE) - 4. page 5 Vote on the provisional agreement resulting from interinstitutional negotiations Global Gateway – past impacts and future orientation (2025/2073(INI))",
+   "subject": "VOTE BY ROLL CALL - Amendment 351",
+   "secret": false,
+   "tally": {
+    "+": 11,
+    "-": 73,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "The Left",
+     "mep": "Marc Botenga",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Özlem Demirel",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Rima Hassan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jaume Asens Llodrà",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Leoluca Orlando",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Villy Søvndal",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Adam Bielan",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marion Maréchal",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sebastian Tynkkynen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Alexander Sell",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Brejza",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sebastião Bugalho",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jan Farský",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michael Gahler",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rasa Juknevičienė",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Łukasz Kohut",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Kovatchev",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Antonio López-Istúriz White",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "David McAllister",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Davor Ivo Stier",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mieke Andriese",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Fabrice Leggeri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jorge Martín Frías",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Helmut Brandstätter",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bernard Guetta",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lucia Annunziata",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tobias Cremer",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandra Gómez López",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Juan Fernando López Aguilar",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Pellerin-Carlin",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thijs Reuten",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Chloé Ridel",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nacho Sánchez Amor",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andreas Schieder",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nicola Zingaretti",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "0"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/303220/2026-02-25%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Chloé Ridel (S&D) (AFET), Hildegard Bentele (PPE) (DEVE)",
+   "title": "Global Gateway – past impacts and future orientation (2025/2073(INI))",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEES RESPONSIBLE",
+   "secret": false,
+   "tally": {
+    "+": 60,
+    "-": 23,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Brejza",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sebastião Bugalho",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jan Farský",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michael Gahler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rasa Juknevičienė",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Łukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Kovatchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Antonio López-Istúriz White",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David McAllister",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Davor Ivo Stier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Helmut Brandstätter",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bernard Guetta",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lucia Annunziata",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tobias Cremer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandra Gómez López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Juan Fernando López Aguilar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Pellerin-Carlin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thijs Reuten",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Chloé Ridel",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nacho Sánchez Amor",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andreas Schieder",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nicola Zingaretti",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Villy Søvndal",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Adam Bielan",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marion Maréchal",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sebastian Tynkkynen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Alexander Sell",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mieke Andriese",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Fabrice Leggeri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jorge Martín Frías",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marc Botenga",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Özlem Demirel",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Rima Hassan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jaume Asens Llodrà",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Leoluca Orlando",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/303220/2026-02-25%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Chloé Ridel (S&D) (AFET), Hildegard Bentele (PPE) (DEVE)",
+   "title": "Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee, Vote on the provisional agreement resulting from interinstitutional negotiations",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEES RESPONSIBLE",
+   "secret": false,
+   "tally": {
+    "+": 63,
+    "-": 17,
+    "0": 8
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Brejza",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sebastião Bugalho",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jan Farský",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michael Gahler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rasa Juknevičienė",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Łukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Kovatchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Antonio López-Istúriz White",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David McAllister",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Davor Ivo Stier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Helmut Brandstätter",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bernard Guetta",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lucia Annunziata",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tobias Cremer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandra Gómez López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Juan Fernando López Aguilar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Pellerin-Carlin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thijs Reuten",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Chloé Ridel",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nacho Sánchez Amor",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andreas Schieder",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nicola Zingaretti",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jaume Asens Llodrà",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Leoluca Orlando",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Villy Søvndal",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Adam Bielan",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marion Maréchal",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sebastian Tynkkynen",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mieke Andriese",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jorge Martín Frías",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marc Botenga",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Özlem Demirel",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Rima Hassan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Alexander Sell",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Fabrice Leggeri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/303195/2026-02-24%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Niels Geuking (EPP)",
+   "title": "of 24 February 2026 Opinion on the Interim report on the proposal for the multiannual financial framework for 2028-2034 (COM(2025)0571 – C10 1. 0000/2025 – 2025/0571R(APP)), Rapporteur: Niels Geuking page 2 (EPP) Opinion on the conclusion, on behalf of the Union, of the Protocol on the implementation of the Fisheries Partnership Agreement between the Democratic Republic of São Tomé and 2. Príncipe and the European Community (2025–2029) page 3 (11609/2025 – C10 0246/2025 – 2025/0202(NLE)), Rapporteur: Małgorzata Gosiewska (ECR) Opinion on the Interim report on the proposal for the multiannual financial framework for 2028-2034 (COM(2025)0571 – C10 0000/2025 – 2025/0571R(APP))",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 0,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Vlad Vasile-Voiculescu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marieke Ehlers",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/303195/2026-02-24%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Niels Geuking (EPP)",
+   "title": "2/3 Opinion on the conclusion, on behalf of the Union, of the Protocol on the implementation of the Fisheries Partnership Agreement between the Democratic Republic of São Tomé and Príncipe and the European Community (2025–2029) (11609/2025 – C10 0246/2025 – 2025/0202(NLE))",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 18,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Vlad Vasile-Voiculescu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marieke Ehlers",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/302171/2026-01-28%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "2025/2145(DEC)",
+   "rapporteur": "Charles page",
+   "title": "of 28 January 2026 Discharge 2024: General budget of the EU - Commission (2025/2145(DEC) - COM(2025)0359) - Rapporteur: Charles page 1. Goerens (Renew) 2 Discharge 2024: General budget of the EU - Commission",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 17,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Mariusz Kamiński",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Winzig",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anna-Maja Henriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/300864/2025-12-02%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Leire Pajín (S&D)",
+   "title": "of 2 December 2025 Own initiative report on humanitarian aid in a time of polycrisis – reaffirming our page 1. principles for a more effective and ambitious response to humanitarian crises (2025/2085(INI)), Rapporteur: Leire Pajín (S&D) Own initiative report on humanitarian aid in a time of polycrisis – reaffirming our principles for a more effective and ambitious response to humanitarian crises (2025/2085(INI))",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE RESPONSIBLE",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 2,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Geuking Niels",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kelly Seán",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mandl Lukas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mazylis Liudas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Solís Pérez Susana",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Al-Sahlani Abir",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Andrews Barry",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Biedron Robert",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bullmann Udo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Laurent Murielle",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Pajín Leire",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tarquinio Marco",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Morace Carolina",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Salis Ilaria",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Asens Llodrà Jaume",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Lövin Isabella",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Gosiewska Malgorzata",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Jongen Marc",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bentele Hildegard",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hölvényi György",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Moreira de Sá Tiago",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/300351/2025-11-20%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "David McAllister for the AFET Committee",
+   "title": "of 22 November 2025 Objection pursuant to Rule 115(2) and (3) of the Rules of Procedure on the Draft Commission Implementing Decision (D110180/02) on the financing of the page 1. annual action plan in favour of the United Republic of Tanzania for 2025 (2025/2979(RSP)), Rapporteurs: David McAllister (PPE) and Barry Andrews (Renew) Objection pursuant to Rule 115(2) and (3) of the Rules of Procedure on the Draft Commission Implementing Decision (D110180/02) on the financing of the annual action plan in favour of the United Republic of Tanzania for 2025 (2025/2979(RSP))",
+   "subject": "and Barry Andrews for the DEVE Committee",
+   "secret": false,
+   "tally": {
+    "+": 53,
+    "-": 2,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Adam Bielan",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Cristian Terheş",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Hans Neuhoff",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Brejza",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sebastião Bugalho",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pilar del Castillo Vera",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michael Gahler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Seán Kelly",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Łukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David McAllister",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sven Simon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Riho Terras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Matthieu Valet",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bernard Guetta",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marie-Agnes Strack-Zimmermann",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hilde Vautmans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tobias Cremer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vasile Dîncu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Juan Fernando López Aguilar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ana Catarina Mendes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sven Mikser",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Alessandra Moretti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thijs Reuten",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nacho Sánchez Amor",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Günther Sidl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jaume Asens Llodrà",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Villy Søvndal",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Ľuboš Blaha",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/299746/2025_11_05%20Roll%20call%20votes.pdf",
+   "ref": "CJ19/10/02990",
+   "procedure": "2025/0262(COD)",
+   "rapporteur": "",
+   "title": "of 05 November 2025 Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee - Adoption of draft page 1. report - AFET rapporteur: David Mc Allister (EPP) and DEVE 2 rapporteur: Charles Goerens (Renew) Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee - Vote on the page 2. decision to enter into interinstitutional negotiations - AFET rapporteur: David Mc Allister (EPP) and DEVE rapporteur: Charles Goerens (Renew) Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee - Adoption of draft report",
+   "subject": "AFET rapporteur: David Mc Allister",
+   "secret": false,
+   "tally": {
+    "+": 47,
+    "-": 10,
+    "0": 14
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Agius",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rasa Juknevičienė",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sophia Kircher",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Łukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Kovatchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Antonio López-Istúriz White",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David McAllister",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Verena Mertens",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Riho Terras",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Helmut Brandstätter",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ilhan Kyuchyuk",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hilde Vautmans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lucia Annunziata",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandra Gómez López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "César Luena",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nacho Sánchez Amor",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Erik Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Villy Søvndal",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Arkadiusz Mularczyk",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sebastian Tynkkynen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Stanislav Stoyanov",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Özlem Demirel",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Giorgos Georgiou",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Assita Kanko",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "András László",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Fabrice Leggeri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "André Rougé",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Alexandre Varaut",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Leoluca Orlando",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tineke Strik CORRECTIONS TO VOTES + Tineke Strik - 0",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/299746/2025_11_05%20Roll%20call%20votes.pdf",
+   "ref": "CJ19/10/02990",
+   "procedure": "2025/0262(COD)",
+   "rapporteur": "",
+   "title": "Amending Regulation (EU) 2021/947 as regards increased efficiency of the External Action Guarantee - Vote on the decision to enter into interinstitutional negotiations",
+   "subject": "AFET rapporteur: David Mc Allister",
+   "secret": false,
+   "tally": {
+    "-": 10,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Arkadiusz Mularczyk",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sebastian Tynkkynen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Stanislav Stoyanov",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Özlem Demirel",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Giorgos Georgiou",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Assita Kanko",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lucia Annunziata",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/298320/2025_09_24%20Roll%20call%20votes.pdf",
+   "ref": "DEVE/10/03173",
+   "procedure": "2025/0210(BUD)",
+   "rapporteur": "Charles Goerens",
+   "title": "of 24 September 2025 General budget of the European Union for the financial year 2026 page 1. - all sections (2025/0210(BUD)) - Rapporteur: Charles Goerens 2 General budget of the European Union for the financial year 2026 - all sections",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 9,
+    "-": 3,
+    "0": 12
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Winzig",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anna-Maja Henriksson",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michael McNamara",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Vlad Vasile-Voiculescu",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/295837/2025-05-20%20Roll%20call%20votes.pdf",
+   "ref": "DEVE/10/01765",
+   "procedure": "2025/2004(INI)",
+   "rapporteur": "Charles Goerens (Renew)",
+   "title": "of 20 May 2025 TABLE OF CONTENT Financing for development – ahead of the Fourth International Conference on Financing for Development in Seville - Rapporteur: Charles Goerens (Renew) - Final vote ............................................................................................................................. 5 Detailed roll-call votes AM 113 ....................................................................................................................... 6 AM 114 ....................................................................................................................... 7 CA 11 ......................................................................................................................... 8 CA 12 ......................................................................................................................... 9 CA 17 ....................................................................................................................... 10 CA 13 ....................................................................................................................... 11 AM 132 ..................................................................................................................... 12 CA 14 ....................................................................................................................... 13 CA 15 ....................................................................................................................... 14 AM 143 ..................................................................................................................... 15 CA 16 ....................................................................................................................... 16 AM 153 ..................................................................................................................... 17 AM 154 ..................................................................................................................... 18 AM 155 ..................................................................................................................... 19 AM 157 ..................................................................................................................... 20 CA 24 ....................................................................................................................... 21 AM 163 ..................................................................................................................... 22 AM 166 ..................................................................................................................... 23 CA 18 ....................................................................................................................... 24 AM 170 ..................................................................................................................... 25 AM 172 ..................................................................................................................... 26 AM 173 ..................................................................................................................... 27 AM 174 ..................................................................................................................... 28 AM 175 ..................................................................................................................... 29 AM 177 ..................................................................................................................... 30 CA 19 ....................................................................................................................... 31 AM 183 ..................................................................................................................... 32 AM 184 ..................................................................................................................... 33 CA 20 ....................................................................................................................... 34 AM 185 ..................................................................................................................... 35 AM 186 ..................................................................................................................... 36 AM 187 ..................................................................................................................... 37 AM 188 ..................................................................................................................... 38 AM 191 ..................................................................................................................... 39 Paragraph 14, Original text ....................................................................................... 40 AM 195 ..................................................................................................................... 41 AM 196 ..................................................................................................................... 42 AM 197 ..................................................................................................................... 43 AM 198 ..................................................................................................................... 44 AM 200 ..................................................................................................................... 45 CA 21 ....................................................................................................................... 46 AM 206 ..................................................................................................................... 47 CA 22 ....................................................................................................................... 48 AM 211 ..................................................................................................................... 49 AM 212 ..................................................................................................................... 50 AM 213 ..................................................................................................................... 51 AM 214 ..................................................................................................................... 52 CA 23 ....................................................................................................................... 53 AM 224 ..................................................................................................................... 54 AM 227 part 1 ........................................................................................................... 55 AM 227 part 2 ........................................................................................................... 56 AM 232 ..................................................................................................................... 57 AM 233 ..................................................................................................................... 58 AM 234 ..................................................................................................................... 59 CA 25 ....................................................................................................................... 60 CA 26 ....................................................................................................................... 61 AM 250 ..................................................................................................................... 62 AM 251 ..................................................................................................................... 63 AM 252 ..................................................................................................................... 64 AM 253 ..................................................................................................................... 65 AM 254 ..................................................................................................................... 66 AM 255 ..................................................................................................................... 67 AM 256 ..................................................................................................................... 68 AM 257 ..................................................................................................................... 69 AM 258 ..................................................................................................................... 70 CA 28 ....................................................................................................................... 71 CA 27 ....................................................................................................................... 72 Paragraph 23, Original text ....................................................................................... 73 CA 29 ....................................................................................................................... 74 AM 277 ..................................................................................................................... 75 AM 278 ..................................................................................................................... 76 AM 279 ..................................................................................................................... 77 AM 281 ..................................................................................................................... 78 AM 283 ..................................................................................................................... 79 AM 284 ..................................................................................................................... 80 CA 30 ....................................................................................................................... 81 AM 292 ..................................................................................................................... 82 CA 31 ....................................................................................................................... 83 AM 300 ..................................................................................................................... 84 AM 301 ..................................................................................................................... 85 AM 302 ..................................................................................................................... 86 AM 303 ..................................................................................................................... 87 AM 304 ..................................................................................................................... 88 AM 305 ..................................................................................................................... 89 AM 308 ..................................................................................................................... 90 AM 310 ..................................................................................................................... 91 AM 311 ..................................................................................................................... 92 AM 312 ..................................................................................................................... 93 CA 32 ....................................................................................................................... 94 AM 319 ..................................................................................................................... 95 AM 321 ..................................................................................................................... 96 AM 323 ..................................................................................................................... 97 CA 1 ......................................................................................................................... 98 CA 2 ......................................................................................................................... 99 CA 10 ..................................................................................................................... 100 CA 3 ....................................................................................................................... 101 CA 4 ....................................................................................................................... 102 CA 7 ....................................................................................................................... 103 AM 46 ..................................................................................................................... 104 CA 5 ....................................................................................................................... 105 AM 53 ..................................................................................................................... 106 AM 54 ..................................................................................................................... 107 AM 55 ..................................................................................................................... 108 AM 57 ..................................................................................................................... 109 AM 59 ..................................................................................................................... 110 CA 6 ....................................................................................................................... 111 AM 72 ..................................................................................................................... 112 AM 73 ..................................................................................................................... 113 AM 75 ..................................................................................................................... 114 CA 8 ....................................................................................................................... 115 AM 82 ..................................................................................................................... 116 AM 83 ..................................................................................................................... 117 CA 9 ....................................................................................................................... 118 AM 88 ..................................................................................................................... 119 AM 89 ..................................................................................................................... 120 AM 91 ..................................................................................................................... 121 AM 92 ..................................................................................................................... 122 AM 95 ..................................................................................................................... 123 AM 96 ..................................................................................................................... 124 AM 97 ..................................................................................................................... 125 AM 98 ..................................................................................................................... 126 AM 99 ..................................................................................................................... 127 AM 100 ................................................................................................................... 128 AM 101 ................................................................................................................... 129 AM 103 ................................................................................................................... 130 AM 104 ................................................................................................................... 131 AM 106 ................................................................................................................... 132 AM 108 ................................................................................................................... 133 AM 109 ................................................................................................................... 134 AM 110 ................................................................................................................... 135 AM 111 ................................................................................................................... 136 AM 112 ................................................................................................................... 137 Financing for development – ahead of the Fourth International Conference on Financing for Development in Seville",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE RESPONSIBLE",
+   "secret": false,
+   "tally": {
+    "+": 12,
+    "-": 3,
+    "0": 9
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Hermann Tertsch",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michael Gahler",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Davor Ivo Stier",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/295626/2025-04-24%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Ana Miranda Paz (Greens/ALE)",
+   "title": "of 24 April 2025 OPINION on the draft Council decision on the termination of the Voluntary Partnership Agreement between the European Union and the Republic of 1. page 2 Cameroon on forest law enforcement governance and trade in timber and derived products to the Union - Rapporteur: Ana Miranda Paz (Greens/ALE) OPINION on a motion for a non-legislative resolution on the proposal for a Council decision on the termination of the Voluntary Partnership Agreement 2. between the European Union and the Republic of Cameroon on forest law page 3 enforcement, governance and trade in timber and derived products to the Union) - Rapporteur: Ana Miranda Paz (Greens/ALE) Opinion for the Committee on International Trade on the draft Council decision on the termination of the Voluntary Partnership Agreement between the European Union and the Republic of Cameroon on forest law enforcement governance and trade in timber and derived products to the Union (05673/2025 – C10 0012/2025 – 2024/0245(NLE))",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 19,
+    "-": 1,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrea Wechsler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marieke Ehlers",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vladimir Prebilič",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/295626/2025-04-24%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Ana Miranda Paz (Greens/ALE)",
+   "title": "Opinion for the Committee on International Trade on a motion for a non-legislative resolution on the proposal for a Council decision on the termination of the Voluntary Partnership Agreement between the European Union and the Republic of Cameroon on forest law enforcement, governance and trade in timber and derived products to the Union (05673/2025 – C10-0012/2025 – 2024/0245M(NLE))",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 14,
+    "-": 1,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vladimir Prebilič",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Małgorzata Gosiewska",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marieke Ehlers",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/299774/2025-03-31%20Roll%20call%20votes%20with%20corrections.pdf",
+   "ref": "",
+   "procedure": "2024/2051(INI)",
+   "rapporteur": "",
+   "title": "DEVE RCV 31 MARCH 2025 Opinion 'A revamped long-term budget for the Union in a changing world'",
+   "subject": "TABLE OF CONTENT",
+   "secret": false,
+   "tally": {
+    "+": 24,
+    "-": 1,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kosma Złotowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Agius",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Rody Tolassy",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/294367/2025-02-18%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Charles Goerens (Renew)",
+   "title": "of 18 February 2025 Opinion on discharge in respect of the implementation of the general budget of 1. the European Union for the financial year 2023, Section III - Commission and page 2 executive agencies - Rapporteur: Charles Goerens (Renew)............................. DEVE opinion on discharge in respect of the implementation of the general budget of the European Union for the financial year 2023, Section III - Commission and executive agencies (COM(2024)0272 – C10 0067/2024 – 2024/2019(DEC))",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 3,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cecilia Strada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Damien Carême",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/294366/2025-01-28%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Udo Bullmann (S&D).......................................................................",
+   "title": "of 28 January 2025 Opinion on the proposal for a regulation of the European Parliament and of the 1. Council establishing an EU Talent Pool - Rapporteur: Tomas Tobé page 2 (PPE)................................................................................................................... Consent the PECH non-legislative resolution on Implementation of the Fisheries 2. Partnership Agreement between the EC and Guinea-Bissau (2024-2029) - Page 3",
+   "subject": "Amendments on the PECH non-legislative resolution on Implementation of the",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 5,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anna-Maja Henriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cecilia Strada",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/294366/2025-01-28%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Udo Bullmann (S&D).......................................................................",
+   "title": "DEVE consent opinion on the draft Council decision on the conclusion, on behalf of the European Union, of the Implementing Protocol (2024-2029) to the Fisheries Partnership Agreement between the European Community and the Republic of Guinea-Bissau (12475/2024 – C10-0108/2024 – 2024/0159(NLE)))",
+   "subject": "FINAL VOTE BY ROLL CALL IN COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 18,
+    "-": 2,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anna-Maja Henriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cecilia Strada",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/294366/2025-01-28%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Udo Bullmann (S&D).......................................................................",
+   "title": "DEVE opinion on a PECH motion for a non-legislative resolution on the draft Council decision on the conclusion, on behalf of the European Union, of the Implementing Protocol (2024-2029) to the Fisheries Partnership Agreement between the European Community and the Republic of Guinea-Bissau (2024/0159M(NLE))",
+   "subject": "FINAL VOTE BY ROLL CALL IN COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 23,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Reinhold Lopatka",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anna-Maja Henriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Leire Pajín",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cecilia Strada",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Isabel Serra Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/294364/2024-10-10%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Barry Andrews (Renew)................................................................",
+   "title": "of 10 October 2024 UN Climate Change Conference 2024 in Baku, Azerbaijan (COP29) - 1. page 2",
+   "subject": "General budget of the European Union for the financial year 2025 - all",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 1,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Rasa Juknevičienė",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janina Ochojska",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wolfram Pirchner",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleni Stavrou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomas Tobé",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphane Bijoux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Catherine Chabaud",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Mercedes Bresso",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Christophe Clergeau",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Mónica Silvana González",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Karsten Lucke",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Pierrette Herzberger-Fofana",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Marquardt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "François Thiollet",
+     "choice": "+"
+    },
+    {
+     "group": "?",
+     "mep": "ID Dominique Bilde",
+     "choice": "-"
+    }
+   ]
+  }
+ ]
+}

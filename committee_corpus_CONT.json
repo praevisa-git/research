@@ -1,0 +1,3535 @@
+{
+ "committee": "CONT",
+ "n_records": 23,
+ "records": [
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Circular Bio-based Europe Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Clean Hydrogen Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Europe’s Rail Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - European Cybersecurity Competence Centre",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - European High-Performance Computing Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - European Joint Undertaking for ITER and the Development",
+   "secret": false,
+   "tally": {
+    "+": 20,
+    "-": 5,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Global Health EDCTP3 Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Innovative Health Initiative Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Chips Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 23,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Single European Sky ATM Research 3 Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 2,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Smart Networks and Services Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303672/Roll-call%20votes%20of%202%20March%202026_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on motion for a resolution",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 5,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Janusz Lewandowski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gerben-Jan Gerbrandy",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Estelle Ceulemans",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Grzegorz Braun",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Circular Bio-based Europe Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 4,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Clean Hydrogen Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Europe’s Rail Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 4,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - European High-Performance Computing Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - European Joint Undertaking for ITER and the Development",
+   "secret": false,
+   "tally": {
+    "+": 20,
+    "-": 5,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Global Health EDCTP3 Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 4,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Innovative Health Initiative Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 20,
+    "-": 4,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Chips Joint Undertaking (before 21.9.2023: Key Digital",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Single European Sky ATM Research 3 Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 23,
+    "-": 3,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on decision - Smart Networks and Services Joint Undertaking",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CONT",
+   "source": "https://www.europarl.europa.eu/cmsdata/293928/Roll-call%20votes%20of%2018%20March%202025_Discharge%20EP-OIs-JUs_Final%20Votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote on motion for a resolution",
+   "secret": false,
+   "tally": {
+    "+": 20,
+    "-": 4,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fidias Panayiotou",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Caterina Chinnici",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Monika Hohlmeier",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jacek Protas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomáš Zdechovský",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Olivier Chastel",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vilija Blinkevičiūtė",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marit Maij",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Csaba Molnár",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Daniel Freund",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dick Erixon",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Virginie Joron",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Sanchez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tamás Deutsch",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}

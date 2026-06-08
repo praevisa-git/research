@@ -18,6 +18,7 @@ Run: .venv/bin/python committee_scrape.py
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -273,12 +274,36 @@ COMMITTEES = [
 ]
 
 
+def _record_key(r: dict) -> tuple:
+    """Identity of a committee-vote record for dedup across scrapes."""
+    return (r.get("source", ""), r.get("procedure", ""),
+            r.get("ref", ""), r.get("subject", ""))
+
+
 def _write_corpus(committee: str) -> dict:
-    corpus = build_corpus(committee)
+    """Scrape a committee and MERGE into its existing corpus (never overwrite).
+
+    The europarl committee votes page is a ROLLING WINDOW: older meeting RCV PDFs age
+    off, so a one-shot scrape cannot rebuild history. The corpus is therefore an
+    ACCUMULATING artifact — each run unions newly-listed records into what we already
+    have, keyed by (source PDF, procedure, ref, subject). This is why the corpora are
+    committed (not regenerable from scratch) rather than gitignored.
+    """
     out = f"committee_corpus_{committee}.json"
+    existing = {}
+    if os.path.exists(out):
+        for r in json.load(open(out)).get("records", []):
+            existing[_record_key(r)] = r
+    fresh = build_corpus(committee)
+    before = len(existing)
+    for r in fresh["records"]:
+        existing[_record_key(r)] = r           # newer scrape wins on re-parse
+    merged = list(existing.values())
+    added = len(merged) - before
+    corpus = {"committee": committee, "n_records": len(merged), "records": merged}
     with open(out, "w") as f:
         json.dump(corpus, f, ensure_ascii=False, indent=1)
-    print(f"\nwrote {out} ({corpus['n_records']} vote records)")
+    print(f"\nwrote {out} ({len(merged)} records; +{added} new, {before} kept from prior scrapes)")
     return corpus
 
 

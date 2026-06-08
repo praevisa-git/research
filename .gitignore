@@ -15,10 +15,12 @@ wheels/
 # Local Claude Code tooling state (worktrees, local settings)
 .claude/
 
-# Generated committee-vote corpora (regenerable via committee_scrape.py)
-committee_corpus_*.json
+# NOTE: committee_corpus_*.json are NOT ignored. The europarl committee votes page is
+# a rolling window (older RCV PDFs age off), so the corpora are NOT reproducible from
+# scratch — they are accumulating artifacts (committee_scrape.py merges, never
+# overwrites). They are committed so the accumulated history is not lost.
 
-# Local HTV pull cache (regenerable via scripts/build_plenary_join.py)
+# Local HTV pull cache (regenerable)
 data/htv_list_scan.json
 
 # HTV bulk export cache (regenerable via praevisa.resolve_plenary)

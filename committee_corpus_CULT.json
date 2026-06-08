@@ -1,0 +1,1945 @@
+{
+ "committee": "CULT",
+ "n_records": 13,
+ "records": [
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/307444/RCV%203%20June.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marcos ROS SEMPERE (S&D)",
+   "title": "A new strategy for media literacy and digital learning",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 18,
+    "-": 2,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elena Nevado del Campo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Nikola Minchev",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Brigitte van den Berg",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Emma Rafowicz",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/307444/RCV%203%20June.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marcos ROS SEMPERE (S&D)",
+   "title": "Establishing the European Social Fund as part of the National and Regional Partnership Plan set out in Regulation (EU) […] [NRPPlan] establishing conditions for the implementation of the Union support to quality employment, skills and social inclusion for the period from 2028 to 2034",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 19,
+    "-": 3,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elena Nevado del Campo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Nikola Minchev",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Brigitte van den Berg",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Isilda Gomes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/307444/RCV%203%20June.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marcos ROS SEMPERE (S&D)",
+   "title": "Implementation of the Council Recommendation of 30 October 2020 on A Bridge to Jobs – Reinforcing the Youth Guarantee and replacing the Council Recommendation of 22 April 2013 on establishing a Youth Guarantee",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 23,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elena Nevado del Campo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Nikola Minchev",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Brigitte van den Berg",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Isilda Gomes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/307444/RCV%203%20June.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Marcos ROS SEMPERE (S&D)",
+   "title": "Establishing the European Fund for economic, social and territorial cohesion, agriculture and rural, fisheries and maritime, prosperity and security for the period 2028-2034",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 2,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elena Nevado del Campo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Nikola Minchev",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Isilda Gomes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/304414/RCV%2018%20March.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Laurence Farreng (Renew)",
+   "title": "CULT Opinion on Establishing Horizon Europe, the Framework Programme for Research and Innovation, for the period 2028-2034 laying down its rules for participation and dissemination, and repealing Regulation (EU) 2021/695",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION",
+   "secret": false,
+   "tally": {
+    "+": 25,
+    "-": 3,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Chiara Gemma",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David Casa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Nikola Minchev",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Isilda Gomes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Mario Furore",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pál Szekeres",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/304414/RCV%2018%20March.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Laurence Farreng (Renew)",
+   "title": "CULT Vote on Proposals for pilot projects and preparatory actions (PPPAs) for the 2027 EU budget",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 25,
+    "-": 1,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Chiara Gemma",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "David Casa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Nikola Minchev",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Isilda Gomes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Mario Furore",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pál Szekeres",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303787/5%20March.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Emma Rafowicz (S&D)",
+   "title": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE ASKED FOR OPINION proposal for a regulation of the European Parliament and of the Council amending Regulations (EU) 2024/1689 and (EU) 2018/1139 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (COM(2025)0836 – C10-0304/2025 – 2025/0359(COD))",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 18,
+    "-": 0,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maravillas Abadía Jover",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Matej Tonin",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Brigitte van den Berg",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Emma Rafowicz",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Birgit Sippel",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Krzysztof Śmiszek",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Irmhild Boßdorf",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/303676/RCVs%2024%20February%202026.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Hélder Sousa Silva (EPP)",
+   "title": "CULT Opinion on the Interim Report on the Proposal for a Council regulation laying down the multiannual financial framework for the years 2028 to 2034",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 5,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrzej Buła",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pilar del Castillo Vera",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Virgil-Daniel Popescu",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zoltán Tarr",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Brigitte van den Berg",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Emma Rafowicz",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Nikos Pappas",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Elisabeth Dieringer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Lara Magoni",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/302178/FINAL%20VOTE%20BY%20ROLL%20CALL%20IN%20COMMITTEE.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Diana Riba i Giner (Greens/EFA)",
+   "title": "FINAL VOTE BY ROLL CALL IN COMMITTEE Opinion on Financial literacy and the rise of finfluencers in the context of the savings and investments union (2025/2209(INI)",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 19,
+    "-": 4,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Suncana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zoltán Tarr",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Chiara Gemma",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pál Szekeres",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Mario Furore",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/302178/FINAL%20VOTE%20BY%20ROLL%20CALL%20IN%20COMMITTEE.pdf",
+   "ref": "",
+   "procedure": "2025/2120(INI)",
+   "rapporteur": "Diana Riba i Giner (Greens/EFA)",
+   "title": "FINAL VOTE BY ROLL CALL IN COMMITTEE Opinion on Financial literacy and the rise of finfluencers in the context of the savings and investments union (2025/2209(INI)",
+   "subject": "Rapporteur for opinion: Lara Magoni (ECR)",
+   "secret": false,
+   "tally": {
+    "+": 27,
+    "-": 0,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Suncana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukasz Kohut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zoltán Tarr",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Chiara Gemma",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pál Szekeres",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Mario Furore",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "+"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/298225/Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "2025/2060(INI)",
+   "rapporteur": "Ivaylo Valchev (ECR)",
+   "title": "FINAL VOTE BY ROLL CALL IN COMMITTEE Protection of minors online",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 26,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Lara Magoni",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zoltán Tarr",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Nikos Pappas",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/298225/Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "2025/0210(BUD)",
+   "rapporteur": "Nela Riehl",
+   "title": "FINAL VOTE BY ROLL CALL IN COMMITTEE Protection of minors online",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 24,
+    "-": 3,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Lara Magoni",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esteban González Pons",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zoltán Tarr",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Milan Zver",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriela Firea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Nikos Pappas",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Catherine Griset",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "CULT",
+   "source": "https://www.europarl.europa.eu/cmsdata/296657/FINAL%20VOTE%20BY%20ROLL%20CALL.pdf",
+   "ref": "",
+   "procedure": "2025/2036(INI)",
+   "rapporteur": "",
+   "title": "FINAL VOTE BY ROLL CALL IN COMMITTEE A new vision for the European Universities alliances",
+   "subject": "Rapporteur for the INI: Laurence Farreng (Renew)",
+   "secret": false,
+   "tally": {
+    "+": 23,
+    "-": 1,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Lara Magoni",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marco Squarta",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Nikolaos Anadiotis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pilar del Castillo Vera",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sunčana Glavak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zoltán Tarr",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Laurence Farreng",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Hristo Petrov",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Eugen Tomac",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hannes Heide",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Emma Rafowicz",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sabrina Repp",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marcos Ros Sempere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sandro Ruotolo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring- Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Diana Riba i Giner",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nela Riehl",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anthony Smith",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}

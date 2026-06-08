@@ -1,0 +1,227 @@
+{
+ "committee": "JURI",
+ "n_records": 2,
+ "records": [
+  {
+   "committee": "JURI",
+   "source": "https://www.europarl.europa.eu/cmsdata/292815/2025.01.30_RCV_EN.pdf",
+   "ref": "",
+   "procedure": "2024/2022(DEC)",
+   "rapporteur": "",
+   "title": "30.01.2025 1. 2023 discharge: General budget of the EU - Court of Justice of the European Union –",
+   "subject": "1.1. Final vote",
+   "secret": false,
+   "tally": {
+    "+": 16,
+    "-": 4,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Maravillas Abadía Jover",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Niebler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Axel Voss",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marion Walsmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Wawrykiewicz",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jana Toom",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dainius Žalimas",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Victor Negrescu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "René Repasi",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Krzysztof Śmiszek",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Mario Furore",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kira Marie Peter-Hansen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Mario Mantovani",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dominik Tarczyński",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pascale Piera",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal Corrections to vote + - 0 2",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "JURI",
+   "source": "https://www.europarl.europa.eu/cmsdata/291893/2024.12.05_RCV_EN.pdf",
+   "ref": "",
+   "procedure": "2023/0129(COD)",
+   "rapporteur": "",
+   "title": "05.12.2024 1. Empowering France to negotiate an agreement supplementing its existing bilateral Treaty with the United Kingdom concerning the construction and operation by private concessionaires of a Channel Fixed Link (Legal basis (Rule 40)) – 2018/0160(COD) – Rapp. Franco Roberti ................. 2 1.1. Final vote ................................................................................................................................... 2 1. Compulsory licensing for crisis management and amending Regulation (EC) 816/2006 –",
+   "subject": "1.1. Final vote",
+   "secret": false,
+   "tally": {
+    "+": 13,
+    "-": 3,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "?",
+     "mep": "EPP Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "?",
+     "mep": "Alexandra Mehnert",
+     "choice": "+"
+    },
+    {
+     "group": "?",
+     "mep": "Adrián Vázquez Lázara",
+     "choice": "+"
+    },
+    {
+     "group": "?",
+     "mep": "Axel Voss",
+     "choice": "+"
+    },
+    {
+     "group": "?",
+     "mep": "Javier Zarzalejos",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thijs Reuten",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Krzysztof Śmiszek",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Tobiasz Bocheński",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Dominik Tarczyński RENEW Ilhan Kyuchyuk",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sergey Lagodinsky",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kira Marie Peter Hansen",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "?",
+     "mep": "Corrections to vote + - 0 2",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}

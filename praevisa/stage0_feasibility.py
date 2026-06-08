@@ -39,13 +39,19 @@ COMMITTEE_GROUP_MAP = {
     "PPE": "EPP", "S&D": "S&D", "Renew": "Renew", "Verts/ALE": "Greens",
     "The Left": "Left", "ECR": "ECR", "PfE": "PfE", "ESN": "ESN", "NI": "NI",
 }
-# committee subjects that are a genuine pre-plenary signal for a first-reading file
-PRE_PLENARY_SUBJECTS = {
-    "Adoption of draft report",
-    "Vote on draft report",
-    "Vote on text as amended",
-    "Vote on the decision to enter into interinstitutional negotiations",
-    "Vote on the mandate to enter into interinstitutional negotiations",
+# Committee subjects that are a pre-plenary signal, with a PRIORITY (lower = preferred
+# as the contestedness signal) and a stage label. The report-adoption / text-as-amended
+# stage is the substantive committee decision and carries the real contestation; the
+# mandate vote is next; the post-trilogue "provisional agreement" vote is usually a
+# consensus rubber-stamp, used only when nothing earlier survives the rolling window.
+SIGNAL_STAGES = {
+    "Adoption of draft report": (0, "report"),
+    "Vote on draft report": (0, "report"),
+    "Vote on text as amended": (0, "report"),
+    "Vote on the decision to enter into interinstitutional negotiations": (1, "mandate"),
+    "Vote on the mandate to enter into interinstitutional negotiations": (1, "mandate"),
+    "Vote on the provisional agreement resulting from interinstitutional negotiations":
+        (2, "provisional"),
 }
 # a committee vote is "contested" ex ante if its yes-rate is below this
 CONTESTED_MAX_YES = 0.75
@@ -85,7 +91,12 @@ def _committee_yes(record):
 
 
 def load_committee_cod():
-    """COD procedure -> best pre-plenary committee record (most MEPs voting)."""
+    """COD procedure -> best pre-plenary committee record.
+
+    'Best' = earliest substantive stage available (report > mandate > provisional),
+    tie-broken by most MEPs voting. The chosen stage is stamped on the record as
+    `_stage` so the contestedness reading can flag consensus-stage signals.
+    """
     recs = []
     for f in glob.glob(str(REPO / "committee_corpus_*.json")):
         recs.extend(json.load(open(f))["records"])
@@ -96,10 +107,15 @@ def load_committee_cod():
             continue
         if r.get("secret") or not r.get("votes"):
             continue
-        if r.get("subject") not in PRE_PLENARY_SUBJECTS:
+        stage = SIGNAL_STAGES.get(r.get("subject"))
+        if stage is None:
             continue
+        prio, label = stage
         cur = by_proc.get(p)
-        if cur is None or len(r["votes"]) > len(cur["votes"]):
+        if (cur is None
+                or prio < cur["_prio"]
+                or (prio == cur["_prio"] and len(r["votes"]) > len(cur["votes"]))):
+            r = dict(r, _prio=prio, _stage=label)
             by_proc[p] = r
     return by_proc
 
@@ -136,7 +152,8 @@ def main():
         contested = (yes is not None and yes < CONTESTED_MAX_YES)
         rows.append({
             "procedure": proc, "committee": rec["committee"],
-            "subject": rec["subject"], "committee_n": n,
+            "subject": rec["subject"], "signal_stage": rec.get("_stage"),
+            "committee_n": n,
             "committee_yes": round(yes, 3) if yes is not None else None,
             "committee_groups_defined": n_groups,
             "contested_ex_ante": contested,
@@ -161,9 +178,9 @@ def main():
     print(f"  ... of which contested ex ante                              : {n_contested_pair}")
     print(f"  no plenary first-reading vote yet (pending / routed otherwise): {n_unconfirmed}\n")
 
-    print(f"{'procedure':16s} {'cmte':5s} {'n':>4s} {'cmte_yes':>8s} {'grps':>4s} "
+    print(f"{'procedure':16s} {'cmte':5s} {'stage':>11s} {'n':>4s} {'cmte_yes':>8s} "
           f"{'contested':>9s}  {'plenary':<16s}")
-    print("-" * 72)
+    print("-" * 76)
     for r in rows:
         if r["usable_pair"]:
             status = f"{r['plenary_vote_id']} {r['plenary_result'][:4].lower()}"
@@ -172,8 +189,8 @@ def main():
         else:
             status = "none (pending)"
         cy = r["committee_yes"] if r["committee_yes"] is not None else float("nan")
-        print(f"{r['procedure']:16s} {r['committee']:5s} {r['committee_n']:>4d} "
-              f"{cy:>8.2f} {r['committee_groups_defined']:>4d} "
+        print(f"{r['procedure']:16s} {r['committee']:5s} {str(r['signal_stage']):>11s} "
+              f"{r['committee_n']:>4d} {cy:>8.2f} "
               f"{str(r['contested_ex_ante']):>9s}  {status:<16s}")
 
     out = {
@@ -187,12 +204,17 @@ def main():
     }
     (REPO / "results").mkdir(exist_ok=True)
     (REPO / "results" / "stage0_feasibility.json").write_text(json.dumps(out, indent=1))
+    n_committees = len(glob.glob(str(REPO / "committee_corpus_*.json")))
+    n_prov = sum(1 for r in rows if r["usable_pair"] and r["contested_ex_ante"]
+                 and r["signal_stage"] == "provisional")
+    bar = "CLEARED" if (n_pair >= 10 and n_contested_pair >= 6) else "not yet cleared"
     print("\nwritten: results/stage0_feasibility.json")
-    print(f"\nVERDICT: signal side feasible ({n_signal} signals, {n_contested_signal} "
-          f"contested). {n_pair} usable pairs ({n_contested_pair} contested) from only the")
-    print(f"5 scraped committees; {n_unconfirmed} have no first-reading plenary vote yet")
-    print("(pending). Stage A target ~>=10 pairs (>=6 contested): widen the committee scrape")
-    print("(resolver now makes pairing reliable across ALL committees and full history).")
+    print(f"\nVERDICT: {n_pair} usable pairs ({n_contested_pair} contested) across "
+          f"{n_committees} committees. Stage-A bar (>=10 pairs, >=6 contested): {bar}.")
+    print(f"CAVEATS: (1) the votes page is a ROLLING WINDOW — this is a single snapshot; "
+          f"deeper history needs accumulating scrapes over time (scraper now merges).")
+    print(f"  (2) {n_prov}/{n_contested_pair} contested pairs rest on a provisional-agreement "
+          f"(consensus-stage) signal, a weaker contestedness cue than report-adoption.")
     return out
 
 

@@ -1,0 +1,2560 @@
+{
+ "committee": "PECH",
+ "n_records": 13,
+ "records": [
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/301981/RCV%20final%20votes%20PECH%2027%20January.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "André Rodrigues",
+   "title": "1. REPORT on the fisheries management approaches for safeguarding sensitive species, tackling invasive species and benefiting local economies (2025/2011(INI))",
+   "subject": "FINAL VOTE BY ROLL CALL BY THE COMMITTEE RESPONSIBLE",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 0,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ciaran Mullooly",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/303242/Vote%20results%2025%20February%202026.pdf",
+   "ref": "",
+   "procedure": "2025/0106(COD)",
+   "rapporteur": "",
+   "title": "Implementation into Union law of measures adopted by several Regional Fisheries Management Organisations - - Vote on draft report",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 19,
+    "-": 3,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Ciccioli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/303242/Vote%20results%2025%20February%202026.pdf",
+   "ref": "",
+   "procedure": "2025/0106(COD)",
+   "rapporteur": "",
+   "title": "Implementation into Union law of measures adopted by several Regional Fisheries Management Organisations - - Vote on draft report",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Ciccioli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/303242/Vote%20results%2025%20February%202026.pdf",
+   "ref": "",
+   "procedure": "2025/2054(INI)",
+   "rapporteur": "",
+   "title": "Implementation into Union law of measures adopted by several Regional Fisheries Management Organisations - - Vote on draft report",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 18,
+    "-": 4,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Ciccioli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/305394/2026-04-15%20CJ59%20vote.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 96,
+    "-": 0,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Ciccioli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Beatrice Timgren",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Aurelijus Veryga",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Alexandr Vondra",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Anna Zalewska",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Anja Arndt",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Ondřej Dostál",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fernand Kartheiser",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Raúl de la Hoz Quintano",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lena Düpont",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Flemming Hansen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adam Jarubas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ewa Kopacz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Liese",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elżbieta Katarzyna Łukacijewska",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dan-Ştefan Motreanu",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Danuše Nerudová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dennis Radtke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Massimiliano Salini",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Oliver Schenk",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Susana Solís Pérez",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ingeborg Ter Laak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zala Tomašič",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Flavio Tosi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mathilde Androuët",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marie-Luce Brasier-Clain",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anne-Sophie Frigout",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jana Nagyová",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Grégory Allione",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stine Bosse",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Martin Hojsík",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ana Vasconcelos",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Vlad Vasile-Voiculescu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vytenis Povilas Andriukaitis",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Delara Burkhardt",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Christophe Clergeau",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Annalisa Corrado",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Heléne Fritzon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Romana Jerković",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javi López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "César Luena",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Pierfrancesco Maran",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ana Catarina Mendes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kristian Vigenin",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Li Andersson",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Per Clausen",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Günther",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ignazio Roberto Marino",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tilly Metz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jutta Paulus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kai Tegethoff",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "+"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/305394/2026-04-15%20CJ59%20vote.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Vote on the decision to enter into interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 92,
+    "-": 0,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Beatrice Timgren",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Aurelijus Veryga",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Alexandr Vondra",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Anna Zalewska",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Anja Arndt",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Marc Jongen",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Ondřej Dostál",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Fernand Kartheiser",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Raúl de la Hoz Quintano",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lena Düpont",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Flemming Hansen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ewa Kopacz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Liese",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elżbieta Katarzyna Łukacijewska",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dan-Ştefan Motreanu",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Danuše Nerudová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dennis Radtke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Massimiliano Salini",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Oliver Schenk",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Susana Solís Pérez",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ingeborg Ter Laak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zala Tomašič",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Flavio Tosi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mathilde Androuët",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marie-Luce Brasier-Clain",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anne-Sophie Frigout",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jana Nagyová",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Grégory Allione",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stine Bosse",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Martin Hojsík",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ana Vasconcelos",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vytenis Povilas Andriukaitis",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Delara Burkhardt",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Christophe Clergeau",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Annalisa Corrado",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Heléne Fritzon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Romana Jerković",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javi López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "César Luena",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Pierfrancesco Maran",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ana Catarina Mendes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kristian Vigenin",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Li Andersson",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Per Clausen",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Günther",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ignazio Roberto Marino",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tilly Metz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jutta Paulus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kai Tegethoff",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "+"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/306189/RCV%20results.pdf",
+   "ref": "PECH/10/03712",
+   "procedure": "2025/0246(COD)",
+   "rapporteur": "",
+   "title": "European fisheries and aquaculture statistics and repealing Regulations (EC) No 1921/2006, (EC) No 762/2008, (EC) No 216/2009, (EC) No 217/2009 and (EC) No 218/2009",
+   "subject": "· Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 3,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bartosz Arłukowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/306189/RCV%20results.pdf",
+   "ref": "PECH/10/03712",
+   "procedure": "2025/0246(COD)",
+   "rapporteur": "",
+   "title": "European fisheries and aquaculture statistics and repealing Regulations (EC) No 1921/2006, (EC) No 762/2008, (EC) No 216/2009, (EC) No 217/2009 and (EC) No 218/2009",
+   "subject": "Vote on the decision to enter into interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 18,
+    "-": 1,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bartosz Arłukowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/306189/RCV%20results.pdf",
+   "ref": "PECH/10/02850",
+   "procedure": "2025/0106(COD)",
+   "rapporteur": "",
+   "title": "Implementation into Union law of measures adopted by several Regional Fisheries Management Organisations",
+   "subject": "Vote on the provisional agreement resulting from interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 23,
+    "-": 0,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bartosz Arłukowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niclas Herbst",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/297831/Results%20of%20roll%20call%20vote%2016%20July%202025.pdf",
+   "ref": "",
+   "procedure": "2024/0098(COD)",
+   "rapporteur": "",
+   "title": "1. Amending Regulation (EU) No 2023/2124 on certain provisions for fishing in the GFCM (General Fisheries Commission for the Mediterranean) Agreement area - 2024/0098(COD) - Željana Zovko ........................................................................................................................................ 2 1.1. Adoption of draft report .............................................................................................................. 2 1.2. Vote on the decision to enter into interinstitutional negotiations ................................................ 3 2. Implementation of the EU-UK Trade and Cooperation Agreement - 2024/2108(INI) - Isabelle Le Callennec............................................................................................................................. 4 2.1. Adoption of draft opinion ............................................................................................................ 4 1. Amending Regulation (EU) No 2023/2124 on certain provisions for fishing in the GFCM (General Fisheries Commission for the Mediterranean) Agreement area -",
+   "subject": "1.1. Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 3,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Idoia Mendia",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/297831/Results%20of%20roll%20call%20vote%2016%20July%202025.pdf",
+   "ref": "",
+   "procedure": "2024/2108(INI)",
+   "rapporteur": "",
+   "title": "1. Amending Regulation (EU) No 2023/2124 on certain provisions for fishing in the GFCM (General Fisheries Commission for the Mediterranean) Agreement area - 2024/0098(COD) - Željana Zovko ........................................................................................................................................ 2 1.1. Adoption of draft report .............................................................................................................. 2 1.2. Vote on the decision to enter into interinstitutional negotiations ................................................ 3 2. Implementation of the EU-UK Trade and Cooperation Agreement - 2024/2108(INI) - Isabelle Le Callennec............................................................................................................................. 4 2.1. Adoption of draft opinion ............................................................................................................ 4 1. Amending Regulation (EU) No 2023/2124 on certain provisions for fishing in the GFCM (General Fisheries Commission for the Mediterranean) Agreement area -",
+   "subject": "2.1. Adoption of draft opinion",
+   "secret": false,
+   "tally": {
+    "+": 22,
+    "-": 0,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "António Tânger Corrêa",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Idoia Mendia",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/297779/Results%20of%20roll%20call%20vote%2004%20September%202025.pdf",
+   "ref": "",
+   "procedure": "2025/0210(BUD)",
+   "rapporteur": "",
+   "title": "1. Protocol (2025–2029) on the implementation of the Fisheries Partnership Agreement between the Republic of Côte d’Ivoire and the European Community - 2025/0046(NLE) - Ton Diepeveen ............................................................................................................................................... 2 1.1. Adoption of draft report .............................................................................................................. 2 2. General budget of the European Union for the financial year 2026 - all sections -",
+   "subject": "2.1. Adoption of draft opinion",
+   "secret": false,
+   "tally": {
+    "+": 20,
+    "-": 1,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Nora Junco García",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "François-Xavier Bellamy",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Oihane Agirregoitia Martínez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sofie Eriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ana Miranda Paz",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Rachel Blom",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "PECH",
+   "source": "https://www.europarl.europa.eu/cmsdata/288075/Results%20of%20roll%20call%20vote%204%20September%202024.pdf",
+   "ref": "",
+   "procedure": "2024/0176(BUD)",
+   "rapporteur": "",
+   "title": "1. General budget of the European Union for the financial year 2025 - all sections -",
+   "subject": "1.1. Vote on the draft opinion",
+   "secret": false,
+   "tally": {
+    "+": 14,
+    "-": 3,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Isabelle Le Callennec",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Giuseppe Lupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Idoia Mendia Cueva",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Anja Hazekamp",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "France Jamet",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Isabella Lövin",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}

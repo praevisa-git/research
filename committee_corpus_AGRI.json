@@ -1,0 +1,2979 @@
+{
+ "committee": "AGRI",
+ "n_records": 11,
+ "records": [
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/306175/Roll-call%20votes%205%20May%202026.pdf",
+   "ref": "",
+   "procedure": "2025/0228(COD)",
+   "rapporteur": "Herbert Dorfmann (EPP)",
+   "title": "5 May 2026 Production and marketing of forest reproductive material, amending Regulations (EU) 2016/2031 and 2017/625 of the European Parliament and of the Council and repealing Council Directive 1999/105/EC (Regulation on forest reproductive material)",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 33,
+    "-": 2,
+    "0": 7
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lena Düpont",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marion Walsmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marta Wcisło",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ciaran Mullooly",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Camilla Laureti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dario Nardella",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dan Nica",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nicolae Ștefănuță",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mélanie Disdier",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/306175/Roll-call%20votes%205%20May%202026.pdf",
+   "ref": "",
+   "procedure": "2025/0555(COD)",
+   "rapporteur": "Herbert Dorfmann (EPP)",
+   "title": "5 May 2026 Production and marketing of forest reproductive material, amending Regulations (EU) 2016/2031 and 2017/625 of the European Parliament and of the Council and repealing Council Directive 1999/105/EC (Regulation on forest reproductive material)",
+   "subject": "Rapporteur for the opinion: Carlo Fidanza (ECR)",
+   "secret": false,
+   "tally": {
+    "+": 35,
+    "-": 2,
+    "0": 8
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Zsuzsanna Borvendég",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lena Düpont",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marion Walsmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marta Wcisło",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ciaran Mullooly",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Camilla Laureti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dario Nardella",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dan Nica",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mélanie Disdier",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Nicolae Ștefănuță",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/305126/Roll-call%20votes%208%20April%202026.pdf",
+   "ref": "",
+   "procedure": "2024/0319(COD)",
+   "rapporteur": "Céline Imart (EPP)",
+   "title": "8 April 2026 Strengthening of the position of farmers in the food supply chain",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 39,
+    "-": 4,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Leonardelli",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dragoş Benea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tilly Metz",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/305126/Roll-call%20votes%208%20April%202026.pdf",
+   "ref": "",
+   "procedure": "2025/0543(COD)",
+   "rapporteur": "Céline Imart (EPP)",
+   "title": "8 April 2026 Strengthening of the position of farmers in the food supply chain",
+   "subject": "Rapporteur for the opinion: Bert-Jan Ruissen (ECR)",
+   "secret": false,
+   "tally": {
+    "+": 44,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Leonardelli",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dragoş Benea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tilly Metz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/305126/Roll-call%20votes%208%20April%202026.pdf",
+   "ref": "",
+   "procedure": "2025/0162(NLE)",
+   "rapporteur": "Céline Imart (EPP)",
+   "title": "8 April 2026 Strengthening of the position of farmers in the food supply chain",
+   "subject": "Rapporteur for the opinion: Veronika Vrecionová (ECR)",
+   "secret": false,
+   "tally": {
+    "+": 44,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Leonardelli",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dragoş Benea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tilly Metz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/304526/Roll-call%20votes%2018%20March%202026.pdf",
+   "ref": "",
+   "procedure": "2025/2053(INI)",
+   "rapporteur": "Carlo Fidanza (ECR)",
+   "title": "18 March 2026 How to secure a sustainable future for the EU livestock sector in light of the need to ensure food security, farmers’ resilience and the challenges posed by animal diseases?",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 40,
+    "-": 8,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Emmanouil Fragkos",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Stanislav Stoyanov",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gheorghe Cârciu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dario Nardella",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/304526/Roll-call%20votes%2018%20March%202026.pdf",
+   "ref": "",
+   "procedure": "2025/2053(INI)",
+   "rapporteur": "Carlo Fidanza (ECR)",
+   "title": "Proposals for pilot projects and preparatory actions (PPPAs) for the 2027 Union budget",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 41,
+    "-": 0,
+    "0": 6
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Emmanouil Fragkos",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Stanislav Stoyanov",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Willemien Koning",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gheorghe Cârciu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Dario Nardella",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/300840/Unfair%20trading%20practices.pdf",
+   "ref": "",
+   "procedure": "2024/0318(COD)",
+   "rapporteur": "Stefano BONACCINI (S&D)",
+   "title": "2 December 2025 Cooperation among enforcement authorities responsible for the enforcement of Directive (EU) 2019/633 on unfair trading practices in business-to-business relationships in the agricultural and food supply chain)",
+   "subject": "Vote on the provisional agreement resulting from interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 47,
+    "-": 0,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Ciccioli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Kateřina Konečná",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nicolás Pascual de la Parte",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ciaran Mullooly",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Camilla Laureti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Lena Schilling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "+"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/300841/Bilateral%20safeguard%20clause%20Mercosur.pdf",
+   "ref": "",
+   "procedure": "2025/0322(COD)",
+   "rapporteur": "Chair Veronika Vrecionová (ECR)",
+   "title": "2 December 2025 Implementing the bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products",
+   "subject": "Adoption of draft opinion in letter form",
+   "secret": false,
+   "tally": {
+    "+": 46,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Carlo Ciccioli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Kateřina Konečná",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nicolás Pascual de la Parte",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Raffaele Stancanelli",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ciaran Mullooly",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Camilla Laureti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Noichl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Lena Schilling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/300349/CAP%20Simplification.pdf",
+   "ref": "",
+   "procedure": "2025/0236(COD)",
+   "rapporteur": "",
+   "title": "",
+   "subject": "",
+   "secret": false,
+   "tally": {
+    "+": 34,
+    "-": 3,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Denis Nesci",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petr Bystron",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Katarína Roth Neveďalová",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Krzysztof Hetman",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dan-Ştefan Motreanu",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Maria Walsh",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Nikola Bartůšek",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mélanie Disdier",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Gilles Pennelle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jérémy Decerle",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Charles Goerens",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ciaran Mullooly",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Isilda Gomes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Camilla Laureti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jaume Asens Llodrà",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Pär Holmgren",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "AGRI",
+   "source": "https://www.europarl.europa.eu/cmsdata/299803/2025-11-04%20CJ14_vote.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 97,
+    "-": 8,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Carlo Fidanza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ondřej Krutílek",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Michele Picaro",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Nicola Procaccini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Laurence Trochu",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Aurelijus Veryga",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Veronika Vrecionová",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Christine Anderson",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Anja Arndt",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Ivan David",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Monika Beňová",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Ondřej Dostál",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pascal Arimont",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ioan-Rareş Bogdan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Laurent Castillo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Carmen Crespo Díaz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Raúl de la Hoz Quintano",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulo Do Nascimento Cabral",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Herbert Dorfmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriella Gerzsenyi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hanna Gronkiewicz-Waltz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Radan Kanev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Köhler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "András Tivadar Kulja",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Norbert Lins",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elżbieta Katarzyna Łukacijewska",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sander Smit",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ingeborg Ter Laak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Zala Tomašič",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Winzig",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Barbara Bonte",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marie-Luce Brasier-Clain",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jorge Buxadé Villalba",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Csaba Dömötör",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ondřej Knotek",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jana Nagyová",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Aleksandar Nikolic",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Philippe Olivier",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anders Vistisen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jeannette Baljeu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stine Bosse",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Cowen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Sigrid Friis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Andreas Glück",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Elsi Katainen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Cynthia Ní Mhurchú",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Christine Singer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ana Vasconcelos",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Emma Wiesner",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Biljana Borzan",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Mohammed Chahim",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Christophe Clergeau",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Annalisa Corrado",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Heléne Fritzon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Camilla Laureti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javi López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "César Luena",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eric Sargiacomo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Günther Sidl",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Raffaele Topo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kristian Vigenin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tiemo Wölken",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Michael Bloss",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "David Cormand",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Cristina Guarda",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Sara Matthieu",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Tilly Metz",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jutta Paulus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Majdouline Sbai",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Lena Schilling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Per Clausen",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Sebastian Everding",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Günther",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Catarina Martins",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Valentina Palmisano",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Beatrice Timgren",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Silvia Sardone",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}

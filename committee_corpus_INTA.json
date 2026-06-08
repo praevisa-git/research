@@ -1,0 +1,2547 @@
+{
+ "committee": "INTA",
+ "n_records": 12,
+ "records": [
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/306266/RCV%206%20May%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote ................................................................................................................... 9",
+   "secret": false,
+   "tally": {
+    "+": 32,
+    "-": 0,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kris Van Dijck",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Niebler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jean-Marc Germain",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kathleen Van Brempt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marina Mesure",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/306266/RCV%206%20May%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 27,
+    "-": 3,
+    "0": 8
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Niebler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loránt Vincze",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jean-Marc Germain",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kathleen Van Brempt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marina Mesure",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kris Van Dijck",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/306266/RCV%206%20May%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 33,
+    "-": 2,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kris Van Dijck",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Niebler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loránt Vincze",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jean-Marc Germain",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kathleen Van Brempt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marina Mesure",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/306266/RCV%206%20May%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 34,
+    "-": 1,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kris Van Dijck",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Niebler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loránt Vincze",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jean-Marc Germain",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kathleen Van Brempt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marina Mesure",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/306266/RCV%206%20May%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "",
+   "title": "",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 34,
+    "-": 1,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kris Van Dijck",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Angelika Niebler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loránt Vincze",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Stefano Bonaccini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jean-Marc Germain",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kathleen Van Brempt",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marina Mesure",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/304528/RCV%2019%20March%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "2025/0283(NLE)",
+   "rapporteur": "",
+   "title": "19 March 2026 COMMITTEE ON INTERNATIONAL TRADE 1. Approval of amendments to the International Cocoa Agreement – 2025/0283(NLE) – rapporteur: Bernd Lange (S&D) ................................................................................................ 2 1.1. Final vote ................................................................................................................... 2 2. Adjustment of customs duties on the import of certain goods originating in the United States of America and opening of tariff quotas for imports of certain goods originating in the United States of America – 2025/0261(COD) – rapporteur: Bernd Lange (S&D) ................... 3 2.1. Vote on amendments 35 and 36 ................................................................................. 3 2.2. Final vote ................................................................................................................... 4 2.3. Vote on the decision to enter into interinstitutional negotiations .............................. 5 3. Non-application of customs duties on imports of certain goods – 2025/0260(COD) – rapporteur: Bernd Lange (S&D) ................................................................................................ 6 3.1. Vote on amendment 13 .............................................................................................. 6 3.2. Final vote ................................................................................................................... 7 3.3. Vote on the decision to enter into interinstitutional negotiations .............................. 8 1. Approval of amendments to the International Cocoa Agreement –",
+   "subject": "(consent)",
+   "secret": false,
+   "tally": {
+    "+": 35,
+    "-": 0,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kris Van Dijck",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Branislav Ondruš",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Lukas Sieper",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jan Farský",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Céline Imart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Martine Kemp",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Susana Solís Pérez",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Iuliu Winkler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Željana Zovko",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Fabrice Leggeri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "João Cotrim De Figueiredo",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Andreas Glück",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Francisco Assis",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Delara Burkhardt",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kathleen Van Brempt",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Rudi Kennes",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Saskia Bricmont",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/302071/RCV%2027%20January%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "2025/2168(INI)",
+   "rapporteur": "",
+   "title": "1.2. Vote on the decision to enter into interinstitutional negotiations 35 + ECR Rihards Kols, Jaak Madison, Daniele Polato, Francesco Torselli NI Taner Kabilov, Lukas Sieper PPE Daniel Caspary, Martine Kemp, Ilia Lazarov, Miriam Lexmann, Gabriel Mato, Lídia Pereira, Iuliu Winkler, Bogdan Andrzej Zdrojewski, Juan Ignacio Zoido Álvarez PfE Christophe Bay, Anna Bryłka, Enikő Győri, Thierry Mariani, Isabella Tovaglieri Renew Dan Barna, Benoit Cassart, Bart Groothuis, Svenja Hahn, Karin Karlsbro S&D Brando Benifei, Udo Bullmann, Andi Cristea, Hana Jalloul Muro, Bernd Lange, Cristina Maestre, Javier Moreno Sánchez Verts/ALE Saskia Bricmont, Markéta Gregorová, Vicent Marzà Ibáñez 2 - PPE Inese Vaidere, Jörgen Warborn 5 0 ECR Waldemar Buda ESN Markus Buchheit The Left Manon Aubry, Lynn Boylan, Martin Schirdewan CORRECTIONS TO VOTES + Manon Aubry, Lynn Boylan, Martin Schirdewan - 2. Recommendation to the Council, the Commission and the Vice-President of the Commission / High Representative of the Union for Foreign Affairs and Security Policy concerning an enhanced EU-Canada cooperation in the light of the current geopolitical context, including the threats to Canada’s economic stability and sovereignty –",
+   "subject": "2.1. Final vote",
+   "secret": false,
+   "tally": {
+    "+": 26,
+    "-": 11,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Lukas Sieper",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Caspary",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Martine Kemp",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Iuliu Winkler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Brando Benifei",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andi Cristea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ştefan Muşoiu",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Isabella Tovaglieri",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Manon Aubry",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Saskia Bricmont",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vicent Marzà Ibáñez",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jaak Madison",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/302071/RCV%2027%20January%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "2025/2168(INI)",
+   "rapporteur": "",
+   "title": "1.2. Vote on the decision to enter into interinstitutional negotiations 35 + ECR Rihards Kols, Jaak Madison, Daniele Polato, Francesco Torselli NI Taner Kabilov, Lukas Sieper PPE Daniel Caspary, Martine Kemp, Ilia Lazarov, Miriam Lexmann, Gabriel Mato, Lídia Pereira, Iuliu Winkler, Bogdan Andrzej Zdrojewski, Juan Ignacio Zoido Álvarez PfE Christophe Bay, Anna Bryłka, Enikő Győri, Thierry Mariani, Isabella Tovaglieri Renew Dan Barna, Benoit Cassart, Bart Groothuis, Svenja Hahn, Karin Karlsbro S&D Brando Benifei, Udo Bullmann, Andi Cristea, Hana Jalloul Muro, Bernd Lange, Cristina Maestre, Javier Moreno Sánchez Verts/ALE Saskia Bricmont, Markéta Gregorová, Vicent Marzà Ibáñez 2 - PPE Inese Vaidere, Jörgen Warborn 5 0 ECR Waldemar Buda ESN Markus Buchheit The Left Manon Aubry, Lynn Boylan, Martin Schirdewan CORRECTIONS TO VOTES + Manon Aubry, Lynn Boylan, Martin Schirdewan - 2. Recommendation to the Council, the Commission and the Vice-President of the Commission / High Representative of the Union for Foreign Affairs and Security Policy concerning an enhanced EU-Canada cooperation in the light of the current geopolitical context, including the threats to Canada’s economic stability and sovereignty –",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 39,
+    "-": 3,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jaak Madison",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Lukas Sieper",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Caspary",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Martine Kemp",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Iuliu Winkler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Isabella Tovaglieri",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Brando Benifei",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andi Cristea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ştefan Muşoiu",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Saskia Bricmont",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vicent Marzà Ibáñez",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Manon Aubry",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "-"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/302071/RCV%2027%20January%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "2025/0322(COD)",
+   "rapporteur": "",
+   "title": "1.2. Vote on the decision to enter into interinstitutional negotiations 35 + ECR Rihards Kols, Jaak Madison, Daniele Polato, Francesco Torselli NI Taner Kabilov, Lukas Sieper PPE Daniel Caspary, Martine Kemp, Ilia Lazarov, Miriam Lexmann, Gabriel Mato, Lídia Pereira, Iuliu Winkler, Bogdan Andrzej Zdrojewski, Juan Ignacio Zoido Álvarez PfE Christophe Bay, Anna Bryłka, Enikő Győri, Thierry Mariani, Isabella Tovaglieri Renew Dan Barna, Benoit Cassart, Bart Groothuis, Svenja Hahn, Karin Karlsbro S&D Brando Benifei, Udo Bullmann, Andi Cristea, Hana Jalloul Muro, Bernd Lange, Cristina Maestre, Javier Moreno Sánchez Verts/ALE Saskia Bricmont, Markéta Gregorová, Vicent Marzà Ibáñez 2 - PPE Inese Vaidere, Jörgen Warborn 5 0 ECR Waldemar Buda ESN Markus Buchheit The Left Manon Aubry, Lynn Boylan, Martin Schirdewan CORRECTIONS TO VOTES + Manon Aubry, Lynn Boylan, Martin Schirdewan - 2. Recommendation to the Council, the Commission and the Vice-President of the Commission / High Representative of the Union for Foreign Affairs and Security Policy concerning an enhanced EU-Canada cooperation in the light of the current geopolitical context, including the threats to Canada’s economic stability and sovereignty –",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 31,
+    "-": 9,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jaak Madison",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Lukas Sieper",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Caspary",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Martine Kemp",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Iuliu Winkler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Brando Benifei",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andi Cristea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ştefan Muşoiu",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Isabella Tovaglieri",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Manon Aubry",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Saskia Bricmont",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vicent Marzà Ibáñez",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/302071/RCV%2027%20January%202026_INTA.pdf",
+   "ref": "",
+   "procedure": "2025/0322(COD)",
+   "rapporteur": "",
+   "title": "1.2. Vote on the decision to enter into interinstitutional negotiations 35 + ECR Rihards Kols, Jaak Madison, Daniele Polato, Francesco Torselli NI Taner Kabilov, Lukas Sieper PPE Daniel Caspary, Martine Kemp, Ilia Lazarov, Miriam Lexmann, Gabriel Mato, Lídia Pereira, Iuliu Winkler, Bogdan Andrzej Zdrojewski, Juan Ignacio Zoido Álvarez PfE Christophe Bay, Anna Bryłka, Enikő Győri, Thierry Mariani, Isabella Tovaglieri Renew Dan Barna, Benoit Cassart, Bart Groothuis, Svenja Hahn, Karin Karlsbro S&D Brando Benifei, Udo Bullmann, Andi Cristea, Hana Jalloul Muro, Bernd Lange, Cristina Maestre, Javier Moreno Sánchez Verts/ALE Saskia Bricmont, Markéta Gregorová, Vicent Marzà Ibáñez 2 - PPE Inese Vaidere, Jörgen Warborn 5 0 ECR Waldemar Buda ESN Markus Buchheit The Left Manon Aubry, Lynn Boylan, Martin Schirdewan CORRECTIONS TO VOTES + Manon Aubry, Lynn Boylan, Martin Schirdewan - 2. Recommendation to the Council, the Commission and the Vice-President of the Commission / High Representative of the Union for Foreign Affairs and Security Policy concerning an enhanced EU-Canada cooperation in the light of the current geopolitical context, including the threats to Canada’s economic stability and sovereignty –",
+   "subject": "Final vote",
+   "secret": false,
+   "tally": {
+    "+": 28,
+    "-": 13,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ESN",
+     "mep": "Markus Buchheit",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Taner Kabilov",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Lukas Sieper",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Caspary",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Martine Kemp",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Iuliu Winkler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Brando Benifei",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andi Cristea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ştefan Muşoiu",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jaak Madison",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Isabella Tovaglieri",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Manon Aubry",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Martin Schirdewan",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Saskia Bricmont",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vicent Marzà Ibáñez",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/301233/RCV%208%20December%202025_INTA_rev.pdf",
+   "ref": "",
+   "procedure": "2025/0322(COD)",
+   "rapporteur": "",
+   "title": "8 December 2025 COMMITTEE ON INTERNATIONAL TRADE 1. Implementing the bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products – 2025/0322(COD) – rapporteur: Gabriel Mato (PPE) – Adoption of draft report ................................................... 2 1.1. Final vote ................................................................................................................... 2 1.2. Vote on AM 36 .......................................................................................................... 3 1.3. Vote on AM 39 .......................................................................................................... 4 1.4. Vote on AM 45 .......................................................................................................... 5 1.5. Vote on AMs 55-56 ................................................................................................... 6 1.6. Vote on AM 64 .......................................................................................................... 7 1.7. Vote on AM 66 .......................................................................................................... 8 1.8. Vote on AM 67 .......................................................................................................... 9 1.9. Vote on AM 70 ........................................................................................................ 10 1.10. Vote on AM 72 .................................................................................................... 11 1.11. Vote on AM 75 .................................................................................................... 12 1.12. Vote on AM 79 .................................................................................................... 13 1.13. Vote on AM 77 .................................................................................................... 14 1.14. Vote on AM 81 .................................................................................................... 15 1.15. Vote on AMs 82-83 ............................................................................................. 16 1.16. Vote on AM 84 .................................................................................................... 17 1.17. Vote on AM 85 .................................................................................................... 18 1.18. Vote on AM 86 .................................................................................................... 19 1.19. Vote on AM 111 .................................................................................................. 20 1.20. Vote on AM 177 .................................................................................................. 21 1.21. Vote on AM 180 .................................................................................................. 22 1.22. Vote on AM 183 .................................................................................................. 23 1.23. Vote on AM 186 .................................................................................................. 24 1.24. Vote on AM 208 .................................................................................................. 25 1.25. Vote on AM 237 .................................................................................................. 26 1.26. Vote on AM 244 .................................................................................................. 27 1.27. Vote on AM 248 .................................................................................................. 28 1.28. Vote on AM 249 .................................................................................................. 29 1. Implementing the bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products –",
+   "subject": "1.1. Final vote",
+   "secret": false,
+   "tally": {
+    "+": 27,
+    "-": 8,
+    "0": 7
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Lukas Sieper",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sandra Kalniete",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Francisco José Millán Mon",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lídia Pereira",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessika Van Leeuwen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jörgen Warborn",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Dan Barna",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Francisco Assis",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Brando Benifei",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Udo Bullmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lina Gálvez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cristina Maestre",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Carla Tavares",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Branislav Ondruš",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Manon Aubry",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Luke Ming Flanagan",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marina Mesure",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Waldemar Buda",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Michele Picaro",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Saskia Bricmont",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Vicent Marzà Ibáñez",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Thomas Waitz",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "INTA",
+   "source": "https://www.europarl.europa.eu/cmsdata/300849/RCV%202%20December%202025_INTA_2.pdf",
+   "ref": "",
+   "procedure": "2025/0251(COD)",
+   "rapporteur": "",
+   "title": "2 December 2025 COMMITTEE ON INTERNATIONAL TRADE 1. Providing macro-financial assistance to the Hashemite Kingdom of Jordan –",
+   "subject": "1.1. Final vote",
+   "secret": false,
+   "tally": {
+    "+": 31,
+    "-": 2,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Nicolas Bay",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Francesco Torselli",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Branislav Ondruš",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Caspary",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Laurent Castillo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Martine Kemp",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ilia Lazarov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gabriel Mato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Inese Vaidere",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Iuliu Winkler",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bogdan Andrzej Zdrojewski",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Christophe Bay",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Anna Bryłka",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Thierry Mariani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Svenja Hahn",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Karin Karlsbro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Andi Cristea",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jean-Marc Germain",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Bernd Lange",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javier Moreno Sánchez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Günther Sidl",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Markéta Gregorová",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Catarina Vieira",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Sebastian Kruis",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Rudi Kennes",
+     "choice": "0"
+    }
+   ]
+  }
+ ]
+}
