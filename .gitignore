@@ -25,3 +25,6 @@ data/htv_list_scan.json
 
 # HTV bulk export cache (regenerable via praevisa.resolve_plenary)
 data/htv_export/
+
+# cadence run logs
+logs/
