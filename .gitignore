@@ -17,3 +17,6 @@ wheels/
 
 # Generated committee-vote corpora (regenerable via committee_scrape.py)
 committee_corpus_*.json
+
+# Local HTV pull cache (regenerable via scripts/build_plenary_join.py)
+data/htv_list_scan.json
