@@ -1,0 +1,195 @@
+{
+ "protocol": "time-split pseudo-prospective; committee signal vs \u00a79.6 floors",
+ "n_pairs_graded": 10,
+ "n_contested": 6,
+ "subsets": {
+  "contested": {
+   "vs_const_mean": {
+    "n": 6,
+    "mean_model": 0.049765872125189875,
+    "mean_floor": 0.2128265034466695,
+    "mean_diff": -0.16306063132147963,
+    "mean_diff_ci95": [
+     -0.24914315645961146,
+     -0.05637421337296095
+    ],
+    "model_better_fraction": 0.9986,
+    "wilcoxon_p": 0.0625,
+    "model_wins": false
+   },
+   "vs_baseline_A": {
+    "n": 6,
+    "mean_model": 0.049765872125189875,
+    "mean_floor": 0.23130248403230336,
+    "mean_diff": -0.18153661190711345,
+    "mean_diff_ci95": [
+     -0.25503546429594226,
+     -0.06369791577396587
+    ],
+    "model_better_fraction": 0.9996,
+    "wilcoxon_p": 0.0625,
+    "model_wins": false
+   }
+  },
+  "all_pairs": {
+   "vs_const_mean": {
+    "n": 10,
+    "mean_model": 0.052931673681244684,
+    "mean_floor": 0.17044014222379344,
+    "mean_diff": -0.11750846854254877,
+    "mean_diff_ci95": [
+     -0.18530149479981692,
+     -0.046821556497057146
+    ],
+    "model_better_fraction": 0.9997,
+    "wilcoxon_p": 0.01953125,
+    "model_wins": true
+   },
+   "vs_baseline_A": {
+    "n": 10,
+    "mean_model": 0.052931673681244684,
+    "mean_floor": 0.1779708189732836,
+    "mean_diff": -0.1250391452920389,
+    "mean_diff_ci95": [
+     -0.19846267239976445,
+     -0.047031968260750165
+    ],
+    "model_better_fraction": 0.9995,
+    "wilcoxon_p": 0.01953125,
+    "model_wins": true
+   }
+  }
+ },
+ "rows": [
+  {
+   "procedure": "2023/0135(COD)",
+   "committee": "LIBE",
+   "stage": "provisional",
+   "plenary_id": "189232",
+   "date": "2026-03-26",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 16,
+   "loss_committee": 0.18853336887585037,
+   "loss_const_mean": 0.10711733348023285,
+   "loss_baseline_A": 0.0887349550946201
+  },
+  {
+   "procedure": "2023/0250(COD)",
+   "committee": "FEMM",
+   "stage": "provisional",
+   "plenary_id": "192434",
+   "date": "2026-05-21",
+   "contested": false,
+   "n_groups": 9,
+   "n_train": 21,
+   "loss_committee": 0.06935181112848285,
+   "loss_const_mean": 0.14890859435961706,
+   "loss_baseline_A": 0.11357141796434177
+  },
+  {
+   "procedure": "2023/0435(COD)",
+   "committee": "IMCO",
+   "stage": "report",
+   "plenary_id": "186091",
+   "date": "2026-03-12",
+   "contested": false,
+   "n_groups": 9,
+   "n_train": 16,
+   "loss_committee": 0.08835978986466533,
+   "loss_const_mean": 0.10013407470492935,
+   "loss_baseline_A": 0.10032881858440684
+  },
+  {
+   "procedure": "2024/0318(COD)",
+   "committee": "AGRI",
+   "stage": "provisional",
+   "plenary_id": "184110",
+   "date": "2026-02-12",
+   "contested": false,
+   "n_groups": 9,
+   "n_train": 14,
+   "loss_committee": 0.05332579172615547,
+   "loss_const_mean": 0.09921723857376794,
+   "loss_baseline_A": 0.1092043305422139
+  },
+  {
+   "procedure": "2025/0059(COD)",
+   "committee": "LIBE",
+   "stage": "report",
+   "plenary_id": "189597",
+   "date": "2026-03-26",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 16,
+   "loss_committee": 0.006070764968897143,
+   "loss_const_mean": 0.21528667459175393,
+   "loss_baseline_A": 0.27405108399825706
+  },
+  {
+   "procedure": "2025/0101(COD)",
+   "committee": "LIBE",
+   "stage": "provisional",
+   "plenary_id": "184172",
+   "date": "2026-02-10",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 10,
+   "loss_committee": 0.02235262177877531,
+   "loss_const_mean": 0.18671615493286822,
+   "loss_baseline_A": 0.2953996048471721
+  },
+  {
+   "procedure": "2025/0132(COD)",
+   "committee": "LIBE",
+   "stage": "provisional",
+   "plenary_id": "184168",
+   "date": "2026-02-10",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 10,
+   "loss_committee": 0.0761031292221134,
+   "loss_const_mean": 0.20166376177929937,
+   "loss_baseline_A": 0.3155581594291785
+  },
+  {
+   "procedure": "2025/0359(COD)",
+   "committee": "LIBE",
+   "stage": "report",
+   "plenary_id": "189384",
+   "date": "2026-03-26",
+   "contested": false,
+   "n_groups": 9,
+   "n_train": 16,
+   "loss_committee": 0.01968411134200395,
+   "loss_const_mean": 0.07918249391960336,
+   "loss_baseline_A": 0.06878871844805341
+  },
+  {
+   "procedure": "2025/0825(COD)",
+   "committee": "ECON",
+   "stage": "report",
+   "plenary_id": "193313",
+   "date": "2026-05-21",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 21,
+   "loss_committee": 0.0029026656114144386,
+   "loss_const_mean": 0.2827498659209505,
+   "loss_baseline_A": 0.20653915294545264
+  },
+  {
+   "procedure": "2025/0826(COD)",
+   "committee": "ECON",
+   "stage": "report",
+   "plenary_id": "193314",
+   "date": "2026-05-21",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 21,
+   "loss_committee": 0.002632682294088607,
+   "loss_const_mean": 0.2834252299749121,
+   "loss_baseline_A": 0.20753194787913967
+  }
+ ]
+}

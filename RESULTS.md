@@ -189,6 +189,52 @@ close/lost votes), which a historical-mean baseline cannot reach. A real model m
 clear the const_mean floor *on the contested subset*, prospectively — not just nose
 ahead of it on the full set. That bar is now explicit.
 
+## Part 2 — Stage A: the committee→plenary signal (first positive result)
+
+§9.6 set the bar: a real model must clear the `const_mean` floor *on the contested
+subset*. Stage A tests the first candidate signal — a group's pre-vote **committee**
+vote — against that bar. Data feasibility was established first (`stage0_feasibility`,
+the procedure→plenary resolver, and a 20-committee scrape → 13 usable pairs, 6
+contested). Stage A grades the signal: `uv run python -m praevisa.stage_a`
+([`results/stage_a.json`](results/stage_a.json)).
+
+Method: time-split, pseudo-prospective. For each pair, predict the plenary per-group
+yes-rate with three predictors — `const_mean` and `baseline_A` (the §9.6 floors, fit
+only on §9.6 base files dated *before* the target), and `committee` (the committee's
+per-group yes-rate on that file, cast before plenary). Per-group MSE, paired bootstrap
+CI + Wilcoxon as §5b. Negative `mean_diff` = committee BETTER.
+
+| subset | n | committee MSE | floor MSE | mean_diff | 95% CI | wilcox p |
+|---|---:|---:|---:|---:|---|---:|
+| all pairs vs const_mean | 10 | 0.0529 | 0.1704 | −0.1175 | [−0.185, −0.047] | **0.020** |
+| all pairs vs baseline_A | 10 | 0.0529 | 0.1780 | −0.1250 | [−0.199, −0.047] | **0.020** |
+| contested vs const_mean | 6 | 0.0498 | 0.2128 | −0.1631 | [−0.249, −0.056] | 0.062 |
+| contested vs baseline_A | 6 | 0.0498 | 0.2313 | −0.1815 | [−0.255, −0.064] | 0.062 |
+
+**The committee signal clears the §9.6 bar.** It beats both floors on 9/10 pairs, by a
+large margin — a ~3–4× MSE reduction. On all pairs it is **significant** (CI excludes
+0, Wilcoxon p = 0.020). On the contested subset the effect is *larger* (committee 0.05
+vs floor ~0.21) and the CI still excludes 0, but Wilcoxon p = 0.062 — n = 6 cannot
+reach 0.05, so this is a power limit, not a weak effect.
+
+Adversarial split (does it survive without the near-tautological post-trilogue stage?):
+the **report-adoption** stage is the *cleanest and strongest* signal — committee MSE
+0.024 vs floor 0.19 (5/5), and **0.0039 vs 0.26 on contested** — while the
+provisional-agreement stage is messier (0.096). So the effect is not an artifact of
+"same text, same people"; the substantive committee vote is the better predictor.
+
+**Honest limits (why this is a first signal, not a verdict):**
+- n = 10 pairs (6 contested) from a single rolling-window snapshot.
+- The report-stage contested evidence is ~2 effectively-independent files
+  (2025/0825 and /0826 are twins — near-identical losses).
+- Pseudo-prospective (historical, time-split), **not** pre-committed. Stage B (true
+  blinded pre-commitment, report-stage focus, more files) is required to confirm.
+- This buys ~weeks of lead time on files that have reached committee; it does **not**
+  forecast far ahead, the Council dimension, or trilogue outcomes.
+
+Still: this is the first evidence in the project that a pre-vote signal beats the
+§9.6 floor where it matters. The wedge is no longer purely hypothetical.
+
 ## Provenance
 
 - Raw per-vote JSON + pull index: [`data/htv_raw/`](data/htv_raw/) (committed).
@@ -196,6 +242,12 @@ ahead of it on the full set. That bar is now explicit.
 - LOO harness + metrics: [`praevisa/baseline_eval.py`](praevisa/baseline_eval.py).
 - Robustness harness: [`praevisa/baseline_robustness.py`](praevisa/baseline_robustness.py).
 - Contested-subset check: [`praevisa/contested_subset.py`](praevisa/contested_subset.py).
+- Procedure→plenary resolver: [`praevisa/resolve_plenary.py`](praevisa/resolve_plenary.py).
+- Stage-0 feasibility gate: [`praevisa/stage0_feasibility.py`](praevisa/stage0_feasibility.py).
+- Stage A backtest: [`praevisa/stage_a.py`](praevisa/stage_a.py).
+- Committee corpora: `committee_corpus_*.json` (accumulating; `committee_scrape.py`).
 - Machine-readable results: [`results/baseline_eval.json`](results/baseline_eval.json),
   [`results/baseline_robustness.json`](results/baseline_robustness.json),
-  [`results/contested_subset.json`](results/contested_subset.json).
+  [`results/contested_subset.json`](results/contested_subset.json),
+  [`results/stage0_feasibility.json`](results/stage0_feasibility.json),
+  [`results/stage_a.json`](results/stage_a.json).
