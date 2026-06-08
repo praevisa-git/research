@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Stage B weekly cadence LaunchAgent.
+  Runs scripts/stage_b_cadence.sh every Monday 09:00 (local). If the Mac is asleep at
+  that time, launchd runs it at next wake (catch-up) — and the cadence is idempotent.
+
+  Install:
+    cp scripts/com.praevisa.stageb.plist ~/Library/LaunchAgents/
+    launchctl load -w ~/Library/LaunchAgents/com.praevisa.stageb.plist
+  Disable:
+    launchctl unload -w ~/Library/LaunchAgents/com.praevisa.stageb.plist
+  Run once now:
+    launchctl start com.praevisa.stageb
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.praevisa.stageb</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/motazkabbani/praevisa/scripts/stage_b_cadence.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/motazkabbani/praevisa/logs/launchd.out</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/motazkabbani/praevisa/logs/launchd.err</string>
+</dict>
+</plist>
