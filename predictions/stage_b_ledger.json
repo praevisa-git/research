@@ -234,5 +234,99 @@
   "plenary_status": "pending",
   "graded": null,
   "content_hash": "a52bf4914f6dd1bd617a9fba32f4fc19f475cce7859498655e1223a74d194844"
+ },
+ {
+  "procedure": "2024/0098(COD)",
+  "committee": "PECH",
+  "signal_stage": "report",
+  "committee_n": 25,
+  "committee_yes_overall": 0.84,
+  "contested_ex_ante": false,
+  "committee_per_group": {
+   "ECR": 1.0,
+   "ESN": 1.0,
+   "EPP": 1.0,
+   "PfE": 0.666667,
+   "Renew": 1.0,
+   "S&D": 1.0,
+   "Left": 0.0,
+   "Greens": 0.0
+  },
+  "predicted_plenary_per_group": {
+   "ECR": 1.0,
+   "ESN": 1.0,
+   "EPP": 1.0,
+   "PfE": 0.666667,
+   "Renew": 1.0,
+   "S&D": 1.0,
+   "Left": 0.0,
+   "Greens": 0.0
+  },
+  "predicted_ep_yes_share": 0.8151,
+  "predicted_outcome": "ADOPTED",
+  "comparator_const_mean": 0.617037,
+  "comparator_baseline_A": {
+   "EPP": 0.804096,
+   "S&D": 0.756134,
+   "PfE": 0.401857,
+   "ECR": 0.579303,
+   "Renew": 0.786284,
+   "Greens": 0.735258,
+   "Left": 0.499143,
+   "ESN": 0.507865,
+   "NI": 0.48339
+  },
+  "committed_at": "2026-06-09",
+  "plenary_status": "pending",
+  "graded": null,
+  "content_hash": "1253ad58256273c40f8fa6fff2f0dbeb157c68675a2587ed17e95163ee00fe52"
+ },
+ {
+  "procedure": "2025/0228(COD)",
+  "committee": "AGRI",
+  "signal_stage": "report",
+  "committee_n": 42,
+  "committee_yes_overall": 0.7857,
+  "contested_ex_ante": false,
+  "committee_per_group": {
+   "ECR": 0.8,
+   "EPP": 1.0,
+   "Renew": 1.0,
+   "S&D": 1.0,
+   "Left": 1.0,
+   "Greens": 1.0,
+   "NI": 0.0,
+   "PfE": 0.0,
+   "ESN": 0.0
+  },
+  "predicted_plenary_per_group": {
+   "ECR": 0.8,
+   "EPP": 1.0,
+   "Renew": 1.0,
+   "S&D": 1.0,
+   "Left": 1.0,
+   "Greens": 1.0,
+   "NI": 0.0,
+   "PfE": 0.0,
+   "ESN": 0.0
+  },
+  "predicted_ep_yes_share": 0.7811,
+  "predicted_outcome": "ADOPTED",
+  "comparator_const_mean": 0.617037,
+  "comparator_baseline_A": {
+   "EPP": 0.804096,
+   "S&D": 0.756134,
+   "PfE": 0.401857,
+   "ECR": 0.579303,
+   "Renew": 0.786284,
+   "Greens": 0.735258,
+   "Left": 0.499143,
+   "ESN": 0.507865,
+   "NI": 0.48339
+  },
+  "committed_at": "2026-06-09",
+  "plenary_status": "pending",
+  "graded": null,
+  "content_hash": "70856f6947230743588b5b3c6a41c5b0e845cd6d28255bc721bbb0c5692e3f5a"
  }
 ]
