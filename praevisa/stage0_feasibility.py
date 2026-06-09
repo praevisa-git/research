@@ -162,7 +162,8 @@ def load_committee_cod():
     """
     recs = []
     for f in glob.glob(str(REPO / "committee_corpus_*.json")):
-        recs.extend(json.load(open(f))["records"])
+        with open(f) as fh:
+            recs.extend(json.load(fh)["records"])
     by_proc = {}
     for r in recs:
         p = r.get("procedure", "")
