@@ -1,0 +1,170 @@
+{
+ "rows": [
+  {
+   "committee": "LIBE",
+   "n_records": 108,
+   "n_cod": 20,
+   "n_cod_voted": 20,
+   "n_classified_signal": 12,
+   "n_reconciled": 108
+  },
+  {
+   "committee": "ENVI",
+   "n_records": 104,
+   "n_cod": 2,
+   "n_cod_voted": 2,
+   "n_classified_signal": 1,
+   "n_reconciled": 104
+  },
+  {
+   "committee": "TRAN",
+   "n_records": 51,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 51
+  },
+  {
+   "committee": "IMCO",
+   "n_records": 35,
+   "n_cod": 17,
+   "n_cod_voted": 17,
+   "n_classified_signal": 8,
+   "n_reconciled": 35
+  },
+  {
+   "committee": "ECON",
+   "n_records": 32,
+   "n_cod": 15,
+   "n_cod_voted": 15,
+   "n_classified_signal": 8,
+   "n_reconciled": 32
+  },
+  {
+   "committee": "FEMM",
+   "n_records": 26,
+   "n_cod": 1,
+   "n_cod_voted": 1,
+   "n_classified_signal": 1,
+   "n_reconciled": 26
+  },
+  {
+   "committee": "PETI",
+   "n_records": 25,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 25
+  },
+  {
+   "committee": "CONT",
+   "n_records": 23,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 23
+  },
+  {
+   "committee": "DEVE",
+   "n_records": 20,
+   "n_cod": 1,
+   "n_cod_voted": 1,
+   "n_classified_signal": 0,
+   "n_reconciled": 20
+  },
+  {
+   "committee": "PECH",
+   "n_records": 12,
+   "n_cod": 5,
+   "n_cod_voted": 5,
+   "n_classified_signal": 4,
+   "n_reconciled": 12
+  },
+  {
+   "committee": "CULT",
+   "n_records": 11,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 11
+  },
+  {
+   "committee": "AGRI",
+   "n_records": 10,
+   "n_cod": 7,
+   "n_cod_voted": 7,
+   "n_classified_signal": 3,
+   "n_reconciled": 10
+  },
+  {
+   "committee": "EMPL",
+   "n_records": 10,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 10
+  },
+  {
+   "committee": "ITRE",
+   "n_records": 9,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 9
+  },
+  {
+   "committee": "INTA",
+   "n_records": 8,
+   "n_cod": 3,
+   "n_cod_voted": 3,
+   "n_classified_signal": 3,
+   "n_reconciled": 8
+  },
+  {
+   "committee": "JURI",
+   "n_records": 2,
+   "n_cod": 1,
+   "n_cod_voted": 1,
+   "n_classified_signal": 1,
+   "n_reconciled": 2
+  },
+  {
+   "committee": "AFET",
+   "n_records": 1,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 1
+  },
+  {
+   "committee": "AFCO",
+   "n_records": 0,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 0
+  },
+  {
+   "committee": "BUDG",
+   "n_records": 0,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 0
+  },
+  {
+   "committee": "REGI",
+   "n_records": 0,
+   "n_cod": 0,
+   "n_cod_voted": 0,
+   "n_classified_signal": 0,
+   "n_reconciled": 0
+  }
+ ],
+ "suspicious": [],
+ "totals": {
+  "records": 487,
+  "cod_voted": 72,
+  "classified_signal": 41
+ }
+}
