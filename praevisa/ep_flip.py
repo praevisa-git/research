@@ -23,16 +23,35 @@ Run:
 
 from __future__ import annotations
 
+import json
 import sys
 from dataclasses import dataclass
+from pathlib import Path
 
 from . import baselines, stage0_feasibility as s0
 from .data import EP_GROUPS
 from .flip import _ep_pivot_path
 
 GROUPS = list(baselines.CANONICAL_GROUPS)
-SEAT_W = baselines.SEAT_WEIGHTS
 _SEATS = {g.code: g.seats for g in EP_GROUPS}
+_CALIB = Path(__file__).resolve().parent.parent / "results" / "calibration.json"
+
+
+def load_alpha() -> float:
+    """Production shrinkage weight, from the committed calibration artifact.
+
+    α=1.0 is the identity map; α<1 regresses the committee rate toward the group's plenary
+    prior. `praevisa.calibration` picks `production_alpha` by the DECISION metric (contested
+    outcome accuracy), NOT per-group MSE — so a calibration that lowers MSE but flips
+    rejections is rejected and this stays 1.0. Defaults to 1.0 if the artifact is absent,
+    so the bridge never silently adopts an unvalidated transform.
+    """
+    try:
+        with open(_CALIB) as fh:
+            a = json.load(fh).get("production_alpha")
+        return float(a) if a is not None else 1.0
+    except (OSError, ValueError, TypeError):
+        return 1.0
 
 
 @dataclass
@@ -47,30 +66,29 @@ def _baseline_A() -> dict:
     return {g: baselines.baseline_a(base, g) for g in GROUPS}
 
 
-def predict_plenary_per_group(committee_rates: dict, prior: dict) -> dict:
+def predict_plenary_per_group(committee_rates: dict, prior: dict,
+                              alpha: float | None = None) -> dict:
     """The model: predicted plenary per-group yes-rate.
 
-    Phase 1 = the Stage-A identity map (plenary ≈ committee). Groups with NO committee
-    signal fall back to their plenary baseline_A prior rather than a fabricated 0%.
-    Phase 2 replaces the identity line with a calibrated committee→plenary transform;
-    nothing downstream changes.
+    Calibrated shrinkage (Phase 2): plenary ≈ α·committee + (1−α)·prior[g], where
+    prior[g] = baseline_A and α is fit + CV-validated by `praevisa.calibration`
+    (committee rates are extreme because committees are small, so they regress toward the
+    plenary mean). α defaults to the committed calibration artifact; α=1.0 recovers the
+    Phase-1 identity map. Groups with NO committee signal fall back to the prior, not a
+    fabricated 0%.
     """
+    a = load_alpha() if alpha is None else alpha
     out = {}
     for g in GROUPS:
         v = committee_rates.get(g)
-        out[g] = v if v is not None else prior.get(g)
-    return out
-
-
-def _ep_share(per_group: dict) -> float:
-    num = den = 0.0
-    for g in GROUPS:
-        v = per_group.get(g)
+        pr = prior.get(g)
         if v is None:
-            continue
-        num += SEAT_W[g] * v
-        den += SEAT_W[g]
-    return num / den if den else float("nan")
+            out[g] = pr
+        elif pr is None:
+            out[g] = v
+        else:
+            out[g] = a * v + (1 - a) * pr
+    return out
 
 
 def forecast_for(proc: str, committee: dict | None = None, prior: dict | None = None):
@@ -83,17 +101,21 @@ def forecast_for(proc: str, committee: dict | None = None, prior: dict | None = 
     com = s0._committee_group_rates(rec["votes"])
     com = {g: (round(v, 4) if v is not None else None) for g, v in com.items()}
     pred = predict_plenary_per_group(com, prior)
-    share = _ep_share(pred)
     yes_overall, _n = s0._committee_yes(rec)
-    pivot = _ep_pivot_path(_EPForecast(group_yes_rates={g: (pred[g] or 0.0) for g in GROUPS}))
-    # predicted seats for the margin line (abstention-ignored, same approx as the pivot)
-    yes_seats = sum(_SEATS[g] * (pred[g] or 0.0) for g in GROUPS if g != "NI")
-    no_seats = sum(_SEATS[g] * (1.0 - (pred[g] or 0.0)) for g in GROUPS if g != "NI")
+    # ONE seat tally drives outcome, margin AND the pivot — so the headline can never
+    # contradict the flip lever near 50%. Convention matches _ep_pivot_path: seat-weighted,
+    # abstention-ignored, NI excluded (non-attached — no party line to lobby).
+    gyr = {g: (pred[g] if pred[g] is not None else 0.0) for g in GROUPS}
+    pivot = _ep_pivot_path(_EPForecast(group_yes_rates=gyr))
+    yes_seats = sum(_SEATS[g] * gyr[g] for g in GROUPS if g != "NI")
+    no_seats = sum(_SEATS[g] * (1.0 - gyr[g]) for g in GROUPS if g != "NI")
+    tot = yes_seats + no_seats
+    share = yes_seats / tot if tot else float("nan")
     return {
         "procedure": proc, "committee": rec["committee"], "stage": rec.get("_stage"),
         "contested": bool(yes_overall is not None and yes_overall < s0.CONTESTED_MAX_YES),
         "per_group": pred, "ep_yes_share": share,
-        "outcome": "ADOPTED" if share > 0.5 else "REJECTED",
+        "outcome": "ADOPTED" if yes_seats > no_seats else "REJECTED",
         "margin_seats": yes_seats - no_seats, "pivot": pivot,
     }
 

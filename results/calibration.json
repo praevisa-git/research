@@ -1,0 +1,31 @@
+{
+ "protocol": "leave-one-file-out CV; calibrated committee\u2192plenary vs identity",
+ "n_files": 18,
+ "n_contested": 8,
+ "prior": "baseline_A (\u00a79.6 per-group plenary mean)",
+ "shrinkage_alpha_fit": 0.6795,
+ "models": {
+  "identity": {
+   "cv_mse_all": 0.07178785364366753,
+   "cv_mse_contested": 0.06830402690356809,
+   "outcome_acc_all": 1.0,
+   "outcome_acc_contested": 1.0,
+   "params_mean": null
+  },
+  "shrink": {
+   "cv_mse_all": 0.05325681271209618,
+   "cv_mse_contested": 0.0525700914028239,
+   "outcome_acc_all": 0.9444444444444444,
+   "outcome_acc_contested": 0.875,
+   "params_mean": 0.6793657618669159
+  },
+  "linear": {
+   "cv_mse_all": 0.05362159001297037,
+   "cv_mse_contested": 0.05636231823281458,
+   "outcome_acc_all": 0.9444444444444444,
+   "outcome_acc_contested": 0.875,
+   "params_mean": null
+  }
+ },
+ "production_alpha": 1.0
+}
