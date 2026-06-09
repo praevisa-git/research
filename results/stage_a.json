@@ -1,62 +1,62 @@
 {
  "protocol": "time-split pseudo-prospective; committee signal vs \u00a79.6 floors",
- "n_pairs_graded": 10,
- "n_contested": 6,
+ "n_pairs_graded": 13,
+ "n_contested": 8,
  "subsets": {
   "contested": {
    "vs_const_mean": {
-    "n": 6,
-    "mean_model": 0.049765872125189875,
-    "mean_floor": 0.2128265034466695,
-    "mean_diff": -0.16306063132147963,
+    "n": 8,
+    "mean_model": 0.06830402690356809,
+    "mean_floor": 0.19851856638244553,
+    "mean_diff": -0.13021453947887746,
     "mean_diff_ci95": [
-     -0.24914315645961146,
-     -0.05637421337296095
+     -0.21457973466303623,
+     -0.03561732857087346
     ],
-    "model_better_fraction": 0.9986,
-    "wilcoxon_p": 0.0625,
-    "model_wins": false
+    "model_better_fraction": 0.9963,
+    "wilcoxon_p": 0.0390625,
+    "model_wins": true
    },
    "vs_baseline_A": {
-    "n": 6,
-    "mean_model": 0.049765872125189875,
-    "mean_floor": 0.23130248403230336,
-    "mean_diff": -0.18153661190711345,
+    "n": 8,
+    "mean_model": 0.06830402690356809,
+    "mean_floor": 0.20820124597960082,
+    "mean_diff": -0.13989721907603275,
     "mean_diff_ci95": [
-     -0.25503546429594226,
-     -0.06369791577396587
+     -0.23252616864307324,
+     -0.02891680854166394
     ],
-    "model_better_fraction": 0.9996,
-    "wilcoxon_p": 0.0625,
-    "model_wins": false
+    "model_better_fraction": 0.9955,
+    "wilcoxon_p": 0.0390625,
+    "model_wins": true
    }
   },
   "all_pairs": {
    "vs_const_mean": {
-    "n": 10,
-    "mean_model": 0.052931673681244684,
-    "mean_floor": 0.17044014222379344,
-    "mean_diff": -0.11750846854254877,
+    "n": 13,
+    "mean_model": 0.06874957285156574,
+    "mean_floor": 0.16172078581621122,
+    "mean_diff": -0.09297121296464546,
     "mean_diff_ci95": [
-     -0.18530149479981692,
-     -0.046821556497057146
+     -0.15714453643994375,
+     -0.031339479230651515
     ],
-    "model_better_fraction": 0.9997,
-    "wilcoxon_p": 0.01953125,
+    "model_better_fraction": 0.9978,
+    "wilcoxon_p": 0.026611328125,
     "model_wins": true
    },
    "vs_baseline_A": {
-    "n": 10,
-    "mean_model": 0.052931673681244684,
-    "mean_floor": 0.1779708189732836,
-    "mean_diff": -0.1250391452920389,
+    "n": 13,
+    "mean_model": 0.06874957285156574,
+    "mean_floor": 0.1624608980140669,
+    "mean_diff": -0.09371132516250116,
     "mean_diff_ci95": [
-     -0.19846267239976445,
-     -0.047031968260750165
+     -0.1646674247229127,
+     -0.02246677608204719
     ],
-    "model_better_fraction": 0.9995,
-    "wilcoxon_p": 0.01953125,
-    "model_wins": true
+    "model_better_fraction": 0.9944,
+    "wilcoxon_p": 0.057373046875,
+    "model_wins": false
    }
   }
  },
@@ -153,6 +153,32 @@
    "loss_baseline_A": 0.3155581594291785
   },
   {
+   "procedure": "2025/0251(COD)",
+   "committee": "INTA",
+   "stage": "report",
+   "plenary_id": "182479",
+   "date": "2025-12-16",
+   "contested": false,
+   "n_groups": 9,
+   "n_train": 8,
+   "loss_committee": 0.11659072778050243,
+   "loss_const_mean": 0.0867792829932637,
+   "loss_baseline_A": 0.05448842080704729
+  },
+  {
+   "procedure": "2025/0322(COD)",
+   "committee": "INTA",
+   "stage": "report",
+   "plenary_id": "184191",
+   "date": "2026-02-10",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 10,
+   "loss_committee": 0.1813367000498105,
+   "loss_const_mean": 0.102673198122466,
+   "loss_baseline_A": 0.0710364893205471
+  },
+  {
    "procedure": "2025/0359(COD)",
    "committee": "LIBE",
    "stage": "report",
@@ -164,6 +190,19 @@
    "loss_committee": 0.01968411134200395,
    "loss_const_mean": 0.07918249391960336,
    "loss_baseline_A": 0.06878871844805341
+  },
+  {
+   "procedure": "2025/0429(COD)",
+   "committee": "LIBE",
+   "stage": "report",
+   "plenary_id": "189270",
+   "date": "2026-03-26",
+   "contested": true,
+   "n_groups": 9,
+   "n_train": 16,
+   "loss_committee": 0.06650028242759491,
+   "loss_const_mean": 0.20851631225708134,
+   "loss_baseline_A": 0.2067585743224394
   },
   {
    "procedure": "2025/0825(COD)",

@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import glob
 import json
+import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -44,6 +45,13 @@ COMMITTEE_GROUP_MAP = {
 # stage is the substantive committee decision and carries the real contestation; the
 # mandate vote is next; the post-trilogue "provisional agreement" vote is usually a
 # consensus rubber-stamp, used only when nothing earlier survives the rolling window.
+#
+# Kept for reference/back-compat: the original *exact-string* table. Committee PDFs are
+# scraped, so real subject lines arrive with template noise ("1.1. ", a "·"/""
+# bullet, a trailing "- Rejected", an appended "(Co-Rapporteurs: ...)"). Exact matching
+# against this table silently dropped legitimate LEAD-committee report votes — a
+# data-quality bug, not a methodology choice. `classify_signal_stage` below normalizes
+# that noise and is the path used by `load_committee_cod`.
 SIGNAL_STAGES = {
     "Adoption of draft report": (0, "report"),
     "Vote on draft report": (0, "report"),
@@ -55,6 +63,61 @@ SIGNAL_STAGES = {
 }
 # a committee vote is "contested" ex ante if its yes-rate is below this
 CONTESTED_MAX_YES = 0.75
+
+
+def _norm_subject(subject):
+    """Strip committee-PDF template noise so stage matching is robust.
+
+    Removes a leading enumeration / bullet ("1.1.", "·", "", "-"), collapses
+    whitespace, lowercases, and drops a trailing "- rejected" annotation (the rejection
+    is already captured by the tally, not the stage). Returns a normalized string.
+    """
+    s = subject or ""
+    s = s.replace("", " ")                      # PDF bullet glyph
+    s = re.sub(r"^[\s·\-–—.\d]+", "", s)  # leading bullets/numbers/dashes
+    s = re.sub(r"\s+", " ", s).strip().lower()
+    s = re.sub(r"\s*-\s*rejected\s*$", "", s)         # "... - rejected" annotation
+    return s
+
+
+def classify_signal_stage(subject):
+    """Map a (noisy) committee-vote subject to (priority, stage_label) or None.
+
+    Priority: report (0) > mandate (1) > provisional (2) — earliest/most-substantive
+    preferred as the contestedness signal. Returns None for anything that is NOT a
+    lead-committee whole-text signal: opinions, second-reading recommendations,
+    resolutions/own-initiative, single-amendment votes, and rapporteur-header parse
+    noise are all excluded (default-exclude, so unrecognized lines are dropped safely).
+    """
+    n = _norm_subject(subject)
+    if not n:
+        return None
+    # --- explicit exclusions (checked first; these can co-occur with signal words) ---
+    if "opinion" in n:                       # opinion committee, not the lead report
+        return None
+    if "second reading" in n:                # different procedural track
+        return None
+    if "resolution" in n:                    # motion for a resolution, not a COD report
+        return None
+    if n.startswith(("amendment", "compromise amendment", "am ")):
+        return None                          # single-amendment vote, not the whole text
+    if n.startswith("rapporteur") or "rapporteur:" in n or "rapporteur for" in n:
+        return None                          # parse-noise header line
+    # --- mandate / provisional (interinstitutional negotiation stages) ---
+    if "enter into interinstitutional negotiations" in n:
+        return (1, "mandate")
+    if "provisional agreement" in n:
+        return (2, "provisional")
+    # --- report stage: explicit report wording, or a committee "final vote" ---
+    if ("adoption of draft report" in n
+            or "vote on draft report" in n
+            or "vote on the draft report" in n
+            or "vote on text as amended" in n):
+        return (0, "report")
+    if n.startswith("final vote") or n == "final vote by roll call":
+        # a committee's final roll-call on its OWN text; opinions were excluded above
+        return (0, "report")
+    return None
 
 
 def _committee_group_rates(votes):
@@ -107,7 +170,7 @@ def load_committee_cod():
             continue
         if r.get("secret") or not r.get("votes"):
             continue
-        stage = SIGNAL_STAGES.get(r.get("subject"))
+        stage = classify_signal_stage(r.get("subject"))
         if stage is None:
             continue
         prio, label = stage

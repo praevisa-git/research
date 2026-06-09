@@ -1,16 +1,44 @@
 {
  "resolver": "praevisa.resolve_plenary (HTV bulk export, complete table)",
  "signal_side": {
-  "n_signal": 18,
-  "n_contested_signal": 6
+  "n_signal": 26,
+  "n_contested_signal": 8
  },
  "outcome_side": {
-  "n_pairs": 13,
-  "n_contested_pairs": 6,
-  "n_no_plenary_yet": 5
+  "n_pairs": 19,
+  "n_contested_pairs": 8,
+  "n_no_plenary_yet": 7
  },
  "contested_max_yes": 0.75,
  "rows": [
+  {
+   "procedure": "2023/0085(COD)",
+   "committee": "ENVI",
+   "subject": "\uf0b7 Vote on the decision to enter into interinstitutional negotiations (Co-Rapporteurs:",
+   "signal_stage": "mandate",
+   "committee_n": 116,
+   "committee_yes": 0.81,
+   "committee_groups_defined": 9,
+   "contested_ex_ante": false,
+   "plenary_vote_id": "166226",
+   "plenary_result": "ADOPTED",
+   "plenary_groups": 7,
+   "usable_pair": true
+  },
+  {
+   "procedure": "2023/0129(COD)",
+   "committee": "JURI",
+   "subject": "1.1. Final vote",
+   "signal_stage": "report",
+   "committee_n": 16,
+   "committee_yes": 0.812,
+   "committee_groups_defined": 5,
+   "contested_ex_ante": false,
+   "plenary_vote_id": "166202",
+   "plenary_result": "ADOPTED",
+   "plenary_groups": 7,
+   "usable_pair": true
+  },
   {
    "procedure": "2023/0135(COD)",
    "committee": "LIBE",
@@ -96,6 +124,20 @@
    "usable_pair": true
   },
   {
+   "procedure": "2024/0098(COD)",
+   "committee": "PECH",
+   "subject": "1.1. Adoption of draft report",
+   "signal_stage": "report",
+   "committee_n": 25,
+   "committee_yes": 0.84,
+   "committee_groups_defined": 8,
+   "contested_ex_ante": false,
+   "plenary_vote_id": null,
+   "plenary_result": null,
+   "plenary_groups": 0,
+   "usable_pair": false
+  },
+  {
    "procedure": "2024/0301(COD)",
    "committee": "IMCO",
    "subject": "Adoption of draft report",
@@ -119,6 +161,20 @@
    "committee_groups_defined": 9,
    "contested_ex_ante": false,
    "plenary_vote_id": "184110",
+   "plenary_result": "ADOPTED",
+   "plenary_groups": 9,
+   "usable_pair": true
+  },
+  {
+   "procedure": "2024/0319(COD)",
+   "committee": "AGRI",
+   "subject": "Final vote",
+   "signal_stage": "report",
+   "committee_n": 44,
+   "committee_yes": 0.886,
+   "committee_groups_defined": 9,
+   "contested_ex_ante": false,
+   "plenary_vote_id": "179275",
    "plenary_result": "ADOPTED",
    "plenary_groups": 9,
    "usable_pair": true
@@ -208,18 +264,60 @@
    "usable_pair": true
   },
   {
+   "procedure": "2025/0228(COD)",
+   "committee": "AGRI",
+   "subject": "Final vote",
+   "signal_stage": "report",
+   "committee_n": 42,
+   "committee_yes": 0.786,
+   "committee_groups_defined": 9,
+   "contested_ex_ante": false,
+   "plenary_vote_id": null,
+   "plenary_result": null,
+   "plenary_groups": 0,
+   "usable_pair": false
+  },
+  {
    "procedure": "2025/0246(COD)",
    "committee": "PECH",
-   "subject": "Vote on the decision to enter into interinstitutional negotiations",
-   "signal_stage": "mandate",
-   "committee_n": 22,
-   "committee_yes": 0.818,
+   "subject": "\u00b7 Adoption of draft report",
+   "signal_stage": "report",
+   "committee_n": 26,
+   "committee_yes": 0.846,
    "committee_groups_defined": 8,
    "contested_ex_ante": false,
    "plenary_vote_id": null,
    "plenary_result": null,
    "plenary_groups": 0,
    "usable_pair": false
+  },
+  {
+   "procedure": "2025/0251(COD)",
+   "committee": "INTA",
+   "subject": "1.1. Final vote",
+   "signal_stage": "report",
+   "committee_n": 35,
+   "committee_yes": 0.886,
+   "committee_groups_defined": 9,
+   "contested_ex_ante": false,
+   "plenary_vote_id": "182479",
+   "plenary_result": "ADOPTED",
+   "plenary_groups": 9,
+   "usable_pair": true
+  },
+  {
+   "procedure": "2025/0322(COD)",
+   "committee": "INTA",
+   "subject": "Final vote",
+   "signal_stage": "report",
+   "committee_n": 42,
+   "committee_yes": 0.667,
+   "committee_groups_defined": 9,
+   "contested_ex_ante": true,
+   "plenary_vote_id": "184191",
+   "plenary_result": "ADOPTED",
+   "plenary_groups": 9,
+   "usable_pair": true
   },
   {
    "procedure": "2025/0359(COD)",
@@ -232,6 +330,20 @@
    "contested_ex_ante": false,
    "plenary_vote_id": "189384",
    "plenary_result": "ADOPTED",
+   "plenary_groups": 9,
+   "usable_pair": true
+  },
+  {
+   "procedure": "2025/0429(COD)",
+   "committee": "LIBE",
+   "subject": "Adoption of draft report - Rejected",
+   "signal_stage": "report",
+   "committee_n": 69,
+   "committee_yes": 0.406,
+   "committee_groups_defined": 9,
+   "contested_ex_ante": true,
+   "plenary_vote_id": "189270",
+   "plenary_result": "REJECTED",
    "plenary_groups": 9,
    "usable_pair": true
   },
