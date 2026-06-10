@@ -307,13 +307,19 @@ def _write_corpus(committee: str) -> dict:
     return corpus
 
 
-def build_all(committees: list[str]) -> None:
+def build_all(committees: list[str]) -> dict:
     """Scrape every committee, write its corpus, and print a coverage table.
 
     Resilient: a committee whose votes page or PDFs fail to parse yields an empty
     corpus and is reported, not fatal — so one bad layout never blocks the rest.
+
+    Returns scrape-health stats so the caller can distinguish "resilient run, one
+    bad layout" from a TOTAL failure (every committee errored / nothing pulled),
+    which for a merge-safe accumulator looks identical on disk (the corpora are
+    left untouched) and must therefore be surfaced via the exit code instead.
     """
     summary = []
+    n_errored = 0
     for c in committees:
         print(f"\n{'='*70}\n{c}\n{'='*70}")
         try:
@@ -324,6 +330,7 @@ def build_all(committees: list[str]) -> None:
         except Exception as e:  # noqa: BLE001 — one committee must not kill the run
             print(f"  {c}: FAILED ({type(e).__name__}: {e})")
             summary.append((c, 0, 0))
+            n_errored += 1
 
     print(f"\n{'='*70}\nCOVERAGE SUMMARY\n{'='*70}")
     print(f"{'committee':10s}{'records':>9s}{'COD procs':>11s}")
@@ -333,12 +340,23 @@ def build_all(committees: list[str]) -> None:
     tot_cod = sum(ncod for _, _, ncod in summary)
     print("-" * 30)
     print(f"{'TOTAL':10s}{sum(n for _,n,_ in summary):>9d}{tot_cod:>11d} (COD-proc instances; dedup across committees in Stage 0)")
+    return {"n_committees": len(committees), "n_errored": n_errored,
+            "total_records": sum(n for _, n, _ in summary)}
 
 
 def main() -> None:
     arg = sys.argv[1] if len(sys.argv) > 1 else "ECON"
     if arg.lower() == "all":
-        build_all(COMMITTEES)
+        stats = build_all(COMMITTEES)
+        # Hard gate: a merge-safe scrape that pulled NOTHING (every committee errored,
+        # or zero records across the whole run) is a network/DNS failure, not an
+        # "off week". It leaves the on-disk corpora unchanged, so the corpus-health
+        # drift guard cannot see it. Exit nonzero so the cadence aborts before commit.
+        if stats["n_errored"] == stats["n_committees"] or stats["total_records"] == 0:
+            print(f"\nFATAL: scrape pulled nothing — {stats['n_errored']}/{stats['n_committees']} "
+                  f"committees errored, {stats['total_records']} total records. "
+                  f"Treating as a failed scrape (network/DNS), not an off week.")
+            sys.exit(2)
     else:
         _write_corpus(arg)
 
