@@ -37,6 +37,42 @@ ASSET = "votes.csv.gz"
 FIRST_READING = "OLP_FIRST_READING"
 VALID_RESULTS = {"ADOPTED", "REJECTED"}
 
+# Plenary-vote TYPE classification (HTV `description` is the authority; the data is
+# French-dominant). A Rule-71 "decision to enter interinstitutional negotiations" is a
+# PROCEDURAL vote — not a vote on the legislative text — yet HTV stamps it
+# OLP_FIRST_READING / is_main=True, so it leaks into a naive first-reading filter and
+# gets graded as if it were the substantive outcome (this contaminated the contested
+# Stage-A set: 2025/0059, 2025/0825, 2025/0826 were paired against mandate votes). A
+# "provisional agreement" vote is the POST-trilogue text; a plain position vote
+# (Commission proposal / draft report / legislative resolution) is the PRE-trilogue text.
+# We keep these distinct so a committee signal is graded against a plenary vote on a
+# CONSISTENT text: committee report -> pre-trilogue position; committee provisional-
+# agreement -> the same post-trilogue deal.
+_MANDATE_MARKERS = ("négociations interinstitutionnelles", "interinstitutional negotiations")
+_PROVISIONAL_MARKERS = ("accord provisoire", "provisional agreement")
+
+# committee signal stage -> acceptable plenary TYPES (mandate is NEVER acceptable)
+_STAGE_OK_TYPES = {
+    "report": ("text",),                # pre-trilogue committee report -> pre-trilogue plenary position
+    "provisional": ("provisional",),    # committee endorsed the trilogue deal -> plenary on the same deal
+    "mandate": ("text", "provisional"),  # committee mandate -> whatever genuine position later emerged
+}
+
+
+def classify_plenary(row) -> str:
+    """Classify a plenary vote row by its `description`.
+
+    Returns 'mandate' (Rule-71 procedural, never a usable outcome), 'provisional'
+    (post-trilogue agreement text), or 'text' (pre-trilogue position: Commission
+    proposal / draft report / legislative resolution).
+    """
+    desc = (row.get("description") or "").lower()
+    if any(m in desc for m in _MANDATE_MARKERS):
+        return "mandate"
+    if any(m in desc for m in _PROVISIONAL_MARKERS):
+        return "provisional"
+    return "text"
+
 
 def _get(url, binary=False):
     req = urllib.request.Request(url, headers={"Accept": "application/json"})
@@ -72,11 +108,18 @@ def load_index(force: bool = False) -> dict[str, list[dict]]:
     return index
 
 
-def resolve_first_reading(reference: str, index: dict[str, list[dict]] | None = None):
+def resolve_first_reading(reference: str, index: dict[str, list[dict]] | None = None,
+                          committee_stage: str | None = None):
     """Return the plenary MAIN first-reading COD vote row for `reference`, or None.
 
-    If several qualify (rare), the most recent is returned. `result` and counts come
-    straight from the bulk table; per-group stats are a separate by-id detail fetch.
+    Rule-71 mandate ("decision to enter interinstitutional negotiations") rows are
+    ALWAYS excluded — they are procedural, not a vote on the text, even though HTV tags
+    them OLP_FIRST_READING / is_main. When `committee_stage` is given, the result is
+    further restricted to plenary TYPES consistent with that committee signal (see
+    `_STAGE_OK_TYPES`) so the two sides are graded on the same text; pass it whenever a
+    committee vote is being paired to its plenary outcome. If several qualify, the most
+    recent is returned. `result`/counts come from the bulk table; per-group stats are a
+    separate by-id detail fetch.
     """
     if index is None:
         index = load_index()
@@ -86,7 +129,11 @@ def resolve_first_reading(reference: str, index: dict[str, list[dict]] | None = 
         and r.get("procedure_type") == "COD"
         and r.get("procedure_stage") == FIRST_READING
         and r.get("result") in VALID_RESULTS
+        and classify_plenary(r) != "mandate"
     ]
+    if committee_stage is not None:
+        ok = _STAGE_OK_TYPES.get(committee_stage, ("text", "provisional"))
+        cands = [r for r in cands if classify_plenary(r) in ok]
     if not cands:
         return None
     cands.sort(key=lambda r: r.get("timestamp", ""), reverse=True)

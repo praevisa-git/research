@@ -1,7 +1,9 @@
 """Stage B — true pre-committed, blinded prospective test of the committee->plenary signal.
 
-Stage A was pseudo-prospective (historical, time-split) and gave a first positive
-signal on n=10. Stage B removes the last escape hatch: predictions are committed to git
+Stage A was pseudo-prospective (historical, time-split). Its contested significance was
+WITHDRAWN on 2026-06-10 (a resolver bug graded the signal against Rule-71 mandate votes;
+corrected result is n=5, favourable direction but not significant — see resolve_plenary.py).
+That makes Stage B the *only* route to a real result: predictions are committed to git
 BEFORE the plenary vote happens, so they cannot be retrofitted. This is the §9.6 / v2
 blinding protocol applied for real.
 
@@ -169,7 +171,8 @@ def grade() -> None:
     for e in ledger:
         if e.get("graded"):
             continue
-        row = resolve_plenary.resolve_first_reading(e["procedure"], index)
+        row = resolve_plenary.resolve_first_reading(e["procedure"], index,
+                                                    committee_stage=e.get("signal_stage"))
         if row is None:
             continue                                   # still pending
         plen_date = row["timestamp"][:10]
@@ -280,8 +283,10 @@ def report() -> None:
              f"pending {len(cont_pending)}")
     if not cont_graded:
         L.append("- **Contested prospective evidence so far: none graded yet.** This is the "
-                 "metric that matters; until it is non-zero, Stage A's contested result "
-                 "(p=0.039, pseudo-prospective) is *not* yet confirmed prospectively.")
+                 "metric that matters. The retrospective contested signal was *withdrawn* on "
+                 "2026-06-10 (a resolver bug graded it against Rule-71 mandate votes; corrected "
+                 "result n=5, not significant) — so a prospective contested track record is now "
+                 "the *only* route to a real result, and it starts here at zero.")
     if graded:
         def mean(k, rows):
             return st.mean(e["graded"][k] for e in rows)

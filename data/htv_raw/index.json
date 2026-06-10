@@ -9,8 +9,22 @@
   "OLP_FIRST_READING": 122,
   "OLP_SECOND_READING": 1
  },
- "n_selected": 22,
+ "n_selected": 18,
  "selection_rule": "sort pool by yes_share asc; take evenly spaced positions incl. min and max",
+ "revision_2026_06_10": {
+  "action": "Re-freeze: removed 4 contaminated votes (22 -> 18).",
+  "reason": "Audit found the original selection admitted Rule-71 'decision to enter interinstitutional negotiations' votes (procedural, NOT a vote on the legislative text) because HowTheyVote tags them is_main/OLP_FIRST_READING like a real first reading, plus one duplicated procedure. The inclusion_filter above does not distinguish a mandate-confirmation vote from a substantive first-reading text vote; this re-freeze applies that distinction by hand.",
+  "removed": [
+   {"id": "174880", "reference": "2024/0027(COD)", "why": "Rule-71 mandate vote (decision to open negotiations)"},
+   {"id": "174881", "reference": "2023/0404(COD)", "why": "Rule-71 mandate vote (decision to open negotiations)"},
+   {"id": "193315", "reference": "2025/0097(COD)", "why": "Rule-71 mandate vote (decision to open negotiations)"},
+   {"id": "184191", "reference": "2025/0322(COD)", "why": "duplicate procedure: post-trilogue 'Accord provisoire' vote; kept the pre-trilogue text vote 182460 for 2025/0322"}
+  ],
+  "n_before": 22,
+  "n_after": 18,
+  "headline_impact": "baseline_A MSE_micro 0.1656 -> 0.1796; const_mean floor 0.1759 -> 0.1768; A flips from noses-ahead (-0.0104, Wilcoxon p=0.353) to marginally-behind the pooled-mean floor (+0.0028, p=1.000).",
+  "see": "praevisa/resolve_plenary.py (classify_plenary excludes mandate votes); METHODOLOGY.md §2."
+ },
  "votes": [
   {
    "id": "190403",
@@ -45,14 +59,6 @@
    "n_groups": 9
   },
   {
-   "id": "174881",
-   "reference": "2023/0404(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.539604,
-   "n_groups": 9
-  },
-  {
    "id": "184168",
    "reference": "2025/0132(COD)",
    "result": "ADOPTED",
@@ -61,27 +67,11 @@
    "n_groups": 9
   },
   {
-   "id": "193315",
-   "reference": "2025/0097(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.637306,
-   "n_groups": 9
-  },
-  {
    "id": "182460",
    "reference": "2025/0322(COD)",
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
    "yes_share": 0.651057,
-   "n_groups": 9
-  },
-  {
-   "id": "174880",
-   "reference": "2024/0027(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.668293,
    "n_groups": 9
   },
   {
@@ -106,14 +96,6 @@
    "result": "ADOPTED",
    "stage": "OLP_FIRST_READING",
    "yes_share": 0.727132,
-   "n_groups": 9
-  },
-  {
-   "id": "184191",
-   "reference": "2025/0322(COD)",
-   "result": "ADOPTED",
-   "stage": "OLP_FIRST_READING",
-   "yes_share": 0.740798,
    "n_groups": 9
   },
   {

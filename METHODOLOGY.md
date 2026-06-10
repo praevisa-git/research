@@ -69,6 +69,21 @@ not cherry-picked by reference. The fetcher reports the final count, the list of
 Raw pulled JSON (one file per vote + an index) is written to `data/htv_raw/` and
 committed. A fresh clone never needs network access to re-grade.
 
+> **2026-06-10 — RE-FROZEN at 18 files (was 22).** An audit of the committed set found
+> **3 Rule-71 mandate votes** (`2024/0027`/174880, `2023/0404`/174881, `2025/0097`/193315 —
+> description "décision d'engager des négociations interinstitutionnelles": procedural, not a
+> vote on the legislative text) and a **duplicated procedure** (`2025/0322` appeared as both
+> its pre-trilogue text vote `182460` and its post-trilogue agreement `184191`). These 4 were
+> **removed** (kept 182460 for 0322); the inclusion filter above cannot distinguish a mandate
+> vote from a substantive first-reading text vote, so the distinction is applied by hand and
+> recorded in `data/htv_raw/index.json` (`revision_2026_06_10`). Effect: baseline_A MSE_micro
+> 0.1656 → **0.1796**, const_mean 0.1759 → **0.1768**; baseline_A goes from noses-ahead (+0.0104,
+> p=0.35) to marginally *behind* the pooled-mean floor (−0.0028, p=1.0) — strengthening the §9.6
+> conclusion. Pre-re-freeze figures are tombstoned in RESULTS.md. The re-freeze was applied in
+> `praevisa-backtest` too (independent code path) and reproduces 0.1796 / 0.3648 to 4 dp — the
+> "proven twice" bar holds. Root cause shared with the Stage-A resolver fix (HTV tags mandate
+> votes `OLP_FIRST_READING / is_main`); see `praevisa/resolve_plenary.py`.
+
 ---
 
 ## 3. Baselines
@@ -163,19 +178,20 @@ denominator from DECISION 1.
 
 ## 5b. Robustness / significance (added after step 5)
 
-The headline gaps are thin on only 22 files (baseline_A MSE_micro 0.1656 vs
-const_mean 0.1759), so we test whether the ranking is real or sampling noise.
+The headline gaps are thin on only 18 files (re-frozen 2026-06-10; baseline_A MSE_micro
+**0.1796** vs const_mean **0.1768** — A marginally *behind* the pooled mean), so we test
+whether the ranking is real or sampling noise.
 
 - **Unit of analysis:** per-file loss = mean of the 9 cell squared errors for that
   file. Since the design is balanced (9 defined cells per file), the mean of these
-  22 per-file losses equals MSE_micro exactly. Each predictor also has a per-file
+  18 per-file losses equals MSE_micro exactly. Each predictor also has a per-file
   squared error of the aggregate EP yes-share.
 - **Resampling:** cluster bootstrap over **files** (the file is the unit; this
   respects the dependence among the 9 cells within a file). 10,000 resamples,
   fixed seed = 0 (so a fresh clone reproduces every number — Decision 5).
 - **What is held fixed:** the LOO predictions are computed **once** and held fixed;
   the bootstrap resamples only the evaluation sample (Decision 6). This quantifies
-  test-set sampling uncertainty — "how stable is the ranking given only 22 files?"
+  test-set sampling uncertainty — "how stable is the ranking given only 18 files?"
   — not fit instability. (Rejected: refit LOO inside each resample; the
   resampling×LOO interaction is expensive and harder to interpret.)
 - **Reported per predictor:** MSE_micro and mean per-file share squared error, each
@@ -183,7 +199,7 @@ const_mean 0.1759), so we test whether the ranking is real or sampling noise.
 - **Pairwise vs the apparent winner (baseline_A):** the paired per-file loss
   difference `d_f = loss_rival(f) − loss_A(f)`; its mean, 95% bootstrap CI, a
   win-fraction (share of resamples in which A has the lower mean loss), and a
-  two-sided **Wilcoxon signed-rank** p-value on the 22 paired differences. Same for
+  two-sided **Wilcoxon signed-rank** p-value on the 18 paired differences. Same for
   the share error. A gap is called real only if the CI excludes 0 *and* the
   Wilcoxon p < 0.05.
 

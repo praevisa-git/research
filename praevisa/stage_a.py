@@ -66,7 +66,8 @@ def build_pairs(index):
     committee = s0.load_committee_cod()
     pairs = []
     for proc, rec in sorted(committee.items()):
-        row = resolve_plenary.resolve_first_reading(proc, index)
+        row = resolve_plenary.resolve_first_reading(proc, index,
+                                                    committee_stage=rec.get("_stage"))
         if row is None:
             continue
         bg = resolve_plenary.fetch_by_group(row["id"])
