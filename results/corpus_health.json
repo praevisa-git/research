@@ -66,11 +66,11 @@
   },
   {
    "committee": "DEVE",
-   "n_records": 20,
+   "n_records": 21,
    "n_cod": 1,
    "n_cod_voted": 1,
    "n_classified_signal": 0,
-   "n_reconciled": 20
+   "n_reconciled": 21
   },
   {
    "committee": "PECH",
@@ -163,7 +163,7 @@
  ],
  "suspicious": [],
  "totals": {
-  "records": 487,
+  "records": 488,
   "cod_voted": 72,
   "classified_signal": 41
  }
