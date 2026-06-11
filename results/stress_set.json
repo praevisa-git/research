@@ -1,0 +1,541 @@
+{
+ "protocol": "stress set over committed artifacts; ledger read-only",
+ "ledger_rev": "f859218",
+ "ledger_generated": "2026-06-10",
+ "A_ledger_fragility": {
+  "n_boot": 10000,
+  "seed": 0,
+  "n_residual_files": {
+   "prior": 18,
+   "committee": 14
+  },
+  "caveat": "prior-rail flip rates inherit the §9.6 base-rate mix (4/18 files REJECTED, all COD): they read as 'how often the topic-blind prior call reversed on historical legislative files', an upper bound for routine ini/cns items. Committee-rail pools resample whole per-file residual vectors, so cross-group correlation is preserved but n_files is small.",
+  "items": [
+   {
+    "a10": "A10-0069/2026",
+    "title": "Adjustment of customs duties and opening of tariff quotas fo",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2172,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0070/2026",
+    "title": "Non-application of customs duties on imports of certain good",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2222,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0161/2025",
+    "title": "Strengthening of the position of farmers in the food supply ",
+    "signal": "committee:report",
+    "contested": false,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.9001,
+    "uniform_swing_to_flip_pp": 40.01,
+    "single_group_full_defection_flips": [],
+    "mc_flip_rate": 0.0,
+    "mc_residual_pool": "committee-rail calibration pairs"
+   },
+   {
+    "a10": "A10-0158/2025",
+    "title": "Circularity requirements for vehicle design and management o",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2233,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Implementation of the Protocol on the financial consequences",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2257,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Mobilisation of the European Globalisation Adjustment Fund —",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2217,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0145/2026",
+    "title": "European political parties and foundations — 2026 report",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.221,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0142/2026",
+    "title": "Countering transnational repression — towards an EU strategy",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2193,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0148/2026",
+    "title": "Role of trade in strengthening the EU's economic security",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2268,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0147/2026",
+    "title": "Reinforcing development cooperation to address irregular pop",
+    "signal": "committee-rcv(DEVE)",
+    "contested": true,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.7555,
+    "uniform_swing_to_flip_pp": 25.55,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.0,
+    "mc_residual_pool": "committee-rail calibration pairs"
+   },
+   {
+    "a10": null,
+    "title": "Structure and rates of excise duty applied to tobacco and to",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2236,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "General arrangements for excise duty applied to tobacco and ",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2221,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "EPPO and OLAF: access to VAT information at Union level",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2234,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0134/2026",
+    "title": "EU-Pakistan Agreement: modification of concessions on tariff",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2167,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0133/2026",
+    "title": "EU-Liberia Voluntary Partnership Agreement (timber): termina",
+    "signal": "opinion(DEVE)",
+    "contested": true,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.5459,
+    "uniform_swing_to_flip_pp": 4.59,
+    "single_group_full_defection_flips": [
+     "EPP",
+     "PfE",
+     "ECR"
+    ],
+    "mc_flip_rate": 0.1474,
+    "mc_residual_pool": "committee-rail calibration pairs"
+   },
+   {
+    "a10": "A10-0146/2026",
+    "title": "EU-Liberia Voluntary Partnership Agreement (timber): termina",
+    "signal": "opinion(DEVE)",
+    "contested": true,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.5459,
+    "uniform_swing_to_flip_pp": 4.59,
+    "single_group_full_defection_flips": [
+     "EPP",
+     "PfE",
+     "ECR"
+    ],
+    "mc_flip_rate": 0.1486,
+    "mc_residual_pool": "committee-rail calibration pairs"
+   },
+   {
+    "a10": null,
+    "title": "Hague Convention (1980) on child abduction: accession of Cab",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2229,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Promoting transnational governance on water in the interests",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2237,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Plants obtained by certain new genomic techniques and their ",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 17.86,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2202,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)",
+    "min_coalition_to_361": [
+     "EPP"
+    ]
+   },
+   {
+    "a10": "A10-0140/2026",
+    "title": "2025 Commission report on Georgia",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2244,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0143/2026",
+    "title": "2025 Commission report on Montenegro",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2223,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0141/2026",
+    "title": "2025 Commission report on Albania",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2206,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": "A10-0106/2026",
+    "title": "2025 Commission report on Türkiye",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2224,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Implementation of the Urban Wastewater Treatment Directive a",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2263,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Political repression and humanitarian situation in Cuba",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2218,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   },
+   {
+    "a10": null,
+    "title": "Recruitment of children by organised crime",
+    "signal": "prior",
+    "contested": null,
+    "outcome": "ADOPTED",
+    "ep_yes_share": 0.6835,
+    "uniform_swing_to_flip_pp": 18.35,
+    "single_group_full_defection_flips": [
+     "EPP"
+    ],
+    "mc_flip_rate": 0.2182,
+    "mc_residual_pool": "§9.6 prior residuals (LOO)"
+   }
+  ]
+ },
+ "B_grading_collisions": {
+  "match_threshold": 0.6,
+  "n_title_paired_items": 11,
+  "findings": [
+   {
+    "kind": "thin-token-set",
+    "item": "Recruitment of children by organised crime",
+    "n_tokens": 4,
+    "risk": "one stray word in HTV's title wording can drop containment below 0.6 -> item stuck pending"
+   },
+   {
+    "kind": "collision",
+    "overlap": 0.75,
+    "item_a": "Structure and rates of excise duty applied to tobacco and to",
+    "item_b": "General arrangements for excise duty applied to tobacco and ",
+    "risk": "both could containment-match the same session row; the double-pairing guard parks the loser as pending until a vote_id override is added to the results file"
+   }
+  ]
+ },
+ "C_stage_a_jackknife": {
+  "vs_const_mean": {
+   "all_pairs": {
+    "n": 7,
+    "mean_diff": -0.0778,
+    "model_wins": 6,
+    "loo_mean_range": [
+     -0.1057,
+     -0.0626
+    ],
+    "loo_sign_flips": 0,
+    "sign_test_p": 0.125
+   },
+   "contested": {
+    "n": 4,
+    "mean_diff": -0.0933,
+    "model_wins": 3,
+    "loo_mean_range": [
+     -0.1542,
+     -0.068
+    ],
+    "loo_sign_flips": 0,
+    "sign_test_p": 0.625
+   }
+  },
+  "vs_baseline_A": {
+   "all_pairs": {
+    "n": 7,
+    "mean_diff": -0.094,
+    "model_wins": 6,
+    "loo_mean_range": [
+     -0.1265,
+     -0.0682
+    ],
+    "loo_sign_flips": 0,
+    "sign_test_p": 0.125
+   },
+   "contested": {
+    "n": 4,
+    "mean_diff": -0.1304,
+    "model_wins": 3,
+    "loo_mean_range": [
+     -0.2076,
+     -0.0909
+    ],
+    "loo_sign_flips": 0,
+    "sign_test_p": 0.625
+   }
+  },
+  "note": "negative mean_diff = committee signal beats the floor. loo_sign_flips > 0 means one pair's removal reverses the headline direction — at post-audit n, expect fragility, and say so."
+ },
+ "D_baseline_96_jackknife": {
+  "n": 18,
+  "mean_diff": 0.0028,
+  "model_wins": 10,
+  "loo_mean_range": [
+   -0.0024,
+   0.0058
+  ],
+  "loo_sign_flips": 3,
+  "sign_test_p": 0.8145,
+  "per_file": [
+   {
+    "reference": "2025/0129(COD)",
+    "diff_A_minus_const": 0.0133
+   },
+   {
+    "reference": "2025/0039(COD)",
+    "diff_A_minus_const": -0.0077
+   },
+   {
+    "reference": "2025/0022(COD)",
+    "diff_A_minus_const": -0.0121
+   },
+   {
+    "reference": "2025/0023(COD)",
+    "diff_A_minus_const": 0.0086
+   },
+   {
+    "reference": "2023/0455(COD)",
+    "diff_A_minus_const": -0.0272
+   },
+   {
+    "reference": "2025/0090(COD)",
+    "diff_A_minus_const": -0.0266
+   },
+   {
+    "reference": "2025/0108(COD)",
+    "diff_A_minus_const": -0.0302
+   },
+   {
+    "reference": "2025/0524(COD)",
+    "diff_A_minus_const": 0.0868
+   },
+   {
+    "reference": "2025/0322(COD)",
+    "diff_A_minus_const": -0.0479
+   },
+   {
+    "reference": "2025/0251(COD)",
+    "diff_A_minus_const": -0.027
+   },
+   {
+    "reference": "2025/0045(COD)",
+    "diff_A_minus_const": 0.0496
+   },
+   {
+    "reference": "2024/0318(COD)",
+    "diff_A_minus_const": 0.0025
+   },
+   {
+    "reference": "2025/0132(COD)",
+    "diff_A_minus_const": 0.0585
+   },
+   {
+    "reference": "2025/0260(COD)",
+    "diff_A_minus_const": -0.0451
+   },
+   {
+    "reference": "2025/0261(COD)",
+    "diff_A_minus_const": 0.0912
+   },
+   {
+    "reference": "2025/0207(COD)",
+    "diff_A_minus_const": -0.0353
+   },
+   {
+    "reference": "2021/0297(COD)",
+    "diff_A_minus_const": 0.0431
+   },
+   {
+    "reference": "2024/0017(COD)",
+    "diff_A_minus_const": -0.0439
+   }
+  ],
+  "headline": "headline sign reverses under 3 of 18 single-file removals — report as indistinguishable, never as a ranking"
+ }
+}
