@@ -133,7 +133,8 @@ def featured_card(item) -> str:
       </header>
       <div class="card-call">
         <span class="outcome">{esc(item["outcome"] if not sr else "POSITION STANDS")}</span>
-        <span class="share mono">{pct(item.get("ep_yes_share"))} predicted yes-share</span>
+        <span class="share mono">{pct(item.get("ep_yes_share"))} {"seat split — topic-blind baseline" if item["signal"] == "prior" else "predicted yes-share"}</span>
+        {f'<span class="share mono">p(adopt) {pct(item.get("p_adopt"))}</span>' if item.get("p_adopt") is not None else ""}
         {contested} {graded_chip(item)}
       </div>
       {tally_html}
@@ -155,7 +156,7 @@ def table_row(item) -> str:
         <td class="mono small">{esc(item.get("a10") or "—")}</td>
         <td>{esc(item["title"])}{note}</td>
         <td class="mono small">{esc(TYPE_LABEL.get(item["type"], item["type"]))}</td>
-        <td class="mono small">{esc(item["outcome"])} · {pct(item.get("ep_yes_share"))}
+        <td class="mono small">{esc(item["outcome"])} · {pct(item.get("ep_yes_share"))}{" split" if item["signal"] == "prior" else ""}{f' · p {pct(item["p_adopt"])}' if item.get("p_adopt") is not None else ""}
           <br>{rail}</td>
         <td>{graded_chip(item)}</td>
       </tr>"""
@@ -440,7 +441,10 @@ footer.site .wordmark {{ font-size:1.1rem; }}
     <div class="mono gold small eyebrow-line">how to read these numbers</div>
     <ol>
       <li>The percentage is a <em>predicted seat share</em> — the expected share of
-      votes cast in favour — not a probability of adoption.</li>
+      votes cast in favour — not a probability of adoption. On baseline-rail items it
+      is identical by construction (topic-blind party arithmetic), which is why it is
+      labelled a seat split, not a forecast. Ledgers cut after 2026-06-11 carry a
+      separate <span class="mono">p(adopt)</span> per item, Brier-scored at grading.</li>
       <li>Each group gets a predicted yes-rate: its recorded committee vote where
       one exists, its historical average otherwise. Seats × rates, summed: that is
       the whole model. No discretionary overrides.</li>

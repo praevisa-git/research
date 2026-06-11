@@ -93,9 +93,9 @@ class TestScoring(unittest.TestCase):
         self.assertEqual(sc["by_rail"]["always-ADOPTED"]["outcome_hits"], 1)
         self.assertEqual(sc["by_rail"]["always-ADOPTED"]["n"], 2)
         self.assertEqual(sc["by_rail"]["prior"],
-                         {"n": 1, "outcome_hits": 1, "share_mae": 0.10})
+                         {"n": 1, "outcome_hits": 1, "share_mae": 0.10, "brier": None})
         self.assertEqual(sc["by_rail"]["committee"],
-                         {"n": 1, "outcome_hits": 0, "share_mae": 0.30})
+                         {"n": 1, "outcome_hits": 0, "share_mae": 0.30, "brier": None})
         self.assertEqual(sc["contested"]["n"], 1)
         self.assertEqual(sc["contested"]["outcome_hits"], 0)
 

@@ -10,6 +10,19 @@ Two rails, stamped per item:
               Stage-A rails (`ep_flip.forecast_for`, calibrated shrinkage alpha).
   prior     — no committee signal → baseline_A per-group plenary prior (party
               arithmetic), same seat math and flip lever.
+
+Prior v2 (ledgers cut after 2026-06-11): each non-***II item additionally carries
+  p_adopt                    — P(ADOPTED). Prior rail: the Jeffreys-smoothed Term-10
+                               base rate for the item's procedure type (prior_v2.py,
+                               committed artifact). Committee rail: 1 − the flip rate
+                               under resampled historical committee→plenary residuals
+                               (stress_set machinery), i.e. the same number the stress
+                               battery grades the rail by.
+  expected_share_if_adopted  — prior rail only: the type's mean observed yes-share
+                               conditional on passing. Fixes the v1 confusion where one
+                               topic-blind 68% read both as a confidence and as a split.
+Items with p_adopt are Brier-scored at grading ((p_adopt − observed)², observed = 1 if
+ADOPTED); items without it (the 2026-06-15 ledger) grade exactly as pre-registered.
 A committee OPINION roll-call (not the lead committee) is used where it is all we have,
 stamped `opinion(<committee>)` — weaker than a lead signal, disclosed as such.
 
@@ -57,13 +70,14 @@ from __future__ import annotations
 import csv
 import gzip
 import json
+import random
 import subprocess
 import sys
 import unicodedata
 from datetime import date
 from pathlib import Path
 
-from . import baselines, ep_flip, resolve_plenary, stage0_feasibility as s0
+from . import baselines, ep_flip, prior_v2, resolve_plenary, stage0_feasibility as s0
 from .data import EP_GROUPS
 from .flip import _ep_pivot_path
 
@@ -247,10 +261,35 @@ def _second_reading(entry: dict) -> dict:
     return entry
 
 
+def _committee_p_adopt(entry: dict, residuals: list[dict] | None, rng) -> float | None:
+    """P(ADOPTED) for a committee-rail call: 1 − the flip rate under resampled
+    historical committee→plenary residual vectors (the stress-set Monte Carlo).
+
+    Clamped to [0.5/(R+1), 1 − 0.5/(R+1)] where R = residual-pool size: the MC only
+    has R distinct historical shocks, so 0 flips in 10k draws is evidence at
+    resolution R, not certainty — same never-0-never-1 discipline as the Jeffreys
+    smoothing on the prior rail."""
+    if not residuals:
+        return None
+    from . import stress_set
+    flip = stress_set._mc_flip_rate(entry, residuals, rng)
+    lo = 0.5 / (len(residuals) + 1)
+    p_predicted_holds = min(1.0 - lo, max(lo, 1.0 - flip))
+    return round(p_predicted_holds if entry["outcome"] == "ADOPTED"
+                 else 1.0 - p_predicted_holds, 4)
+
+
 def build() -> dict:
     committee_index = s0.load_committee_cod()
     prior = ep_flip._baseline_A()
     alpha = ep_flip.load_alpha()
+    type_priors = prior_v2.load()
+    try:  # needs the detail API once per calibration pair; degrade, don't die
+        from . import stress_set
+        com_residuals = stress_set._committee_residuals()
+        rng = random.Random(stress_set.SEED)
+    except Exception:
+        com_residuals, rng = None, None
     items = []
     for m in MANIFEST:
         proc = m.get("procedure")
@@ -283,7 +322,21 @@ def build() -> dict:
             entry["contested"] = None
             entry.update(_seat_math(dict(prior)))
         if m["type"] == "cod2":
-            _second_reading(entry)
+            _second_reading(entry)   # threshold call — no adopt/reject probability
+        elif entry["signal"] == "prior":
+            tp = prior_v2.for_ledger_type(m["type"], type_priors)
+            if tp:
+                entry["p_adopt"] = tp["p_adopt"]
+                entry["expected_share_if_adopted"] = tp["share_adopted"]
+                entry["prior_v2_type"] = tp["htv_type"]
+            else:
+                entry["note"] = ((entry.get("note") or "") +
+                                 " No type prior (unmapped or n<5 in Term 10).").strip()
+        else:
+            entry["p_adopt"] = _committee_p_adopt(entry, com_residuals, rng)
+            if entry["p_adopt"] is None:
+                entry["note"] = ((entry.get("note") or "") +
+                                 " p_adopt unavailable (residual pool offline).").strip()
         items.append(entry)
     return {
         "session": SESSION, "session_dates": "2026-06-15/2026-06-18",
@@ -350,6 +403,8 @@ def render_md(ledger: dict) -> str:
             L.append("|---|---|---|---|---|---|")
         name = f"{it['a10'] or '—'} {it['title'][:70]}"
         outcome = it["outcome"]
+        if it.get("p_adopt") is not None:
+            outcome += f" (p {it['p_adopt']:.0%})"
         if it.get("second_reading"):
             sr = it["second_reading"]
             outcome += (f" (predicted {sr['predicted_seats_against']:.0f} seats against "
@@ -459,6 +514,14 @@ def _match_row(item: dict, rows: list[dict], overrides: dict) -> tuple[dict | No
 def _observed_share(row: dict) -> float | None:
     f, a = int(row.get("count_for") or 0), int(row.get("count_against") or 0)
     return f / (f + a) if (f + a) else None
+
+
+def _brier(item: dict, observed_result: str) -> float | None:
+    """(p_adopt − observed)², observed = 1 iff ADOPTED. None for pre-v2 items."""
+    p = item.get("p_adopt")
+    if p is None or observed_result not in ("ADOPTED", "REJECTED"):
+        return None
+    return round((p - (1.0 if observed_result == "ADOPTED" else 0.0)) ** 2, 4)
 
 
 def _grade_second_reading(item: dict, all_rows: list[dict], ov: dict,
@@ -572,6 +635,9 @@ def grade() -> int:
                 "outcome_hit": (item["outcome"] == ov["result"]),
                 "graded_at": today,
             }
+            b = _brier(item, ov["result"])
+            if b is not None:
+                item["graded"]["brier"] = b
             item.pop("grade_note", None)
             n_new += 1
             continue
@@ -597,6 +663,9 @@ def grade() -> int:
             "outcome_hit": (item["outcome"] == row["result"]),
             "graded_at": today,
         }
+        b = _brier(item, row["result"])
+        if b is not None:
+            g["brier"] = b
         obs_share = _observed_share(row)
         if obs_share is not None and item.get("ep_yes_share") is not None:
             g["observed_share"] = round(obs_share, 4)
@@ -635,7 +704,8 @@ def grade() -> int:
     for rail, st in sc["by_rail"].items():
         print(f"  {rail:14s} outcome {st['outcome_hits']}/{st['n']}"
               + (f"  share MAE {st['share_mae']:.3f}" if st.get("share_mae") is not None
-                 else ""))
+                 else "")
+              + (f"  Brier {st['brier']:.3f}" if st.get("brier") is not None else ""))
     c = sc["contested"]
     print(f"  {'contested':14s} outcome {c['outcome_hits']}/{c['n']}")
     for i in ledger["items"]:
@@ -651,13 +721,16 @@ def _scorecard(ledger: dict) -> dict:
 
     def stats(items):
         if not items:
-            return {"n": 0, "outcome_hits": 0, "share_mae": None}
+            return {"n": 0, "outcome_hits": 0, "share_mae": None, "brier": None}
         errs = [i["graded"]["share_abs_err"] for i in items
                 if i["graded"].get("share_abs_err") is not None]
+        briers = [i["graded"]["brier"] for i in items
+                  if i["graded"].get("brier") is not None]
         return {
             "n": len(items),
             "outcome_hits": sum(1 for i in items if i["graded"]["outcome_hit"]),
             "share_mae": round(sum(errs) / len(errs), 4) if errs else None,
+            "brier": round(sum(briers) / len(briers), 4) if briers else None,
         }
 
     by_rail = {
