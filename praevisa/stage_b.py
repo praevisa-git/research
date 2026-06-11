@@ -2,7 +2,8 @@
 
 Stage A was pseudo-prospective (historical, time-split). Its contested significance was
 WITHDRAWN on 2026-06-10 (a resolver bug graded the signal against Rule-71 mandate votes;
-corrected result is n=5, favourable direction but not significant — see resolve_plenary.py).
+corrected result is n=4 after the §9.6 base re-freeze, favourable direction but not
+significant — see resolve_plenary.py).
 That makes Stage B the *only* route to a real result: predictions are committed to git
 BEFORE the plenary vote happens, so they cannot be retrofitted. This is the §9.6 / v2
 blinding protocol applied for real.
@@ -285,7 +286,7 @@ def report() -> None:
         L.append("- **Contested prospective evidence so far: none graded yet.** This is the "
                  "metric that matters. The retrospective contested signal was *withdrawn* on "
                  "2026-06-10 (a resolver bug graded it against Rule-71 mandate votes; corrected "
-                 "result n=5, not significant) — so a prospective contested track record is now "
+                 "result n=4, not significant) — so a prospective contested track record is now "
                  "the *only* route to a real result, and it starts here at zero.")
     if graded:
         def mean(k, rows):

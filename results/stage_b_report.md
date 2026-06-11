@@ -8,7 +8,7 @@ Each prediction below was written to the git-committed ledger **before** its ple
 
 - **Total predictions:** 10  ·  graded 0  ·  pending 10
 - **Contested predictions:** graded 0  ·  pending 3
-- **Contested prospective evidence so far: none graded yet.** This is the metric that matters. The retrospective contested signal was *withdrawn* on 2026-06-10 (a resolver bug graded it against Rule-71 mandate votes; corrected result n=5, not significant) — so a prospective contested track record is now the *only* route to a real result, and it starts here at zero.
+- **Contested prospective evidence so far: none graded yet.** This is the metric that matters. The retrospective contested signal was *withdrawn* on 2026-06-10 (a resolver bug graded it against Rule-71 mandate votes; corrected result n=4, not significant) — so a prospective contested track record is now the *only* route to a real result, and it starts here at zero.
 
 ## Graded predictions
 
