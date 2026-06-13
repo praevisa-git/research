@@ -1,0 +1,37 @@
+# Manual pre-grade gate. Run this from the Actions tab on grading day (the forward-ledger
+# session opens 2026-06-19) to scan the published plenary roll-call rows for a Rule-71
+# mandate mis-typed as a gradeable outcome — the leak class withdrawn 2026-06-10.
+#
+# Deliberately NOT on push/pull_request: the check is tied to vote-data state, not code
+# state, and it re-downloads the HowTheyVote bulk export on every run. It exits 2 when it
+# flags a row, which fails this job (red) so a human checks by hand before grading; before
+# the session publishes it reports "no rows yet" and exits 0 (green).
+
+name: leak-spotcheck (pre-grade gate)
+
+on:
+  workflow_dispatch:
+    inputs:
+      first:
+        description: "Session first day (YYYY-MM-DD)"
+        required: false
+        default: "2026-06-15"
+      last:
+        description: "Session last day (YYYY-MM-DD)"
+        required: false
+        default: "2026-06-18"
+
+jobs:
+  spotcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Install Python 3.14
+        run: uv python install 3.14
+      - name: Sync dependencies
+        run: uv sync
+      - name: Run leak spot-check
+        env:
+          PYTHONPATH: .
+        run: uv run python -m praevisa.leak_spotcheck --first "${{ inputs.first }}" --last "${{ inputs.last }}"
