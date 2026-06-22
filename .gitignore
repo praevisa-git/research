@@ -26,5 +26,8 @@ data/htv_list_scan.json
 # HTV bulk export cache (regenerable via praevisa.resolve_plenary)
 data/htv_export/
 
+# Grading-day scratch workspace (raw HTV/EP dumps + capture/grade scripts; regenerable)
+data/htv_grading/
+
 # cadence run logs
 logs/
