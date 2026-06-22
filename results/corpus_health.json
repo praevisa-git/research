@@ -2,19 +2,19 @@
  "rows": [
   {
    "committee": "LIBE",
-   "n_records": 108,
-   "n_cod": 20,
-   "n_cod_voted": 20,
-   "n_classified_signal": 12,
-   "n_reconciled": 108
+   "n_records": 109,
+   "n_cod": 21,
+   "n_cod_voted": 21,
+   "n_classified_signal": 13,
+   "n_reconciled": 109
   },
   {
    "committee": "ENVI",
-   "n_records": 104,
+   "n_records": 108,
    "n_cod": 2,
    "n_cod_voted": 2,
    "n_classified_signal": 1,
-   "n_reconciled": 104
+   "n_reconciled": 108
   },
   {
    "committee": "TRAN",
@@ -163,8 +163,8 @@
  ],
  "suspicious": [],
  "totals": {
-  "records": 488,
-  "cod_voted": 72,
-  "classified_signal": 41
+  "records": 493,
+  "cod_voted": 73,
+  "classified_signal": 42
  }
 }
