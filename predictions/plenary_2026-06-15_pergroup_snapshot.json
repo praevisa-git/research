@@ -1,0 +1,2014 @@
+{
+ "captured_for": "2026-06-15",
+ "source": "howtheyvote.eu/api live (result + stats.by_group); bulk export result field lagged",
+ "channel_note": "result sourced from live API channel, not the GitHub bulk asset; same authoritative origin",
+ "n_votes": 34,
+ "by_vote": {
+  "193474": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 166,
+     "AGAINST": 1,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 109,
+     "AGAINST": 14,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 13
+    },
+    "PfE": {
+     "FOR": 13,
+     "AGAINST": 43,
+     "ABSTENTION": 22,
+     "DID_NOT_VOTE": 7
+    },
+    "ECR": {
+     "FOR": 68,
+     "AGAINST": 3,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 9
+    },
+    "Renew": {
+     "FOR": 56,
+     "AGAINST": 11,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 22,
+     "AGAINST": 20,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 8
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 39,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
+    },
+    "NI": {
+     "FOR": 6,
+     "AGAINST": 18,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 4
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 2,
+     "ABSTENTION": 20,
+     "DID_NOT_VOTE": 5
+    }
+   }
+  },
+  "193492": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 161,
+     "AGAINST": 2,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 119,
+     "AGAINST": 8,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 5
+    },
+    "PfE": {
+     "FOR": 78,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
+    },
+    "Renew": {
+     "FOR": 52,
+     "AGAINST": 7,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 47,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 5
+    },
+    "Left": {
+     "FOR": 31,
+     "AGAINST": 8,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 4
+    },
+    "NI": {
+     "FOR": 24,
+     "AGAINST": 3,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 20,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 5
+    }
+   }
+  },
+  "193493": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 170,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 14
+    },
+    "S&D": {
+     "FOR": 129,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "PfE": {
+     "FOR": 57,
+     "AGAINST": 11,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 4,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "Left": {
+     "FOR": 8,
+     "AGAINST": 3,
+     "ABSTENTION": 32,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 5,
+     "ABSTENTION": 10,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 21,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 4
+    }
+   }
+  },
+  "193511": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 163,
+     "AGAINST": 2,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 17
+    },
+    "S&D": {
+     "FOR": 123,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 11
+    },
+    "PfE": {
+     "FOR": 14,
+     "AGAINST": 55,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 7
+    },
+    "ECR": {
+     "FOR": 57,
+     "AGAINST": 13,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 9
+    },
+    "Renew": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 6,
+     "AGAINST": 1,
+     "ABSTENTION": 37,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 5,
+     "AGAINST": 12,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 19,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193515": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 168,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 110,
+     "AGAINST": 18,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "PfE": {
+     "FOR": 14,
+     "AGAINST": 39,
+     "ABSTENTION": 24,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 1,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 6
+    },
+    "Renew": {
+     "FOR": 55,
+     "AGAINST": 11,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 10
+    },
+    "Greens": {
+     "FOR": 18,
+     "AGAINST": 25,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 40,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 5
+    },
+    "NI": {
+     "FOR": 8,
+     "AGAINST": 17,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 3
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 1,
+     "ABSTENTION": 21,
+     "DID_NOT_VOTE": 5
+    }
+   }
+  },
+  "193516": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 161,
+     "AGAINST": 0,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 18
+    },
+    "S&D": {
+     "FOR": 125,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 9
+    },
+    "PfE": {
+     "FOR": 7,
+     "AGAINST": 9,
+     "ABSTENTION": 63,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 7,
+     "AGAINST": 21,
+     "ABSTENTION": 49,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 35,
+     "AGAINST": 0,
+     "ABSTENTION": 13,
+     "DID_NOT_VOTE": 5
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 37,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 12,
+     "AGAINST": 14,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 24,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 2
+    }
+   }
+  },
+  "193517": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 170,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 15
+    },
+    "S&D": {
+     "FOR": 127,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "PfE": {
+     "FOR": 64,
+     "AGAINST": 7,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "Left": {
+     "FOR": 16,
+     "AGAINST": 28,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 19,
+     "AGAINST": 1,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 2
+    },
+    "ESN": {
+     "FOR": 23,
+     "AGAINST": 2,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
+    }
+   }
+  },
+  "193518": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 168,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 17
+    },
+    "S&D": {
+     "FOR": 126,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 8
+    },
+    "PfE": {
+     "FOR": 39,
+     "AGAINST": 15,
+     "ABSTENTION": 23,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 33,
+     "AGAINST": 4,
+     "ABSTENTION": 41,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 37,
+     "AGAINST": 7,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 20,
+     "AGAINST": 2,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 2
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 24,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193527": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 164,
+     "AGAINST": 2,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 15
+    },
+    "S&D": {
+     "FOR": 125,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "PfE": {
+     "FOR": 7,
+     "AGAINST": 52,
+     "ABSTENTION": 19,
+     "DID_NOT_VOTE": 7
+    },
+    "ECR": {
+     "FOR": 61,
+     "AGAINST": 10,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 9,
+     "AGAINST": 2,
+     "ABSTENTION": 33,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 5,
+     "AGAINST": 14,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 21,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 2
+    }
+   }
+  },
+  "193542": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 166,
+     "AGAINST": 2,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 14
+    },
+    "S&D": {
+     "FOR": 131,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 4
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 79,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 2,
+     "AGAINST": 16,
+     "ABSTENTION": 60,
+     "DID_NOT_VOTE": 3
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 5
+    },
+    "Left": {
+     "FOR": 7,
+     "AGAINST": 1,
+     "ABSTENTION": 36,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 4,
+     "AGAINST": 16,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 25,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
+    }
+   }
+  },
+  "193551": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 164,
+     "AGAINST": 1,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 19
+    },
+    "S&D": {
+     "FOR": 119,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 75,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 2,
+     "AGAINST": 3,
+     "ABSTENTION": 72,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 63,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 14
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "Left": {
+     "FOR": 29,
+     "AGAINST": 1,
+     "ABSTENTION": 14,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 9,
+     "AGAINST": 9,
+     "ABSTENTION": 10,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 21,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 2
+    }
+   }
+  },
+  "193553": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 168,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 15
+    },
+    "S&D": {
+     "FOR": 129,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "PfE": {
+     "FOR": 67,
+     "AGAINST": 10,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 63,
+     "AGAINST": 9,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 61,
+     "AGAINST": 6,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Greens": {
+     "FOR": 44,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Left": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 26,
+     "AGAINST": 2,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 19,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 4
+    }
+   }
+  },
+  "193557": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 143,
+     "AGAINST": 18,
+     "ABSTENTION": 8,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 3,
+     "AGAINST": 113,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 12
+    },
+    "PfE": {
+     "FOR": 76,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 7
+    },
+    "ECR": {
+     "FOR": 72,
+     "AGAINST": 6,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 15,
+     "AGAINST": 55,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 7
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 45,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 42,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
+    },
+    "NI": {
+     "FOR": 12,
+     "AGAINST": 7,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 4,
+     "AGAINST": 18,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "193572": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 155,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 29
+    },
+    "S&D": {
+     "FOR": 119,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 15
+    },
+    "PfE": {
+     "FOR": 6,
+     "AGAINST": 68,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 10
+    },
+    "ECR": {
+     "FOR": 38,
+     "AGAINST": 3,
+     "ABSTENTION": 32,
+     "DID_NOT_VOTE": 9
+    },
+    "Renew": {
+     "FOR": 61,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 8,
+     "AGAINST": 25,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 3,
+     "AGAINST": 22,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 3
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 25,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193573": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 140,
+     "AGAINST": 2,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 38,
+     "AGAINST": 2,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 93
+    },
+    "PfE": {
+     "FOR": 15,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 70
+    },
+    "ECR": {
+     "FOR": 40,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 41
+    },
+    "Renew": {
+     "FOR": 20,
+     "AGAINST": 6,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 50
+    },
+    "Greens": {
+     "FOR": 11,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 42
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 43
+    },
+    "NI": {
+     "FOR": 10,
+     "AGAINST": 2,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 13
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 26
+    }
+   }
+  },
+  "193587": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 169,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 126,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "PfE": {
+     "FOR": 13,
+     "AGAINST": 6,
+     "ABSTENTION": 59,
+     "DID_NOT_VOTE": 7
+    },
+    "ECR": {
+     "FOR": 60,
+     "AGAINST": 1,
+     "ABSTENTION": 17,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 20,
+     "AGAINST": 5,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 21,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193644": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 138,
+     "AGAINST": 0,
+     "ABSTENTION": 32,
+     "DID_NOT_VOTE": 15
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 1,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 11
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 60,
+     "ABSTENTION": 17,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 4,
+     "AGAINST": 5,
+     "ABSTENTION": 68,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 66,
+     "AGAINST": 1,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 8
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "Left": {
+     "FOR": 5,
+     "AGAINST": 0,
+     "ABSTENTION": 38,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 2,
+     "AGAINST": 14,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 2
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 26,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193648": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 140,
+     "AGAINST": 1,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 107,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 28
+    },
+    "PfE": {
+     "FOR": 4,
+     "AGAINST": 61,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 20
+    },
+    "ECR": {
+     "FOR": 37,
+     "AGAINST": 13,
+     "ABSTENTION": 14,
+     "DID_NOT_VOTE": 18
+    },
+    "Renew": {
+     "FOR": 62,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 42,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 11
+    },
+    "Left": {
+     "FOR": 38,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "NI": {
+     "FOR": 7,
+     "AGAINST": 13,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 4
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 24,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "193665": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 167,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 114,
+     "AGAINST": 4,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 7
+    },
+    "PfE": {
+     "FOR": 20,
+     "AGAINST": 6,
+     "ABSTENTION": 51,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 13,
+     "AGAINST": 0,
+     "ABSTENTION": 62,
+     "DID_NOT_VOTE": 6
+    },
+    "Renew": {
+     "FOR": 57,
+     "AGAINST": 0,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 35,
+     "AGAINST": 2,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 8,
+     "AGAINST": 31,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 4
+    },
+    "NI": {
+     "FOR": 9,
+     "AGAINST": 14,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 2
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 0,
+     "ABSTENTION": 22,
+     "DID_NOT_VOTE": 5
+    }
+   }
+  },
+  "193822": {
+   "result": "REJECTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 136,
+     "AGAINST": 22,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 16
+    },
+    "S&D": {
+     "FOR": 9,
+     "AGAINST": 108,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 9
+    },
+    "PfE": {
+     "FOR": 5,
+     "AGAINST": 72,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 14,
+     "AGAINST": 60,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 14,
+     "AGAINST": 55,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 7
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 46,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 42,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
+    },
+    "NI": {
+     "FOR": 2,
+     "AGAINST": 14,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 2
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 20,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 4
+    }
+   }
+  },
+  "193857": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 160,
+     "AGAINST": 1,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 22
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 14
+    },
+    "PfE": {
+     "FOR": 7,
+     "AGAINST": 69,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 62,
+     "AGAINST": 9,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 7
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 9,
+     "AGAINST": 1,
+     "ABSTENTION": 34,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 5,
+     "AGAINST": 13,
+     "ABSTENTION": 10,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 23,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193892": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 130,
+     "AGAINST": 25,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 21
+    },
+    "S&D": {
+     "FOR": 100,
+     "AGAINST": 1,
+     "ABSTENTION": 17,
+     "DID_NOT_VOTE": 17
+    },
+    "PfE": {
+     "FOR": 1,
+     "AGAINST": 64,
+     "ABSTENTION": 12,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 57,
+     "AGAINST": 17,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 6
+    },
+    "Renew": {
+     "FOR": 62,
+     "AGAINST": 0,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 10
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 11,
+     "AGAINST": 23,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 4
+    },
+    "NI": {
+     "FOR": 4,
+     "AGAINST": 22,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 22,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "193913": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 169,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 14
+    },
+    "S&D": {
+     "FOR": 126,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 73,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 8,
+     "AGAINST": 11,
+     "ABSTENTION": 58,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 5
+    },
+    "Left": {
+     "FOR": 13,
+     "AGAINST": 0,
+     "ABSTENTION": 31,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 4,
+     "AGAINST": 19,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 25,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
+    }
+   }
+  },
+  "193952": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 151,
+     "AGAINST": 3,
+     "ABSTENTION": 12,
+     "DID_NOT_VOTE": 19
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 0,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 15
+    },
+    "PfE": {
+     "FOR": 6,
+     "AGAINST": 70,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 8
+    },
+    "ECR": {
+     "FOR": 14,
+     "AGAINST": 10,
+     "ABSTENTION": 53,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 8,
+     "AGAINST": 2,
+     "ABSTENTION": 33,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 5,
+     "AGAINST": 12,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 23,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "194134": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 166,
+     "AGAINST": 1,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 15
+    },
+    "S&D": {
+     "FOR": 9,
+     "AGAINST": 106,
+     "ABSTENTION": 11,
+     "DID_NOT_VOTE": 9
+    },
+    "PfE": {
+     "FOR": 79,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 78,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 37,
+     "AGAINST": 21,
+     "ABSTENTION": 12,
+     "DID_NOT_VOTE": 8
+    },
+    "Greens": {
+     "FOR": 2,
+     "AGAINST": 44,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 43,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 21,
+     "AGAINST": 3,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 26,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "194357": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 104,
+     "AGAINST": 32,
+     "ABSTENTION": 21,
+     "DID_NOT_VOTE": 27
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 5,
+     "DID_NOT_VOTE": 10
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 76,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 9
+    },
+    "ECR": {
+     "FOR": 1,
+     "AGAINST": 48,
+     "ABSTENTION": 27,
+     "DID_NOT_VOTE": 5
+    },
+    "Renew": {
+     "FOR": 65,
+     "AGAINST": 1,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 9
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 5
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 42,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 1
+    },
+    "NI": {
+     "FOR": 5,
+     "AGAINST": 14,
+     "ABSTENTION": 9,
+     "DID_NOT_VOTE": 2
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 24,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "194417": {
+   "result": "REJECTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 0,
+     "AGAINST": 142,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 0,
+     "AGAINST": 107,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 28
+    },
+    "PfE": {
+     "FOR": 58,
+     "AGAINST": 0,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 21
+    },
+    "ECR": {
+     "FOR": 11,
+     "AGAINST": 37,
+     "ABSTENTION": 17,
+     "DID_NOT_VOTE": 17
+    },
+    "Renew": {
+     "FOR": 0,
+     "AGAINST": 62,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 43,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 38,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 7,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 6
+    },
+    "ESN": {
+     "FOR": 24,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "194442": {
+   "result": "REJECTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 0,
+     "AGAINST": 167,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 15
+    },
+    "S&D": {
+     "FOR": 105,
+     "AGAINST": 15,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 14
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 79,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 6
+    },
+    "ECR": {
+     "FOR": 0,
+     "AGAINST": 78,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 4
+    },
+    "Renew": {
+     "FOR": 6,
+     "AGAINST": 63,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 8
+    },
+    "Greens": {
+     "FOR": 39,
+     "AGAINST": 2,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 12
+    },
+    "Left": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 2
+    },
+    "NI": {
+     "FOR": 5,
+     "AGAINST": 23,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 26,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 1
+    }
+   }
+  },
+  "194461": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 136,
+     "AGAINST": 1,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 44
+    },
+    "S&D": {
+     "FOR": 4,
+     "AGAINST": 100,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 31
+    },
+    "PfE": {
+     "FOR": 51,
+     "AGAINST": 8,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 20
+    },
+    "ECR": {
+     "FOR": 55,
+     "AGAINST": 3,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 17
+    },
+    "Renew": {
+     "FOR": 14,
+     "AGAINST": 45,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 43,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 38,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 4,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 4
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 3,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "194546": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 142,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 106,
+     "AGAINST": 2,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 27
+    },
+    "PfE": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 20
+    },
+    "ECR": {
+     "FOR": 64,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 17
+    },
+    "Renew": {
+     "FOR": 62,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Left": {
+     "FOR": 37,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 7
+    },
+    "NI": {
+     "FOR": 18,
+     "AGAINST": 4,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 5
+    },
+    "ESN": {
+     "FOR": 24,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "194562": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 141,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 5,
+     "AGAINST": 98,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 30
+    },
+    "PfE": {
+     "FOR": 6,
+     "AGAINST": 0,
+     "ABSTENTION": 58,
+     "DID_NOT_VOTE": 21
+    },
+    "ECR": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 18
+    },
+    "Renew": {
+     "FOR": 58,
+     "AGAINST": 1,
+     "ABSTENTION": 3,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 41,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 10
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 38,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 7
+    },
+    "NI": {
+     "FOR": 6,
+     "AGAINST": 18,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 4
+    },
+    "ESN": {
+     "FOR": 4,
+     "AGAINST": 2,
+     "ABSTENTION": 18,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "194611": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 128,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 56
+    },
+    "S&D": {
+     "FOR": 101,
+     "AGAINST": 0,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 32
+    },
+    "PfE": {
+     "FOR": 27,
+     "AGAINST": 10,
+     "ABSTENTION": 21,
+     "DID_NOT_VOTE": 27
+    },
+    "ECR": {
+     "FOR": 53,
+     "AGAINST": 1,
+     "ABSTENTION": 4,
+     "DID_NOT_VOTE": 24
+    },
+    "Renew": {
+     "FOR": 60,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 18
+    },
+    "Greens": {
+     "FOR": 33,
+     "AGAINST": 0,
+     "ABSTENTION": 7,
+     "DID_NOT_VOTE": 13
+    },
+    "Left": {
+     "FOR": 7,
+     "AGAINST": 15,
+     "ABSTENTION": 15,
+     "DID_NOT_VOTE": 8
+    },
+    "NI": {
+     "FOR": 3,
+     "AGAINST": 16,
+     "ABSTENTION": 2,
+     "DID_NOT_VOTE": 8
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 21,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 5
+    }
+   }
+  },
+  "194636": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 142,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 105,
+     "AGAINST": 2,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 28
+    },
+    "PfE": {
+     "FOR": 36,
+     "AGAINST": 0,
+     "ABSTENTION": 22,
+     "DID_NOT_VOTE": 27
+    },
+    "ECR": {
+     "FOR": 62,
+     "AGAINST": 1,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 18
+    },
+    "Renew": {
+     "FOR": 61,
+     "AGAINST": 1,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 16
+    },
+    "Greens": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Left": {
+     "FOR": 19,
+     "AGAINST": 1,
+     "ABSTENTION": 17,
+     "DID_NOT_VOTE": 8
+    },
+    "NI": {
+     "FOR": 8,
+     "AGAINST": 4,
+     "ABSTENTION": 13,
+     "DID_NOT_VOTE": 4
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 2,
+     "ABSTENTION": 22,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  },
+  "194644": {
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 142,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 43
+    },
+    "S&D": {
+     "FOR": 108,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 27
+    },
+    "PfE": {
+     "FOR": 52,
+     "AGAINST": 0,
+     "ABSTENTION": 6,
+     "DID_NOT_VOTE": 27
+    },
+    "ECR": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 1,
+     "DID_NOT_VOTE": 17
+    },
+    "Renew": {
+     "FOR": 61,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 17
+    },
+    "Greens": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 0,
+     "DID_NOT_VOTE": 10
+    },
+    "Left": {
+     "FOR": 25,
+     "AGAINST": 0,
+     "ABSTENTION": 12,
+     "DID_NOT_VOTE": 8
+    },
+    "NI": {
+     "FOR": 6,
+     "AGAINST": 1,
+     "ABSTENTION": 18,
+     "DID_NOT_VOTE": 4
+    },
+    "ESN": {
+     "FOR": 3,
+     "AGAINST": 3,
+     "ABSTENTION": 18,
+     "DID_NOT_VOTE": 3
+    }
+   }
+  }
+ }
+}

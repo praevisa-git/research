@@ -40,7 +40,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193474",
+    "vote_title": "Adjustment of customs duties and opening of tariff quotas for the import of certain goods originating in the United States of America",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7445,
+    "share_abs_err": 0.061,
+    "observed_per_group": {
+     "EPP": 0.9881,
+     "S&D": 0.8862,
+     "PfE": 0.1667,
+     "ECR": 0.9444,
+     "Renew": 0.8235,
+     "Greens": 0.4889,
+     "Left": 0.0,
+     "NI": 0.2308,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -68,7 +91,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193515",
+    "vote_title": "Non-application of customs duties on imports of certain goods",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.745,
+    "share_abs_err": 0.0615,
+    "observed_per_group": {
+     "EPP": 1.0,
+     "S&D": 0.8594,
+     "PfE": 0.1818,
+     "ECR": 0.9467,
+     "Renew": 0.8209,
+     "Greens": 0.3913,
+     "Left": 0.0,
+     "NI": 0.2963,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -96,7 +142,32 @@
    "outcome": "ADOPTED",
    "margin_seats": 549.7,
    "pivot_headline": "No single EP group can swing it — decided on the floor",
-   "pivot_realistic": false
+   "pivot_realistic": false,
+   "graded": {
+    "paired_by": "procedure",
+    "rcv": true,
+    "vote_id": "193492",
+    "vote_title": "Strengthening of the position of farmers in the food supply chain",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.8819,
+    "share_abs_err": 0.0182,
+    "observed_per_group": {
+     "EPP": 0.9583,
+     "S&D": 0.9084,
+     "PfE": 1.0,
+     "ECR": 1.0,
+     "Renew": 0.7647,
+     "Greens": 0.0,
+     "Left": 0.7561,
+     "NI": 0.8276,
+     "ESN": 0.9091
+    },
+    "mse_signal": 0.018107,
+    "mse_prior": 0.134766
+   }
   },
   {
    "day": "2026-06-16",
@@ -124,7 +195,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193648",
+    "vote_title": "Circularity requirements for vehicle design and management of end-of-life vehicles",
+    "vote_date": "2026-06-18",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.796,
+    "share_abs_err": 0.1125,
+    "observed_per_group": {
+     "EPP": 0.9859,
+     "S&D": 1.0,
+     "PfE": 0.0615,
+     "ECR": 0.5781,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 1.0,
+     "NI": 0.28,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -152,7 +246,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "193493",
+    "vote_title": "Measures necessary for the implementation of the Protocol, annexed to the TEU and to the TFEU, on the financial consequences of the expiry of the ECSC Treaty and on the Research Fund for Coal and Steel",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.9275,
+    "share_abs_err": 0.244,
+    "observed_per_group": {
+     "EPP": 1.0,
+     "S&D": 1.0,
+     "PfE": 0.7215,
+     "ECR": 0.9221,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.186,
+     "NI": 0.4828,
+     "ESN": 0.0435
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -180,7 +297,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "193553",
+    "vote_title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Belgium – EGF/2025/009 BE/Soliver",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.9276,
+    "share_abs_err": 0.2441,
+    "observed_per_group": {
+     "EPP": 0.9941,
+     "S&D": 1.0,
+     "PfE": 0.8481,
+     "ECR": 0.8182,
+     "Renew": 0.9104,
+     "Greens": 1.0,
+     "Left": 1.0,
+     "NI": 0.8966,
+     "ESN": 0.0435
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -208,7 +348,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193542",
+    "vote_title": "European political parties and foundations – 2026 report on the application of Regulation (EU, Euratom) No 2025/2445 and on the activities funded",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7527,
+    "share_abs_err": 0.0692,
+    "observed_per_group": {
+     "EPP": 0.9765,
+     "S&D": 0.9924,
+     "PfE": 0.0,
+     "ECR": 0.0256,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.1591,
+     "NI": 0.1379,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -236,7 +399,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193913",
+    "vote_title": "Countering transnational repression – towards an EU strategy to protect Europe’s sovereignty and democratic values",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7722,
+    "share_abs_err": 0.0887,
+    "observed_per_group": {
+     "EPP": 0.9941,
+     "S&D": 1.0,
+     "PfE": 0.0,
+     "ECR": 0.1039,
+     "Renew": 1.0,
+     "Greens": 0.9583,
+     "Left": 0.2955,
+     "NI": 0.1379,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -264,7 +450,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193516",
+    "vote_title": "Role of trade in strengthening the EU's economic security",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7981,
+    "share_abs_err": 0.1146,
+    "observed_per_group": {
+     "EPP": 0.9699,
+     "S&D": 0.9843,
+     "PfE": 0.0886,
+     "ECR": 0.0909,
+     "Renew": 0.9853,
+     "Greens": 0.7292,
+     "Left": 0.0233,
+     "NI": 0.4138,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-16",
@@ -297,7 +506,32 @@
    "outcome": "ADOPTED",
    "margin_seats": 351.0,
    "pivot_headline": "No single EP group can swing it — decided on the floor",
-   "pivot_realistic": false
+   "pivot_realistic": false,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "194357",
+    "vote_title": "Reinforcing development cooperation to address irregular population movements and their root causes in partner countries",
+    "vote_date": "2026-06-16",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.5921,
+    "share_abs_err": 0.1634,
+    "observed_per_group": {
+     "EPP": 0.6624,
+     "S&D": 0.9603,
+     "PfE": 0.0,
+     "ECR": 0.0132,
+     "Renew": 0.9559,
+     "Greens": 1.0,
+     "Left": 0.0,
+     "NI": 0.1786,
+     "ESN": 0.0
+    },
+    "mse_signal": 0.102791,
+    "mse_prior": 0.174549
+   }
   },
   {
    "day": "2026-06-17",
@@ -325,7 +559,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "193822",
+    "vote_title": "Structure and rates of excise duty applied to tobacco and tobacco related products (recast)",
+    "vote_date": "2026-06-17",
+    "observed_result": "REJECTED",
+    "outcome_hit": false,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.2919,
+    "share_abs_err": 0.3916,
+    "observed_per_group": {
+     "EPP": 0.8047,
+     "S&D": 0.0714,
+     "PfE": 0.0649,
+     "ECR": 0.1818,
+     "Renew": 0.1972,
+     "Greens": 0.0,
+     "Left": 0.0,
+     "NI": 0.0741,
+     "ESN": 0.0435
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -353,7 +610,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "193557",
+    "vote_title": "General arrangements for excise duty applied to tobacco and tobacco related products",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.5167,
+    "share_abs_err": 0.1668,
+    "observed_per_group": {
+     "EPP": 0.8462,
+     "S&D": 0.0244,
+     "PfE": 0.9744,
+     "ECR": 0.9231,
+     "Renew": 0.2113,
+     "Greens": 0.0,
+     "Left": 0.0,
+     "NI": 0.4286,
+     "ESN": 0.1667
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -381,7 +661,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:0.83",
+    "rcv": true,
+    "vote_id": "193587",
+    "vote_title": "European Public Prosecutor’s Office (EPPO) and European Anti-Fraud Office (OLAF): access to value added tax information at Union level",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.9433,
+    "share_abs_err": 0.2598,
+    "observed_per_group": {
+     "EPP": 1.0,
+     "S&D": 1.0,
+     "PfE": 0.1667,
+     "ECR": 0.7692,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.9773,
+     "NI": 0.7143,
+     "ESN": 0.0385
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -409,7 +712,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193573",
+    "vote_title": "EU–Pakistan Agreement: modification of concessions on all the tariff rate quotas included in the EU Schedule CLXXV as a consequence of the United Kingdom's withdrawal from the European Union",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.955,
+    "share_abs_err": 0.2715,
+    "observed_per_group": {
+     "EPP": 0.9859,
+     "S&D": 0.9048,
+     "PfE": 1.0,
+     "ECR": 0.9756,
+     "Renew": 0.7143,
+     "Greens": 1.0,
+     "Left": 0.5,
+     "NI": 0.625,
+     "ESN": 1.0
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -442,7 +768,32 @@
    "outcome": "ADOPTED",
    "margin_seats": 63.0,
    "pivot_headline": "No single EP group can swing it — decided on the floor",
-   "pivot_realistic": false
+   "pivot_realistic": false,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193517",
+    "vote_title": "Termination of the EU–Liberia Voluntary Partnership Agreement on forest law enforcement, governance and trade in timber products",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.9412,
+    "share_abs_err": 0.3953,
+    "observed_per_group": {
+     "EPP": 1.0,
+     "S&D": 1.0,
+     "PfE": 0.8312,
+     "ECR": 0.974,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.3636,
+     "NI": 0.7037,
+     "ESN": 0.92
+    },
+    "mse_signal": 0.354742,
+    "mse_prior": 0.075597
+   }
   },
   {
    "day": "2026-06-17",
@@ -475,7 +826,32 @@
    "outcome": "ADOPTED",
    "margin_seats": 63.0,
    "pivot_headline": "No single EP group can swing it — decided on the floor",
-   "pivot_realistic": false
+   "pivot_realistic": false,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193518",
+    "vote_title": "Termination of the Voluntary Partnership Agreement between the European Union and the Republic of Liberia on Forest Law Enforcement Governance and Trade in timber products to the European Union",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.9125,
+    "share_abs_err": 0.3666,
+    "observed_per_group": {
+     "EPP": 1.0,
+     "S&D": 0.9921,
+     "PfE": 0.5065,
+     "ECR": 0.4231,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.8409,
+     "NI": 0.7407,
+     "ESN": 0.0769
+    },
+    "mse_signal": 0.573092,
+    "mse_prior": 0.078207
+   }
   },
   {
    "day": "2026-06-17",
@@ -503,7 +879,14 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "minutes(results file)",
+    "rcv": false,
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22"
+   }
   },
   {
    "day": "2026-06-17",
@@ -531,7 +914,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "193551",
+    "vote_title": "Recommendation to the Council, the Commission and the Vice-President of the Commission / High Representative of the Union for Foreign Affairs and Security Policy on promoting transnational governance on water in the interests of conflict prevention and peace",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7952,
+    "share_abs_err": 0.1117,
+    "observed_per_group": {
+     "EPP": 0.988,
+     "S&D": 1.0,
+     "PfE": 0.0,
+     "ECR": 0.026,
+     "Renew": 0.9844,
+     "Greens": 1.0,
+     "Left": 0.6591,
+     "NI": 0.3214,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -564,6 +970,19 @@
     "threshold": 361,
     "predicted_seats_against": 232.4,
     "prediction": "Council position stands (act deemed adopted) — predicted opposition falls short of the absolute majority needed to amend or reject"
+   },
+   "graded": {
+    "paired_by": "procedure/title scan (18 related roll-calls)",
+    "rcv": true,
+    "observed_result": "POSITION STANDS",
+    "second_reading": {
+     "threshold": 361,
+     "n_related_votes": 18,
+     "max_for_on_challenges": 280,
+     "threshold_hit": true
+    },
+    "outcome_hit": true,
+    "graded_at": "2026-06-22"
    }
   },
   {
@@ -592,7 +1011,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193572",
+    "vote_title": "2025 Commission report on Georgia",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7504,
+    "share_abs_err": 0.0669,
+    "observed_per_group": {
+     "EPP": 0.9936,
+     "S&D": 0.9917,
+     "PfE": 0.08,
+     "ECR": 0.5205,
+     "Renew": 0.9839,
+     "Greens": 1.0,
+     "Left": 0.1818,
+     "NI": 0.1154,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -620,7 +1062,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193527",
+    "vote_title": "2025 Commission report on Montenegro",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.8279,
+    "share_abs_err": 0.1444,
+    "observed_per_group": {
+     "EPP": 0.9647,
+     "S&D": 1.0,
+     "PfE": 0.0897,
+     "ECR": 0.7922,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.2045,
+     "NI": 0.1786,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -648,7 +1113,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193511",
+    "vote_title": "2025 Commission report on Albania",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.8242,
+    "share_abs_err": 0.1407,
+    "observed_per_group": {
+     "EPP": 0.9702,
+     "S&D": 0.9919,
+     "PfE": 0.1795,
+     "ECR": 0.7808,
+     "Renew": 1.0,
+     "Greens": 1.0,
+     "Left": 0.1364,
+     "NI": 0.1786,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-17",
@@ -676,7 +1164,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "reference",
+    "rcv": true,
+    "vote_id": "193644",
+    "vote_title": "2025 Commission report on Türkiye",
+    "vote_date": "2026-06-17",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.7807,
+    "share_abs_err": 0.0972,
+    "observed_per_group": {
+     "EPP": 0.8118,
+     "S&D": 0.9758,
+     "PfE": 0.0,
+     "ECR": 0.0519,
+     "Renew": 0.9429,
+     "Greens": 1.0,
+     "Left": 0.1163,
+     "NI": 0.0741,
+     "ESN": 0.0
+    }
+   }
   },
   {
    "day": "2026-06-18",
@@ -704,7 +1215,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "194461",
+    "vote_title": "Implementation of the Urban Wastewater Treatment Directive (UWWTD) and risks to the security of supply of medicines",
+    "vote_date": "2026-06-18",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.5455,
+    "share_abs_err": 0.138,
+    "observed_per_group": {
+     "EPP": 0.9645,
+     "S&D": 0.0385,
+     "PfE": 0.7846,
+     "ECR": 0.8462,
+     "Renew": 0.2258,
+     "Greens": 0.0,
+     "Left": 0.0,
+     "NI": 0.6,
+     "ESN": 0.7917
+    }
+   }
   },
   {
    "day": "2026-06-18",
@@ -732,7 +1266,30 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "title:1.00",
+    "rcv": true,
+    "vote_id": "194562",
+    "vote_title": "Political repression and humanitarian situation in Cuba",
+    "vote_date": "2026-06-18",
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22",
+    "observed_share": 0.5871,
+    "share_abs_err": 0.0964,
+    "observed_per_group": {
+     "EPP": 0.993,
+     "S&D": 0.0476,
+     "PfE": 0.0938,
+     "ECR": 0.9844,
+     "Renew": 0.9355,
+     "Greens": 0.0,
+     "Left": 0.0,
+     "NI": 0.24,
+     "ESN": 0.1667
+    }
+   }
   },
   {
    "day": "2026-06-18",
@@ -760,7 +1317,45 @@
    "outcome": "ADOPTED",
    "margin_seats": 252.1,
    "pivot_headline": "EPP is the pivot group (188 seats)",
-   "pivot_realistic": true
+   "pivot_realistic": true,
+   "graded": {
+    "paired_by": "minutes(results file)",
+    "rcv": false,
+    "observed_result": "ADOPTED",
+    "outcome_hit": true,
+    "graded_at": "2026-06-22"
+   }
   }
- ]
+ ],
+ "scorecard": {
+  "graded_through": "2026-06-22",
+  "n_graded": 26,
+  "n_pending": 0,
+  "pending": [],
+  "by_rail": {
+   "always-ADOPTED": {
+    "n": 26,
+    "outcome_hits": 25,
+    "share_mae": null
+   },
+   "prior": {
+    "n": 22,
+    "outcome_hits": 21,
+    "share_mae": 0.1516,
+    "brier": null
+   },
+   "committee": {
+    "n": 4,
+    "outcome_hits": 4,
+    "share_mae": 0.2359,
+    "brier": null
+   }
+  },
+  "contested": {
+   "n": 3,
+   "outcome_hits": 3,
+   "share_mae": 0.3084,
+   "brier": null
+  }
+ }
 }
