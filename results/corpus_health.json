@@ -25,20 +25,20 @@
    "n_reconciled": 51
   },
   {
+   "committee": "ECON",
+   "n_records": 40,
+   "n_cod": 22,
+   "n_cod_voted": 22,
+   "n_classified_signal": 15,
+   "n_reconciled": 40
+  },
+  {
    "committee": "IMCO",
    "n_records": 35,
    "n_cod": 17,
    "n_cod_voted": 17,
    "n_classified_signal": 8,
    "n_reconciled": 35
-  },
-  {
-   "committee": "ECON",
-   "n_records": 32,
-   "n_cod": 15,
-   "n_cod_voted": 15,
-   "n_classified_signal": 8,
-   "n_reconciled": 32
   },
   {
    "committee": "FEMM",
@@ -163,8 +163,8 @@
  ],
  "suspicious": [],
  "totals": {
-  "records": 493,
-  "cod_voted": 73,
-  "classified_signal": 42
+  "records": 501,
+  "cod_voted": 80,
+  "classified_signal": 49
  }
 }

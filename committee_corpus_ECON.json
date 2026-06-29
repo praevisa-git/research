@@ -1,6 +1,6 @@
 {
  "committee": "ECON",
- "n_records": 32,
+ "n_records": 40,
  "records": [
   {
    "committee": "ECON",
@@ -10038,6 +10038,2455 @@
     {
      "group": "Renew",
      "mep": "Ľudovít Ódor",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00220",
+   "procedure": "2023/0166(COD)",
+   "rapporteur": "Stéphanie Yon-Courtin (Renew)",
+   "title": "Amending Regulation (EU) No 1286/2014 as regards the modernisation of the key information document",
+   "subject": "Vote on the provisional agreement resulting from interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 33,
+    "-": 21,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "-"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "0"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00246",
+   "procedure": "2023/0212(COD)",
+   "rapporteur": "Fernando Navarrete Rojas (PPE)",
+   "title": "2026-06-23 12:06:34 Vote on the provisional agreement resulting from interinstitutional negotiations 33 + ECR Stephen Nikola Bartulica, Stefano Cavedagna, Giovanni Crosetto, Daniele Polato, Johan Van Overtveldt PPE Georgios Aftias, Stefan Berger, Regina Doherty, Marco Falcone, Markus Ferber, Loucas Fourlas, Dirk Gotink, Sérgio Humberto, Kinga Kollár, Siegfried Mureşan, Fernando Navarrete Rojas, Luděk Niedermayer, Sirpa Pietikäinen, Paulius Saudargas, Andreas Schwab, Juan Ignacio Zoido Álvarez PfE Mireia Borrás Pabón, Juan Carlos Girauta Vidal, Enikő Győri, Jaroslav Knot, Tomáš Kubín, Auke Zijlstra Renew Gilles Boyer, Valérie Devaux, Engin Eroglu, Ľudovít Ódor, Anouk Van Brug, Stéphanie Yon-Courtin 23 - ESN Siegbert Frank Droese, Rada Laykova NI Fabio De Masi PfE Pierre Pimpie S&D Sakis Arnaoutoglou, Jonás Fernández, Claire Fita, André Franqueira Rodrigues, Eero Heinäluoma, Aurore Lalucq, Costas Mavrides, Nikos Papandreou, Evelyn Regner, Elena Sancho Murillo, Lara Wolters The Left Danilo Della Valle, Gaetano Pedulla', Jussi Saramo, Pasquale Tridico Verts/ALE Rasmus Andresen, Damian Boeselager, Mélissa Camara, Anna Strolenberg 2 0 ECR Marlena Maląg, Maciej Wąsik Establishment of the digital euro",
+   "subject": "Vote on the Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 43,
+    "-": 14,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt CORRECTION TO VOTES + - 0 Pierre Pimpie",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00246",
+   "procedure": "2023/0212(COD)",
+   "rapporteur": "Fernando Navarrete Rojas (PPE)",
+   "title": "Establishment of the digital euro",
+   "subject": "Vote on the decision to enter into interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 40,
+    "-": 14,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie CORRECTION TO VOTES + - Enikő Győri 0",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00237",
+   "procedure": "2023/0211(COD)",
+   "rapporteur": "Fernando Navarrete Rojas (PPE)",
+   "title": "Provision of digital euro services by payment services providers incorporated in Member States whose currency is not the euro and amending Regulation (EU) 2021/1230 of the European Parliament and the Council",
+   "subject": "Vote on the Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 43,
+    "-": 9,
+    "0": 6
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00237",
+   "procedure": "2023/0211(COD)",
+   "rapporteur": "Fernando Navarrete Rojas (PPE)",
+   "title": "Provision of digital euro services by payment services providers incorporated in Member States whose currency is not the euro and amending Regulation (EU) 2021/1230 of the European Parliament and the Council",
+   "subject": "Vote on the decision to enter into interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 41,
+    "-": 14,
+    "0": 3
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00244",
+   "procedure": "2023/0208(COD)",
+   "rapporteur": "Fernando Navarrete Rojas (PPE)",
+   "title": "Legal tender of euro banknotes and coins",
+   "subject": "Vote on the Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 46,
+    "-": 4,
+    "0": 8
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/00244",
+   "procedure": "2023/0208(COD)",
+   "rapporteur": "Fernando Navarrete Rojas (PPE)",
+   "title": "Legal tender of euro banknotes and coins",
+   "subject": "Vote on the decision to enter into interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 47,
+    "-": 5,
+    "0": 5
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Claire Fita",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Aurore Lalucq",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "ECON",
+   "source": "https://www.europarl.europa.eu/cmsdata/308385/2026-06-23_ECON%20VOTES%20v2.pdf",
+   "ref": "ECON/10/04193",
+   "procedure": "2025/2208(INI)",
+   "rapporteur": "Johan Van Overtveldt (ECR)",
+   "title": "Digital assets – challenges for the competitiveness and integrity of the European Union’s financial system",
+   "subject": "Vote on the Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 38,
+    "-": 6,
+    "0": 12
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stephen Nikola Bartulica",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Giovanni Crosetto",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marlena Maląg",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Daniele Polato",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Johan Van Overtveldt",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Georgios Aftias",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Stefan Berger",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marco Falcone",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Loucas Fourlas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kinga Kollár",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Siegfried Mureşan",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Fernando Navarrete Rojas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Luděk Niedermayer",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Juan Ignacio Zoido Álvarez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Gilles Boyer",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ľudovít Ódor",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Anouk Van Brug",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stéphanie Yon-Courtin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Jonás Fernández",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Eero Heinäluoma",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Costas Mavrides",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nikos Papandreou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Evelyn Regner",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lara Wolters",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Rada Laykova",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Danilo Della Valle",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jussi Saramo",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Pasquale Tridico",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Fabio De Masi",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mireia Borrás Pabón",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Juan Carlos Girauta Vidal",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Enikő Győri",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Knot",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tomáš Kubín",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre Pimpie",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Auke Zijlstra",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Andresen",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Damian Boeselager",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "0"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Strolenberg",
      "choice": "0"
     }
    ]
