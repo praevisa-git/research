@@ -243,6 +243,65 @@ class TestH3NoVectorReuse(unittest.TestCase):
         self.assertEqual(rails[0]["why"], "report")
 
 
+def _liberia_record_from_corpus():
+    data = json.loads((REPO / "committee_corpus_DEVE.json").read_text())
+    for r in data["records"]:
+        if ("Liberia" in (r.get("title") or "")
+                and "Voluntary Partnership" in (r.get("title") or "")):
+            return r
+    raise AssertionError("Liberia record missing from committed DEVE corpus")
+
+
+class TestPolarityTripwire(unittest.TestCase):
+    def test_liberia_deve_record_flags(self):
+        from praevisa import corpus_health
+        rec = _liberia_record_from_corpus()
+        self.assertEqual(corpus_health._rapporteur_group(rec), "S&D")
+        self.assertTrue(corpus_health.polarity_tripwire(rec))
+
+    def test_rapporteur_group_carrying_the_vote_does_not_flag(self):
+        from praevisa import corpus_health
+        rec = dict(AGRI_REPORT, votes=[
+            {"group": "PPE", "choice": "+"}, {"group": "PPE", "choice": "+"},
+            {"group": "S&D", "choice": "-"},
+        ])
+        self.assertFalse(corpus_health.polarity_tripwire(rec))   # PPE carried it
+
+    def test_non_adoption_vote_does_not_flag(self):
+        from praevisa import corpus_health
+        rec = dict(AGRI_REPORT, subject="Amendment 200",
+                   title="Farmers something", rapporteur="Céline Imart (PPE)",
+                   votes=[{"group": "PPE", "choice": "-"}])
+        self.assertFalse(corpus_health.polarity_tripwire(rec))
+
+    def test_unparseable_rapporteur_does_not_flag(self):
+        from praevisa import corpus_health
+        rec = dict(AGRI_REPORT, rapporteur="No Suffix Here",
+                   votes=[{"group": "PPE", "choice": "-"}])
+        self.assertFalse(corpus_health.polarity_tripwire(rec))
+
+    def test_tripped_responsible_committee_record_demotes_in_rail_assignment(self):
+        from praevisa import plenary_forward as pf
+        rec = dict(AGRI_REPORT, rapporteur="Céline Imart (PPE)", votes=[
+            {"group": "PPE", "choice": "-"}, {"group": "PPE", "choice": "-"},
+            {"group": "S&D", "choice": "+"},
+        ])
+        index = {"2024/0319(COD)": rec}
+        manifest = [dict(day="d", a10="A10-1", type="cod1", committee="AGRI",
+                         rapporteur="r", procedure="2024/0319(COD)", title="Farmers")]
+        rails = pf._assign_rails(manifest, index)
+        self.assertFalse(rails[0]["eligible"])
+        self.assertIn("polarity tripwire", rails[0]["why"])
+
+    def test_flags_emitted_by_audit(self):
+        from praevisa import corpus_health
+        rec = _liberia_record_from_corpus()
+        _, _, flags = corpus_health.audit({"DEVE": [rec]})
+        self.assertEqual(len(flags), 1)
+        self.assertEqual(flags[0]["committee"], "DEVE")
+        self.assertIn("Maij", flags[0]["rapporteur"])
+
+
 class TestRecordProcedureRef(unittest.TestCase):
     def test_field_beats_title(self):
         rec = {"procedure": "2024/0319(COD)", "title": "blah (2025/0259M(NLE))"}

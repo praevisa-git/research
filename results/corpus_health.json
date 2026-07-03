@@ -162,6 +162,15 @@
   }
  ],
  "suspicious": [],
+ "polarity_flags": [
+  {
+   "committee": "DEVE",
+   "procedure": "",
+   "rapporteur": "Marit Maij (S&D)",
+   "title": "Termination of the Voluntary Partnership Agreement between the European Union and the Republic of Li",
+   "subject": "FINAL VOTE BY ROLL CALL"
+  }
+ ],
  "totals": {
   "records": 501,
   "cod_voted": 80,

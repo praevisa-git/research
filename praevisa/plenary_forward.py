@@ -77,7 +77,8 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
-from . import baselines, ep_flip, prior_v2, resolve_plenary, stage0_feasibility as s0
+from . import (baselines, corpus_health, ep_flip, prior_v2, resolve_plenary,
+               stage0_feasibility as s0)
 from .data import EP_GROUPS
 from .flip import _ep_pivot_path
 
@@ -311,6 +312,11 @@ def _assign_rails(manifest: list[dict], committee_index: dict) -> list[dict]:
         eligible, why = (s0.signal_rail_eligible(rec, m.get("committee"), proc,
                                                  bool(m.get("opinion_signal")))
                          if rec is not None else (False, None))
+        if eligible and corpus_health.polarity_tripwire(rec):
+            # Task-5 tripwire: even a responsible-committee final vote is
+            # polarity-unreliable when the rapporteur's own group voted it down.
+            eligible = False
+            why = "polarity tripwire: rapporteur's own group majority-against"
         out.append({"rec": rec, "via": via, "eligible": eligible, "why": why})
     shared: dict[tuple, list[int]] = {}
     for i, r in enumerate(out):

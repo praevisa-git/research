@@ -26,10 +26,11 @@ from __future__ import annotations
 
 import glob
 import json
+import re
 import sys
 from pathlib import Path
 
-from .stage0_feasibility import _norm_subject, classify_signal_stage
+from .stage0_feasibility import COMMITTEE_GROUP_MAP, _norm_subject, classify_signal_stage
 
 REPO = Path(__file__).resolve().parent.parent
 SNAPSHOT = REPO / "results" / "corpus_health.json"
@@ -46,6 +47,57 @@ SIGNAL_HINTS = (
 HINT_EXCLUSIONS = ("opinion", "second reading", "resolution")
 
 
+# Rapporteur-suffix group spellings that differ from the vote-record `group`
+# spellings (both sides normalize to canonical codes via COMMITTEE_GROUP_MAP).
+_RAPP_GROUP_ALIASES = {
+    "Greens/ALE": "Greens", "Greens/EFA": "Greens", "EPP": "EPP", "Left": "Left",
+    "GUE/NGL": "Left",
+}
+_RAPP_GROUP_RE = re.compile(r"\(([^()]+)\)\s*$")
+
+
+def _rapporteur_group(rec) -> str | None:
+    """Canonical group parsed from the record's rapporteur suffix, e.g.
+    "Marit Maij (S&D)" -> "S&D". None when absent or unrecognized."""
+    m = _RAPP_GROUP_RE.search((rec.get("rapporteur") or "").strip())
+    if not m:
+        return None
+    raw = m.group(1).strip()
+    return COMMITTEE_GROUP_MAP.get(raw) or _RAPP_GROUP_ALIASES.get(raw)
+
+
+def polarity_tripwire(rec) -> bool:
+    """The Maij pattern (June 2026 Liberia, ERROR_ANALYSIS_2026-06_ledger.md): on an
+    adoption vote, the rapporteur's OWN group voted majority-against — the text was
+    amended against the rapporteur's intent in committee, so the record's
+    FOR/AGAINST axis is polarity-unreliable as a plenary signal.
+
+    Tripped records must not feed the signal rail even from the responsible
+    committee; the caller demotes with the reason disclosed in `signal`. True only
+    when the vote is an adoption/final vote, the rapporteur's group is parseable
+    from the "(S&D)"-style suffix, and that group's cast ballots are strictly
+    majority-against (against > for, abstentions not counted as opposition).
+    """
+    blob = _norm_subject(f"{rec.get('subject') or ''} {rec.get('title') or ''}")
+    stage = classify_signal_stage(rec.get("subject"))
+    adoption_vote = ("adoption" in blob or "final vote" in blob
+                     or (stage is not None and stage[1] in ("report", "provisional")))
+    if not adoption_vote:   # a mandate/amendment vote is not an adoption of a text
+        return False
+    group = _rapporteur_group(rec)
+    if group is None:
+        return False
+    f = a = 0
+    for v in rec.get("votes") or []:
+        if COMMITTEE_GROUP_MAP.get(v.get("group")) != group:
+            continue
+        if v.get("choice") == "+":
+            f += 1
+        elif v.get("choice") == "-":
+            a += 1
+    return a > f
+
+
 def _load_corpora():
     corpora = {}
     for f in sorted(glob.glob(str(REPO / "committee_corpus_*.json"))):
@@ -55,10 +107,21 @@ def _load_corpora():
 
 
 def audit(corpora):
-    """Per-committee health rows + the suspicious-unclassified canary list."""
+    """Per-committee health rows, the suspicious-unclassified canary list, and the
+    polarity-tripwire flag list (ALL records, not only COD — the June Liberia
+    record had an empty procedure field)."""
     rows = []
     suspicious = []
+    polarity_flags = []
     for com, recs in corpora.items():
+        for r in recs:
+            if r.get("votes") and not r.get("secret") and polarity_tripwire(r):
+                polarity_flags.append({
+                    "committee": com, "procedure": r.get("procedure"),
+                    "rapporteur": r.get("rapporteur"),
+                    "title": (r.get("title") or "")[:100],
+                    "subject": r.get("subject"),
+                })
         cod = [r for r in recs if r.get("procedure", "").endswith("(COD)")]
         cod_voted = [r for r in cod if r.get("votes") and not r.get("secret")]
         classified = 0
@@ -79,12 +142,12 @@ def audit(corpora):
             "n_cod_voted": len(cod_voted), "n_classified_signal": classified,
             "n_reconciled": reconciled,
         })
-    return rows, suspicious
+    return rows, suspicious, polarity_flags
 
 
 def main():
     corpora = _load_corpora()
-    rows, suspicious = audit(corpora)
+    rows, suspicious, polarity_flags = audit(corpora)
     rows.sort(key=lambda r: -r["n_records"])
 
     prior = {}
@@ -130,7 +193,16 @@ def main():
             print(f"  … and {len(suspicious) - 20} more")
         print()
 
+    if polarity_flags:
+        print("Polarity tripwire (rapporteur's own group majority-against on an "
+              "adoption vote — signal-rail ineligible):")
+        for p in polarity_flags:
+            print(f"  {p['committee']:5s} {p['rapporteur'] or '?':30s} "
+                  f"{p['title'][:44]!r}")
+        print()
+
     out = {"rows": rows, "suspicious": suspicious,
+           "polarity_flags": polarity_flags,
            "totals": {"records": tot_rec, "cod_voted": tot_voted,
                       "classified_signal": tot_sig}}
     SNAPSHOT.parent.mkdir(exist_ok=True)
