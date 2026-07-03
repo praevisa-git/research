@@ -324,7 +324,7 @@ def build() -> dict:
                 entry["committee_tally"] = rec.get("tally")
                 entry.update(_seat_math(f["per_group"]))
             else:
-                com = s0._committee_group_rates(rec["votes"])
+                com = ep_flip.predictor_group_rates(rec["votes"])
                 pred = ep_flip.predict_plenary_per_group(com, prior, alpha)
                 yes_overall, _ = s0._committee_yes(rec)
                 entry["signal"] = f"committee-rcv({rec.get('committee')})"

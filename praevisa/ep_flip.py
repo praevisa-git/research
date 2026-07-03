@@ -66,6 +66,36 @@ def _baseline_A() -> dict:
     return {g: baselines.baseline_a(base, g) for g in GROUPS}
 
 
+def predictor_group_rates(votes) -> dict:
+    """H2 — committee per-group rates as the PREDICTOR consumes them
+    (pre-registered forward hypothesis, 2026-07).
+
+    Abstentions leave the denominator: rate = FOR / (FOR + AGAINST). A group whose
+    committee members ONLY abstained gets None, so it contributes no committee
+    signal and falls back to its prior inside `predict_plenary_per_group` — an
+    abstention on a committee text is not an opposition forecast for the floor
+    (June 2026: Renew's 3 abstentions became a 0.0 FOR prediction; observed 1.0).
+
+    PREDICTION ONLY. The measurement basis is untouched: Decision 1 (abstentions
+    in the denominator, `stage0_feasibility._committee_group_rates`) stands
+    wherever historical rates are measured — stage_a, stage_b, stage0, stress-set
+    residuals, and everything §9.6 grades against.
+    """
+    agg: dict[str, tuple[int, int]] = {}
+    for v in votes:
+        canon = s0.COMMITTEE_GROUP_MAP.get(v.get("group"))
+        if canon is None:
+            continue
+        f, a = agg.get(canon, (0, 0))
+        c = v.get("choice")
+        if c == "+":
+            f += 1
+        elif c == "-":
+            a += 1
+        agg[canon] = (f, a)
+    return {g: (f / (f + a) if (f + a) else None) for g, (f, a) in agg.items()}
+
+
 def predict_plenary_per_group(committee_rates: dict, prior: dict,
                               alpha: float | None = None) -> dict:
     """The model: predicted plenary per-group yes-rate.
@@ -98,7 +128,7 @@ def forecast_for(proc: str, committee: dict | None = None, prior: dict | None = 
     if rec is None:
         return None
     prior = prior if prior is not None else _baseline_A()
-    com = s0._committee_group_rates(rec["votes"])
+    com = predictor_group_rates(rec["votes"])
     com = {g: (round(v, 4) if v is not None else None) for g, v in com.items()}
     pred = predict_plenary_per_group(com, prior)
     yes_overall, _n = s0._committee_yes(rec)

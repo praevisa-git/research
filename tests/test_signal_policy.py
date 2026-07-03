@@ -8,9 +8,13 @@ faithful copies of the real corpus records that motivated the revision — above
 the DEVE Liberia record whose polarity inversion sank the June signal rail.
 """
 
+import json
 import unittest
+from pathlib import Path
 
-from praevisa import stage0_feasibility as s0
+from praevisa import ep_flip, stage0_feasibility as s0
+
+REPO = Path(__file__).resolve().parent.parent
 
 # The record that caused the June failure: DEVE (opinion committee; responsible was
 # INTA) voting on adoption of an AMENDED DRAFT OPINION under the accompanying
@@ -106,6 +110,51 @@ class TestH1Eligibility(unittest.TestCase):
         ok, why = s0.signal_rail_eligible(AGRI_REPORT, None, None)
         self.assertFalse(ok)
         self.assertIn("committee mismatch", why)
+
+
+# Renew's committee members in the Liberia record: 3 abstentions, nothing else.
+H2_VOTES = [
+    {"group": "PPE", "choice": "+"}, {"group": "PPE", "choice": "+"},
+    {"group": "S&D", "choice": "-"},
+    {"group": "Renew", "choice": "0"}, {"group": "Renew", "choice": "0"},
+    {"group": "Renew", "choice": "0"},
+    {"group": "ECR", "choice": "+"}, {"group": "ECR", "choice": "-"},
+    {"group": "ECR", "choice": "0"},
+]
+
+
+class TestH2PredictorAbstentions(unittest.TestCase):
+    def test_abstention_only_group_contributes_no_signal(self):
+        rates = ep_flip.predictor_group_rates(H2_VOTES)
+        self.assertIsNone(rates["Renew"])
+
+    def test_abstention_only_group_falls_back_to_prior(self):
+        rates = ep_flip.predictor_group_rates(H2_VOTES)
+        prior = {g: 0.8 for g in ep_flip.GROUPS}
+        pred = ep_flip.predict_plenary_per_group(rates, prior, alpha=1.0)
+        self.assertEqual(pred["Renew"], 0.8)   # prior, not a fabricated 0.0
+        self.assertEqual(pred["EPP"], 1.0)
+        self.assertEqual(pred["S&D"], 0.0)
+
+    def test_abstentions_leave_the_denominator(self):
+        rates = ep_flip.predictor_group_rates(H2_VOTES)
+        self.assertAlmostEqual(rates["ECR"], 0.5)   # 1+/1- of 2, not 1 of 3
+
+    def test_measurement_basis_unchanged_decision_1(self):
+        # The MEASUREMENT path keeps abstentions in the denominator (Decision 1).
+        rates = s0._committee_group_rates(H2_VOTES)
+        self.assertAlmostEqual(rates["ECR"], 1 / 3)
+        self.assertAlmostEqual(rates["Renew"], 0.0)   # 0/3, not None
+
+    def test_baseline_eval_artifact_still_reproduces(self):
+        # H2 must not move the §9.6 measurement: recompute the full LOO evaluation
+        # from the committed test set and compare against the committed artifact.
+        from praevisa import baseline_eval
+        from praevisa.baselines import load_testset
+        recomputed = baseline_eval.evaluate(load_testset())
+        committed = json.loads((REPO / "results" / "baseline_eval.json").read_text())
+        self.assertEqual(json.dumps(recomputed, indent=1),
+                         json.dumps(committed, indent=1))
 
 
 class TestRecordProcedureRef(unittest.TestCase):
