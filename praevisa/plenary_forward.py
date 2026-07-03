@@ -206,6 +206,12 @@ NOT_PREDICTED = [
 ]
 
 
+def _prior_rail(item: dict) -> bool:
+    """True for prior-rail items, including H1 demotions — their `signal` reads
+    `"prior (signal demoted: …)"`, and they are measured as prior, not committee."""
+    return item["signal"].startswith("prior")
+
+
 def _git_rev() -> str:
     try:
         return subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT,
@@ -298,32 +304,44 @@ def build() -> dict:
             "committee": m["committee"], "rapporteur": m["rapporteur"],
             "procedure": proc, "note": m.get("note"),
         }
-        rec = None
-        if m.get("corpus"):
-            rec = _find_record(*m["corpus"])
+        # Locate the committee record (COD index first, manifest locator second),
+        # then gate it through the pre-registered H1 eligibility rule. Ineligible
+        # records DEMOTE the item to the prior rail with the reason disclosed in
+        # `signal` and the tally kept — the information is never silently dropped.
+        rec, via = None, None
         if proc and proc in committee_index:
-            f = ep_flip.forecast_for(proc, committee_index, prior)
-            entry["signal"] = f"committee:{f['stage']}"
-            entry["contested"] = f["contested"]
-            entry.update(_seat_math(f["per_group"]))
-        elif rec is not None:
-            src_committee = m["corpus"][0]
-            com = s0._committee_group_rates(rec["votes"])
-            pred = ep_flip.predict_plenary_per_group(com, prior, alpha)
-            yes_overall, _ = s0._committee_yes(rec)
-            entry["signal"] = (f"opinion({src_committee})" if m.get("opinion_signal")
-                               else f"committee-rcv({src_committee})")
-            entry["contested"] = bool(yes_overall is not None
-                                      and yes_overall < s0.CONTESTED_MAX_YES)
-            entry["committee_tally"] = rec.get("tally")
-            entry.update(_seat_math(pred))
+            rec, via = committee_index[proc], "cod"
+        elif m.get("corpus"):
+            rec, via = _find_record(*m["corpus"]), "corpus"
+        eligible, why = (s0.signal_rail_eligible(rec, m["committee"], proc,
+                                                 m.get("opinion_signal", False))
+                         if rec is not None else (False, None))
+        if rec is not None and eligible:
+            if via == "cod":
+                f = ep_flip.forecast_for(proc, committee_index, prior)
+                entry["signal"] = f"committee:{f['stage']}"
+                entry["contested"] = f["contested"]
+                entry["committee_tally"] = rec.get("tally")
+                entry.update(_seat_math(f["per_group"]))
+            else:
+                com = s0._committee_group_rates(rec["votes"])
+                pred = ep_flip.predict_plenary_per_group(com, prior, alpha)
+                yes_overall, _ = s0._committee_yes(rec)
+                entry["signal"] = f"committee-rcv({rec.get('committee')})"
+                entry["contested"] = bool(yes_overall is not None
+                                          and yes_overall < s0.CONTESTED_MAX_YES)
+                entry["committee_tally"] = rec.get("tally")
+                entry.update(_seat_math(pred))
         else:
-            entry["signal"] = "prior"
+            entry["signal"] = ("prior" if rec is None
+                               else f"prior (signal demoted: {why})")
             entry["contested"] = None
+            if rec is not None:
+                entry["committee_tally"] = rec.get("tally")
             entry.update(_seat_math(dict(prior)))
         if m["type"] == "cod2":
             _second_reading(entry)   # threshold call — no adopt/reject probability
-        elif entry["signal"] == "prior":
+        elif entry["signal"].startswith("prior"):
             tp = prior_v2.for_ledger_type(m["type"], type_priors)
             if tp:
                 entry["p_adopt"] = tp["p_adopt"]
@@ -679,7 +697,7 @@ def grade() -> int:
             observed = {gr: baselines._yes_rate(s) for gr, s in bg.items()}
             g["observed_per_group"] = {gr: round(v, 4) for gr, v in observed.items()
                                        if v is not None}
-            if item["signal"] != "prior":
+            if not _prior_rail(item):
                 groups = [gr for gr in GROUPS
                           if observed.get(gr) is not None
                           and item["per_group"].get(gr) is not None
@@ -744,8 +762,8 @@ def _scorecard(ledger: dict) -> dict:
                                 in ("ADOPTED", "POSITION STANDS")),
             "share_mae": None,
         },
-        "prior": stats([i for i in graded if i["signal"] == "prior"]),
-        "committee": stats([i for i in graded if i["signal"] != "prior"]),
+        "prior": stats([i for i in graded if _prior_rail(i)]),
+        "committee": stats([i for i in graded if not _prior_rail(i)]),
     }
     return {
         "graded_through": max((i["graded"]["graded_at"] for i in graded), default=None),
@@ -770,7 +788,7 @@ def predict() -> int:
     md.write_text(render_md(ledger))
     print(f"wrote {out.relative_to(ROOT)} and {md.relative_to(ROOT)} "
           f"({ledger['n_items']} items)")
-    n_committee = sum(1 for i in ledger["items"] if i["signal"] != "prior")
+    n_committee = sum(1 for i in ledger["items"] if not _prior_rail(i))
     n_contested = sum(1 for i in ledger["items"] if i.get("contested"))
     print(f"  signal rail: {n_committee} committee/opinion, "
           f"{ledger['n_items'] - n_committee} prior-only; {n_contested} contested")
@@ -784,7 +802,7 @@ def status() -> int:
         print("status: no ledger yet — run predict (before the session).")
         return 1
     ledger = json.loads(out.read_text())
-    n_committee = sum(1 for i in ledger["items"] if i["signal"] != "prior")
+    n_committee = sum(1 for i in ledger["items"] if not _prior_rail(i))
     n_contested = sum(1 for i in ledger["items"] if i.get("contested"))
     print(f"forward ledger {ledger['session_dates']}: {ledger['n_items']} items, "
           f"cut {ledger['generated_at']} @ {ledger['engine_rev']} "

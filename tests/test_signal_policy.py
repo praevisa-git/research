@@ -1,0 +1,124 @@
+"""Pre-registration tests for the 2026-07 signal-policy revision (H1/H2/H3).
+
+These pin the hypotheses stated in ERROR_ANALYSIS_2026-06_ledger.md BEFORE the July
+ledger is cut: H1 signal-rail eligibility (responsible committee + final vote on the
+floor text + procedure-reference match, everything else demoted with disclosure),
+H2 predictor abstention handling, H3 consent prior + no vector reuse. Fixtures are
+faithful copies of the real corpus records that motivated the revision — above all
+the DEVE Liberia record whose polarity inversion sank the June signal rail.
+"""
+
+import unittest
+
+from praevisa import stage0_feasibility as s0
+
+# The record that caused the June failure: DEVE (opinion committee; responsible was
+# INTA) voting on adoption of an AMENDED DRAFT OPINION under the accompanying
+# M-procedure — subject line says only "FINAL VOTE BY ROLL CALL".
+LIBERIA_DEVE = {
+    "committee": "DEVE",
+    "procedure": "",
+    "rapporteur": "Marit Maij (S&D)",
+    "title": ("Termination of the Voluntary Partnership Agreement between the "
+              "European Union and the Republic of Liberia on Forest Law Enforcement "
+              "Governance and Trade in timber products to the European Union "
+              "(2025/0259M(NLE)) - Adoption of the draft opinion"),
+    "subject": "FINAL VOTE BY ROLL CALL",
+    "tally": {"+": 13, "-": 9, "0": 3},
+}
+
+# A clean responsible-committee report vote (the AGRI June winner, abridged).
+AGRI_REPORT = {
+    "committee": "AGRI",
+    "procedure": "2024/0319(COD)",
+    "rapporteur": "Céline Imart (PPE)",
+    "title": "Strengthening of the position of farmers in the food supply chain",
+    "subject": "Final vote",
+}
+
+
+class TestH1Eligibility(unittest.TestCase):
+    def test_responsible_final_vote_with_matching_reference_is_eligible(self):
+        ok, why = s0.signal_rail_eligible(AGRI_REPORT, "AGRI", "2024/0319(COD)")
+        self.assertTrue(ok)
+        self.assertEqual(why, "report")
+
+    def test_opinion_flag_demotes(self):
+        ok, why = s0.signal_rail_eligible(LIBERIA_DEVE, "DEVE", None,
+                                          opinion_flagged=True)
+        self.assertFalse(ok)
+        self.assertEqual(why, "opinion(DEVE)")
+
+    def test_liberia_record_demotes_even_without_the_flag(self):
+        # "Adoption of the draft opinion" lives in the TITLE; the subject line alone
+        # classifies as a report-stage final vote. The rule must still catch it.
+        ok, why = s0.signal_rail_eligible(LIBERIA_DEVE, "INTA", None)
+        self.assertFalse(ok)
+        self.assertEqual(why, "opinion(DEVE)")
+
+    def test_committee_mismatch_demotes(self):
+        rec = dict(AGRI_REPORT, committee="ENVI")
+        ok, why = s0.signal_rail_eligible(rec, "AGRI", "2024/0319(COD)")
+        self.assertFalse(ok)
+        self.assertIn("committee mismatch", why)
+        self.assertIn("ENVI", why)
+
+    def test_joint_committee_admits_either(self):
+        rec = dict(AGRI_REPORT, committee="IMCO")
+        ok, _ = s0.signal_rail_eligible(rec, "ENVI/IMCO", "2024/0319(COD)")
+        self.assertTrue(ok)
+
+    def test_mandate_vote_demotes(self):
+        rec = dict(AGRI_REPORT, subject="Vote on the decision to enter into "
+                                        "interinstitutional negotiations")
+        ok, why = s0.signal_rail_eligible(rec, "AGRI", "2024/0319(COD)")
+        self.assertFalse(ok)
+        self.assertIn("not a final vote on the floor text", why)
+        self.assertIn("mandate", why)
+
+    def test_provisional_agreement_vote_is_eligible(self):
+        # the post-trilogue text IS the object the floor votes on
+        rec = dict(AGRI_REPORT, subject="Vote on the provisional agreement resulting "
+                                        "from interinstitutional negotiations")
+        ok, why = s0.signal_rail_eligible(rec, "AGRI", "2024/0319(COD)")
+        self.assertTrue(ok)
+        self.assertEqual(why, "provisional")
+
+    def test_m_suffix_procedure_mismatch_demotes(self):
+        # base procedure on the item vs M-suffixed accompanying procedure in the
+        # record: reference mismatch disqualifies (H1c), even from the responsible
+        # committee with a clean final-vote subject.
+        rec = dict(AGRI_REPORT, procedure="",
+                   title="Some agreement (2025/0259M(NLE)) - final text")
+        ok, why = s0.signal_rail_eligible(rec, "AGRI", "2025/0259(NLE)")
+        self.assertFalse(ok)
+        self.assertIn("procedure mismatch", why)
+        self.assertIn("2025/0259M(NLE)", why)
+
+    def test_unknown_reference_on_either_side_passes_vacuously(self):
+        rec = dict(AGRI_REPORT, procedure="", title="No reference here")
+        ok, _ = s0.signal_rail_eligible(rec, "AGRI", "2024/0319(COD)")
+        self.assertTrue(ok)
+        ok, _ = s0.signal_rail_eligible(AGRI_REPORT, "AGRI", None)
+        self.assertTrue(ok)
+
+    def test_no_responsible_committee_demotes(self):
+        ok, why = s0.signal_rail_eligible(AGRI_REPORT, None, None)
+        self.assertFalse(ok)
+        self.assertIn("committee mismatch", why)
+
+
+class TestRecordProcedureRef(unittest.TestCase):
+    def test_field_beats_title(self):
+        rec = {"procedure": "2024/0319(COD)", "title": "blah (2025/0259M(NLE))"}
+        self.assertEqual(s0.record_procedure_ref(rec), "2024/0319(COD)")
+
+    def test_title_fallback_catches_m_suffix(self):
+        self.assertEqual(s0.record_procedure_ref(LIBERIA_DEVE), "2025/0259M(NLE)")
+
+    def test_none_when_absent(self):
+        self.assertIsNone(s0.record_procedure_ref({"procedure": "", "title": "x"}))
+
+
+if __name__ == "__main__":
+    unittest.main()

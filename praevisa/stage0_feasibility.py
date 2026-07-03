@@ -120,6 +120,61 @@ def classify_signal_stage(subject):
     return None
 
 
+_PROC_REF_RE = re.compile(r"\b(\d{4}/\d{4}[A-Z]?\([A-Z]{2,4}\))")
+
+
+def record_procedure_ref(rec):
+    """Best-effort procedure reference of a committee record: the explicit
+    `procedure` field when the scraper filled it, else the first reference
+    embedded in the title (committee PDFs routinely carry it there)."""
+    for field in ("procedure", "title"):
+        m = _PROC_REF_RE.search(rec.get(field) or "")
+        if m:
+            return m.group(1)
+    return None
+
+
+def signal_rail_eligible(rec, responsible_committee, item_procedure=None,
+                         opinion_flagged=False):
+    """H1 — signal-rail eligibility (pre-registered forward hypothesis, 2026-07).
+
+    A committee record may feed the plenary signal rail ONLY if all of:
+      (a) it comes from the item's RESPONSIBLE committee (a joint responsibility
+          like "ENVI/IMCO" admits either); an opinion-committee record never
+          qualifies, however clean its roll call;
+      (b) it is a FINAL VOTE on the report/text object that goes to the floor:
+          `classify_signal_stage` must return the report or provisional stage
+          (both are votes on the text the floor votes); a mandate vote is
+          procedural, and an "adoption of the draft opinion" vote is a different
+          object even when its subject line says only "FINAL VOTE BY ROLL CALL";
+      (c) its procedure reference matches the item's where both are known — an
+          M-suffixed accompanying procedure (2025/0259M(NLE)) does NOT match its
+          base procedure (2025/0259(NLE)).
+
+    Anything that fails is DEMOTED to the prior rail, never silently dropped: the
+    caller must disclose the reason in the item's `signal` field and keep
+    `committee_tally`. Returns (True, stage_label) or (False, reason).
+
+    Motivated by the June-2026 Liberia polarity inversion
+    (ERROR_ANALYSIS_2026-06_ledger.md §5, H1); first forward test: July 2026 ledger.
+    """
+    com = rec.get("committee") or "?"
+    blob = _norm_subject(f"{rec.get('subject') or ''} {rec.get('title') or ''}")
+    if opinion_flagged or "opinion" in blob:
+        return False, f"opinion({com})"
+    allowed = set((responsible_committee or "").split("/"))
+    if com not in allowed:
+        return False, f"committee mismatch ({com} not responsible: {responsible_committee})"
+    stage = classify_signal_stage(rec.get("subject"))
+    if stage is None or stage[1] == "mandate":
+        return False, ("not a final vote on the floor text "
+                       f"({stage[1] if stage else 'unclassified'})")
+    ref = record_procedure_ref(rec)
+    if ref and item_procedure and ref != item_procedure:
+        return False, f"procedure mismatch ({ref} != {item_procedure})"
+    return True, stage[1]
+
+
 def _committee_group_rates(votes):
     """Per-canonical-group yes-rate from a committee record's per-MEP votes.
 
