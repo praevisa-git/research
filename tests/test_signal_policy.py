@@ -10,6 +10,7 @@ the DEVE Liberia record whose polarity inversion sank the June signal rail.
 
 import json
 import unittest
+import unittest.mock
 from pathlib import Path
 
 from praevisa import ep_flip, stage0_feasibility as s0
@@ -155,6 +156,91 @@ class TestH2PredictorAbstentions(unittest.TestCase):
         committed = json.loads((REPO / "results" / "baseline_eval.json").read_text())
         self.assertEqual(json.dumps(recomputed, indent=1),
                          json.dumps(committed, indent=1))
+
+
+class TestH3ConsentPrior(unittest.TestCase):
+    def test_consent_vector_loads_from_committed_artifact(self):
+        from praevisa import prior_v2
+        vec = prior_v2.consent_vector()
+        self.assertIsNotNone(vec, "consent_per_group missing from prior_v2.json")
+        for g in ("EPP", "S&D", "Renew", "ECR", "Greens", "Left", "PfE", "ESN", "NI"):
+            self.assertIn(g, vec)
+            self.assertTrue(0.0 < vec[g] < 1.0)   # Jeffreys: never 0, never 1
+        # verified expectation: the centrist majority is near-consensus on consents
+        for g in ("EPP", "S&D", "Renew"):
+            self.assertGreater(vec[g], 0.9)
+
+    def test_pre_h3_artifact_returns_none(self):
+        from praevisa import prior_v2
+        self.assertIsNone(prior_v2.consent_vector({"types": {}}))
+
+
+# The two June Liberia manifest entries, frozen verbatim as a fixture (the June
+# ledger itself is never regenerated). Both located the same DEVE opinion record.
+JUNE_LIBERIA_MANIFEST = [
+    dict(day="2026-06-17", a10="A10-0133/2026", type="consent", committee="INTA",
+         rapporteur="Karin Karlsbro",
+         title="EU-Liberia Voluntary Partnership Agreement (timber): termination",
+         corpus=("DEVE", "Termination of the Voluntary Partnership", None),
+         opinion_signal=True),
+    dict(day="2026-06-17", a10="A10-0146/2026", type="resolution", committee="INTA",
+         rapporteur="Karin Karlsbro",
+         title="EU-Liberia Voluntary Partnership Agreement (timber): termination "
+               "(resolution)",
+         corpus=("DEVE", "Termination of the Voluntary Partnership", None),
+         opinion_signal=True),
+]
+
+
+class TestH3NoVectorReuse(unittest.TestCase):
+    def test_june_liberia_replay_both_items_prior_rail(self):
+        # Replay the June configuration through the new rail assignment: the DEVE
+        # record is an opinion on the M-procedure, so BOTH floor objects must land
+        # on the prior rail (test only — no June artifact is touched).
+        from praevisa import plenary_forward as pf
+        rails = pf._assign_rails(JUNE_LIBERIA_MANIFEST, committee_index={})
+        for rail in rails:
+            with self.subTest(why=rail["why"]):
+                self.assertIsNotNone(rail["rec"], "DEVE record not found in corpus")
+                self.assertFalse(rail["eligible"])
+                self.assertEqual(rail["why"], "opinion(DEVE)")
+
+    def test_one_record_two_items_reference_match_keeps_exactly_one(self):
+        from praevisa import plenary_forward as pf
+        rec = dict(AGRI_REPORT)
+        index = {"2024/0319(COD)": rec}
+        manifest = [
+            dict(day="d", a10="A10-1", type="cod1", committee="AGRI", rapporteur="r",
+                 procedure="2024/0319(COD)", title="Farmers — the report"),
+            dict(day="d", a10="A10-2", type="resolution", committee="AGRI",
+                 rapporteur="r", procedure="2024/0319(COD)",
+                 title="Farmers — accompanying resolution"),
+        ]
+        # both reference-match the record -> ambiguous -> neither may take it
+        rails = pf._assign_rails(manifest, index)
+        self.assertEqual([r["eligible"] for r in rails], [False, False])
+        for r in rails:
+            self.assertIn("vector reuse", r["why"])
+        # only the first carries the matching reference (the accompanying
+        # resolution reaches the same record via the corpus locator, referenceless)
+        # -> the reference-matched item keeps the signal, the other demotes
+        manifest[1]["procedure"] = None
+        manifest[1]["corpus"] = ("AGRI", "Farmers", None)
+        with unittest.mock.patch.object(pf, "_find_record", return_value=rec):
+            rails = pf._assign_rails(manifest, index)
+        self.assertTrue(rails[0]["eligible"])
+        self.assertFalse(rails[1]["eligible"])
+        self.assertIn("vector reuse", rails[1]["why"])
+        self.assertIn("A10-1", rails[1]["why"])
+
+    def test_single_item_single_record_unaffected(self):
+        from praevisa import plenary_forward as pf
+        index = {"2024/0319(COD)": dict(AGRI_REPORT)}
+        manifest = [dict(day="d", a10="A10-1", type="cod1", committee="AGRI",
+                         rapporteur="r", procedure="2024/0319(COD)", title="Farmers")]
+        rails = pf._assign_rails(manifest, index)
+        self.assertTrue(rails[0]["eligible"])
+        self.assertEqual(rails[0]["why"], "report")
 
 
 class TestRecordProcedureRef(unittest.TestCase):

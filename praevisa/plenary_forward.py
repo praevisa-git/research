@@ -285,6 +285,58 @@ def _committee_p_adopt(entry: dict, residuals: list[dict] | None, rng) -> float 
                  else 1.0 - p_predicted_holds, 4)
 
 
+def _assign_rails(manifest: list[dict], committee_index: dict) -> list[dict]:
+    """Locate each manifest item's committee record and decide its rail.
+
+    Pure and network-free (reads only the local corpora via `committee_index` /
+    `_find_record`), so the June manifest can be replayed against it in tests.
+    Applies, in order:
+      H1  — `s0.signal_rail_eligible`: responsible committee + final vote on the
+            floor text + procedure-reference match; failures demote with a reason;
+      H3  — no vector reuse: one committee record may feed at most ONE floor
+            object — the one whose procedure reference matches the record (H1c).
+            With no reference to disambiguate, ALL sharing items demote: assigning
+            the vector to an arbitrary object is exactly the June Liberia failure.
+
+    Returns one dict per item: {rec, via, eligible, why}.
+    """
+    out = []
+    for m in manifest:
+        proc = m.get("procedure")
+        rec, via = None, None
+        if proc and proc in committee_index:
+            rec, via = committee_index[proc], "cod"
+        elif m.get("corpus"):
+            rec, via = _find_record(*m["corpus"]), "corpus"
+        eligible, why = (s0.signal_rail_eligible(rec, m.get("committee"), proc,
+                                                 bool(m.get("opinion_signal")))
+                         if rec is not None else (False, None))
+        out.append({"rec": rec, "via": via, "eligible": eligible, "why": why})
+    shared: dict[tuple, list[int]] = {}
+    for i, r in enumerate(out):
+        if r["rec"] is not None:
+            key = (r["rec"].get("source"), r["rec"].get("title"),
+                   r["rec"].get("subject"))
+            shared.setdefault(key, []).append(i)
+    for idxs in shared.values():
+        elig = [i for i in idxs if out[i]["eligible"]]
+        if len(elig) <= 1:
+            continue
+        ref = s0.record_procedure_ref(out[elig[0]]["rec"])
+        matches = [i for i in elig if ref and manifest[i].get("procedure") == ref]
+        keep = matches[0] if len(matches) == 1 else None
+        for i in elig:
+            if i == keep:
+                continue
+            out[i]["eligible"] = False
+            out[i]["why"] = (
+                f"vector reuse: one committee record maps to {len(elig)} floor "
+                "objects" + (", assigned to "
+                             f"{manifest[keep].get('a10') or manifest[keep]['title'][:40]}"
+                             if keep is not None else ", none reference-matched"))
+    return out
+
+
 def build() -> dict:
     committee_index = s0.load_committee_cod()
     prior = ep_flip._baseline_A()
@@ -296,26 +348,21 @@ def build() -> dict:
         rng = random.Random(stress_set.SEED)
     except Exception:
         com_residuals, rng = None, None
+    consent_vec = prior_v2.consent_vector(type_priors)
+    # Rail assignment is H1 + H3 (no vector reuse), pre-registered: ineligible
+    # records DEMOTE the item to the prior rail with the reason disclosed in
+    # `signal` and the tally kept — the information is never silently dropped.
+    rails = _assign_rails(MANIFEST, committee_index)
     items = []
-    for m in MANIFEST:
+    for m, rail in zip(MANIFEST, rails):
         proc = m.get("procedure")
         entry = {
             "day": m["day"], "a10": m["a10"], "title": m["title"], "type": m["type"],
             "committee": m["committee"], "rapporteur": m["rapporteur"],
             "procedure": proc, "note": m.get("note"),
         }
-        # Locate the committee record (COD index first, manifest locator second),
-        # then gate it through the pre-registered H1 eligibility rule. Ineligible
-        # records DEMOTE the item to the prior rail with the reason disclosed in
-        # `signal` and the tally kept — the information is never silently dropped.
-        rec, via = None, None
-        if proc and proc in committee_index:
-            rec, via = committee_index[proc], "cod"
-        elif m.get("corpus"):
-            rec, via = _find_record(*m["corpus"]), "corpus"
-        eligible, why = (s0.signal_rail_eligible(rec, m["committee"], proc,
-                                                 m.get("opinion_signal", False))
-                         if rec is not None else (False, None))
+        rec, via, eligible, why = (rail["rec"], rail["via"], rail["eligible"],
+                                   rail["why"])
         if rec is not None and eligible:
             if via == "cod":
                 f = ep_flip.forecast_for(proc, committee_index, prior)
@@ -338,7 +385,13 @@ def build() -> dict:
             entry["contested"] = None
             if rec is not None:
                 entry["committee_tally"] = rec.get("tally")
-            entry.update(_seat_math(dict(prior)))
+            vec = dict(prior)
+            if m["type"] == "consent" and consent_vec:
+                # H3: consent-type per-group prior (Term-10 NLE mains) instead of
+                # the topic-blind baseline_A vector.
+                vec.update({g: v for g, v in consent_vec.items() if v is not None})
+                entry["prior_basis"] = "consent_per_group(prior_v2)"
+            entry.update(_seat_math(vec))
         if m["type"] == "cod2":
             _second_reading(entry)   # threshold call — no adopt/reject probability
         elif entry["signal"].startswith("prior"):

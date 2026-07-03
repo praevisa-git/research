@@ -1,0 +1,3242 @@
+{
+ "source": "howtheyvote.eu/api (by-id detail) enumerated from bulk export",
+ "source_release": "2026-06-20",
+ "filter": "Term-10 (>= 2024-07-16) NLE main votes, definite result, Rule-71 mandate votes excluded",
+ "n_votes": 61,
+ "skipped": [],
+ "votes": [
+  {
+   "id": "169401",
+   "timestamp": "2024-09-19",
+   "procedure_reference": "2024/0046(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 153,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 117,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "ECR": {
+     "FOR": 65,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Left": {
+     "FOR": 24,
+     "AGAINST": 11,
+     "ABSTENTION": 6
+    },
+    "NI": {
+     "FOR": 17,
+     "AGAINST": 5,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "169898",
+   "timestamp": "2024-10-23",
+   "procedure_reference": "2024/0599(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 157,
+     "AGAINST": 8,
+     "ABSTENTION": 3
+    },
+    "S&D": {
+     "FOR": 119,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 1,
+     "AGAINST": 71,
+     "ABSTENTION": 6
+    },
+    "ECR": {
+     "FOR": 0,
+     "AGAINST": 71,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 60,
+     "AGAINST": 1,
+     "ABSTENTION": 8
+    },
+    "Greens": {
+     "FOR": 49,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 42,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 10,
+     "ABSTENTION": 0
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 18,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "171158",
+   "timestamp": "2024-12-18",
+   "procedure_reference": "2024/0048(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 169,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 1,
+     "ABSTENTION": 11
+    },
+    "PfE": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 5
+    },
+    "ECR": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 74,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 17,
+     "AGAINST": 32,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 4,
+     "AGAINST": 38,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 9,
+     "AGAINST": 10,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 21,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "171159",
+   "timestamp": "2024-12-18",
+   "procedure_reference": "2015/0012(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 167,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 125,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 29,
+     "AGAINST": 4,
+     "ABSTENTION": 43
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 74,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 49,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 41,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 17,
+     "AGAINST": 3,
+     "ABSTENTION": 5
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "171160",
+   "timestamp": "2024-12-18",
+   "procedure_reference": "2023/0456(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 165,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 108,
+     "AGAINST": 1,
+     "ABSTENTION": 11
+    },
+    "PfE": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 5
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 18,
+     "AGAINST": 26,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 4,
+     "AGAINST": 37,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 9,
+     "AGAINST": 10,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "171161",
+   "timestamp": "2024-12-18",
+   "procedure_reference": "2024/0010(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 168,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 1,
+     "ABSTENTION": 11
+    },
+    "PfE": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 11
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 74,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 19,
+     "AGAINST": 29,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 5,
+     "AGAINST": 37,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 10,
+     "AGAINST": 10,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 20,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "171425",
+   "timestamp": "2025-01-21",
+   "procedure_reference": "2024/0074(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 170,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 117,
+     "AGAINST": 5,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 65,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 50,
+     "ABSTENTION": 2
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 30,
+     "ABSTENTION": 12
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 3,
+     "ABSTENTION": 8
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 2,
+     "ABSTENTION": 20
+    }
+   }
+  },
+  {
+   "id": "171703",
+   "timestamp": "2025-02-11",
+   "procedure_reference": "2015/0188(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 160,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 110,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 59,
+     "AGAINST": 1,
+     "ABSTENTION": 2
+    },
+    "ECR": {
+     "FOR": 65,
+     "AGAINST": 2,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 66,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 33,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 2,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 3,
+     "AGAINST": 12,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "171704",
+   "timestamp": "2025-02-11",
+   "procedure_reference": "2024/0133(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 163,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 111,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 32,
+     "AGAINST": 30,
+     "ABSTENTION": 8
+    },
+    "ECR": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 6
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 52,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 5,
+     "AGAINST": 29,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 12,
+     "AGAINST": 5,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 12,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "171705",
+   "timestamp": "2025-02-11",
+   "procedure_reference": "2024/0240(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 163,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 68,
+     "AGAINST": 6,
+     "ABSTENTION": 2
+    },
+    "ECR": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 34,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 13,
+     "AGAINST": 2,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 14,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "172114",
+   "timestamp": "2025-03-12",
+   "procedure_reference": "2024/0051(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 172,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 3,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 78,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 62,
+     "AGAINST": 6,
+     "ABSTENTION": 3
+    },
+    "Greens": {
+     "FOR": 3,
+     "AGAINST": 41,
+     "ABSTENTION": 5
+    },
+    "Left": {
+     "FOR": 7,
+     "AGAINST": 32,
+     "ABSTENTION": 3
+    },
+    "NI": {
+     "FOR": 6,
+     "AGAINST": 8,
+     "ABSTENTION": 13
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 0,
+     "ABSTENTION": 20
+    }
+   }
+  },
+  {
+   "id": "172115",
+   "timestamp": "2025-03-12",
+   "procedure_reference": "2023/0341(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 146,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 101,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Greens": {
+     "FOR": 40,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 5,
+     "ABSTENTION": 27
+    },
+    "NI": {
+     "FOR": 19,
+     "AGAINST": 0,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 18,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "173686",
+   "timestamp": "2025-04-02",
+   "procedure_reference": "2024/0167(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 178,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 80,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 76,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 21,
+     "AGAINST": 5,
+     "ABSTENTION": 17
+    },
+    "NI": {
+     "FOR": 17,
+     "AGAINST": 4,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 0,
+     "ABSTENTION": 22
+    }
+   }
+  },
+  {
+   "id": "173687",
+   "timestamp": "2025-04-02",
+   "procedure_reference": "2024/0159(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 178,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 129,
+     "AGAINST": 1,
+     "ABSTENTION": 2
+    },
+    "PfE": {
+     "FOR": 53,
+     "AGAINST": 27,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 5,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 2,
+     "ABSTENTION": 48
+    },
+    "Left": {
+     "FOR": 7,
+     "AGAINST": 37,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 7,
+     "AGAINST": 10,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 21,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "173688",
+   "timestamp": "2025-04-02",
+   "procedure_reference": "2024/0052(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 140,
+     "AGAINST": 32,
+     "ABSTENTION": 7
+    },
+    "S&D": {
+     "FOR": 131,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 34,
+     "AGAINST": 30,
+     "ABSTENTION": 15
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 4,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 5,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 40,
+     "ABSTENTION": 4
+    },
+    "NI": {
+     "FOR": 10,
+     "AGAINST": 10,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 24,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "173903",
+   "timestamp": "2025-04-02",
+   "procedure_reference": "2024/0159M(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 178,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 130,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 46,
+     "AGAINST": 34,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 6,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 42,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 6,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 20,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "176681",
+   "timestamp": "2025-05-22",
+   "procedure_reference": "2025/0035(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 150,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "S&D": {
+     "FOR": 100,
+     "AGAINST": 5,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 61,
+     "AGAINST": 7,
+     "ABSTENTION": 3
+    },
+    "ECR": {
+     "FOR": 68,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 62,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 6,
+     "AGAINST": 35,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 3,
+     "AGAINST": 4,
+     "ABSTENTION": 30
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 3,
+     "ABSTENTION": 2
+    },
+    "ESN": {
+     "FOR": 24,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "177333",
+   "timestamp": "2025-06-17",
+   "procedure_reference": "2024/0245(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 179,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 131,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 44,
+     "AGAINST": 30,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 4,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 6,
+     "AGAINST": 35,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 12,
+     "AGAINST": 9,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 26,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "177334",
+   "timestamp": "2025-06-17",
+   "procedure_reference": "2024/0245M(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 180,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 130,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 10,
+     "AGAINST": 37,
+     "ABSTENTION": 27
+    },
+    "ECR": {
+     "FOR": 64,
+     "AGAINST": 9,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 38,
+     "AGAINST": 1,
+     "ABSTENTION": 3
+    },
+    "NI": {
+     "FOR": 20,
+     "AGAINST": 3,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 25,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "177335",
+   "timestamp": "2025-06-17",
+   "procedure_reference": "2024/0290(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 148,
+     "AGAINST": 24,
+     "ABSTENTION": 2
+    },
+    "S&D": {
+     "FOR": 127,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "PfE": {
+     "FOR": 8,
+     "AGAINST": 41,
+     "ABSTENTION": 24
+    },
+    "ECR": {
+     "FOR": 43,
+     "AGAINST": 30,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 51,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 39,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "NI": {
+     "FOR": 7,
+     "AGAINST": 19,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 23,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "177411",
+   "timestamp": "2025-06-18",
+   "procedure_reference": "2024/0146(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 167,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 123,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 19,
+     "AGAINST": 27,
+     "ABSTENTION": 32
+    },
+    "ECR": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 7
+    },
+    "Renew": {
+     "FOR": 65,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 52,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 40,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 20,
+     "AGAINST": 1,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 4,
+     "AGAINST": 19,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "177648",
+   "timestamp": "2025-07-08",
+   "procedure_reference": "2024/0263(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 175,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 126,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 1,
+     "AGAINST": 80,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 2,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 52,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 37,
+     "AGAINST": 0,
+     "ABSTENTION": 4
+    },
+    "NI": {
+     "FOR": 22,
+     "AGAINST": 5,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 22,
+     "ABSTENTION": 4
+    }
+   }
+  },
+  {
+   "id": "177666",
+   "timestamp": "2025-07-08",
+   "procedure_reference": "2025/0158(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 176,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 125,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 26,
+     "AGAINST": 20,
+     "ABSTENTION": 34
+    },
+    "ECR": {
+     "FOR": 60,
+     "AGAINST": 5,
+     "ABSTENTION": 12
+    },
+    "Renew": {
+     "FOR": 70,
+     "AGAINST": 1,
+     "ABSTENTION": 1
+    },
+    "Greens": {
+     "FOR": 52,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 12,
+     "AGAINST": 0,
+     "ABSTENTION": 28
+    },
+    "NI": {
+     "FOR": 10,
+     "AGAINST": 16,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 26,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "177691",
+   "timestamp": "2025-07-08",
+   "procedure_reference": "2024/0263(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 176,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 125,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 54,
+     "AGAINST": 0,
+     "ABSTENTION": 27
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 52,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 36,
+     "AGAINST": 4,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 23,
+     "AGAINST": 4,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 21,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "178336",
+   "timestamp": "2025-09-09",
+   "procedure_reference": "2024/0321(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 174,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 110,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 81,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 60,
+     "AGAINST": 0,
+     "ABSTENTION": 5
+    },
+    "Greens": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Left": {
+     "FOR": 22,
+     "AGAINST": 3,
+     "ABSTENTION": 10
+    },
+    "NI": {
+     "FOR": 24,
+     "AGAINST": 2,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 25,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "178385",
+   "timestamp": "2025-09-10",
+   "procedure_reference": "2025/0066(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 176,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 129,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 70,
+     "AGAINST": 6,
+     "ABSTENTION": 5
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 47,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 37,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 24,
+     "AGAINST": 2,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 3,
+     "AGAINST": 0,
+     "ABSTENTION": 23
+    }
+   }
+  },
+  {
+   "id": "178386",
+   "timestamp": "2025-09-10",
+   "procedure_reference": "2012/0231(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 175,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 127,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 54,
+     "AGAINST": 0,
+     "ABSTENTION": 27
+    },
+    "ECR": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 33,
+     "AGAINST": 1,
+     "ABSTENTION": 3
+    },
+    "NI": {
+     "FOR": 24,
+     "AGAINST": 3,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 25,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "178387",
+   "timestamp": "2025-09-09",
+   "procedure_reference": "2022/0184(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 172,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 120,
+     "AGAINST": 4,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 60,
+     "AGAINST": 2,
+     "ABSTENTION": 20
+    },
+    "ECR": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 5
+    },
+    "Renew": {
+     "FOR": 46,
+     "AGAINST": 1,
+     "ABSTENTION": 19
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 47,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 29,
+     "ABSTENTION": 6
+    },
+    "NI": {
+     "FOR": 11,
+     "AGAINST": 7,
+     "ABSTENTION": 8
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 24,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "178424",
+   "timestamp": "2025-09-09",
+   "procedure_reference": "2022/0184M(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 173,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "S&D": {
+     "FOR": 123,
+     "AGAINST": 2,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 10,
+     "ABSTENTION": 72
+    },
+    "ECR": {
+     "FOR": 11,
+     "AGAINST": 4,
+     "ABSTENTION": 53
+    },
+    "Renew": {
+     "FOR": 65,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 8,
+     "AGAINST": 0,
+     "ABSTENTION": 27
+    },
+    "NI": {
+     "FOR": 6,
+     "AGAINST": 10,
+     "ABSTENTION": 13
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 23,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "178425",
+   "timestamp": "2025-09-10",
+   "procedure_reference": "2025/0055(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 176,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 4,
+     "ABSTENTION": 11
+    },
+    "PfE": {
+     "FOR": 76,
+     "AGAINST": 5,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 7,
+     "AGAINST": 37,
+     "ABSTENTION": 4
+    },
+    "Left": {
+     "FOR": 2,
+     "AGAINST": 35,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 5,
+     "ABSTENTION": 9
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 2,
+     "ABSTENTION": 23
+    }
+   }
+  },
+  {
+   "id": "179203",
+   "timestamp": "2025-10-08",
+   "procedure_reference": "2025/0154(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 172,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "S&D": {
+     "FOR": 116,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 1,
+     "AGAINST": 69,
+     "ABSTENTION": 8
+    },
+    "ECR": {
+     "FOR": 2,
+     "AGAINST": 12,
+     "ABSTENTION": 58
+    },
+    "Renew": {
+     "FOR": 58,
+     "AGAINST": 0,
+     "ABSTENTION": 10
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 8,
+     "AGAINST": 16,
+     "ABSTENTION": 8
+    },
+    "NI": {
+     "FOR": 9,
+     "AGAINST": 8,
+     "ABSTENTION": 13
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 24,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "179281",
+   "timestamp": "2025-10-08",
+   "procedure_reference": "2025/0046(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 169,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 106,
+     "AGAINST": 1,
+     "ABSTENTION": 2
+    },
+    "PfE": {
+     "FOR": 51,
+     "AGAINST": 27,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 68,
+     "AGAINST": 4,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 44,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 2,
+     "AGAINST": 34,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 13,
+     "AGAINST": 9,
+     "ABSTENTION": 8
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 22,
+     "ABSTENTION": 2
+    }
+   }
+  },
+  {
+   "id": "179481",
+   "timestamp": "2025-10-08",
+   "procedure_reference": "2017/0159(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 169,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 116,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 76,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 35,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 24,
+     "AGAINST": 3,
+     "ABSTENTION": 2
+    },
+    "ESN": {
+     "FOR": 24,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "180621",
+   "timestamp": "2025-11-13",
+   "procedure_reference": "2025/0009(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 169,
+     "AGAINST": 3,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 102,
+     "AGAINST": 5,
+     "ABSTENTION": 16
+    },
+    "PfE": {
+     "FOR": 69,
+     "AGAINST": 5,
+     "ABSTENTION": 2
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 2,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Greens": {
+     "FOR": 6,
+     "AGAINST": 31,
+     "ABSTENTION": 10
+    },
+    "Left": {
+     "FOR": 0,
+     "AGAINST": 39,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 8,
+     "ABSTENTION": 2
+    },
+    "ESN": {
+     "FOR": 22,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "180622",
+   "timestamp": "2025-11-13",
+   "procedure_reference": "2025/0009M(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 170,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 118,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 69,
+     "AGAINST": 5,
+     "ABSTENTION": 1
+    },
+    "ECR": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 8,
+     "ABSTENTION": 31
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 4,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 22,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "181511",
+   "timestamp": "2025-11-25",
+   "procedure_reference": "2018/0902R(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 140,
+     "AGAINST": 8,
+     "ABSTENTION": 14
+    },
+    "S&D": {
+     "FOR": 120,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 79,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 1,
+     "AGAINST": 63,
+     "ABSTENTION": 8
+    },
+    "Renew": {
+     "FOR": 66,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 49,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 35,
+     "AGAINST": 1,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 4,
+     "AGAINST": 20,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 22,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "182462",
+   "timestamp": "2025-12-17",
+   "procedure_reference": "2025/0229(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 173,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 122,
+     "AGAINST": 1,
+     "ABSTENTION": 3
+    },
+    "PfE": {
+     "FOR": 67,
+     "AGAINST": 5,
+     "ABSTENTION": 6
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 4,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 67,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 18,
+     "AGAINST": 20,
+     "ABSTENTION": 4
+    },
+    "NI": {
+     "FOR": 19,
+     "AGAINST": 5,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 1,
+     "ABSTENTION": 4
+    }
+   }
+  },
+  {
+   "id": "182512",
+   "timestamp": "2025-12-17",
+   "procedure_reference": "2024/0178(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 173,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 118,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 78,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 4,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 33,
+     "AGAINST": 5,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 22,
+     "AGAINST": 2,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 2,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "183058",
+   "timestamp": "2026-01-21",
+   "procedure_reference": "2024/0305(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 178,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 2,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 80,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 74,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 1,
+     "AGAINST": 48,
+     "ABSTENTION": 2
+    },
+    "Left": {
+     "FOR": 9,
+     "AGAINST": 28,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 17,
+     "AGAINST": 5,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 22,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "184117",
+   "timestamp": "2026-02-11",
+   "procedure_reference": "2024/0101R(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 167,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "S&D": {
+     "FOR": 120,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 48,
+     "AGAINST": 9,
+     "ABSTENTION": 17
+    },
+    "ECR": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "Renew": {
+     "FOR": 63,
+     "AGAINST": 1,
+     "ABSTENTION": 3
+    },
+    "Greens": {
+     "FOR": 47,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 24,
+     "AGAINST": 10,
+     "ABSTENTION": 8
+    },
+    "NI": {
+     "FOR": 11,
+     "AGAINST": 2,
+     "ABSTENTION": 18
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 2,
+     "ABSTENTION": 22
+    }
+   }
+  },
+  {
+   "id": "186376",
+   "timestamp": "2026-03-11",
+   "procedure_reference": "2025/0120(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 165,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 107,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 63,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 77,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 65,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "Greens": {
+     "FOR": 44,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 19,
+     "AGAINST": 18,
+     "ABSTENTION": 4
+    },
+    "NI": {
+     "FOR": 21,
+     "AGAINST": 3,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 25,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "186516",
+   "timestamp": "2026-03-11",
+   "procedure_reference": "2025/0136(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 164,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 116,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 0,
+     "AGAINST": 56,
+     "ABSTENTION": 7
+    },
+    "ECR": {
+     "FOR": 3,
+     "AGAINST": 11,
+     "ABSTENTION": 63
+    },
+    "Renew": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 47,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 42,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 9,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 25,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "189249",
+   "timestamp": "2026-03-26",
+   "procedure_reference": "2024/0324(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 165,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 108,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 82,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 68,
+     "AGAINST": 4,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 47,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 36,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 22,
+     "AGAINST": 2,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 22,
+     "AGAINST": 0,
+     "ABSTENTION": 4
+    }
+   }
+  },
+  {
+   "id": "189250",
+   "timestamp": "2026-03-26",
+   "procedure_reference": "2025/0233(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 167,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 101,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 83,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 74,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 21,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "NI": {
+     "FOR": 23,
+     "AGAINST": 2,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 23,
+     "AGAINST": 0,
+     "ABSTENTION": 4
+    }
+   }
+  },
+  {
+   "id": "189251",
+   "timestamp": "2026-03-26",
+   "procedure_reference": "2023/0183(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 168,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 108,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 83,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 74,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 68,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 5,
+     "AGAINST": 2,
+     "ABSTENTION": 30
+    },
+    "NI": {
+     "FOR": 22,
+     "AGAINST": 1,
+     "ABSTENTION": 3
+    },
+    "ESN": {
+     "FOR": 27,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "189929",
+   "timestamp": "2026-04-29",
+   "procedure_reference": "2011/0102(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 163,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    },
+    "ECR": {
+     "FOR": 80,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 65,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 42,
+     "AGAINST": 1,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 16,
+     "AGAINST": 5,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 27,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "189930",
+   "timestamp": "2026-04-29",
+   "procedure_reference": "2025/0156(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 163,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 104,
+     "AGAINST": 0,
+     "ABSTENTION": 4
+    },
+    "PfE": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 81,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 66,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 3,
+     "AGAINST": 34,
+     "ABSTENTION": 7
+    },
+    "Left": {
+     "FOR": 9,
+     "AGAINST": 32,
+     "ABSTENTION": 3
+    },
+    "NI": {
+     "FOR": 13,
+     "AGAINST": 6,
+     "ABSTENTION": 8
+    },
+    "ESN": {
+     "FOR": 18,
+     "AGAINST": 3,
+     "ABSTENTION": 6
+    }
+   }
+  },
+  {
+   "id": "190097",
+   "timestamp": "2026-04-29",
+   "procedure_reference": "2025/0283(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 165,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 58,
+     "AGAINST": 10,
+     "ABSTENTION": 6
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 4
+    },
+    "Renew": {
+     "FOR": 66,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 44,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 22,
+     "AGAINST": 3,
+     "ABSTENTION": 2
+    },
+    "ESN": {
+     "FOR": 5,
+     "AGAINST": 0,
+     "ABSTENTION": 22
+    }
+   }
+  },
+  {
+   "id": "190098",
+   "timestamp": "2026-04-29",
+   "procedure_reference": "2025/0145(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 161,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 106,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "PfE": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 80,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 66,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 3,
+     "AGAINST": 34,
+     "ABSTENTION": 7
+    },
+    "Left": {
+     "FOR": 10,
+     "AGAINST": 29,
+     "ABSTENTION": 3
+    },
+    "NI": {
+     "FOR": 12,
+     "AGAINST": 6,
+     "ABSTENTION": 9
+    },
+    "ESN": {
+     "FOR": 19,
+     "AGAINST": 3,
+     "ABSTENTION": 5
+    }
+   }
+  },
+  {
+   "id": "192443",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2024/0260(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 156,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 113,
+     "AGAINST": 0,
+     "ABSTENTION": 5
+    },
+    "PfE": {
+     "FOR": 68,
+     "AGAINST": 7,
+     "ABSTENTION": 3
+    },
+    "ECR": {
+     "FOR": 65,
+     "AGAINST": 8,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 0,
+     "AGAINST": 45,
+     "ABSTENTION": 4
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 37,
+     "ABSTENTION": 5
+    },
+    "NI": {
+     "FOR": 12,
+     "AGAINST": 7,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 7,
+     "AGAINST": 0,
+     "ABSTENTION": 19
+    }
+   }
+  },
+  {
+   "id": "192444",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2025/0193(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 159,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 122,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 78,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 76,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 70,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 48,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 43,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 23,
+     "AGAINST": 1,
+     "ABSTENTION": 2
+    },
+    "ESN": {
+     "FOR": 25,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "192445",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2024/0155(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 159,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 112,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 78,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 47,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 12,
+     "AGAINST": 6,
+     "ABSTENTION": 24
+    },
+    "NI": {
+     "FOR": 22,
+     "AGAINST": 3,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 4,
+     "AGAINST": 2,
+     "ABSTENTION": 20
+    }
+   }
+  },
+  {
+   "id": "192446",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2025/0231(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 159,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 102,
+     "AGAINST": 1,
+     "ABSTENTION": 5
+    },
+    "PfE": {
+     "FOR": 70,
+     "AGAINST": 6,
+     "ABSTENTION": 3
+    },
+    "ECR": {
+     "FOR": 73,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 1,
+     "AGAINST": 47,
+     "ABSTENTION": 1
+    },
+    "Left": {
+     "FOR": 12,
+     "AGAINST": 22,
+     "ABSTENTION": 7
+    },
+    "NI": {
+     "FOR": 6,
+     "AGAINST": 9,
+     "ABSTENTION": 10
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 6,
+     "ABSTENTION": 18
+    }
+   }
+  },
+  {
+   "id": "192447",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2025/0202(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 159,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 34,
+     "AGAINST": 41,
+     "ABSTENTION": 4
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 3,
+     "ABSTENTION": 1
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 49,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 3,
+     "AGAINST": 39,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 15,
+     "AGAINST": 5,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 22,
+     "AGAINST": 1,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "192448",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2025/0287(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 158,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 14,
+     "AGAINST": 52,
+     "ABSTENTION": 12
+    },
+    "ECR": {
+     "FOR": 70,
+     "AGAINST": 4,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 2,
+     "AGAINST": 0,
+     "ABSTENTION": 47
+    },
+    "Left": {
+     "FOR": 3,
+     "AGAINST": 39,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 13,
+     "AGAINST": 6,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 23,
+     "AGAINST": 0,
+     "ABSTENTION": 3
+    }
+   }
+  },
+  {
+   "id": "192473",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2024/0260M(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 158,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 119,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 7,
+     "AGAINST": 4,
+     "ABSTENTION": 68
+    },
+    "ECR": {
+     "FOR": 8,
+     "AGAINST": 2,
+     "ABSTENTION": 66
+    },
+    "Renew": {
+     "FOR": 72,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 47,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 0,
+     "ABSTENTION": 42
+    },
+    "NI": {
+     "FOR": 11,
+     "AGAINST": 9,
+     "ABSTENTION": 6
+    },
+    "ESN": {
+     "FOR": 0,
+     "AGAINST": 0,
+     "ABSTENTION": 26
+    }
+   }
+  },
+  {
+   "id": "192484",
+   "timestamp": "2026-05-19",
+   "procedure_reference": "2025/0398(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 162,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 115,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 48,
+     "AGAINST": 8,
+     "ABSTENTION": 26
+    },
+    "ECR": {
+     "FOR": 68,
+     "AGAINST": 2,
+     "ABSTENTION": 4
+    },
+    "Renew": {
+     "FOR": 64,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 11,
+     "AGAINST": 2,
+     "ABSTENTION": 30
+    },
+    "NI": {
+     "FOR": 14,
+     "AGAINST": 4,
+     "ABSTENTION": 9
+    },
+    "ESN": {
+     "FOR": 10,
+     "AGAINST": 1,
+     "ABSTENTION": 14
+    }
+   }
+  },
+  {
+   "id": "192529",
+   "timestamp": "2026-05-20",
+   "procedure_reference": "2025/0413(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 156,
+     "AGAINST": 1,
+     "ABSTENTION": 1
+    },
+    "S&D": {
+     "FOR": 121,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 18,
+     "AGAINST": 57,
+     "ABSTENTION": 4
+    },
+    "ECR": {
+     "FOR": 44,
+     "AGAINST": 29,
+     "ABSTENTION": 3
+    },
+    "Renew": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Greens": {
+     "FOR": 49,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 7,
+     "AGAINST": 34,
+     "ABSTENTION": 2
+    },
+    "NI": {
+     "FOR": 1,
+     "AGAINST": 23,
+     "ABSTENTION": 1
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 24,
+     "ABSTENTION": 1
+    }
+   }
+  },
+  {
+   "id": "193517",
+   "timestamp": "2026-06-17",
+   "procedure_reference": "2025/0259(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 170,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 127,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "PfE": {
+     "FOR": 64,
+     "AGAINST": 7,
+     "ABSTENTION": 6
+    },
+    "ECR": {
+     "FOR": 75,
+     "AGAINST": 0,
+     "ABSTENTION": 2
+    },
+    "Renew": {
+     "FOR": 69,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 45,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 16,
+     "AGAINST": 28,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 19,
+     "AGAINST": 1,
+     "ABSTENTION": 7
+    },
+    "ESN": {
+     "FOR": 23,
+     "AGAINST": 2,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "193518",
+   "timestamp": "2026-06-17",
+   "procedure_reference": "2025/0259M(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 168,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 126,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "PfE": {
+     "FOR": 39,
+     "AGAINST": 15,
+     "ABSTENTION": 23
+    },
+    "ECR": {
+     "FOR": 33,
+     "AGAINST": 4,
+     "ABSTENTION": 41
+    },
+    "Renew": {
+     "FOR": 71,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Greens": {
+     "FOR": 46,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 37,
+     "AGAINST": 7,
+     "ABSTENTION": 0
+    },
+    "NI": {
+     "FOR": 20,
+     "AGAINST": 2,
+     "ABSTENTION": 5
+    },
+    "ESN": {
+     "FOR": 2,
+     "AGAINST": 24,
+     "ABSTENTION": 0
+    }
+   }
+  },
+  {
+   "id": "193573",
+   "timestamp": "2026-06-17",
+   "procedure_reference": "2021/0042(NLE)",
+   "result": "ADOPTED",
+   "by_group": {
+    "EPP": {
+     "FOR": 140,
+     "AGAINST": 2,
+     "ABSTENTION": 0
+    },
+    "S&D": {
+     "FOR": 38,
+     "AGAINST": 2,
+     "ABSTENTION": 2
+    },
+    "PfE": {
+     "FOR": 15,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "ECR": {
+     "FOR": 40,
+     "AGAINST": 1,
+     "ABSTENTION": 0
+    },
+    "Renew": {
+     "FOR": 20,
+     "AGAINST": 6,
+     "ABSTENTION": 2
+    },
+    "Greens": {
+     "FOR": 11,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    },
+    "Left": {
+     "FOR": 1,
+     "AGAINST": 0,
+     "ABSTENTION": 1
+    },
+    "NI": {
+     "FOR": 10,
+     "AGAINST": 2,
+     "ABSTENTION": 4
+    },
+    "ESN": {
+     "FOR": 1,
+     "AGAINST": 0,
+     "ABSTENTION": 0
+    }
+   }
+  }
+ ]
+}
