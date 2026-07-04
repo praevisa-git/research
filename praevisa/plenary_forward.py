@@ -61,7 +61,7 @@ Grading rules (the code is the registration; this is the summary):
 
 Run:
     uv run python -m praevisa.plenary_forward          # predict: writes the ledger (pre-session only)
-    uv run python -m praevisa.plenary_forward grade    # after 2026-06-19: score it in place
+    uv run python -m praevisa.plenary_forward grade    # after 2026-07-10: score it in place
     uv run python -m praevisa.plenary_forward status   # pending vs graded summary
 """
 
@@ -88,122 +88,226 @@ SEATS = {g.code: g.seats for g in EP_GROUPS}
 TOTAL_MEMBERS = 720
 ABS_MAJORITY = TOTAL_MEMBERS // 2 + 1  # Rule 68: amend/reject Council position at 2nd reading
 
-SESSION = "2026-06-15"
-AGENDA_SOURCE = "https://www.europarl.europa.eu/doceo/document/OJ-10-2026-06-15-SYN_EN.html"
-AGENDA_LAST_UPDATED = "2026-05-26"
+SESSION = "2026-07-06"
+AGENDA_SOURCE = ("https://data.europarl.europa.eu/distribution/doc/"
+                 "OJ-10-2026-07-06-REV_en.pdf")  # FINAL DRAFT AGENDA 790.507/PDOJ
+AGENDA_LAST_UPDATED = "2026-07-03"
 
-# Every votable item on the draft OJ for 15-18 June 2026 (Strasbourg).
-# `corpus`: (committee_corpus file suffix, title substring, subject prefix) locating the
-# roll-call record that carries the signal, when it is not reachable via the COD index.
+# Every votable item on the FINAL DRAFT AGENDA (PDOJ 790.507, rev. 2026-07-03) for
+# 6-9 July 2026 (Strasbourg). `corpus`: (committee_corpus file suffix, title substring,
+# subject prefix) locating a candidate committee roll-call record; the H1 eligibility
+# gate decides whether it may actually feed the signal rail.
 MANIFEST = [
-    # --- Tuesday 16 June, votes 12:30 ---
-    dict(day="2026-06-16", a10="A10-0069/2026", type="cod1", committee="INTA",
-         rapporteur="Bernd Lange",
-         title="Adjustment of customs duties and opening of tariff quotas for the import "
-               "of certain goods originating in the United States of America",
-         note="Urgent procedure (Rule 170) requested."),
-    dict(day="2026-06-16", a10="A10-0070/2026", type="cod1", committee="INTA",
-         rapporteur="Bernd Lange",
-         title="Non-application of customs duties on imports of certain goods",
-         note="Urgent procedure (Rule 170) requested."),
-    dict(day="2026-06-16", a10="A10-0161/2025", type="cod1", committee="AGRI",
-         rapporteur="Céline Imart", procedure="2024/0319(COD)",
-         title="Strengthening of the position of farmers in the food supply chain"),
-    dict(day="2026-06-16", a10="A10-0158/2025", type="cod1", committee="ENVI/IMCO",
-         rapporteur="Jens Gieseke, Paulius Saudargas",
-         title="Circularity requirements for vehicle design and management of "
-               "end-of-life vehicles"),
-    dict(day="2026-06-16", a10=None, type="consent", committee="BUDG",
-         rapporteur="Johan Van Overtveldt",
-         title="Implementation of the Protocol on the financial consequences of the "
-               "expiry of the ECSC Treaty and on the Research Fund for Coal and Steel"),
-    dict(day="2026-06-16", a10=None, type="bud", committee="BUDG",
-         rapporteur="Bogdan Rzońca",
-         title="Mobilisation of the European Globalisation Adjustment Fund — "
-               "EGF/2025/009 BE/Soliver"),
-    dict(day="2026-06-16", a10="A10-0145/2026", type="ini", committee="AFCO",
-         rapporteur="Loránt Vincze, Charles Goerens",
-         title="European political parties and foundations — 2026 report"),
-    dict(day="2026-06-16", a10="A10-0142/2026", type="ini", committee="AFET",
-         rapporteur="Hannah Neumann",
-         title="Countering transnational repression — towards an EU strategy"),
-    dict(day="2026-06-16", a10="A10-0148/2026", type="ini", committee="INTA",
-         rapporteur="Juan Ignacio Zoido Álvarez",
-         title="Role of trade in strengthening the EU's economic security"),
-    dict(day="2026-06-16", a10="A10-0147/2026", type="ini", committee="DEVE",
-         rapporteur="Lukas Mandl",
-         title="Reinforcing development cooperation to address irregular population "
-               "movements and their root causes in partner countries",
-         corpus=("DEVE", "Reinforcing development cooperation", "FINAL VOTE")),
-    # --- Wednesday 17 June, votes 12:30 ---
-    dict(day="2026-06-17", a10=None, type="cns", committee="ECON",
-         rapporteur="Tomáš Kubín",
-         title="Structure and rates of excise duty applied to tobacco and tobacco "
-               "related products (recast)"),
-    dict(day="2026-06-17", a10=None, type="cns", committee="ECON",
-         rapporteur="Tomáš Kubín",
-         title="General arrangements for excise duty applied to tobacco and tobacco "
-               "related products"),
-    dict(day="2026-06-17", a10=None, type="cns", committee="ECON",
-         rapporteur="Michalis Hadjipantela",
-         title="EPPO and OLAF: access to VAT information at Union level"),
-    dict(day="2026-06-17", a10="A10-0134/2026", type="consent", committee="INTA",
-         rapporteur="Saskia Bricmont",
-         title="EU-Pakistan Agreement: modification of concessions on tariff rate "
-               "quotas in the EU Schedule CLXXV"),
-    dict(day="2026-06-17", a10="A10-0133/2026", type="consent", committee="INTA",
-         rapporteur="Karin Karlsbro",
-         title="EU-Liberia Voluntary Partnership Agreement (timber): termination",
-         corpus=("DEVE", "Termination of the Voluntary Partnership", None),
-         opinion_signal=True),
-    dict(day="2026-06-17", a10="A10-0146/2026", type="resolution", committee="INTA",
-         rapporteur="Karin Karlsbro",
-         title="EU-Liberia Voluntary Partnership Agreement (timber): termination "
-               "(resolution)",
-         corpus=("DEVE", "Termination of the Voluntary Partnership", None),
-         opinion_signal=True),
-    dict(day="2026-06-17", a10=None, type="cns", committee="JURI",
-         rapporteur="Ilhan Kyuchyuk",
-         title="Hague Convention (1980) on child abduction: accession of Cabo Verde"),
-    dict(day="2026-06-17", a10=None, type="recommendation", committee="AFET",
-         rapporteur="Leoluca Orlando",
-         title="Promoting transnational governance on water in the interests of "
-               "conflict prevention and peace"),
-    dict(day="2026-06-17", a10=None, type="cod2", committee="ENVI",
-         rapporteur="Jessica Polfjärd",
-         title="Plants obtained by certain new genomic techniques and their food "
-               "and feed",
-         note="Lead-committee 2nd-reading RCV not published in corpus — prior rail."),
-    dict(day="2026-06-17", a10="A10-0140/2026", type="ini", committee="AFET",
-         rapporteur="Rasa Juknevičienė",
-         title="2025 Commission report on Georgia"),
-    dict(day="2026-06-17", a10="A10-0143/2026", type="ini", committee="AFET",
-         rapporteur="Marjan Šarec",
-         title="2025 Commission report on Montenegro"),
-    dict(day="2026-06-17", a10="A10-0141/2026", type="ini", committee="AFET",
-         rapporteur="Andreas Schieder",
-         title="2025 Commission report on Albania"),
-    dict(day="2026-06-17", a10="A10-0106/2026", type="ini", committee="AFET",
-         rapporteur="Nacho Sánchez Amor",
-         title="2025 Commission report on Türkiye",
-         note="Debated Tuesday; vote expected with 'texts on which debate is closed'."),
-    # --- Thursday 18 June, votes 12:00 ---
-    dict(day="2026-06-18", a10=None, type="resolution", committee=None, rapporteur=None,
-         title="Implementation of the Urban Wastewater Treatment Directive and risks "
-               "to the security of supply of medicines",
-         note="Motion(s) not yet tabled at ledger time."),
-    dict(day="2026-06-18", a10=None, type="resolution", committee=None, rapporteur=None,
-         title="Political repression and humanitarian situation in Cuba",
-         note="Motion(s) not yet tabled at ledger time."),
-    dict(day="2026-06-18", a10=None, type="resolution", committee=None, rapporteur=None,
-         title="Recruitment of children by organised crime",
-         note="Motion(s) not yet tabled at ledger time."),
+    # --- Tuesday 7 July, votes 12:00 ---
+    dict(day="2026-07-07", a10=None, type="cod2", committee="LIBE",
+         rapporteur=None, procedure="2025/0429(COD)",
+         title="Amending Regulation (EU) 2021/1232 as regards the extension of its "
+               "period of application",
+         corpus=("LIBE", "2021/1232", None),
+         note="Rule 170 urgency requested; recommendation for second reading. LIBE "
+              "rejected the draft report 28-38-3 (tally disclosed; record is "
+              "first-reading-stage, ineligible for a ***II floor object)."),
+    dict(day="2026-07-07", a10="B10-0338/2026", type="resolution", committee=None,
+         rapporteur=None, procedure="2026/2792(RSP)",
+         title="Decision requesting the Authority for European Political Parties and "
+               "European Political Foundations to verify whether Europe of Sovereign "
+               "Nations Party complies with the conditions laid down in Article 3(1), "
+               "points (d) and (e), of Regulation (EU, Euratom) 2025/2445",
+         note="Rule 241 decision."),
+    dict(day="2026-07-07", a10="B10-0343/2026", type="rso", committee=None,
+         rapporteur=None, procedure="2026/2807(RSO)",
+         title="Amending the decision of 18 December 2024 on setting up a special "
+               "committee on the Housing Crisis in the European Union, extending its "
+               "term of office and adjusting its responsibilities"),
+    dict(day="2026-07-07", a10="A10-0190/2026", type="imm", committee="JURI",
+         rapporteur="Mario Furore", procedure="2026/2010(IMM)",
+         title="Request for the waiver of the immunity of Klára Dobrev"),
+    dict(day="2026-07-07", a10="A10-0191/2026", type="cod3", committee="TRAN",
+         rapporteur="Andrey Novakov", procedure="2013/0072(COD)",
+         title="Air passenger rights",
+         note="***III conciliation joint text (Regulation 261/2004 revision); simple "
+              "majority of votes cast."),
+    dict(day="2026-07-07", a10="A8-0386/2018", type="cod1", committee="EMPL",
+         rapporteur="Gabriele Bischoff", procedure="2016/0397(COD)",
+         title="Coordination of social security systems",
+         note="Legacy 8th-term report (A8) returning to the vote; no usable "
+              "committee record in the rolling-window corpus."),
+    dict(day="2026-07-07", a10=None, type="cod1", committee=None,
+         rapporteur=None, procedure="2026/0150(COD)",
+         title="Temporary support and payment of advances regarding the increased "
+               "fertiliser prices due to the Middle East crisis",
+         note="No report or committee listed on the PDOJ (urgent-style adoption)."),
+    dict(day="2026-07-07", a10="A10-0174/2026", type="cod1", committee="TRAN",
+         rapporteur="Elissavet Vozemberg-Vrionidi", procedure="2025/0407(COD)",
+         title="International road passenger transport services by coach and bus in "
+               "the border regions: cabotage operations between Austria and "
+               "Switzerland"),
+    dict(day="2026-07-07", a10="A10-0180/2026", type="bud", committee="BUDG",
+         rapporteur="Andrzej Halicki", procedure="2026/0090(BUD)",
+         title="Draft amending budget no 1/2026: entering the surplus of the "
+               "financial year 2025"),
+    dict(day="2026-07-07", a10="A10-0179/2026", type="bud", committee="BUDG",
+         rapporteur="Lucia Yar", procedure="2026/0126(BUD)",
+         title="Mobilisation of the European Globalisation Adjustment Fund: "
+               "Application EGF/2026/000 TA 2026 - Technical assistance at the "
+               "initiative of the Commission"),
+    dict(day="2026-07-07", a10="A10-0178/2026", type="bud", committee="BUDG",
+         rapporteur="Bogdan Rzońca", procedure="2026/0120(BUD)",
+         title="Mobilisation of the European Union Solidarity Fund: assistance to "
+               "Romania, Cyprus and Spain with regard to natural disasters in 2025"),
+    dict(day="2026-07-07", a10="A10-0170/2026", type="ini", committee="BUDG",
+         rapporteur="Joachim Streit", procedure="2025/2213(INI)",
+         title="Financial activities of the European Investment Bank Group - annual "
+               "report 2025"),
+    dict(day="2026-07-07", a10="A10-0189/2026", type="recommendation", committee="AFET",
+         rapporteur="Adam Bielan", procedure="2025/2169(INI)",
+         title="Recommendation on the changing geopolitical situation in East Asia "
+               "and the need for closer cooperation with like-minded partners in the "
+               "region",
+         note="Rule 121 recommendation to Council/Commission/VP-HR."),
+    dict(day="2026-07-07", a10="A10-0171/2026", type="ini", committee="ECON",
+         rapporteur="Stéphanie Yon-Courtin", procedure="2025/2134(INI)",
+         title="Competition policy - annual report 2025",
+         note="ECON corpus holds a record for 2025/2134(INI) but its title/rapporteur "
+              "fields contradict the PDOJ (scrape misalignment) - attribution "
+              "untrusted, not wired to the signal rail."),
+    dict(day="2026-07-07", a10="A10-0169/2026", type="ini", committee="ECON",
+         rapporteur="Matthias Ecke", procedure="2024/2117(INI)",
+         title="A coherent tax framework for the EU's financial sector",
+         note="ECON corpus record for 2024/2117(INI) metadata-inconsistent (see "
+              "competition policy note) - not wired."),
+    dict(day="2026-07-07", a10="A10-0173/2026", type="ini", committee="CULT",
+         rapporteur="Marcos Ros Sempere", procedure="2025/2181(INI)",
+         title="A new strategy for media literacy and digital learning",
+         corpus=("CULT", "media literacy", "FINAL VOTE")),
+    dict(day="2026-07-07", a10="A10-0187/2026", type="ini", committee="DEVE/ENVI",
+         rapporteur="Lukas Mandl, Pierfrancesco Maran", procedure="2025/2248(INI)",
+         title="Implementation and delivery of the Sustainable Development Goals in "
+               "view of the 2026 High-Level Political Forum",
+         corpus=("DEVE", "Sustainable Development Goals", "FINAL VOTE")),
+    dict(day="2026-07-07", a10="A10-0186/2026", type="ini", committee="ECON",
+         rapporteur="Johan Van Overtveldt", procedure="2025/2208(INI)",
+         title="Digital assets - challenges for the competitiveness and integrity of "
+               "the European Union's financial system",
+         corpus=("ECON", "Digital assets", None)),
+    # --- Wednesday 8 July, votes 12:00 ---
+    dict(day="2026-07-08", a10="B10-0337/2026", type="objection-dea", committee="ENVI",
+         rapporteur=None, procedure="2026/2680(DEA)",
+         title="Objection pursuant to Rule 114(3): Trajectory to decrease the "
+               "contribution of high indirect land-use change-risk biofuels, "
+               "bioliquids and biomass fuels to renewable energy targets"),
+    dict(day="2026-07-08", a10="B10-0344/2026", type="objection-rps", committee="ENVI",
+         rapporteur=None, procedure="2026/2714(RPS)",
+         title="Objection pursuant to Rule 115(2) and (3), and (4)(c): Lead in "
+               "certain fishing tackle"),
+    dict(day="2026-07-08", a10="B10-0342/2026", type="objection-dea", committee="ENVI",
+         rapporteur=None, procedure="2026/2668(DEA)",
+         title="Objection pursuant to Rule 114(3): bluetongue virus, epizootic "
+               "haemorrhagic disease virus and a derogation for movements of "
+               "registered equine animals"),
+    dict(day="2026-07-08", a10="A10-0181/2026", type="consent", committee="AFET/INTA",
+         rapporteur="Javi López, Borja Giménez Larraz", procedure="2025/0810(NLE)",
+         title="EU-Mexico Political, Economic and Cooperation Strategic Partnership "
+               "Agreement"),
+    dict(day="2026-07-08", a10="A10-0182/2026", type="resolution", committee="AFET/INTA",
+         rapporteur="Javi López, Borja Giménez Larraz", procedure="2025/0810R(NLE)",
+         title="EU-Mexico Political, Economic and Cooperation Strategic Partnership "
+               "Agreement (Interim report)",
+         note="Accompanying interim report - distinct floor object from the consent "
+              "(R-suffixed procedure)."),
+    dict(day="2026-07-08", a10=None, type="consent", committee="INTA",
+         rapporteur="Borja Giménez Larraz", procedure="2025/0271(NLE)",
+         title="EU-Mexico Interim Agreement on Trade",
+         note="PDOJ: expected date of Council adoption 06/07; no A10 number at "
+              "ledger time."),
+    dict(day="2026-07-08", a10="A10-0156/2026", type="consent", committee="JURI",
+         rapporteur="Ilhan Kyuchyuk", procedure="2025/0244(NLE)",
+         title="Protection of the environment through criminal law"),
+    dict(day="2026-07-08", a10="A10-0177/2026", type="consent", committee="TRAN",
+         rapporteur="Tomas Tobé", procedure="2023/0142(NLE)",
+         title="EU-Morocco Euro-Mediterranean Aviation Agreement: accession to the "
+               "EU of Croatia (Protocol)",
+         note="TRAN corpus holds a title-matching record but its rapporteur field "
+              "contradicts the PDOJ (scrape misalignment) - not wired."),
+    dict(day="2026-07-08", a10="A10-0151/2026", type="consent", committee="ITRE",
+         rapporteur="Paolo Borchia", procedure="2025/0387(NLE)",
+         title="EU-Morocco Agreement for scientific and technological cooperation "
+               "setting out the terms and conditions for the participation of "
+               "Morocco in the Partnership for Research and Innovation in the "
+               "Mediterranean Area (PRIMA): amendment and supplement",
+         corpus=("ITRE", "PRIMA", None)),
+    dict(day="2026-07-08", a10="A10-0172/2026", type="ini", committee="AFET",
+         rapporteur="Michael Gahler", procedure="2025/2259(INI)",
+         title="2025 Commission report on Ukraine"),
+    dict(day="2026-07-08", a10="A10-0164/2026", type="ini", committee="AFET",
+         rapporteur="Sven Mikser", procedure="2025/2258(INI)",
+         title="2025 Commission report on Moldova"),
+    dict(day="2026-07-08", a10="A10-0163/2026", type="ini", committee="AFET",
+         rapporteur="Tonino Picula", procedure="2025/2255(INI)",
+         title="2025 Commission report on Serbia"),
+    dict(day="2026-07-08", a10="B10-0333/2026", type="resolution", committee=None,
+         rapporteur=None, procedure="2026/2617(RSP)",
+         title="The impact of the 1974 Turkish invasion on Cypriot women and girls, "
+               "and the crimes committed by Turkish forces and consequences on "
+               "gender equality"),
+    dict(day="2026-07-08", a10="B10-0335/2026", type="objection-rsp", committee="ENVI",
+         rapporteur=None, procedure="2026/2745(RSP)",
+         title="Objection pursuant to Rule 115(2) and (3): Genetically modified "
+               "maize NK603 × T25"),
+    dict(day="2026-07-08", a10="B10-0244/2025", type="objection-rsp", committee="ENVI",
+         rapporteur=None, procedure="2025/2647(RSP)",
+         title="Objection pursuant to Rule 115(2) and (3): Genetically modified "
+               "soybean MON 87705",
+         note="Motion tabled 2025 (B10-0244/2025); PDOJ marks a deferred vote."),
+    dict(day="2026-07-08", a10="B10-0336/2026", type="objection-rsp", committee="ENVI",
+         rapporteur=None, procedure="2026/2746(RSP)",
+         title="Objection pursuant to Rule 115(2) and (3): Genetically modified "
+               "maize DP202216 x NK603 x DAS-40278-9 and its sub-combinations "
+               "DP202216 x NK603, DP202216 x DAS-40278-9"),
+    # --- Thursday 9 July, votes 12:00 ---
+    dict(day="2026-07-09", a10=None, type="resolution", committee=None,
+         rapporteur=None, procedure="2026/2799(RSP)",
+         title="The threat of war crimes, the escalating violations of international "
+               "humanitarian law and the human rights situation in El-Obeid, Sudan",
+         note="Rule 150 human-rights resolution."),
+    dict(day="2026-07-09", a10=None, type="resolution", committee=None,
+         rapporteur=None, procedure="2026/2800(RSP)",
+         title="Ongoing persecution of Christians in Nigeria, notably the Kawel "
+               "village massacre",
+         note="Rule 150 human-rights resolution."),
+    dict(day="2026-07-09", a10=None, type="resolution", committee=None,
+         rapporteur=None, procedure="2026/2801(RSP)",
+         title="The abduction, forced conversion and child marriage of Maria "
+               "Shahbaz and the protection of girls in Pakistan",
+         note="Rule 150 human-rights resolution."),
+    dict(day="2026-07-09", a10="A10-0167/2026", type="ini", committee="ECON",
+         rapporteur="Ľudovít Ódor", procedure="2025/2211(INI)",
+         title="Feasibility of a 28th tax regime and its potential to support EU "
+               "competitiveness",
+         note="ECON corpus record for 2025/2211(INI) metadata-inconsistent (see "
+              "competition policy note) - not wired."),
+    dict(day="2026-07-09", a10="B10-0339/2026", type="resolution", committee="DEVE",
+         rapporteur=None, procedure="2026/2734(RSP)",
+         title="Joint communication on humanitarian aid (JOIN(2026)0025)",
+         note="Motion following the DEVE oral question O-000026/2026. The DEVE "
+              "corpus final-vote record on 'humanitarian aid' is the polycrisis INI "
+              "report - a different floor object - and is not wired."),
 ]
 
 NOT_PREDICTED = [
-    "Rule 150 human-rights resolutions (Thursday): topics not yet defined on the draft OJ.",
-    "Digital Omnibus on AI (A10-0073/2026): debate only on this OJ — no vote slot listed.",
-    "Possible Rule 170 additions: the final agenda may add votes after this ledger is cut.",
+    "Narco-trafficking in Europe's waters (2026/2797(RSP)): PDOJ states the vote is "
+    "held in September.",
+    "Evaluation of the Common Fisheries Policy (2026/2778(RSP)): PDOJ states the "
+    "vote is held in September.",
+    "An updated regulatory framework for wool (2026/2804(RSP)): oral question only, "
+    "no motion listed under this session's votes.",
+    "The Rule-170 urgency-request vote itself on 2025/0429(COD): procedural, not a "
+    "vote on a text.",
+    "Statements/debates without a vote slot on this PDOJ (automotive sector, Irish "
+    "Presidency, European Council conclusions, heatwaves, Gaza topical debate, "
+    "Russian democratic forces, Ebola, bioeconomy, cybersecurity/AI action plan).",
+    "Possible Rule 170 additions: the final agenda may add votes after this ledger "
+    "is cut.",
 ]
 
 
@@ -310,7 +414,8 @@ def _assign_rails(manifest: list[dict], committee_index: dict) -> list[dict]:
         elif m.get("corpus"):
             rec, via = _find_record(*m["corpus"]), "corpus"
         eligible, why = (s0.signal_rail_eligible(rec, m.get("committee"), proc,
-                                                 bool(m.get("opinion_signal")))
+                                                 bool(m.get("opinion_signal")),
+                                                 item_type=m.get("type"))
                          if rec is not None else (False, None))
         if eligible and corpus_health.polarity_tripwire(rec):
             # Task-5 tripwire: even a responsible-committee final vote is
@@ -406,6 +511,13 @@ def build() -> dict:
                 entry["p_adopt"] = tp["p_adopt"]
                 entry["expected_share_if_adopted"] = tp["share_adopted"]
                 entry["prior_v2_type"] = tp["htv_type"]
+                if tp["p_adopt"] < 0.5:
+                    # The type base rate IS the prior in force: when it says the
+                    # type usually fails (Term-10 DEA objections: 0/12 adopted),
+                    # the outcome call follows it rather than the topic-blind
+                    # seat-math vector, so `outcome` and `p_adopt` cannot
+                    # contradict each other on the prior rail.
+                    entry["outcome"] = "REJECTED"
             else:
                 entry["note"] = ((entry.get("note") or "") +
                                  " No type prior (unmapped or n<5 in Term 10).").strip()
@@ -510,9 +622,9 @@ def render_md(ledger: dict) -> str:
 # Grading — pre-registered before the session; append-only.
 # ---------------------------------------------------------------------------
 
-SESSION_FIRST_DAY = "2026-06-15"
-SESSION_LAST_DAY = "2026-06-18"
-GRADE_OPENS = "2026-06-19"  # the day after the part-session closes
+SESSION_FIRST_DAY = "2026-07-06"
+SESSION_LAST_DAY = "2026-07-09"
+GRADE_OPENS = "2026-07-10"  # the day after the part-session closes
 MATCH_THRESHOLD = 0.6
 _STOP = {"the", "and", "for", "with", "their", "its", "from", "into", "between",
          "certain", "european", "union", "report", "2025", "2026", "commission",

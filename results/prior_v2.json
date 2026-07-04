@@ -4,12 +4,18 @@
  "min_n": 5,
  "ledger_type_map": {
   "cod1": "COD",
+  "cod3": "COD",
   "ini": "INI",
   "cns": "CNS",
   "consent": "NLE",
   "bud": "BUD",
   "resolution": "RSP",
-  "recommendation": "INI"
+  "recommendation": "INI",
+  "imm": "IMM",
+  "rso": "RSO",
+  "objection-dea": "DEA",
+  "objection-rps": "RPS",
+  "objection-rsp": "RSP"
  },
  "types": {
   "BUD": {

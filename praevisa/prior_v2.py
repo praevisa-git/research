@@ -52,15 +52,25 @@ TERM10_START = "2024-07-16"
 MIN_N = 5
 
 # Ledger manifest `type` -> HTV `procedure_type`. cod2 is deliberately absent (Rule-68
-# threshold call, not an adopt/reject prediction).
+# threshold call, not an adopt/reject prediction). Types mapping to an HTV type that
+# is not tabulated (n < MIN_N in Term 10: IMM, RSO, RPS) get no v2 prior and the
+# ledger says so. The three objection flavours are kept apart deliberately: a Rule-114
+# DEA objection (never adopted in Term 10) and a Rule-115 GMO objection (RSP-typed,
+# usually adopted) have opposite base rates.
 LEDGER_TYPE_MAP = {
     "cod1": "COD",
+    "cod3": "COD",            # conciliation joint text: closest available type base
     "ini": "INI",
     "cns": "CNS",
     "consent": "NLE",
     "bud": "BUD",
     "resolution": "RSP",
     "recommendation": "INI",
+    "imm": "IMM",
+    "rso": "RSO",
+    "objection-dea": "DEA",
+    "objection-rps": "RPS",
+    "objection-rsp": "RSP",
 }
 
 

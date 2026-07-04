@@ -135,7 +135,7 @@ def record_procedure_ref(rec):
 
 
 def signal_rail_eligible(rec, responsible_committee, item_procedure=None,
-                         opinion_flagged=False):
+                         opinion_flagged=False, item_type=None):
     """H1 — signal-rail eligibility (pre-registered forward hypothesis, 2026-07).
 
     A committee record may feed the plenary signal rail ONLY if all of:
@@ -146,7 +146,11 @@ def signal_rail_eligible(rec, responsible_committee, item_procedure=None,
           `classify_signal_stage` must return the report or provisional stage
           (both are votes on the text the floor votes); a mandate vote is
           procedural, and an "adoption of the draft opinion" vote is a different
-          object even when its subject line says only "FINAL VOTE BY ROLL CALL";
+          object even when its subject line says only "FINAL VOTE BY ROLL CALL".
+          At second/third reading (`item_type` "cod2"/"cod3") the floor object is
+          the Council position / conciliation joint text — a committee record on
+          the first-reading report is a DIFFERENT text and never qualifies (the
+          same stage-consistency rule as resolve_plenary._STAGE_OK_TYPES);
       (c) its procedure reference matches the item's where both are known — an
           M-suffixed accompanying procedure (2025/0259M(NLE)) does NOT match its
           base procedure (2025/0259(NLE)).
@@ -169,6 +173,10 @@ def signal_rail_eligible(rec, responsible_committee, item_procedure=None,
     if stage is None or stage[1] == "mandate":
         return False, ("not a final vote on the floor text "
                        f"({stage[1] if stage else 'unclassified'})")
+    if item_type in ("cod2", "cod3"):
+        return False, (f"stage mismatch: committee record predates the "
+                       f"{'second' if item_type == 'cod2' else 'third'}-reading "
+                       "floor object")
     ref = record_procedure_ref(rec)
     if ref and item_procedure and ref != item_procedure:
         return False, f"procedure mismatch ({ref} != {item_procedure})"

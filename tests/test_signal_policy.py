@@ -112,6 +112,23 @@ class TestH1Eligibility(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("committee mismatch", why)
 
+    def test_second_and_third_reading_floor_objects_demote_any_record(self):
+        # A first-reading report record is a DIFFERENT text than the Council
+        # position (***II) or the conciliation joint text (***III).
+        for item_type, word in (("cod2", "second"), ("cod3", "third")):
+            with self.subTest(item_type=item_type):
+                ok, why = s0.signal_rail_eligible(AGRI_REPORT, "AGRI",
+                                                  "2024/0319(COD)",
+                                                  item_type=item_type)
+                self.assertFalse(ok)
+                self.assertIn("stage mismatch", why)
+                self.assertIn(word, why)
+
+    def test_first_reading_item_type_unaffected(self):
+        ok, _ = s0.signal_rail_eligible(AGRI_REPORT, "AGRI", "2024/0319(COD)",
+                                        item_type="cod1")
+        self.assertTrue(ok)
+
 
 # Renew's committee members in the Liberia record: 3 abstentions, nothing else.
 H2_VOTES = [
@@ -173,6 +190,19 @@ class TestH3ConsentPrior(unittest.TestCase):
     def test_pre_h3_artifact_returns_none(self):
         from praevisa import prior_v2
         self.assertIsNone(prior_v2.consent_vector({"types": {}}))
+
+    def test_prior_rail_outcome_follows_type_base_rate_when_it_says_fail(self):
+        # Term-10 DEA objections: 0/12 adopted -> p_adopt 0.038. The prior-rail
+        # outcome call must follow the type base rate, not the topic-blind
+        # seat-math vector, so `outcome` and `p_adopt` never contradict.
+        from praevisa import prior_v2
+        tp = prior_v2.for_ledger_type("objection-dea")
+        self.assertEqual(tp["htv_type"], "DEA")
+        self.assertLess(tp["p_adopt"], 0.5)
+        # untabulated Term-10 types stay unmapped-with-note rather than faked
+        self.assertIsNone(prior_v2.for_ledger_type("imm"))
+        self.assertIsNone(prior_v2.for_ledger_type("rso"))
+        self.assertIsNone(prior_v2.for_ledger_type("objection-rps"))
 
 
 # The two June Liberia manifest entries, frozen verbatim as a fixture (the June
