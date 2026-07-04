@@ -528,7 +528,8 @@ def build() -> dict:
                                  " p_adopt unavailable (residual pool offline).").strip()
         items.append(entry)
     return {
-        "session": SESSION, "session_dates": "2026-06-15/2026-06-18",
+        "session": SESSION,
+        "session_dates": f"{SESSION_FIRST_DAY}/{SESSION_LAST_DAY}",
         "agenda_source": AGENDA_SOURCE, "agenda_last_updated": AGENDA_LAST_UPDATED,
         "generated_at": date.today().isoformat(), "engine_rev": _git_rev(),
         "alpha": alpha,
@@ -963,7 +964,8 @@ def predict() -> int:
     n_contested = sum(1 for i in ledger["items"] if i.get("contested"))
     print(f"  signal rail: {n_committee} committee/opinion, "
           f"{ledger['n_items'] - n_committee} prior-only; {n_contested} contested")
-    print(">>> COMMIT predictions/ TO GIT NOW (before the session opens 15 June).")
+    print(f">>> COMMIT predictions/ TO GIT NOW (before the session opens "
+          f"{SESSION_FIRST_DAY}).")
     return 0
 
 
