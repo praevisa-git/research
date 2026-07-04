@@ -1,6 +1,6 @@
 {
  "committee": "TRAN",
- "n_records": 51,
+ "n_records": 54,
  "records": [
   {
    "committee": "TRAN",
@@ -12341,6 +12341,745 @@
     {
      "group": "PfE",
      "mep": "Matthieu Valet",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "Daniel Attard",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "TRAN",
+   "source": "https://www.europarl.europa.eu/cmsdata/308324/20260623-TRAN-Roll-call-votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Michał Szczerba (SEDE, EPP), Roberts Zīle (TRAN, ECR) ...................................................... 2",
+   "title": "Page 3 of 5 2. EU/Morocco Euro-Mediterranean Aviation Agreement: accession to the EU of Croatia. Protocol",
+   "subject": "Adoption of draft report",
+   "secret": false,
+   "tally": {
+    "+": 38,
+    "-": 0,
+    "0": 0
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Alberico Gambino",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kosma Złotowski",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Milan Mazurek",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petar Volgin",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Luis-Vicențiu Lazarus",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nikolina Brnjac",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nina Carberry",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gheorghe Falcă",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jens Gieseke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dariusz Joński",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sophia Kircher",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexandra Mehnert",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Novakov",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Leonardelli",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Philippe Olivier",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Oihane Agirregoitia Martínez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Daniel Attard",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Johan Danielsson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sérgio Gonçalves",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "François Kalfon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Rosa Serrano Sierra",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marianne Vind",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Merja Kyllönen",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Virginijus Sinkevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kai Tegethoff",
+     "choice": "+"
+    }
+   ]
+  },
+  {
+   "committee": "TRAN",
+   "source": "https://www.europarl.europa.eu/cmsdata/308324/20260623-TRAN-Roll-call-votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Michał Szczerba (SEDE, EPP), Roberts Zīle (TRAN, ECR) ...................................................... 2",
+   "title": "Directorate- General for Cohesion, Agriculture and Social Policies Directorate for Transport, Employment and Social Affairs Secretariat of the Committee on Transport and Tourism of 23 June 2026 1. JOINT SEDE&TRAN Framework of measures to facilitate the transport of military equipment, goods and personnel across the Union .................................................................................................... 2",
+   "subject": "Vote on the decision to enter into interinstitutional negotiations",
+   "secret": false,
+   "tally": {
+    "+": 52,
+    "-": 6,
+    "0": 4
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Michał Dworczyk",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Alberico Gambino",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Assita Kanko",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Rihards Kols",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kosma Złotowski",
+     "choice": "+"
+    },
+    {
+     "group": "NI",
+     "mep": "Luis-Vicențiu Lazarus",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nikolina Brnjac",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nina Carberry",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gheorghe Falcă",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jens Gieseke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mircea-Gheorghe Hava",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dariusz Joński",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Radan Kanev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eszter Lakos",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexandra Mehnert",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Novakov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nicolás Pascual de la Parte",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hélder Sousa Silva",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Szczerba",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marion Walsmann",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Oihane Agirregoitia Martínez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jeannette Baljeu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Asger Christensen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan- Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marie-Agnes Strack-Zimmermann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Daniel Attard",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "José Cepeda",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Johan Danielsson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vasile Dîncu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sérgio Gonçalves",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "François Kalfon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ana Catarina Mendes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Rosa Serrano Sierra",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marianne Vind",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Merja Kyllönen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Virginijus Sinkevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kai Tegethoff",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Reinier Van Lanschot",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Milan Mazurek",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Roberto Vannacci",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petar Volgin",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Özlem Demirel",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Leonardelli",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Philippe Olivier",
+     "choice": "0"
+    },
+    {
+     "group": "PfE",
+     "mep": "Annamária Vicsek",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "TRAN",
+   "source": "https://www.europarl.europa.eu/cmsdata/308324/20260623-TRAN-Roll-call-votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Michał Szczerba (SEDE, EPP), Roberts Zīle (TRAN, ECR) ...................................................... 2",
+   "title": "Page 4 of 5 3. European Fund for economic, social and territorial cohesion, agriculture and rural, fisheries and maritime, prosperity and security 2028–2034",
+   "subject": "Adoption of draft opinion",
+   "secret": false,
+   "tally": {
+    "+": 29,
+    "-": 1,
+    "0": 7
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "NI",
+     "mep": "Luis-Vicențiu Lazarus",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nikolina Brnjac",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nina Carberry",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Gheorghe Falcă",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Markus Ferber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jens Gieseke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sérgio Humberto",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dariusz Joński",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sophia Kircher",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexandra Mehnert",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Julien Leonardelli",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Philippe Olivier",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Oihane Agirregoitia Martínez",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Benoit Cassart",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jan-Christoph Oetjen",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vivien Costanzo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Johan Danielsson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sérgio Gonçalves",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "François Kalfon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Rosa Serrano Sierra",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marianne Vind",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Merja Kyllönen",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Arash Saeidi",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Virginijus Sinkevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kai Tegethoff",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Maciej Wąsik",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Alberico Gambino",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Şerban Dimitrie Sturdza",
+     "choice": "0"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kosma Złotowski",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Milan Mazurek",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "0"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petar Volgin",
      "choice": "0"
     },
     {

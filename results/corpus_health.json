@@ -1,52 +1,52 @@
 {
  "rows": [
   {
-   "committee": "LIBE",
-   "n_records": 109,
-   "n_cod": 21,
-   "n_cod_voted": 21,
-   "n_classified_signal": 13,
-   "n_reconciled": 109
-  },
-  {
    "committee": "ENVI",
-   "n_records": 108,
+   "n_records": 119,
    "n_cod": 2,
    "n_cod_voted": 2,
    "n_classified_signal": 1,
-   "n_reconciled": 108
+   "n_reconciled": 119
+  },
+  {
+   "committee": "LIBE",
+   "n_records": 113,
+   "n_cod": 24,
+   "n_cod_voted": 24,
+   "n_classified_signal": 15,
+   "n_reconciled": 113
   },
   {
    "committee": "TRAN",
-   "n_records": 51,
+   "n_records": 54,
    "n_cod": 0,
    "n_cod_voted": 0,
    "n_classified_signal": 0,
-   "n_reconciled": 51
+   "n_reconciled": 54
   },
   {
    "committee": "ECON",
-   "n_records": 40,
-   "n_cod": 22,
-   "n_cod_voted": 22,
-   "n_classified_signal": 15,
-   "n_reconciled": 40
+   "n_records": 42,
+   "n_cod": 23,
+   "n_cod_voted": 23,
+   "n_classified_signal": 16,
+   "n_reconciled": 42
   },
   {
    "committee": "IMCO",
-   "n_records": 35,
-   "n_cod": 17,
-   "n_cod_voted": 17,
-   "n_classified_signal": 8,
-   "n_reconciled": 35
+   "n_records": 38,
+   "n_cod": 19,
+   "n_cod_voted": 19,
+   "n_classified_signal": 10,
+   "n_reconciled": 38
   },
   {
    "committee": "FEMM",
-   "n_records": 26,
+   "n_records": 28,
    "n_cod": 1,
    "n_cod_voted": 1,
    "n_classified_signal": 1,
-   "n_reconciled": 26
+   "n_reconciled": 28
   },
   {
    "committee": "PETI",
@@ -66,11 +66,19 @@
   },
   {
    "committee": "DEVE",
-   "n_records": 21,
+   "n_records": 22,
    "n_cod": 1,
    "n_cod_voted": 1,
    "n_classified_signal": 0,
-   "n_reconciled": 21
+   "n_reconciled": 22
+  },
+  {
+   "committee": "ITRE",
+   "n_records": 17,
+   "n_cod": 5,
+   "n_cod_voted": 5,
+   "n_classified_signal": 3,
+   "n_reconciled": 17
   },
   {
    "committee": "PECH",
@@ -103,14 +111,6 @@
    "n_cod_voted": 0,
    "n_classified_signal": 0,
    "n_reconciled": 10
-  },
-  {
-   "committee": "ITRE",
-   "n_records": 9,
-   "n_cod": 0,
-   "n_cod_voted": 0,
-   "n_classified_signal": 0,
-   "n_reconciled": 9
   },
   {
    "committee": "INTA",
@@ -169,11 +169,25 @@
    "rapporteur": "Marit Maij (S&D)",
    "title": "Termination of the Voluntary Partnership Agreement between the European Union and the Republic of Li",
    "subject": "FINAL VOTE BY ROLL CALL"
+  },
+  {
+   "committee": "ITRE",
+   "procedure": "2025/0240(COD)",
+   "rapporteur": "Jana Nagyov\u00e1 (PfE)",
+   "title": "",
+   "subject": "Adoption of draft opinion"
+  },
+  {
+   "committee": "ITRE",
+   "procedure": "2025/0240(COD)",
+   "rapporteur": "Jana Nagyov\u00e1 (PfE)",
+   "title": "",
+   "subject": "Adoption of draft report"
   }
  ],
  "totals": {
-  "records": 501,
-  "cod_voted": 80,
-  "classified_signal": 49
+  "records": 535,
+  "cod_voted": 91,
+  "classified_signal": 57
  }
 }

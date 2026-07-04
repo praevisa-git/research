@@ -1,6 +1,6 @@
 {
  "committee": "DEVE",
- "n_records": 21,
+ "n_records": 22,
  "records": [
   {
    "committee": "DEVE",
@@ -3360,6 +3360,474 @@
     {
      "group": "PfE",
      "mep": "Séverine Werbrouck",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "DEVE",
+   "source": "https://www.europarl.europa.eu/cmsdata/308351/2026-06-23%20Roll%20call%20votes.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Lukas Mandl (EPP-DEVE) – Pierfrancesco Maran (S&D-ENVI)",
+   "title": "Tuesday 23 June 2026 Implementation and delivery of the Sustainable Development Goals in view of the 2026 High - Level Political Forum 1. (2025/2248(INI)) Rapporteurs: Lukas Mandl (EPP-DEVE) – page 2 Pierfrancesco Maran (S&D-ENVI) Implementation and delivery of the Sustainable Development Goals in view of the 2026 High - Level Political Forum (2025/2248(INI))",
+   "subject": "FINAL VOTE BY ROLL CALL",
+   "secret": false,
+   "tally": {
+    "+": 66,
+    "-": 17,
+    "0": 7
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Bartosz Arłukowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hildegard Bentele",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Alexander Bernhuber",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Daniel Buda",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Rosa Estaràs Ferragut",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Geuking",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Hanna Gronkiewicz-Waltz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Niels Flemming Hansen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Esther Herranz García",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Radan Kanev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ewa Kopacz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Liese",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elżbieta Katarzyna Łukacijewska",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Lukas Mandl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Liudas Mažylis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Verena Mertens",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dolors Montserrat",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Jessica Polfjärd",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Virgil-Daniel Popescu",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Emil Radev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Manuela Ripa",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Susana Solís Pérez",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ingeborg Ter Laak",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Riho Terras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Matej Tonin",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrea Wechsler",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Grégory Allione",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Barry Andrews",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jeannette Baljeu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Stine Bosse",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Sigrid Friis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Martin Hojsík",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Ana Vasconcelos",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Michal Wiezik",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vytenis Povilas Andriukaitis",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sakis Arnaoutoglou",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Thomas Bajada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Robert Biedroń",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Delara Burkhardt",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Mohammed Chahim",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Christophe Clergeau",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Annalisa Corrado",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "André Franqueira Rodrigues",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Heléne Fritzon",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lina Gálvez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Nicolás González Casares",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Murielle Laurent",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Javi López",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "César Luena",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Pierfrancesco Maran",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Alessandra Moretti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elena Sancho Murillo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marco Tarquinio",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marta Temido",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kristian Vigenin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tiemo Wölken",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Michael Bloss",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Martin Häusling",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Rasmus Nordqvist",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Maria Ohisalo",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Jutta Paulus",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kai Tegethoff",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sergio Berlato",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Pietro Fiocchi",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Paolo Inselvini",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Sander Smit",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Kristoffer Storm",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Aurelijus Veryga",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petr Bystron",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Siegbert Frank Droese",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Tomasz Froelich",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Marie-Luce Brasier-Clain",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Valérie Deloge",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Ton Diepeveen",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "András Gyürk",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Roman Haider",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Tiago Moreira de Sá",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Silvia Sardone",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Antonín Staněk",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Massimiliano Salini",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Lynn Boylan",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Leila Chaibi",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Emma Fourreau",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Catarina Martins",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "0"
+    },
+    {
+     "group": "The Left",
+     "mep": "Jonas Sjöstedt",
      "choice": "0"
     }
    ]

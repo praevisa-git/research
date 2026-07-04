@@ -1,6 +1,6 @@
 {
  "committee": "FEMM",
- "n_records": 26,
+ "n_records": 28,
  "records": [
   {
    "committee": "FEMM",
@@ -11051,6 +11051,417 @@
     {
      "group": "NI",
      "mep": "Fernand Kartheiser",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "FEMM",
+   "source": "https://www.europarl.europa.eu/cmsdata/308354/Vote%20results_AgoraEU.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Mélissa CAMARA (Greens/EFA)",
+   "title": "Voting session 23 June 2026 VOTES BY ROLL CALL Establishing the 'AgoraEU' programme for the period 2028-2034, and repealing Regulations (EU) 2021/692 and (EU) 2021/818, 2025/0550(COD)",
+   "subject": "1. AM 52",
+   "secret": false,
+   "tally": {
+    "+": 21,
+    "-": 8,
+    "0": 8
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PfE",
+     "mep": "Mélanie Disdier",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jana Toom",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Lucia Yar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sofie Eriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lina Gálvez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elisabeth Grossmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Matjaž Nemec",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring- Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cecilia Strada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marko Vešligaj",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Hanna Gedin",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Irene Montero",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Alexandra Geese",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Benedetta Scuderi",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Chiara Gemma",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika van Leeuwen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Irmhild Boßdorf",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Judita Laššáková",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Elisabeth Dieringer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Margarita de la Pisa Carrión",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Csaba Bogdán",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elżbieta Katarzyna Łukacijewska",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mirosława Nykiel",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "0"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Wawrykiewicz",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "FEMM",
+   "source": "https://www.europarl.europa.eu/cmsdata/308447/Vote%20results%20ESF.pdf",
+   "ref": "",
+   "procedure": "",
+   "rapporteur": "Alessandra Moretti (S&D)",
+   "title": "Voting session 23 June 2026 VOTES BY ROLL CALL Establishing the European Social Fund as part of the National and Regional Partnership Plan set out in Regulation (EU) […] [NRPPlan] establishing conditions for the implementation of the Union support to quality employment, skills and social inclusion for the period from 2028 to 2034, FEMM/10/04282",
+   "subject": "Compromise amendment 2",
+   "secret": false,
+   "tally": {
+    "+": 29,
+    "-": 7,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "PPE",
+     "mep": "Csaba Bogdán",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michalis Hadjipantela",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Elżbieta Katarzyna Łukacijewska",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Eleonora Meleti",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mirosława Nykiel",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sirpa Pietikäinen",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Giusi Princi",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Wawrykiewicz",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Mélanie Disdier",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Viktória Ferenc",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Séverine Werbrouck",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Abir Al-Sahlani",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Valérie Devaux",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jana Toom",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Lucia Yar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sofie Eriksson",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Lina Gálvez",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elisabeth Grossmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Alessandra Moretti",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Joanna Scheuring-Wielgus",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Cecilia Strada",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marko Vešligaj",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Hanna Gedin",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Irene Montero",
+     "choice": "+"
+    },
+    {
+     "group": "The Left",
+     "mep": "Carolina Morace",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mélissa Camara",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Alexandra Geese",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Benedetta Scuderi",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Bert-Jan Ruissen",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Jessika van Leeuwen",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Irmhild Boßdorf",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Judita Laššáková",
+     "choice": "-"
+    },
+    {
+     "group": "PPE",
+     "mep": "Miriam Lexmann",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Elisabeth Dieringer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Margarita de la Pisa Carrión",
+     "choice": "-"
+    },
+    {
+     "group": "ECR",
+     "mep": "Chiara Gemma E",
+     "choice": "0"
+    },
+    {
+     "group": "?",
+     "mep": "u 2 r 4 o - 2 p 0 e 2 a 9 n P a r l i a m e n t",
      "choice": "0"
     }
    ]

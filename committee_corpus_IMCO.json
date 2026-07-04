@@ -1,6 +1,6 @@
 {
  "committee": "IMCO",
- "n_records": 35,
+ "n_records": 38,
  "records": [
   {
    "committee": "IMCO",
@@ -11823,6 +11823,995 @@
     {
      "group": "The Left",
      "mep": "Hanna Gedin 2. Safety of toys and repealing Directive 2009/48/EC – 2023/0290(COD) – Marion Walsmann (PPE)",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "IMCO",
+   "source": "https://www.europarl.europa.eu/cmsdata/308454/Reuslts%20of%20RCV%2025.06.26_IMCO.pdf",
+   "ref": "",
+   "procedure": "2025/2118(INI)",
+   "rapporteur": "",
+   "title": "of 25 June 2026 1. Institutional aspects of artificial intelligence in the context of European integration -",
+   "subject": "Adoption of draft opinion",
+   "secret": false,
+   "tally": {
+    "+": 33,
+    "-": 5,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Gheorghe Piperea",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Mariateresa Vivaldini",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Agius",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pablo Arias Echeverría",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nina Carberry",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Henrik Dahl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dóra Dávid",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kamila Gasiuk-Pihowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Paulius Saudargas",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomislav Sokol",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Adina Vălean",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jeannette Baljeu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Cynthia Ní Mhurchú",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marie-Agnes Strack-Zimmermann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marc Angel",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Laura Ballarín Cereza",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Gabriele Bischoff",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elisabeth Grossmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Romana Jerković",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Christel Schaldemose",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Georgia Tramacere",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Alexandra Geese",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Katrin Langensiepen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Kim Van Sparrentak",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Arno Bausemer",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Elisabeth Dieringer",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pál Szekeres",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Hanna Gedin",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Bžoch 3 Roll call vote results IMCO voting session 25 June 2026",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "IMCO",
+   "source": "https://www.europarl.europa.eu/cmsdata/308399/Results%20of%20SEDE-IMCO%20votes%20-%2024%20June%202026.pdf",
+   "ref": "CJ60/10/03167",
+   "procedure": "2025/0172(COD)",
+   "rapporteur": "Lucia Yar (SEDE, Renew), Henrik Dahl",
+   "title": "of 24 June 2026 1. Acceleration of permit-granting for defence readiness projects – CJ60/10/03171 - 2025/0172(COD) – Rapporteurs: Lucia Yar (SEDE, Renew), Henrik Dahl (IMCO, EPP) • Vote on the provisional agreement resulting from the interinstitutional negotiations 2. Amending Directives 2009/43/EC and 2009/81/EC, as regards the simplification of intra-EU transfers of defence-related products and the simplification of security",
+   "subject": "Vote on the provisional agreement resulting from the interinstitutional",
+   "secret": false,
+   "tally": {
+    "+": 64,
+    "-": 9,
+    "0": 1
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Nikola Bartůšek",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ondřej Krutílek",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marion Maréchal",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Agius",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pablo Arias Echeverría",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Henrik Dahl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dóra Dávid",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kamila Gasiuk-Pihowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sophia Kircher",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Novakov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nicolás Pascual de la Parte",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomislav Sokol",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Riho Terras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marion Walsmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Wawrykiewicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marta Wcisło",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Rachel Blom",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Bžoch",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Philippe Olivier",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jeannette Baljeu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Veronika Cifrová Ostrihoňová",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Cynthia Ní Mhurchú",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marie-Agnes Strack-Zimmermann",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Lucia Yar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Katarina Barley",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Delara Burkhardt",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vasile Dîncu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elisabeth Grossmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Pierre Jouvet",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ana Catarina Mendes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sven Mikser",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Georgia Tramacere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kristian Vigenin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marianne Vind",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Katrin Langensiepen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ville Niinistö",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petr Bystron",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Milan Mazurek",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kateřina Konečná",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Michael von der Schulenburg",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Elisabeth Dieringer",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marc Botenga",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "François Kalfon",
+     "choice": "0"
+    }
+   ]
+  },
+  {
+   "committee": "IMCO",
+   "source": "https://www.europarl.europa.eu/cmsdata/308399/Results%20of%20SEDE-IMCO%20votes%20-%2024%20June%202026.pdf",
+   "ref": "CJ60/10/03167",
+   "procedure": "2025/0177(COD)",
+   "rapporteur": "Pekka Toveri (SEDE, EPP), Anna-Maja Henriksson (IMCO,",
+   "title": "2. Amending Directives 2009/43/EC and 2009/81/EC, as regards the simplification of intra-EU transfers of defence-related products and the simplification of",
+   "subject": "Vote on the provisional agreement resulting from the interinstitutional",
+   "secret": false,
+   "tally": {
+    "+": 63,
+    "-": 9,
+    "0": 2
+   },
+   "reconciled": true,
+   "votes": [
+    {
+     "group": "ECR",
+     "mep": "Nikola Bartůšek",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Stefano Cavedagna",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ondřej Krutílek",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Marion Maréchal",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Piotr Müller",
+     "choice": "+"
+    },
+    {
+     "group": "ECR",
+     "mep": "Ivaylo Valchev",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Mika Aaltola",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Peter Agius",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pablo Arias Echeverría",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Wouter Beke",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Henrik Dahl",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dóra Dávid",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Salvatore De Meo",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Regina Doherty",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Kamila Gasiuk-Pihowicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Christophe Gomart",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dirk Gotink",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Sophia Kircher",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Ondřej Kolář",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Vangelis Meimarakis",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andrey Novakov",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Nicolás Pascual de la Parte",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Andreas Schwab",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Tomislav Sokol",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Riho Terras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Pekka Toveri",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Dimitris Tsiodras",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marion Walsmann",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Michał Wawrykiewicz",
+     "choice": "+"
+    },
+    {
+     "group": "PPE",
+     "mep": "Marta Wcisło",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Rachel Blom",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Jaroslav Bžoch",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "György Hölvényi",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Philippe Olivier",
+     "choice": "+"
+    },
+    {
+     "group": "PfE",
+     "mep": "Pierre-Romain Thionnet",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Petras Auštrevičius",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Jeannette Baljeu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Veronika Cifrová Ostrihoňová",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Engin Eroglu",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Bart Groothuis",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Cynthia Ní Mhurchú",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marjan Šarec",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Marie-Agnes Strack-Zimmermann",
+     "choice": "+"
+    },
+    {
+     "group": "Renew",
+     "mep": "Lucia Yar",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Katarina Barley",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Delara Burkhardt",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Vasile Dîncu",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elio Di Rupo",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Grapini",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Elisabeth Grossmann",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Maria Guzenina",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Hana Jalloul Muro",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Ana Catarina Mendes",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Sven Mikser",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Tonino Picula",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Georgia Tramacere",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Kristian Vigenin",
+     "choice": "+"
+    },
+    {
+     "group": "S&D",
+     "mep": "Marianne Vind",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Anna Cavazzini",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Katrin Langensiepen",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Hannah Neumann",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Ville Niinistö",
+     "choice": "+"
+    },
+    {
+     "group": "Verts/ALE",
+     "mep": "Mounir Satouri",
+     "choice": "+"
+    },
+    {
+     "group": "ESN",
+     "mep": "Petr Bystron",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Milan Mazurek",
+     "choice": "-"
+    },
+    {
+     "group": "ESN",
+     "mep": "Volker Schnurrbusch",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kateřina Konečná",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Kostas Papadakis",
+     "choice": "-"
+    },
+    {
+     "group": "NI",
+     "mep": "Michael von der Schulenburg",
+     "choice": "-"
+    },
+    {
+     "group": "PfE",
+     "mep": "Elisabeth Dieringer",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Marc Botenga",
+     "choice": "-"
+    },
+    {
+     "group": "The Left",
+     "mep": "Gaetano Pedulla'",
+     "choice": "-"
+    },
+    {
+     "group": "S&D",
+     "mep": "Pierre Jouvet",
+     "choice": "0"
+    },
+    {
+     "group": "S&D",
+     "mep": "François Kalfon",
      "choice": "0"
     }
    ]
