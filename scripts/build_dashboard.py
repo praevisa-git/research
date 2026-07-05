@@ -13,12 +13,25 @@ from __future__ import annotations
 
 import html
 import json
+import sys
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SESSION = "2026-06-15"
+sys.path.insert(0, str(ROOT))
+
+from praevisa.plenary_forward import SESSION  # the session the engine is cut for
+
 LEDGER = ROOT / "predictions" / f"plenary_{SESSION}_forward.json"
 OUT = ROOT / "docs" / "index.html"
+
+# Vote-slot times come from the PDOJ, not the ledger JSON — keyed per day here.
+VOTE_TIMES = {
+    "2026-06-16": "votes at 12:30", "2026-06-17": "votes at 12:30",
+    "2026-06-18": "votes at 12:00",
+    "2026-07-07": "votes at 12:00", "2026-07-08": "votes at 12:00",
+    "2026-07-09": "votes at 12:00",
+}
 
 GROUP_ORDER = ["EPP", "S&D", "PfE", "ECR", "Renew", "Greens", "Left", "ESN", "NI"]
 SEATS = {"EPP": 188, "S&D": 136, "PfE": 84, "ECR": 78, "Renew": 77,
@@ -27,19 +40,24 @@ SEATS = {"EPP": 188, "S&D": 136, "PfE": 84, "ECR": 78, "Renew": 77,
 TYPE_LABEL = {
     "cod1": "Ordinary legislative · 1st reading",
     "cod2": "Ordinary legislative · 2nd reading",
+    "cod3": "Ordinary legislative · 3rd reading",
     "cns": "Consultation",
     "consent": "Consent",
     "ini": "Own-initiative report",
     "bud": "Budgetary",
     "resolution": "Resolution",
     "recommendation": "Recommendation",
+    "imm": "Immunity",
+    "rso": "Rules / organisation",
+    "objection-dea": "Objection · delegated act",
+    "objection-rps": "Objection · regulatory procedure",
+    "objection-rsp": "Objection · implementing act",
 }
 
-DAY_LABEL = {
-    "2026-06-16": ("Tuesday 16 June", "votes at 12:30"),
-    "2026-06-17": ("Wednesday 17 June", "votes at 12:30"),
-    "2026-06-18": ("Thursday 18 June", "votes at 12:00"),
-}
+
+def day_label(day: str) -> tuple[str, str]:
+    d = date.fromisoformat(day)
+    return f"{d.strftime('%A')} {d.day} {d.strftime('%B')}", VOTE_TIMES.get(day, "")
 
 
 def esc(s) -> str:
@@ -51,12 +69,21 @@ def pct(v) -> str:
 
 
 def rail_of(item) -> str:
-    return "prior" if item["signal"] == "prior" else "signal"
+    # "prior (signal demoted: ...)" is still the prior rail — the demotion is
+    # disclosed, not promoted.
+    return "prior" if item["signal"].startswith("prior") else "signal"
+
+
+def demotion_reason(item) -> str | None:
+    s = item["signal"]
+    if s.startswith("prior (signal demoted: "):
+        return s[len("prior (signal demoted: "):].removesuffix(")")
+    return None
 
 
 def signal_label(item) -> str:
     s = item["signal"]
-    if s == "prior":
+    if rail_of(item) == "prior":
         return "baseline · party arithmetic"
     if s.startswith("opinion"):
         return f"committee signal · {s}"
@@ -103,7 +130,8 @@ def featured_card(item) -> str:
                       f'{tally.get("0", 0)} abstaining</div>')
     if sr:
         seats_no = sr["predicted_seats_against"]
-        marker = 361 / 720 * 100
+        threshold = sr["threshold"]
+        marker = threshold / 720 * 100
         fillw = seats_no / 720 * 100
         body = f"""
       <div class="sr">
@@ -115,7 +143,7 @@ def featured_card(item) -> str:
         </div>
         <div class="sr-legend mono small">
           <span>predicted against: <b>{seats_no:.0f}</b> seats</span>
-          <span>threshold: <b>361</b> of 720</span>
+          <span>threshold: <b>{threshold}</b> of 720</span>
         </div>
         <p class="verdict">Predicted: <em>the Council position stands</em> — the
         act is deemed adopted.</p>
@@ -133,7 +161,7 @@ def featured_card(item) -> str:
       </header>
       <div class="card-call">
         <span class="outcome">{esc(item["outcome"] if not sr else "POSITION STANDS")}</span>
-        <span class="share mono">{pct(item.get("ep_yes_share"))} {"seat split — topic-blind baseline" if item["signal"] == "prior" else "predicted yes-share"}</span>
+        <span class="share mono">{pct(item.get("ep_yes_share"))} {"seat split — topic-blind baseline" if rail_of(item) == "prior" else "predicted yes-share"}</span>
         {f'<span class="share mono">p(adopt) {pct(item.get("p_adopt"))}</span>' if item.get("p_adopt") is not None else ""}
         {contested} {graded_chip(item)}
       </div>
@@ -145,8 +173,11 @@ def featured_card(item) -> str:
 
 def table_row(item) -> str:
     note = f' <span class="dim">({esc(item["note"])})</span>' if item.get("note") else ""
-    if item["signal"] == "prior":
+    if rail_of(item) == "prior":
         rail = '<span class="rail rail-prior">baseline</span>'
+        why = demotion_reason(item)
+        if why:
+            rail += f' <span class="rail rail-prior">· demoted — {esc(why)}</span>'
     else:
         rail = '<span class="rail rail-signal">committee</span>'
     if item.get("contested"):
@@ -156,7 +187,7 @@ def table_row(item) -> str:
         <td class="mono small">{esc(item.get("a10") or "—")}</td>
         <td>{esc(item["title"])}{note}</td>
         <td class="mono small">{esc(TYPE_LABEL.get(item["type"], item["type"]))}</td>
-        <td class="mono small">{esc(item["outcome"])} · {pct(item.get("ep_yes_share"))}{" split" if item["signal"] == "prior" else ""}{f' · p {pct(item["p_adopt"])}' if item.get("p_adopt") is not None else ""}
+        <td class="mono small">{esc(item["outcome"])} · {pct(item.get("ep_yes_share"))}{" split" if rail_of(item) == "prior" else ""}{f' · p {pct(item["p_adopt"])}' if item.get("p_adopt") is not None else ""}
           <br>{rail}</td>
         <td>{graded_chip(item)}</td>
       </tr>"""
@@ -208,17 +239,25 @@ def scorecard_html(ledger) -> str:
     </div>"""
 
 
+def session_span(ledger) -> str:
+    first, last = (date.fromisoformat(x) for x in ledger["session_dates"].split("/"))
+    if first.month == last.month:
+        return f"{first.day}–{last.day} {first.strftime('%B %Y')}"
+    return (f"{first.day} {first.strftime('%B')} – "
+            f"{last.day} {last.strftime('%B %Y')}")
+
+
 def build() -> str:
     ledger = json.loads(LEDGER.read_text())
     items = ledger["items"]
-    featured = [i for i in items if i["signal"] != "prior" or i["type"] == "cod2"]
+    featured = [i for i in items
+                if rail_of(i) == "signal" or i["type"] == "cod2"]
     n_contested = sum(1 for i in items if i.get("contested"))
 
     days_html = []
-    for day, (label, when) in DAY_LABEL.items():
+    for day in sorted({i["day"] for i in items}):
+        label, when = day_label(day)
         day_items = [i for i in items if i["day"] == day]
-        if not day_items:
-            continue
         rows = "".join(table_row(i) for i in day_items)
         days_html.append(f"""
       <section class="day">
@@ -392,7 +431,7 @@ footer.site .wordmark {{ font-size:1.1rem; }}
   <div class="wrap">
     <div class="mono gold small eyebrow-line">praevisa · forward ledger · strasbourg part-session</div>
     <div class="wordmark">Prae<span>visa</span></div>
-    <h1>Every vote of the 15–18 June 2026 session, predicted
+    <h1>Every vote of the {esc(session_span(ledger))} session, predicted
     <em>before it happens</em> — and graded in public after.</h1>
     <div class="rule"></div>
     <div class="meta-strip">
